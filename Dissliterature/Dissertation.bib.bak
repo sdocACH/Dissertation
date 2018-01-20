@@ -1,0 +1,986 @@
+% Encoding: UTF-8
+
+@Article{battese1988,
+  author    = {Battese, George E and Harter, Rachel M and Fuller, Wayne A},
+  title     = {An Error-Components Model for Prediction of County Crop Areas using Survey and Satellite Data},
+  journal   = {Journal of the American Statistical Association},
+  year      = {1988},
+  volume    = {83},
+  number    = {401},
+  pages     = {28--36},
+  doi       = {10.1080/01621459.1988.10478561},
+  file      = {:pdf\\Battese_An Error Components Model for Prediction of County Crop Areas Using Survey and Satellite Data.pdf:PDF},
+  publisher = {Taylor \& Francis Group},
+}
+
+@Manual{josae2015,
+  title  = {\pkg{JoSAE}: Functions for some Unit-Level Small Area Estimators and their Variances},
+  author = {Johannes Breidenbach},
+  year   = {2015},
+  note   = {\proglang{R}~package version~0.2.3},
+  file   = {:pdf\\JoSAE_vignette.pdf:PDF},
+  url    = {https://CRAN.R-project.org/package=JoSAE},
+}
+
+@Article{breidenbach2012,
+  author    = {Breidenbach, Johannes and Astrup, Rasmus},
+  title     = {Small Area Estimation of Forest Attributes in the Norwegian National Forest Inventory},
+  journal   = {European Journal of Forest Research},
+  year      = {2012},
+  volume    = {131},
+  number    = {4},
+  pages     = {1255--1267},
+  doi       = {10.1007/s10342-012-0596-7},
+  file      = {:pdf\\breidenbach_sae_norway.pdf:PDF},
+  publisher = {Springer},
+}
+
+@Article{breidenbach2016,
+  author    = {Breidenbach, Johannes and McRoberts, Ronald E and Astrup, Rasmus},
+  title     = {Empirical Coverage of Model-Based Variance Estimators for Remote Sensing Assisted Estimation of Stand-Level Timber Volume},
+  journal   = {Remote Sensing of Environment},
+  year      = {2016},
+  volume    = {173},
+  pages     = {274--281},
+  doi       = {10.1016/j.rse.2015.07.026},
+  file      = {:pdf\\emp_coverage_synthests_breidenbach.pdf:PDF},
+  publisher = {Elsevier},
+}
+
+@Manual{cullmann2016,
+  title  = {\pkg{maSAE}: Mandallaz' Model-Assisted Small Area Estimators},
+  author = {Andreas Dominik Cullmann},
+  year   = {2016},
+  note   = {\proglang{R}~package version~0.1-5},
+  url    = {https://CRAN.R-project.org/package=maSAE},
+}
+
+@Manual{dt2017,
+  title  = {\pkg{data.table}: Extension of `data.frame`},
+  author = {Matt Dowle and Arun Srinivasan},
+  year   = {2017},
+  note   = {R package version 1.10.4-1},
+  url    = {https://CRAN.R-project.org/package=data.table},
+}
+
+@Book{fahrmeir2013,
+  title     = {Regression: Models, Methods and Applications},
+  publisher = {Springer Science \& Business Media},
+  year      = {2013},
+  author    = {Fahrmeir, Ludwig and Kneib, Thomas and Lang, Stefan and Marx, Brian},
+  doi       = {10.1007/978-3-642-34333-9},
+  file      = {:pdf\\Regression_Fahrmeier_Kneib.pdf:PDF},
+  url       = {http://www.springer.com/us/book/9783642343322},
+}
+
+@Book{gregoire2007,
+  title     = {Sampling Strategies for Natural Resources and the Environment},
+  publisher = {CRC Press},
+  year      = {2007},
+  author    = {Gregoire, Timothy G and Valentine, Harry T},
+}
+
+@Book{harrell2015,
+  title     = {Regression Modeling Strategies: with Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis},
+  publisher = {Springer-Verlag},
+  year      = {2015},
+  author    = {Harrell, Frank},
+  doi       = {10.1007/978-3-319-19425-7},
+  file      = {:pdf\\Regression Modeling Strategies_Harrell.pdf:PDF},
+}
+
+@MastersThesis{hill2013,
+  author = {Hill, Andreas},
+  title  = {Comparison of Small Area Estimators in Forest Inventory using Airborne Laserscanning Data},
+  school = {ETH Zurich, University of G{\"o}ttingen},
+  year   = {2013},
+  doi    = {doi.org/10.3929/ethz-a-009947689},
+  file   = {:pdf\\hill2013_eth-7331-01-1.pdf:PDF},
+  url    = {https://doi.org/10.3929/ethz-a-009947689},
+}
+
+@Manual{github_forestinventory,
+  title  = {forestinventory},
+  author = {Hill, Andreas},
+  year   = {2017},
+  note   = {GitHub repository},
+  url    = {https://github.com/AndreasChristianHill/forestinventory},
+}
+
+@Article{hill2014,
+  author    = {Hill, Andreas and Breschan, Jochen and Mandallaz, Daniel},
+  title     = {Accuracy Assessment of Timber Volume Maps using Forest Inventory Data and LiDAR Canopy Height Models},
+  journal   = {Forests},
+  year      = {2014},
+  volume    = {5},
+  number    = {9},
+  pages     = {2253--2275},
+  doi       = {10.3390/f5092253},
+  file      = {:pdf\\hill_forests-05-02253-3.pdf:PDF},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  url       = {http://www.mdpi.com/1999-4907/5/9/2253},
+}
+
+@Unpublished{hill2017b,
+  author = {Hill, Andreas and Mandallaz, Daniel},
+  title  = {Implementation of Design-Based Small Area Estimations on Forest District Level by Combining Remote Sensing Data with Data of the {T}hird {G}erman {N}ational {F}orest {I}nventory},
+  note   = {in prep.},
+}
+
+@Booklet{hill2017a,
+  title        = {Implementation of Design-Based Small Area Estimations on Forest District Level in {R}hineland-{P}alatinate by Combining Remote Sensing Data with Data of the {T}hird {N}ational {G}erman {I}nventory},
+  author       = {Hill, Andreas and Mandallaz, Daniel and Buddenbaum, Henning and Stoffels, Johannes and Langshausen, Joachim},
+  howpublished = {{T}hird {I}nternational {W}orkshop on {F}orest {I}nventory {S}tatistics, {F}reiburg},
+  year         = {2017},
+}
+
+@Manual{forestinventory,
+  title    = {forestinventory: Design-Based Global and Small-Area Estimations for Multiphase Forest Inventories. R package version 0.3.1},
+  author   = {Andreas Hill and Alexander Massey},
+  year     = {2016},
+  abstract = {Extensive global and small-area estimation procedures for multiphase
+forest inventories under the design-based Monte-Carlo approach are provided.
+The implementation includes estimators for simple and cluster sampling
+published by Daniel Mandallaz in 2007 (<DOI:10.1201/9781584889779>),
+2013 (<DOI:10.1139/cjfr-2012-0381>, <DOI:10.1139/cjfr-2013-0181>,
+<DOI:10.1139/cjfr-2013-0449>, <DOI:10.3929/ethz-a-009990020>)
+and 2016 (<DOI:10.3929/ethz-a-010579388>). It provides point estimates,
+their external- and design-based variances as well as conﬁdence intervals.
+The procedures have also been optimized for the use of remote sensing data
+as auxiliary information.},
+  file     = {:pdf\\R_forestinventory_manual.pdf:PDF},
+  url      = {https://cran.r-project.org/web/packages/forestinventory/index.html},
+}
+
+@Manual{sas,
+  title   = {\proglang{SAS/STAT} Software, Version~9.4},
+  author  = {{\proglang{SAS} Institute Inc.}},
+  address = {Cary, NC},
+  year    = {2015},
+  url     = {http://www.sas.com/},
+}
+
+@Book{james2013,
+  title     = {An introduction to Statistical Learning},
+  publisher = {Springer-Verlag},
+  year      = {2013},
+  author    = {James, Gareth and Witten, Daniela and Hastie, Trevor and Tibshirani, Robert},
+  volume    = {6},
+  doi       = {10.1007/978-1-4614-7138-7},
+  file      = {:pdf\\Introduction to statistical learning_James.pdf:PDF},
+}
+
+@Book{kohl2006,
+  title     = {Sampling Methods, Remote Sensing and GIS Multiresource Forest Inventory},
+  publisher = {Springer-Verlag Berlin Heidelberg},
+  year      = {2006},
+  author    = {K{\"o}hl, Michael and Magnussen, Steen S and Marchetti, Marco},
+  file      = {:pdf\\koehl_magnussen_Sampling Methods, Remote Sensing and GIS Multiresource Forest Inventory.pdf:PDF},
+}
+
+@Manual{survey,
+  title  = {\pkg{survey}: Analysis of Complex Survey Samples},
+  author = {Thomas Lumley},
+  year   = {2016},
+  note   = {R package version 3.32},
+}
+
+@PhdThesis{vonluepke2013,
+  author = {von L{\"u}pke, Nikolas},
+  title  = {Approaches for the Optimisation of Double Sampling for Stratification in Repeated Forest Inventories},
+  school = {University of G{\"o}ttingen},
+  year   = {2013},
+}
+
+@Article{vonLuepke2012,
+  author  = {von L{\"u}pke, Nikolas and Hansen, Jan and Saborowski, Joachim},
+  title   = {A Three-Phase Sampling Procedure for Continuous Forest Inventory with Partial Re-measurement and Updating of Terrestrial Sample Plots},
+  journal = {European Journal of Forest Research},
+  year    = {2012},
+  volume  = {131},
+  number  = {6},
+  pages   = {1979--1990},
+  month   = {Nov},
+  issn    = {1612-4677},
+  day     = {01},
+  doi     = {10.1007/s10342-012-0648-z},
+  file    = {:pdf\\niki_threephase.pdf:PDF},
+}
+
+@Article{vonLuebke2014,
+  author    = {von L{\"u}pke, Nikolas and Saborowski, Joachim},
+  title     = {Combining Double Sampling for Stratification and Cluster Sampling to a Three-Level Sampling Design for Continuous Forest Inventories},
+  journal   = {European journal of forest research},
+  year      = {2014},
+  volume    = {133},
+  number    = {1},
+  pages     = {89--100},
+  doi       = {10.1007/s10342-013-0743-9},
+  publisher = {Springer},
+  url       = {http://dx.doi.org/10.1007/s10342-013-0743-9},
+}
+
+@Article{magnussen2014,
+  author  = {Steen Magnussen and Daniel Mandallaz and Johannes Breidenbach and Adrian Lanz and Christian Ginzler},
+  title   = {National Forest Inventories in the Service of Small Area Estimation of Stem Volume},
+  journal = {Canadian Journal of Forest Research},
+  year    = {2014},
+  volume  = {44},
+  number  = {9},
+  pages   = {1079-1090},
+  doi     = {10.1139/cjfr-2013-0448},
+  url     = {https://doi.org/10.1139/cjfr-2013-0448
+},
+}
+
+@Book{mandallaz2008,
+  title     = {Sampling Techniques for Forest Inventories},
+  publisher = {CRC Press},
+  year      = {2008},
+  author    = {Mandallaz, Daniel},
+  doi       = {10.1201/9781584889779},
+  url       = {https://doi.org/10.1201/9781584889779},
+}
+
+@Article{mandallaz2013c,
+  author    = {Mandallaz, Daniel},
+  title     = {A Three-Phase Sampling Extension of the Generalized Regression Estimator with Partially Exhaustive Information},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2013},
+  volume    = {44},
+  number    = {4},
+  pages     = {383--388},
+  doi       = {10.1139/cjfr-2013-0449},
+  file      = {:pdf\\mandallaz2013three_cjfr-2013-0449.pdf:PDF},
+  publisher = {NRC Research Press},
+  url       = {https://doi.org/10.1139/cjfr-2013-0449},
+}
+
+@Article{mandallaz2013a,
+  author    = {Mandallaz, Daniel},
+  title     = {Design-Based Properties of Some Small-Area Estimators in Forest Inventory with Two-Phase Sampling},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2013},
+  volume    = {43},
+  number    = {5},
+  pages     = {441--449},
+  doi       = {10.1139/cjfr-2012-0381},
+  file      = {:pdf\\mandallaz_sae_cjfr-2012-0381.pdf:PDF},
+  publisher = {NRC Research Press},
+  url       = {https://doi.org/10.1139/cjfr-2012-0381},
+}
+
+@TechReport{mandallaz2013techa,
+  author      = {Mandallaz, Daniel},
+  title       = {Regression Estimators in Forest Inventories with Two-Phase Sampling and Partially Exhaustive Information with Applications to Small-Area Estimation},
+  institution = {Department of Environmental Systems Science, ETH Zurich},
+  year        = {2013},
+  doi         = {10.3929/ethz-a-007623322},
+  file        = {:pdf\\mandallaz2013_eth-6637-01.pdf:PDF},
+  url         = {https://doi.org/10.3929/ethz-a-007623322},
+}
+
+@TechReport{mandallaz2013techb,
+  author      = {Mandallaz, Daniel},
+  title       = {Regression Estimators in Forest Inventories with Three-Phase Sampling and Two Multivariate Components of Auxiliary Information},
+  institution = {Department of Environmental Systems Science, ETH Zurich},
+  year        = {2013},
+  doi         = {10.3929/ethz-a-009990020},
+  file        = {:pdf\\mandallaz2013_eth-7483-01.pdf:PDF},
+  url         = {https://doi.org/10.3929/ethz-a-009990020},
+}
+
+@TechReport{mandallaz2015tech,
+  author      = {Mandallaz, Daniel},
+  title       = {Mathematical Details of Two-Phase/Two-Stage and Three-Phase/Two-Stage Regression Estimators in Forest Inventories. Design-based Monte Carlo Approach},
+  institution = {Department of Environmental Systems Science, ETH Zurich},
+  year        = {2015},
+  doi         = {10.3929/ethz-a-010441361},
+  file        = {:pdf\\mandallaz2015_eth-47748-01.pdf:PDF},
+  publisher   = {ETH Zürich},
+  url         = {https://doi.org/10.3929/ethz-a-010441361},
+}
+
+@Article{mandallaz2013b,
+  author    = {Mandallaz, Daniel and Breschan, Jochen and Hill, Andreas},
+  title     = {New Regression Estimators in Forest Inventories with Two-Phase Sampling and Partially Exhaustive Information: a Design-Based Monte Carlo Approach with Applications to Small-Area Estimation},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2013},
+  volume    = {43},
+  number    = {11},
+  pages     = {1023--1031},
+  doi       = {10.1139/cjfr-2013-0181},
+  file      = {:pdf\\mandallaz2013three_exh_cjfr-2013-0181.pdf:PDF},
+  publisher = {NRC Research Press},
+  url       = { https://doi.org/10.1139/cjfr-2013-0181},
+}
+
+@TechReport{mandallaz2016,
+  author      = {Mandallaz, Daniel and Hill, Andreas and Massey, Alexander},
+  title       = {Design-Based Properties of Some Small-Area Estimators in Forest Inventory with Two-Phase Sampling - Revised Version},
+  institution = {Department of Environmental Systems Science, ETH Zurich},
+  year        = {2016},
+  doi         = {10.3929/ethz-a-010579388},
+  file        = {:pdf\\mandallaz2016_sae_eth-48510-01.pdf:PDF},
+  url         = {https://doi.org/10.3929/ethz-a-010579388},
+}
+
+@Article{massey2015a,
+  author  = {Alexander Massey and Daniel Mandallaz},
+  title   = {Comparison of Classical, Kernel-Based, and Nearest Neighbors Regression Estimators using the Design-Based Monte Carlo Approach for Two-Phase Forest Inventories},
+  journal = {Canadian Journal of Forest Research},
+  year    = {2015},
+  volume  = {45},
+  number  = {11},
+  pages   = {1480-1488},
+  doi     = {10.1139/cjfr-2015-0151},
+  file    = {:pdf\\massey2015_npe_cjfr-2015-0151.pdf:PDF},
+  url     = {https://doi.org/10.1139/cjfr-2015-0151},
+}
+
+@Article{massey2015b,
+  author  = {Massey, Alexander and Mandallaz, Daniel},
+  title   = {Design-Based Regression Estimation of Net Change for Forest Inventories},
+  journal = {Canadian Journal of Forest Research},
+  year    = {2015},
+  volume  = {45},
+  number  = {12},
+  pages   = {1775-1784},
+  doi     = {10.1139/cjfr-2015-0266},
+  eprint  = {https://doi.org/10.1139/cjfr-2015-0266},
+  file    = {:pdf\\massey_netchange.pdf:PDF},
+  url     = {https://doi.org/10.1139/cjfr-2015-0266
+},
+}
+
+@Article{massey2014a,
+  author    = {Massey, Alexander and Mandallaz, Daniel and Lanz, Adrian},
+  title     = {Integrating Remote Sensing and Past Inventory Data under the New Annual Design of the Swiss National Forest Inventory using Three-Phase Design-Based Regression Estimation},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2014},
+  volume    = {44},
+  number    = {10},
+  pages     = {1177--1186},
+  doi       = {10.1139/cjfr-2014-0152},
+  file      = {:pdf\\massey1_2014_cjfr-2014-0152.pdf:PDF},
+  publisher = {NRC Research Press},
+  url       = {https://doi.org/10.1139/cjfr-2014-0152},
+}
+
+@PhdThesis{massey2015,
+  author = {Massey, Alexander Francis},
+  title  = {Multiphase Estimation Procedures for Forest Inventories under the Design-Based Monte Carlo Approach},
+  school = {ETH Zurich},
+  year   = {2015},
+  doi    = {10.3929/ethz-a-010536381},
+  file   = {:pdf\\massey_thesis_eth-48166-02.pdf:PDF},
+  url    = {https://doi.org/10.3929/ethz-a-010536381},
+}
+
+@Book{pinheirobates2000,
+  title     = {Mixed-Effects Models in S and S-PLUS},
+  publisher = {Springer-Verlag},
+  year      = {2000},
+  author    = {Pinheiro, Jose and Bates, Douglas},
+  doi       = {10.1007/b98882},
+  url       = {http://link.springer.com/book/10.1007%2Fb98882},
+}
+
+@Manual{nlme,
+  title  = {{nlme}: Linear and Nonlinear Mixed Effects Models},
+  author = {Pinheiro, Jose and Bates, Douglas and DebRoy, Saikat and Sarkar, Deepayan Sarkar and {R Core Team}},
+  year   = {2016},
+  note   = {R package version 3.1-128},
+  file   = {:pdf\\nlme.pdf:PDF},
+  url    = {http://CRAN.R-project.org/package=nlme},
+}
+
+@Article{saborowski2010,
+  author    = {Saborowski, Joachim and Marx, Almuth and Nagel, J{\"u}rgen and B{\"o}ckmann, Thomas},
+  title     = {Double Sampling for Stratification in Periodic Inventories-Infinite Population Approach},
+  journal   = {Forest ecology and management},
+  year      = {2010},
+  volume    = {260},
+  number    = {10},
+  pages     = {1886--1895},
+  doi       = {10.1016/j.foreco.2010.08.035},
+  publisher = {Elsevier},
+  url       = {https://doi.org/10.1016/j.foreco.2010.08.035},
+}
+
+@Book{sarndal2003,
+  title     = {Model Assisted Survey Sampling},
+  publisher = {Springer Science \& Business Media},
+  year      = {2003},
+  author    = {S{\"a}rndal, Carl-Erik and Swensson, Bengt and Wretman, Jan},
+}
+
+@Book{schreuder1993,
+  title     = {Sampling Methods for Multiresource Forest Inventory},
+  publisher = {John Wiley \& Sons},
+  year      = {1993},
+  author    = {Schreuder, Hans T and Gregoire, Timothy G and Wood, Geoffrey B},
+}
+
+@Manual{regr0,
+  title  = {{regr0}: Building Regression Models},
+  author = {Stahel, Werner},
+  year   = {2016},
+  note   = {R package version 1.0-5/r75},
+  file   = {:pdf\\regr-description.pdf:PDF},
+  url    = {https://R-Forge.R-project.org/projects/regdevelop/},
+}
+
+@Manual{R,
+  title        = {R: A Language and Environment for Statistical Computing},
+  author       = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  address      = {Vienna, Austria},
+  year         = {2017},
+  url          = {https://www.R-project.org/},
+}
+
+@Article{white1980,
+  author    = {White, Halbert},
+  title     = {A Heteroskedasticity-Consistent Covariance Matrix Estimator and a Direct Test for Heteroskedasticity},
+  journal   = {Econometrica: Journal of the Econometric Society},
+  year      = {1980},
+  pages     = {817--838},
+  file      = {:pdf\\White_A heteroskedasticity-consistent covariance matrix estimator.pdf:PDF},
+  publisher = {JSTOR},
+}
+
+@Book{ggplot2,
+  title     = {ggplot2: Elegant Graphics for Data Analysis},
+  publisher = {Springer-Verlag New York},
+  year      = {2009},
+  author    = {Hadley Wickham},
+  isbn      = {978-0-387-98140-6},
+  url       = {http://ggplot2.org},
+}
+
+@Book{zuur2009,
+  title     = {Mixed Effects Models and Extensions in Ecology with R},
+  publisher = {Springer},
+  year      = {2009},
+  author    = {Zuur, AF and Ieno, EN and Walker, NJ and Saveliev, AA and Smith, GM},
+  doi       = {10.1007/978-0-387-87458-6},
+  file      = {:pdf\\mixed effect models and extension in r_zuur.pdf:PDF},
+}
+
+@Book{fuller2009,
+  title         = {Measurement error models},
+  publisher     = {John Wiley \& Sons},
+  year          = {2009},
+  author        = {Fuller, Wayne A},
+  volume        = {305},
+  __markedentry = {[hilla:6]},
+}
+
+@InCollection{akaike1992,
+  author    = {Akaike, Hirotogu},
+  title     = {Information theory and an extension of the maximum likelihood principle},
+  booktitle = {Breakthroughs in statistics},
+  publisher = {Springer},
+  year      = {1992},
+  pages     = {610--624},
+}
+
+@Article{baffetta2010,
+  author    = {Baffetta, Federica and Corona, Piermaria and Fattorini, Lorenzo},
+  title     = {Design-based diagnostics for k-NN estimators of forest resources This article is one of a selection of papers from Extending Forest Inventory and Monitoring over Space and Time.},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2010},
+  volume    = {41},
+  number    = {1},
+  pages     = {59--72},
+  publisher = {NRC Research Press},
+}
+
+@Article{baffetta2009,
+  author    = {Baffetta, Federica and Fattorini, Lorenzo and Franceschi, Sara and Corona, Piermaria},
+  title     = {Design-based approach to k-nearest neighbours technique for coupling field and remotely sensed data in forest surveys},
+  journal   = {Remote Sensing of Environment},
+  year      = {2009},
+  volume    = {113},
+  number    = {3},
+  pages     = {463--475},
+  publisher = {Elsevier},
+}
+
+@Article{beauchamp1973,
+  author    = {Beauchamp, John J and Olson, Jerry S},
+  title     = {Corrections for bias in regression estimates after logarithmic transformation},
+  journal   = {Ecology},
+  year      = {1973},
+  volume    = {54},
+  number    = {6},
+  pages     = {1403--1407},
+  publisher = {Wiley Online Library},
+}
+
+@Article{beaudoin2014,
+  author    = {Beaudoin, A and Bernier, PY and Guindon, L and Villemaire, P and Guo, XJ and Stinson, G and Bergeron, T and Magnussen, S and Hall, RJ},
+  title     = {Mapping attributes of Canada’s forests at moderate resolution through k NN and MODIS imagery},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2014},
+  volume    = {44},
+  number    = {5},
+  pages     = {521--532},
+  publisher = {NRC Research Press},
+}
+
+@TechReport{brassel2001,
+  author      = {Brassel, P and Lischke, H},
+  title       = {Swiss National Forest Inventory: Methods and Models of the Second Assessment. WSL Swiss Federal Research Institute, CH-8903 Birmensdorf},
+  institution = {ISBN 3-905620-99-5. URL http://www. lfi. ch/publikationen/publ/methods/methods. pdf},
+  year        = {2001},
+}
+
+@Article{breidenbach2012,
+  author    = {Breidenbach, Johannes and Astrup, Rasmus},
+  title     = {Small area estimation of forest attributes in the Norwegian National Forest Inventory},
+  journal   = {European Journal of Forest Research},
+  year      = {2012},
+  volume    = {131},
+  number    = {4},
+  pages     = {1255--1267},
+  doi       = {10.1007/s10342-012-0596-7},
+  groups    = {SAE in forest inventory, Double sampling, Application},
+  publisher = {Springer},
+}
+
+@Article{chirici2012,
+  author    = {Chirici, Gherardo and Corona, Piermaria and Marchetti, Marco and Mastronardi, Alessandro and Maselli, Fabio and Bottai, Lorenzo and Travaglini, Davide},
+  title     = {K-NN FOREST: a software for the non-parametric prediction and mapping of environmental variables by the k-Nearest Neighbors algorithm},
+  journal   = {European Journal of Remote Sensing},
+  year      = {2012},
+  volume    = {45},
+  number    = {1},
+  pages     = {433--442},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{clementel2012,
+  author  = {Clementel, Fabrizio and Colle, Giacomo and Farruggia, Claudia and Floris, Antonio and Scrinzi, Gianfranco and Torresan, Chiara},
+  title   = {Estimating forest timber volume by means of" low-cost" LiDAR data.},
+  journal = {Italian Journal of Remote Sensing/Rivista Italiana di Telerilevamento},
+  year    = {2012},
+  volume  = {44},
+  number  = {1},
+}
+
+@Book{cochran2007,
+  title     = {Sampling techniques},
+  publisher = {John Wiley \& Sons},
+  year      = {2007},
+  author    = {Cochran, William G},
+}
+
+@Book{congalton2008,
+  title     = {Assessing the accuracy of remotely sensed data: principles and practices},
+  publisher = {CRC press},
+  year      = {2008},
+  author    = {Congalton, Russell G and Green, Kass},
+}
+
+@Book{draper2014,
+  title     = {Applied regression analysis},
+  publisher = {John Wiley \& Sons},
+  year      = {2014},
+  author    = {Draper, Norman R and Smith, Harry},
+}
+
+@Article{fehrmann2008,
+  author    = {Fehrmann, Lutz and Lehtonen, Aleksi and Kleinn, Christoph and Tomppo, Erkki},
+  title     = {Comparison of linear and mixed-effect regression models and ak-nearest neighbour approach for estimation of single-tree biomass},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2008},
+  volume    = {38},
+  number    = {1},
+  pages     = {1--9},
+  publisher = {NRC Research Press},
+}
+
+@Article{franco2001,
+  author    = {Franco-Lopez, Hector and Ek, Alan R and Bauer, Marvin E},
+  title     = {Estimation and mapping of forest stand density, volume, and cover type using the k-nearest neighbors method},
+  journal   = {Remote sensing of environment},
+  year      = {2001},
+  volume    = {77},
+  number    = {3},
+  pages     = {251--274},
+  publisher = {Elsevier},
+}
+
+@Article{gregoire2008,
+  author  = {Gregoire, TG and Valentine Harry, T},
+  title   = {Sampling Strategies for Natural Resources and the Environment Chapman \& Hall/CRC, Boca Raton},
+  journal = {Fla. London},
+  year    = {2008},
+}
+
+@Article{haara2012,
+  author    = {Haara, Arto and Kangas, Annika},
+  title     = {Comparing K Nearest Neighbours methods and linear regression-Is there reason to select one over the other?},
+  journal   = {Mathematical and Computational Forestry \& Natural Resource Sciences},
+  year      = {2012},
+  volume    = {4},
+  number    = {1},
+  pages     = {50},
+  publisher = {The MCFNS Publisher},
+}
+
+@MastersThesis{hill2013,
+  author = {Hill, Andreas},
+  title  = {Comparison of Small Area Estimators in Forest Inventory using Airborne Laserscanning Data},
+  school = {ETH Zurich, University of G{\"o}ttingen},
+  year   = {2013},
+  doi    = {doi.org/10.3929/ethz-a-009947689},
+  url    = {https://doi.org/10.3929/ethz-a-009947689},
+}
+
+@Article{hoffmann1982,
+  author    = {Hoffmann, Christian},
+  title     = {Die berechnung von tarifen f{\"u}r die waldinventur},
+  journal   = {Forstwissenschaftliches Centralblatt},
+  year      = {1982},
+  volume    = {101},
+  number    = {1},
+  pages     = {24--36},
+  publisher = {Springer},
+}
+
+@Article{holmgren2004,
+  author    = {Holmgren, Johan},
+  title     = {Prediction of tree height, basal area and stem volume in forest stands using airborne laser scanning},
+  journal   = {Scandinavian Journal of Forest Research},
+  year      = {2004},
+  volume    = {19},
+  number    = {6},
+  pages     = {543--553},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{keller2011,
+  author  = {Keller, MR},
+  title   = {Swiss national forest inventory. Manual of the field survey 2004--2007},
+  journal = {Swiss Federal Research Institute WSL, Birmensdorf, CH},
+  year    = {2011},
+}
+
+@Article{kirkpatrick1983,
+  author    = {Kirkpatrick, Scott and Gelatt, C Daniel and Vecchi, Mario P and others},
+  title     = {Optimization by simulated annealing},
+  journal   = {science},
+  year      = {1983},
+  volume    = {220},
+  number    = {4598},
+  pages     = {671--680},
+  publisher = {Washington},
+}
+
+@Book{kohl2006,
+  title     = {Sampling methods, remote sensing and GIS multiresource forest inventory},
+  publisher = {Springer Science \& Business Media},
+  year      = {2006},
+  author    = {K{\"o}hl, Michael and Magnussen, Steen and Marchetti, Marco},
+}
+
+@Article{latifi2010,
+  author    = {Latifi, Hooman and Nothdurft, Arne and Koch, Barbara},
+  title     = {Non-parametric prediction and mapping of standing timber volume and biomass in a temperate forest: application of multiple optical/LiDAR-derived predictors},
+  journal   = {Forestry},
+  year      = {2010},
+  volume    = {83},
+  number    = {4},
+  pages     = {395--407},
+  publisher = {Oxford University Press},
+}
+
+@Article{lefsky1999,
+  author    = {Lefsky, Michael A and Cohen, WB and Acker, SA and Parker, Geoffrey G and Spies, TA and Harding, D},
+  title     = {Lidar remote sensing of the canopy structure and biophysical properties of Douglas-fir western hemlock forests},
+  journal   = {Remote sensing of environment},
+  year      = {1999},
+  volume    = {70},
+  number    = {3},
+  pages     = {339--361},
+  publisher = {Elsevier},
+}
+
+@PhdThesis{vonluepke2013,
+  author = {von L{\"u}pke, Nikolas},
+  title  = {Approaches for the Optimisation of Double Sampling for Stratification in Repeated Forest Inventories},
+  school = {University of G{\"o}ttingen},
+  year   = {2013},
+}
+
+@Article{magnussen1999,
+  author    = {Magnussen, Steen and Eggermont, Paul and LaRiccia, Vincent N},
+  title     = {Recovering tree heights from airborne laser scanner data},
+  journal   = {Forest science},
+  year      = {1999},
+  volume    = {45},
+  number    = {3},
+  pages     = {407--422},
+  publisher = {Society of American Foresters},
+}
+
+@Article{magnussen2014,
+  author    = {Magnussen, Steen and Tomppo, Erkki},
+  title     = {The k-nearest neighbor technique with local linear regression},
+  journal   = {Scandinavian journal of forest research},
+  year      = {2014},
+  volume    = {29},
+  number    = {2},
+  pages     = {120--131},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{magnussen2010,
+  author    = {Magnussen, Steen and Tomppo, Erkki and McRoberts, Ronald E},
+  title     = {A model-assisted k-nearest neighbour approach to remove extrapolation bias},
+  journal   = {Scandinavian Journal of Forest Research},
+  year      = {2010},
+  volume    = {25},
+  number    = {2},
+  pages     = {174--184},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{mallows2000,
+  author    = {Mallows, Colin L},
+  title     = {Some comments on Cp},
+  journal   = {Technometrics},
+  year      = {2000},
+  volume    = {42},
+  number    = {1},
+  pages     = {87--94},
+  publisher = {Taylor \& Francis Group},
+}
+
+@Book{mandallaz2007,
+  title     = {Sampling techniques for forest inventories},
+  publisher = {CRC Press},
+  year      = {2008},
+  author    = {Mandallaz, Daniel},
+}
+
+@Article{mandallaz2013a,
+  author    = {Mandallaz, Daniel},
+  title     = {Design-based properties of some small-area estimators in forest inventory with two-phase sampling},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2013},
+  volume    = {43},
+  number    = {5},
+  pages     = {441--449},
+  doi       = {10.1139/cjfr-2012-0381},
+  groups    = {SAE in forest inventory, Double sampling, Theory},
+  publisher = {NRC Research Press},
+  url       = {https://doi.org/10.1139/cjfr-2012-0381},
+}
+
+@Article{mandallaz2013b,
+  author    = {Mandallaz, Daniel and Breschan, Jochen and Hill, Andreas},
+  title     = {New regression estimators in forest inventories with two-phase sampling and partially exhaustive information: a design-based monte carlo approach with applications to small-area estimation},
+  journal   = {Canadian Journal of Forest Research},
+  year      = {2013},
+  volume    = {43},
+  number    = {11},
+  pages     = {1023--1031},
+  doi       = {10.1139/cjfr-2013-0181},
+  groups    = {SAE in forest inventory},
+  publisher = {NRC Research Press},
+  url       = { https://doi.org/10.1139/cjfr-2013-0181},
+}
+
+@Article{mauro2010,
+  author    = {Mauro, F and Valbuena, R and Manzanera, JA and Garc{\'\i}a-Abril, A},
+  title     = {Influence of Global Navigation Satellite System errors in positioning inventory plots for tree-height distribution studies This article is one of a selection of papers from Extending Forest Inventory and Monitoring over Space and Time.},
+  journal   = {Canadian journal of forest research},
+  year      = {2010},
+  volume    = {41},
+  number    = {1},
+  pages     = {11--23},
+  publisher = {NRC Research Press},
+}
+
+@Article{mcroberts2013,
+  author    = {McRoberts, Ronald E and N{\ae}sset, Erik and Gobakken, Terje},
+  title     = {Inference for lidar-assisted estimation of forest growing stock volume},
+  journal   = {Remote Sensing of Environment},
+  year      = {2013},
+  volume    = {128},
+  pages     = {268--275},
+  publisher = {Elsevier},
+}
+
+@Article{mcroberts2007,
+  author    = {McRoberts, Ronald E and Tomppo, Erkki O and Finley, Andrew O and Heikkinen, Juha},
+  title     = {Estimating areal means and variances of forest attributes using the k-Nearest Neighbors technique and satellite imagery},
+  journal   = {Remote Sensing of Environment},
+  year      = {2007},
+  volume    = {111},
+  number    = {4},
+  pages     = {466--480},
+  publisher = {Elsevier},
+}
+
+@Article{mcroberts2010,
+  author    = {McRoberts, Ronald E and Tomppo, Erkki O and N{\ae}sset, Erik},
+  title     = {Advances and emerging issues in national forest inventories},
+  journal   = {Scandinavian Journal of Forest Research},
+  year      = {2010},
+  volume    = {25},
+  number    = {4},
+  pages     = {368--381},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{naesset2002,
+  author    = {N{\ae}sset, Erik},
+  title     = {Predicting forest stand characteristics with airborne scanning laser using a practical two-stage procedure and field data},
+  journal   = {Remote sensing of environment},
+  year      = {2002},
+  volume    = {80},
+  number    = {1},
+  pages     = {88--99},
+  publisher = {Elsevier},
+}
+
+@Article{naesset2007,
+  author    = {N{\ae}sset, Erik},
+  title     = {Airborne laser scanning as a method in operational forest inventory: status of accuracy assessments accomplished in Scandinavia},
+  journal   = {Scandinavian Journal of Forest Research},
+  year      = {2007},
+  volume    = {22},
+  number    = {5},
+  pages     = {433--442},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{nothdurft2009,
+  author    = {Nothdurft, Arne and Saborowski, Joachim and Breidenbach, Johannes},
+  title     = {Spatial prediction of forest stand variables},
+  journal   = {European Journal of Forest Research},
+  year      = {2009},
+  volume    = {128},
+  number    = {3},
+  pages     = {241--251},
+  publisher = {Springer},
+}
+
+@Book{ott1997,
+  title     = {Gebirgsnadelwälder: Ein praxisorientierter Leitfaden für eine standortgerechte Waldbehandlung},
+  publisher = {Haupt},
+  year      = {1997},
+  author    = {Ott, Ernst and Frehner, Monika and Frey, Hans-Ulrich and Lüscher, Peter},
+  isbn      = {3-258-05601-3},
+  note      = {.},
+  adress    = {Bern},
+  language  = {de},
+  size      = {287 S.},
+}
+
+@Article{pirlot1996,
+  author    = {Pirlot, Marc},
+  title     = {General local search methods},
+  journal   = {European journal of operational research},
+  year      = {1996},
+  volume    = {92},
+  number    = {3},
+  pages     = {493--511},
+  publisher = {Elsevier},
+}
+
+@Book{rayward1996,
+  title     = {Modern heuristic search methods},
+  publisher = {John Wiley},
+  year      = {1996},
+  author    = {Rayward-Smith, Victor J and Osman, C and Reeves, Colin R and Smith, George D},
+}
+
+@Book{richards1999,
+  title     = {Remote sensing digital image analysis. An introduction},
+  publisher = {Springer},
+  year      = {1999},
+  author    = {Richards, John A and Richards, JA},
+  volume    = {3},
+  doi       = {10.1007/978-3-662-03978-6},
+}
+
+@Article{saborowski2010,
+  author    = {Saborowski, Joachim and Marx, Almuth and Nagel, J{\"u}rgen and B{\"o}ckmann, Thomas},
+  title     = {Double sampling for stratification in periodic inventories—Infinite population approach},
+  journal   = {Forest ecology and management},
+  year      = {2010},
+  volume    = {260},
+  number    = {10},
+  pages     = {1886--1895},
+  groups    = {Double sampling},
+  publisher = {Elsevier},
+}
+
+@Book{schreuder1993,
+  title     = {Sampling methods for multiresource forest inventory},
+  publisher = {John Wiley \& Sons},
+  year      = {1993},
+  author    = {Schreuder, Hans T and Gregoire, Timothy G and Wood, Geoffrey B},
+}
+
+@Article{srivastava1995,
+  author    = {Srivastava, Anil K and Srivastava, Virendra K and Ullah, Aman},
+  title     = {The coefficient of determination and its adjusted version in linear regression models},
+  journal   = {Econometric reviews},
+  year      = {1995},
+  volume    = {14},
+  number    = {2},
+  pages     = {229--240},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{steinmann2013,
+  author    = {Steinmann, Katharina and Mandallaz, Daniel and Ginzler, Christian and Lanz, Adrian},
+  title     = {Small area estimations of proportion of forest and timber volume combining Lidar data and stereo aerial images with terrestrial data},
+  journal   = {Scandinavian journal of forest research},
+  year      = {2013},
+  volume    = {28},
+  number    = {4},
+  pages     = {373--385},
+  groups    = {SAE in forest inventory, Application},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{tomppo2006,
+  author    = {Tomppo, Erkki},
+  title     = {The Finnish multi-source national forest inventory--small area estimation and map production},
+  journal   = {Forest inventory--methodology and applications. Springer, Dordrecht, NL},
+  year      = {2006},
+  pages     = {195--224},
+  publisher = {Springer},
+}
+
+@Article{tonolli2011,
+  author    = {Tonolli, Sergio and Dalponte, Michele and Vescovo, Loris and Rodeghiero, Mirco and Bruzzone, Lorenzo and Gianelle, Damiano},
+  title     = {Mapping and modeling forest tree volume using forest inventory and airborne laser scanning},
+  journal   = {european Journal of forest Research},
+  year      = {2011},
+  volume    = {130},
+  number    = {4},
+  pages     = {569--577},
+  publisher = {Springer},
+}
+
+@Article{van2008,
+  author    = {Van Aardt, Jan AN and Wynne, Randolph H and Scrivani, John A},
+  title     = {Lidar-based mapping of forest volume and biomass by taxonomic group using structurally homogenous segments},
+  journal   = {Photogrammetric Engineering \& Remote Sensing},
+  year      = {2008},
+  volume    = {74},
+  number    = {8},
+  pages     = {1033--1044},
+  publisher = {American Society for Photogrammetry and Remote Sensing},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

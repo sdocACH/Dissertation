@@ -1,0 +1,2954 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{cerny_1985,
+  Title                    = {Thermodynamical approach to the traveling salesman problem: An efficient simulation algorithm},
+  Author                   = {{\v{C}}ern{\`y}, Vladim{\'\i}r},
+  Journal                  = {Journal of optimization theory and applications},
+  Year                     = {1985},
+  Number                   = {1},
+  Pages                    = {41--51},
+  Volume                   = {45},
+
+  Owner                    = {kai},
+  Publisher                = {Springer},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{affleck_2015,
+  Title                    = {Generalized and synthetic regression estimators for randomized branch sampling},
+  Author                   = {Affleck, David L. R. and Gregoire, Timothy G.},
+  Journal                  = {Forestry},
+  Year                     = {2015},
+
+  Month                    = dec,
+  Number                   = {5},
+  Pages                    = {599--611},
+  Volume                   = {88},
+
+  Abstract                 = {In felled-tree studies, ratio and regression estimators are commonly used to convert more readily measured branch characteristics to dry crown mass estimates. In some cases, data from multiple trees are pooled to form these estimates. This research evaluates the utility of both tactics in the estimation of crown biomass following randomized branch sampling (RBS). Synthetic generalized regression (GREG) estimators are developed, and their properties examined against standard estimators. It is shown that synthetic GREG estimators with zero or low design-bias can be obtained, and that the variance of a design-unbiased class of GREG estimators can be unbiasedly estimated. Simulated sampling from 20 censused crowns of two Rocky Mountain species indicated that improvements in accuracy can be obtained through GREG estimation following RBS. Simulations also showed that synthetic GREG estimators that pool data from multiple trees can stabilize coefficients of multivariate regression models to provide improved accuracy over direct GREG estimators. However, for the univariate regression models that proved most adept for the censused crowns, direct GREG estimation provided the lowest average root mean squared error (RMSE) for RBS. Simulations also showed that model-based branch aggregation estimators have generally low RMSE but can be heavily design-biased. For the crown forms studied, use of branch auxiliary information at both the design and estimation stages through RBS and GREG estimation appears to be more efficient than using the information only at the estimation stage following simple or stratified random sampling.},
+  Doi                      = {10.1093/forestry/cpv027},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/9JEIVNBQ/Affleck und Gregoire - 2015 - Generalized and synthetic regression estimators fo.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/R63X7VJ8/599.html:text/html},
+  ISSN                     = {0015-752X, 1464-3626},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://forestry.oxfordjournals.org.3558-0.han.sub.uni-goettingen.de/content/88/5/599},
+  Urldate                  = {2015-11-20}
+}
+
+@Article{agostini_2006,
+  Title                    = {Generalized simulated annealing applied to protein folding studies},
+  Author                   = {Agostini, Flavia P and Soares-Pinto, Diogo De O and Moret, Marcelo A and Osthoff, Carla and Pascutti, Pedro G},
+  Journal                  = {Journal of computational chemistry},
+  Year                     = {2006},
+  Number                   = {11},
+  Pages                    = {1142--1155},
+  Volume                   = {27},
+
+  Owner                    = {kai},
+  Publisher                = {Wiley Online Library},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{akaike_1981,
+  Title                    = {Likelihood of a model and information criteria},
+  Author                   = {Akaike, Hirotugo},
+  Journal                  = {Journal of Econometrics},
+  Year                     = {1981},
+  Pages                    = {3--14},
+  Volume                   = {16},
+
+  Doi                      = {10.1016/0304-4076(81)90071-3},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{albert_2014,
+  Title                    = {Biomass equations for seven different tree species growing in coppice-with-standards forests in {Central} {Germany}},
+  Author                   = {Albert, Katja and Annighöfer, Peter and Schumacher, Jens and Ammer, Christian},
+  Journal                  = {Scandinavian Journal of Forest Research},
+  Year                     = {2014},
+
+  Month                    = apr,
+  Number                   = {3},
+  Pages                    = {210--221},
+  Volume                   = {29},
+
+  Abstract                 = {With an increasing demand of sustainable raw materials for bioenergy use, coppicing as management approach to increase the biomass production of forests is becoming of greater importance. This study describes the parameterization of biomass equations for six tree species traditionally used in coppices forests, namely sycamore maple (Acer pseudoplatanus L.), field maple (Acer campestre L.), European ash (Fraxinus excelsior L.), European hornbeam (Carpinus betulus L.), downy birch (Betula pubescens Ehrh.), and common hazel (Corylus avellana L.) growing in coppice-with-standard systems in Lower Saxony, Germany. The parameterization was based on measurements of over 950 trees sampled from two forest sites. The sampled trees were felled and separated into three biomass compartments (stem, coarse branches, and fine brushwood) and weighed on site. The dry weight of sub samples from each compartment was measured. Equations were derived for total aboveground biomass, stem biomass, and crown biomass using regression analyses. We either used diameter at breast height as single independent explanatory variable or in combination with tree height. Biomass production of stump sprouts and generatively grown stems was compared for ash and sycamore maple. In the same age classes, it was found that ash stump sprouts had a slightly higher production than seed-grown stems. For sycamore maple, no difference was detected.},
+  Doi                      = {10.1080/02827581.2014.910267},
+  File                     = {Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/76MED9EI/02827581.2014.html:text/html},
+  ISSN                     = {0282-7581},
+  Keywords                 = {bioenergy, Biomass equations, coppice-with-standard system, stump sprouts},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://dx.doi.org/10.1080/02827581.2014.910267},
+  Urldate                  = {2016-12-08}
+}
+
+@Article{alberti_2005,
+  Title                    = {Aboveground biomass relationships for mixed ash ({Fraxinus} excelsior {L}. and {Ulmus} glabra {Hudson}) stands in {Eastern} {Prealps} of {Friuli} {Venezia} {Giulia} ({Italy})},
+  Author                   = {Alberti, Giorgio and Candido, Patrick and Peressotti, Alessandro and Turco, Sheera and Piussi, Pietro and Zerbi, Giuseppe},
+  Journal                  = {Annals of Forest Science},
+  Year                     = {2005},
+
+  Month                    = dec,
+  Number                   = {8},
+  Pages                    = {831--836},
+  Volume                   = {62},
+
+  Abstract                 = {Annals of Forest Science, is a source of information about current developments and trends in forest research and forestry},
+  Copyright                = {INRA, EDP Sciences},
+  Doi                      = {10.1051/forest:2005089},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/FUDSZGKJ/Alberti et al. - 2005 - Aboveground biomass relationships for mixed ash (F.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/RK29TQVB/F5092.html:text/html},
+  ISSN                     = {1286-4560, 1297-966X},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://dx.doi.org/10.1051/forest:2005089},
+  Urldate                  = {2016-12-08}
+}
+
+@Book{altherr_1978,
+  Title                    = {Statistische {Rindenbeziehungen} als {Hilfsmittel} zur {Ausformung} und {Ausmessung} unentrindeten {Stammholzes}},
+  Author                   = {Altherr, E and Unfried, P and Hrahetzky, V},
+  Publisher                = {FVA Baden Württemberg},
+  Year                     = {1978},
+  Series                   = {Mitteilungen der {Forstlichen} {Versuchs}- und {Forschungsanstalt} {Baden}-{Würtemberg}},
+  Volume                   = {90},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@InCollection{auer_2016,
+  Title                    = {{BIOECONOMY} {CLUSTER}: resource efficient creation of value from beech wood to bio-based building materials},
+  Author                   = {Auer, Veronika and Zscheile, Matthias and Engler, Benjamin and Haller, Peer and Hartig, Jens and Wehnsener, Jörg and Husmann, Kai and Erler, Jörn and Thole, Volker and Schulz, Tino and Hesse, Elfi and Rüther, Norbert and Himsel, Alexandra},
+  Booktitle                = {World {Conference} on {Timber} {Engineering} ({WCTE} 2016)},
+  Publisher                = {TU Wien},
+  Year                     = {2016},
+
+  Address                  = {Wien},
+  Editor                   = {Eberhardsteiner, J. and Winter, W. and Fadai, A. and Pöll, M.},
+
+  ISBN                     = {978-3-903024-35-9},
+  Owner                    = {kai},
+  Timestamp                = {2017.04.17}
+}
+
+@Article{augusto_2000,
+  Title                    = {Relationships between forest tree species, stand production and stand nutrient amount},
+  Author                   = {Augusto, Laurent and Ranger, Jacques and Ponette, Quentin and Rapp, Maurice},
+  Journal                  = {Annals of Forest Science},
+  Year                     = {2000},
+  Number                   = {4},
+  Pages                    = {12},
+  Volume                   = {57},
+
+  Doi                      = {10.1051/forest:2000122},
+  File                     = {Annals of Forest Science:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/QDPPJRCN/asf0402.html:text/html},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28}
+}
+
+@Misc{barton_2016,
+  Title                    = {{MuMIn}: {Multi}-{Model} {Inference}},
+
+  Author                   = {Barton, Kamil},
+  Year                     = {2016},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01},
+  Url                      = {https://CRAN.R-project.org/package=MuMIn}
+}
+
+@Article{baskent_2002,
+  Title                    = {Forest landscape management modeling using simulated annealing},
+  Author                   = {Baskent, Emin Z and Jordan, Glen A},
+  Journal                  = {Forest Ecology and Management},
+  Year                     = {2002},
+  Number                   = {1},
+  Pages                    = {29--45},
+  Volume                   = {165},
+
+  Owner                    = {kai},
+  Publisher                = {Elsevier},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{baskerville_1972,
+  Title                    = {Use of logarithmic regression in the estimation of plant biomass},
+  Author                   = {Baskerville, GL},
+  Journal                  = {Canadian Journal of Forest Research},
+  Year                     = {1972},
+  Number                   = {1},
+  Pages                    = {49--53},
+  Volume                   = {2},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Article{debesi_2015,
+  Title                    = {Towards a {Bioeconomy} in {Europe}: {National}, {Regional} and {Industrial} {Strategies}},
+  Author                   = {de Besi, Matteo and McCormick, Kes},
+  Journal                  = {Sustainability},
+  Year                     = {2015},
+
+  Month                    = aug,
+  Number                   = {8},
+  Pages                    = {10461--10478},
+  Volume                   = {7},
+
+  Abstract                 = {Establishing an advanced European bioeconomy is an important step in achieving the transition towards sustainable development and away from fossil fuels. The bioeconomy can be defined as an economy based on the sustainable production and conversion of renewable biomass into a range of bio-based products, chemicals, and energy. Several strategies have been produced in Europe from different perspectives that outline visions, intentions, and recommendations for the transition to a bioeconomy. An analysis of twelve of these strategies was conducted using a meta-analytical framework. This paper outlines the results of this study covering national, regional, and industrial perspectives on the bio-based economy in Europe. The analysis shows that a common direction for the bioeconomy, based on research and technological innovation in the various applications of biotechnology, is developing in Europe. It highlights the important role that the regional level will play in facilitating collaborations between industries and research institutions needed to foster innovation and optimize the use of biomass. The analysis also identifies that the development of European bio-based product markets are needed for bioeconomy expansion. However, the transition needs to have a lifecycle perspective in order to ensure that an economy founded on biomass is sustainable and equitable.},
+  Copyright                = {http://creativecommons.org/licenses/by/3.0/},
+  Doi                      = {10.3390/su70810461},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/XXPXEGKP/de Besi and McCormick - 2015 - Towards a Bioeconomy in Europe National, Regional.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/WKC5ETZ4/10461.html:text/html},
+  Keywords                 = {Bio-based economy, bioeconomy, Europe, strategies, transitions},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Shorttitle               = {Towards a {Bioeconomy} in {Europe}},
+  Timestamp                = {2017.04.16},
+  Url                      = {http://www.mdpi.com/2071-1050/7/8/10461},
+  Urldate                  = {2017-04-16}
+}
+
+@Book{bitz_2005,
+  Title                    = {Vahlens {Kompendium} der {Betriebswirtschaftslehre}},
+  Author                   = {Bitz, Michael},
+  Publisher                = {Vahlen},
+  Year                     = {2005},
+
+  Address                  = {Munich},
+  Edition                  = {5},
+  Month                    = jan,
+  Volume                   = {2},
+
+  ISBN                     = {978-3-8006-3135-3},
+  Language                 = {de},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.11}
+}
+
+@InCollection{block_2013,
+  Title                    = {Erhaltung der {Produktivität} der {Waldböden} bei der {Holz}- und {Biomassenutzung}},
+  Author                   = {Block, J. and Meiwes, K. J. and Bachmann, G. and König, W. and Utermann, J.},
+  Booktitle                = {Bodenschutz - {Ergänzbares} {Handbuch} der {Maßnahmen} und {Empfehlungen} für {Schutz}, {Pflege} und {Sanierung} von {Böden}, {Landschaft} und {Grundwasser}},
+  Year                     = {2013},
+  Pages                    = {1-- 50},
+  Volume                   = {1. Lfg. /13},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28}
+}
+
+@Article{blum_2003,
+  Title                    = {Metaheuristics in combinatorial optimization: Overview and conceptual comparison},
+  Author                   = {Blum, Christian and Roli, Andrea},
+  Journal                  = {ACM Computing Surveys (CSUR)},
+  Year                     = {2003},
+  Number                   = {3},
+  Pages                    = {268--308},
+  Volume                   = {35},
+
+  Owner                    = {kai},
+  Publisher                = {ACM},
+  Timestamp                = {2017.04.15}
+}
+
+@Book{bmel_2016,
+  Title                    = {Wald und {Rohholzpotenzial} der nächsten 40 {Jahre} - {Ausgewählte} {Ergebnisse} der {Waldentwicklungs}- und {Holzaufkommensmodellierung} 2013 bis 2052},
+  Author                   = {{BMEL}},
+  Year                     = {2016},
+
+  Address                  = {Berlin},
+  Note                     = {Bundesministerium für Ernährung, Landwirtschaft und Verbraucherschutz},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.16}
+}
+
+@Book{bmel_2014,
+  Title                    = {Der {Wald} in {Deutschland} - {Ausgewählte} {Ergebnisse} der dritten {Bundeswaldinventur}},
+  Author                   = {{BMEL}},
+  Publisher                = {Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft},
+  Year                     = {2014},
+
+  Address                  = {Berlin},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Book{bmel_2014b,
+  Title                    = {Nationale {Politikstrategie} {Bioökonomie} - {Nachwachsende} {Ressourcen} und biotechnologische {Verfahren} als {Basis} für {Ernährung}, {Industrie} und {Energie}},
+  Author                   = {{BMEL}},
+  Publisher                = {Bundesministerium für Ernährung und Landwirtschaft},
+  Year                     = {2014},
+
+  Address                  = {Berlin},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.16}
+}
+
+@Book{bmel_2011,
+  Title                    = {Waldstrategie 2020},
+  Author                   = {{BMEL}},
+  Publisher                = {Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft},
+  Year                     = {2011},
+
+  Address                  = {Bonn},
+  Note                     = {Bundesministerium für Ernährung, Landwirtschaft und Verbraucherschutz},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Book{bmu_2007,
+  Title                    = {National {Strategy} on {Biological} {Diversity}},
+  Author                   = {{BMU}},
+  Editor                   = {Küchler-Krischun, Jonna and Walter, Alfred Maria},
+  Publisher                = {Federal Ministry for the Environment, Nature Conservation and Nuclear Safety},
+  Year                     = {2007},
+
+  Address                  = {Berlin},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{bockmann_2004,
+  Title                    = {Forsteinrichtung - als {Institution} effektiv und unverzichtbar},
+  Author                   = {Böckmann, Thomas},
+  Journal                  = {Allgemeine Forst und Jagdzeitung},
+  Year                     = {2004},
+  Pages                    = {156--162},
+  Volume                   = {175},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.14}
+}
+
+@Article{bonyad_2012,
+  Title                    = {Evaluation of non-destructive {Meyer} method for determination of bark volume of beech ({Fagus} orientalis {Lipsky}) in different geographical aspects},
+  Author                   = {Bonyad, A. E. and Sima, A. and Bakhshandeh, A. and H., Dadras},
+  Journal                  = {Caspian Journal of Environmental Sciences},
+  Year                     = {2012},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {67--73},
+  Volume                   = {10},
+
+  Abstract                 = {The non-destructive Meyer method was evaluated to determine the bark volume of beech (Fagus orientalis Lipsky) stands in north of Iran. The sample size was 185 standing trees collected from 4 geographical aspects (north, south, west and east) aspects. The constant k values and bark thickness (2e mm) of 185 standing trees were used to calculate the bark volume by the Meyer method. In this study, 40 trees were randomly selected from among the felled trees and analyzed for evolution of non-destructive Meyer method. As a result, 668 diameters and 1236 bark thicknesses were measured out of 40 felled trees. The bark volumes were calculated by non-destructive Meyer and sums of integration methods. The results indicated no significant differences in volume estimates based on two methods (P = 0.816, two-tailed test), There were no significant differences in Levene?s test for equality of variances between the two methods (P=0.576, two-tailed test). The bark volume variations were significantly different in the geographical aspects. Results of this study can be important for silvicultural planning and natural forest management.},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/WHEUG24Q/Bonyad et al. - 2012 - Evaluation of non-destructive Meyer method for det.pdf:application/pdf;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/WAU9CH5W/article_1087_0.html:text/html},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16},
+  Url                      = {http://cjes.guilan.ac.ir/article_1087_263.html},
+  Urldate                  = {2016-05-18}
+}
+
+@Article{boston_1999,
+  Title                    = {An analysis of Monte Carlo integer programming, simulated annealing, and tabu search heuristics for solving spatial harvest scheduling problems},
+  Author                   = {Boston, Kevin and Bettinger, Pete},
+  Journal                  = {Forest science},
+  Year                     = {1999},
+  Number                   = {2},
+  Pages                    = {292--301},
+  Volume                   = {45},
+
+  Owner                    = {kai},
+  Publisher                = {Society of American Foresters},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{bunce_1968,
+  Title                    = {Biomass and {Production} of {Trees} in a {Mixed} {Deciduous} {Woodland}: {I}. {Girth} and {Height} as {Parameters} for the {Estimation} of {Tree} {Dry} {Weight}},
+  Author                   = {Bunce, R. G. H.},
+  Journal                  = {Journal of Ecology},
+  Year                     = {1968},
+  Number                   = {3},
+  Pages                    = {759--775},
+  Volume                   = {56},
+
+  Abstract                 = {Ash (Fraxinus excelsior), birch (Betula pubescens and B. pendula), oak (Quercus petraea), sycamore (Acer pseudoplatanus) and lime (Tilia cordata) were felled at four localities in the English Lake District. The trees were growing on both siliceous and calcareous soils of variable depth. Correlations between loge tree dry weight and loge girth were higher (r = 0.9977-0.9871), than with loge height (r = 0· 9547-0.8147). Multiple regression analysis demonstrated that the inclusion of height only marginally improved the tree dry weight estimates. Regression equations, of the form loge y = a + b (loge x), where y = tree dry weight (trunk + branches) and x = tree girth at 1.3 m, were used to predict tree dry weight. The 95\% confidence limits of the estimates were generally in the range of ± 10-15\%, but in some examples as low as ± 2\% and up to ± 20-30\%, depending upon the sample number and variance of the particular regression. The regression equations for species from different sites exhibited small but significant differences as tested by analysis of variance. Equations derived from trees of all species provided acceptable estimates, but the most valid predictions of tree dry weight are obtained from species samples felled in the area for which estimates are required. Correlations between stem and branch categories and girth (in loge terms) were lower than for total tree weight and girth.},
+  Doi                      = {10.2307/2258105},
+  ISSN                     = {0022-0477},
+  Owner                    = {khusman1},
+  Shorttitle               = {Biomass and {Production} of {Trees} in a {Mixed} {Deciduous} {Woodland}},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://www.jstor.org/stable/2258105},
+  Urldate                  = {2016-12-08}
+}
+
+@Article{cancino_2005,
+  Title                    = {Comparison of randomized branch sampling with and without replacement at the first stage},
+  Author                   = {Cancino, Jorge and Saborowski, Joachim},
+  Journal                  = {Silva Fennica},
+  Year                     = {2005},
+  Number                   = {2},
+  Pages                    = {201--216},
+  Volume                   = {39},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{cardoso_1997,
+  Title                    = {A simulated annealing approach to the solution of MINLP problems},
+  Author                   = {Cardoso, Margarida F and Salcedo, RL and de Azevedo, S Feyo and Barbosa, D},
+  Journal                  = {Computers \& chemical engineering},
+  Year                     = {1997},
+  Number                   = {12},
+  Pages                    = {1349--1364},
+  Volume                   = {21},
+
+  Owner                    = {kai},
+  Publisher                = {Elsevier},
+  Timestamp                = {2017.04.15}
+}
+
+@Book{Carlowitz_1713,
+  Title                    = {{Sylvicvltvra Oeconomica, Oder Haußwirthliche Nachricht und Naturmäßige Anweisung Zur Wilden Baum-Zucht}},
+  Author                   = {Hans-Carl von Carlowitz},
+  Publisher                = {Johann Friedrich Braun, Leipzig},
+  Year                     = {1713},
+
+  Owner                    = {nluepke},
+  Timestamp                = {2012.11.28}
+}
+
+@Article{cerny_1990,
+  Title                    = {Biomass of {Picea} abies ({L}.) {Karst}. in midwestern {Bohemia}},
+  Author                   = {Cerny, Martin},
+  Journal                  = {Scandinavian Journal of Forest Research},
+  Year                     = {1990},
+  Number                   = {1-4},
+  Pages                    = {83--95},
+  Volume                   = {5},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Book{chambers_1992,
+  Title                    = {Statistical models in {S}},
+  Author                   = {Chambers, J. M. and Hastie, T. J.},
+  Publisher                = {Chapman \& Hall/CRC},
+  Year                     = {1992},
+
+  Address                  = {Boca Raton, Fla.},
+
+  ISBN                     = {0-534-16765-9 978-0-534-16765-3 0-534-16764-0 978-0-534-16764-6 978-0-412-83040-2 0-412-83040-X},
+  Language                 = {English},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Book{churchman_1957,
+  Title                    = {Introduction to operations research},
+  Author                   = {Churchman, C West and Ackoff, Russell L and Arnoff, E Leonard},
+  Publisher                = {John Wiley \& Sons, Inc., Chapman \& Hall, Ltd., accessed via \url{http://archive.org/stream/introductiontoo00chur/introductiontoo00chur_djvu.txt} on 4 June 2017},
+  Year                     = {1957},
+
+  Address                  = {New York, London}
+}
+
+@Article{cienciala_2005,
+  Title                    = {Biomass functions applicable for {European} beech},
+  Author                   = {Cienciala, E and Apltauer, J and Cerny, M and Exnerová, Z},
+  Journal                  = {Journal of Forest Science},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {147--154},
+  Volume                   = {51},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28}
+}
+
+@Article{clarke_1964,
+  Title                    = {Scheduling of vehicles from a central depot to a number of delivery points},
+  Author                   = {Clarke, Geoff and Wright, John W},
+  Journal                  = {Operations research},
+  Year                     = {1964},
+  Number                   = {4},
+  Pages                    = {568--581},
+  Volume                   = {12},
+
+  Owner                    = {kai},
+  Publisher                = {INFORMS},
+  Timestamp                = {2017.04.15}
+}
+
+@Manual{conway_2016,
+  Title                    = {RPostgreSQL: R interface to the PostgreSQL database system},
+  Author                   = {Joe Conway and Dirk Eddelbuettel and Tomoaki Nishiyama and Sameer Kumar Prayaga and Neil Tiffin},
+  Note                     = {R package version 0.4-1},
+  Year                     = {2016},
+
+  Url                      = {https://CRAN.R-project.org/package=RPostgreSQL}
+}
+
+@Article{corana_1987,
+  Title                    = {Minimizing Multimodal Functions of Continuous Variables with the 'Simulated Annealing' algorithm},
+  Author                   = {Corana, A. and Marchesi, M. and Martini, C. and Ridella, S.},
+  Journal                  = {ACM Trans. Math. Softw.},
+  Year                     = {1987},
+  Number                   = {3},
+  Pages                    = {262--280},
+  Volume                   = {13},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Book{dantzig_1966,
+  Title                    = {Lineare Programmierung und Erweiterungen},
+  Author                   = {Dantzig, George Bernard},
+  Publisher                = {Springer},
+  Year                     = {1966},
+
+  Address                  = {Berlin [u.a.]},
+  Number                   = {2},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Article{dantzig_1959,
+  Title                    = {On a linear-programming, combinatorial approach to the traveling-salesman problem},
+  Author                   = {Dantzig, George Bernard and Fulkerson, Delbert R and Johnson, Selmer M},
+  Journal                  = {Operations Research},
+  Year                     = {1959},
+  Number                   = {1},
+  Pages                    = {58--66},
+  Volume                   = {7},
+
+  Owner                    = {kai},
+  Publisher                = {INFORMS},
+  Timestamp                = {2017.04.15}
+}
+
+@Book{davis_2001,
+  Title                    = {Forest {Management}: {To} {Sustain} {Ecological}, {Economic}, and {Social} {Values}},
+  Author                   = {Davis, Lawrence S. and Johnson, K. Norman and Bettinger, Pete and Howard, Theodore E.},
+  Publisher                = {McGraw-Hill Higher Education},
+  Year                     = {2001},
+
+  Address                  = {New York},
+  Edition                  = {4},
+
+  Abstract                 = {Applying twenty-first century analytical and quantitative ways of thinking about forest resource management problems . . . Now available from Waveland Press, the fourth edition of Forest Management revised significantly from previous, successful editions offers authoritative, up-to-date coverage of broad-scope concepts and ideas for those entering the fields of forest management, forest economics, and forest ecology. Viewed as large integrated ecosystems that are often owned and managed by multiple landowners, forests continue to be at the center of debates involving global warming and the sustaining of human populations. Because long-term ecological outcomes of forest management activities continue to be of heightened concern to citizens, interest groups, and regulators, the comprehensive fourth edition recognizes the scope of ecological, economic, and social outcomes from the management and use of forest lands. It provides future decision makers and stakeholders with contemporary methods to make quantitative estimates of the consequences of implementing alternative management or policy scenarios for forests. Available on the authors' website are useful databases, files, and worksheets used to generate, solve, and report solutions to problems of forest management. Outstanding features and coverage! 1) includes greatly expanded exposition of the definition, measurement, and practical application of sustainability and sustained yield concepts; 2) stresses the critical role of comprehensive silvicultural prescriptions and their spatial assignment to provide for a multitude of forest outcomes, including timber, wildlife, and recreation within sustainable ecosystems; 3) provides an introduction to the concepts, methods, and applications of explicit spatial analysis of forest tracts, watersheds, and ecological units using new heuristic techniques, and illustrates the techniques using teaching models and data sets; and 4) offers examples and problems to illustrate analyses presented in the book. Titles of related interest from Waveland Press: Edmonds et al., Forest Health and Protection, Second Edition (ISBN 9781577666523); Hendee et al., Introduction to Forests and Renewable Resources, Eighth Edition (ISBN 9781577667469); Miller, Urban Forestry: Planning and Managing Urban Greenspaces, Second Edition (ISBN 9781577665106); and Nyland, Silviculture: Concepts and Applications, Second Edition (ISBN 9781577665274).},
+  ISBN                     = {978-1-57766-436-9},
+  Language                 = {English},
+  Owner                    = {khusman1},
+  Shorttitle               = {Forest {Management}},
+  Timestamp                = {2017.04.14}
+}
+
+@Misc{degenhard_2016,
+  Title                    = {Holzmarkt - {Schnittholznachfrage} stabilisiert},
+
+  Author                   = {Degenhard, Michael},
+  Year                     = {2016},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.forstpraxis.de/schnittholznachfrage-stabilisiert},
+  Urldate                  = {2016-06-14}
+}
+
+@Article{desarbo_1989,
+  Title                    = {A simulated annealing methodology for clusterwise linear regression},
+  Author                   = {DeSarbo, Wayne S and Oliver, Richard L and Rangaswamy, Arvind},
+  Journal                  = {Psychometrika},
+  Year                     = {1989},
+  Number                   = {4},
+  Pages                    = {707--736},
+  Volume                   = {54},
+
+  Owner                    = {kai},
+  Publisher                = {Springer},
+  Timestamp                = {2017.04.15}
+}
+
+@Misc{destatis_2016,
+  Title                    = {Statistisches {Bundesamt} {Deutschland} - {GENESIS}-{Online}},
+
+  Author                   = {{DESTATIS}},
+  Month                    = aug,
+  Year                     = {2016},
+
+  Abstract                 = {{\textless}acronym title="Gemeinsames neues statistisches Informationssystem"{\textgreater}GENESIS{\textless}/acronym{\textgreater}-{\textless}span lang="EN-GB"{\textgreater}Online{\textless}/span{\textgreater} ist eine Datenbank, die tief gegliederte Ergebnisse der amtlichen Statistik enthält. Sie wird kontinuierlich ausgebaut. Der Tabellenabruf erfolgt unentgeltlich und kann variabel auf den individuellen Bedarf angepasst werden. Die Abspeicherung der Ergebnisse ist in verschiedenen Formaten möglich. Zusätzliche Nutzungsmöglichkeiten stehen registrierten Kunden gegen eine Jahresgebühr zur Verfügung.},
+  Copyright                = {https://www-genesis.destatis.de:443/genesis/online?Menu=Impressum},
+  File                     = {Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/J97BEAKT/online\;jsessionid=8157F3BD9465AB28DE06B9E4D02A4D53.html:text/html},
+  Language                 = {de},
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13},
+  Type                     = {Text},
+  Url                      = {https://www-genesis.destatis.de/genesis/online;jsessionid=8157F3BD9465AB28DE06B9E4D02A4D53.tomcat_GO_2_1?operation=previous&levelindex=4&levelid=1471595137835&step=4},
+  Urldate                  = {2016-08-19}
+}
+
+@Article{diciccio_1996,
+  Title                    = {Bootstrap confidence intervals},
+  Author                   = {DiCiccio, Thomas J. and Efron, Bradley},
+  Journal                  = {Statistical Science},
+  Year                     = {1996},
+
+  Month                    = sep,
+  Number                   = {3},
+  Pages                    = {189--228},
+  Volume                   = {11},
+
+  Doi                      = {10.1214/ss/1032280214},
+  File                     = {Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/NKTGUVPU/1032280214.html:text/html},
+  ISSN                     = {0883-4237, 2168-8745},
+  Keywords                 = {\$BC\_a\$ and ABC methods, Bootstrap-\$t\$, calibration, second-order accuracy},
+  Mrnumber                 = {MR1436647},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01},
+  Url                      = {http://projecteuclid.org.34391.han.sub.uni-goettingen.de/euclid.ss/1032280214},
+  Urldate                  = {2015-09-02},
+  Zmnumber                 = {0955.62574}
+}
+
+@Article{dueck_1990,
+  Title                    = {Threshold accepting: a general purpose optimization algorithm appearing superior to simulated annealing},
+  Author                   = {Dueck, Gunter and Scheuer, Tobias},
+  Journal                  = {Journal of computational physics},
+  Year                     = {1990},
+  Number                   = {1},
+  Pages                    = {161--175},
+  Volume                   = {90},
+
+  Owner                    = {kai},
+  Publisher                = {Elsevier},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{eckmullner_2006,
+  Title                    = {Allometric relations to estimate needle and branch mass of {Norway} spruce and {Scots} pine in {Austria}},
+  Author                   = {Eckmüllner, O},
+  Journal                  = {Austrian Journal of Forest Science},
+  Year                     = {2006},
+  Number                   = {1-2},
+  Pages                    = {7--15},
+  Volume                   = {123},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@TechReport{efken_2012,
+  Title                    = {Volkswirtschaftliche {Bedeutung} der biobasierten {Wirtschaft} in {Deutschland}},
+  Author                   = {Efken, Josef and Banse, Martin and Rothe, Andrea and Dieter, Matthias and Dirksmeyer, Walter and Ebeling, Michael and Fluck, Katrin and Hansen, Heiko and Kreins, Peter and Seintsch, Björn and {others}},
+  Institution              = {Arbeitsberichte aus der vTI-Agrarökonomie},
+  Year                     = {2012},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.16}
+}
+
+@Book{eisentraut_2003,
+  Title                    = {{PostgreSQL} - das offizielle {Handbuch}},
+  Author                   = {Eisentraut, Peter},
+  Publisher                = {REDLINE},
+  Year                     = {2003},
+
+  Address                  = {Bonn},
+  Edition                  = {1},
+
+  ISBN                     = {978-3-8266-1337-1},
+  Language                 = {Deutsch},
+  Owner                    = {kai},
+  Timestamp                = {2017.05.21}
+}
+
+@Article{ekman_2013,
+  Title                    = {Bioresource utilisation by sustainable technologies in new value-added biorefinery concepts - two case studies from food and forest industry},
+  Author                   = {Ekman, Anna and Campos, Monica and Lindahl, Sofia and Co, Michelle and Börjesson, Pål and Karlsson, Eva Nordberg and Turner, Charlotta},
+  Journal                  = {Journal of Cleaner Production},
+  Year                     = {2013},
+  Pages                    = {46--58},
+  Volume                   = {57},
+
+  Abstract                 = {This paper presents a trans-disciplinary assessment of new and innovative biorefinery concepts producing high-value chemical compounds from residues from agriculture, food and forest industries. There is a significant potential of biomass residues in Sweden suitable for the extraction of various compounds, including upgrading by biocatalytic processes, in addition to current energy generation. Two examples presented are quercetin extracted from onion waste by pressurised hot water in conjunction with enzymatic hydrolysis, and betulin from birch bark extracted by liquid CO2 containing ethanol. Inherent in these two extraction processes and production routes is the ability to show good environmental performance from a life cycle perspective. Extraction of high-value compounds also provides possibilities for innovation in the current agricultural, food and forest industry potentially leading to socio-economical benefits.},
+  Doi                      = {10.1016/j.jclepro.2013.06.003},
+  File                     = {ScienceDirect Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/W74RGSX4/Ekman et al. - 2013 - Bioresource utilisation by sustainable technologie.pdf:application/pdf;ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/T7KI7WKM/S0959652613003843.html:text/html},
+  ISSN                     = {0959-6526},
+  Keywords                 = {Biocatalysis, By-products, Extraction, High-value compounds, Life cycle assessment},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0959652613003843},
+  Urldate                  = {2016-06-24}
+}
+
+@Article{elchichakli_2016,
+  Title                    = {Policy: {Five} cornerstones of a global bioeconomy},
+  Author                   = {El-Chichakli, Beate and von Braun, Joachim and Lang, Christine and Barben, Daniel and Philp, Jim},
+  Journal                  = {Nature News},
+  Year                     = {2016},
+
+  Month                    = jul,
+  Number                   = {7611},
+  Pages                    = {221},
+  Volume                   = {535},
+
+  Abstract                 = {Beate El-Chichakli and colleagues outline principles for coordinating bio-based industries to achieve many of the sustainable development goals.},
+  Doi                      = {10.1038/535221a},
+  File                     = {Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/GPWDNATD/policy-five-cornerstones-of-a-global-bioeconomy-1.html:text/html},
+  Owner                    = {khusman1},
+  Shorttitle               = {Policy},
+  Timestamp                = {2017.04.16},
+  Url                      = {http://www.nature.com/news/policy-five-cornerstones-of-a-global-bioeconomy-1.20228},
+  Urldate                  = {2017-04-16}
+}
+
+@Misc{facg_2014,
+  Title                    = {Shapefile {Germany} with federal states},
+
+  Author                   = {{FACG}},
+  Note                     = {Federal Agency for Cartography and Geodesy},
+  Year                     = {2014},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.bkg.bund.de/nn_171320/DE/Bundesamt/Downloads/Kostenlose-Karten/Deutschland-Karten/D-Karten__downloads__node.html__nnn=true},
+  Urldate                  = {2014-03-24}
+}
+
+@Misc{fanc_2010,
+  Title                    = {Map of potential natural vegetation in {Germany}},
+
+  Author                   = {{FANC}},
+  Note                     = {Federal Agency for Nature Conservation},
+  Year                     = {2010},
+
+  Address                  = {Bonn-Bad Godesberg},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{fischer_2016,
+  Title                    = {Flächen-Übergangsmatrizen als erweiterte {Auswertung} der {Bundeswaldinventur}: {Darstellung} am {Beispiel} der {Veränderung} der {Bestockungszusammensetzung} in {Niedersachsen} (under review)},
+  Author                   = {Fischer, Christoph and Husmann, Kai},
+  Journal                  = {Allgemeine Forst- und Jagdzeitung},
+  Year                     = {2016},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Article{gaffrey_1999,
+  Title                    = {{RBS}, ein mehrstufiges {Inventurverfahren} zur {Schätzung} von {Baummerkmalen} - {I}. {Schätzung} von {Nadel}- und {Asttrockenmassen} bei 66-jährigen {Douglasien}},
+  Author                   = {Gaffrey, D. and Saborowski, J.},
+  Journal                  = {Allgemeine Forst- und Jagdzeitung},
+  Year                     = {1999},
+  Pages                    = {177--183},
+  Volume                   = {170. Jg 10-11},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{gao_2012,
+  Title                    = {Implementing the Nelder-Mead simplex algorithm with adaptive parameters},
+  Author                   = {Gao, Fuchang and Han, Lixing},
+  Journal                  = {Computational Optimization and Applications},
+  Year                     = {2012},
+  Number                   = {1},
+  Pages                    = {259--277},
+  Volume                   = {51},
+
+  Doi                      = {10.1007/s10589-010-9329-3},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Book{gauer_2012,
+  Title                    = {Waldökologische {Naturräume} {Deutschlands} - {Forstliche} {Wuchsgebiete} und {Wuchsbezirke}},
+  Author                   = {Gauer, Jürgen},
+  Editor                   = {Kroiher, Franz},
+  Publisher                = {Thünen Institut},
+  Year                     = {2012},
+
+  Address                  = {Braunschweig},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Article{geiger_1999,
+  Title                    = {Das Nelder-Mead-Verfahren},
+  Author                   = {Geiger, Carl and Kanzow, Christian},
+  Journal                  = {Numerische Verfahren zur L{\"o}sung unregestrierter Optimierungsaufgaben},
+  Year                     = {1999},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Article{geldermann_2016,
+  Title                    = {Improved resource efficiency and cascading utilisation of renewable materials},
+  Author                   = {Geldermann, Jutta and Kolbe, Lutz M. and Krause, Andreas and Mai, Carsten and Militz, Holger and Osburg, Victoria-Sophie and Schöbel, Anita and Schumann, Matthias and Toporowski, Waldemar and Westphal, Stephan},
+  Journal                  = {Journal of Cleaner Production},
+  Year                     = {2016},
+
+  Month                    = jan,
+  Pages                    = {1--8},
+  Volume                   = {110},
+
+  Abstract                 = {In light of various environmental problems and challenges concerning resource allocation, the utilisation of renewable resources is increasingly important for the efficient use of raw materials. Therefore, cascading utilisation (i.e., the multiple material utilisations of renewable resources prior to their conversion into energy) and approaches that aim to further increase resource efficiency (e.g., the utilisation of by-products) can be considered guiding principles. This paper therefore introduces the Special Volume “Improved Resource Efficiency and Cascading Utilisation of Renewable Materials”. Because both research aspects, resource efficiency and cascading utilisation, belong to several disciplines, the Special Volume adopts an interdisciplinary perspective and presents 16 articles, which can be divided into four subjects: Innovative Materials based on Renewable Resources and their Impact on Sustainability and Resource Efficiency, Quantitative Models for the Integrated Optimisation of Production and Distribution in Networks for Renewable Resources, Information Technology-based Collaboration in Value Generating Networks for Renewable Resources, and Consumer Behaviour towards Eco-friendly Products. The interdisciplinary perspective allows a comprehensive overview of current research on resource efficiency, which is supplemented with 15 book reviews showing the extent to which textbooks of selected disciplines already refer to resource efficiency. This introductory article highlights the relevance of the four subjects, presents summaries of all papers, and discusses future research directions. The overall contribution of the Special Volume is that it bridges the resource efficiency research of selected disciplines and that it presents several approaches for more environmentally sound production and consumption.},
+  Doi                      = {10.1016/j.jclepro.2015.09.092},
+  File                     = {ScienceDirect Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/QBESJPAP/Geldermann et al. - 2016 - Improved resource efficiency and cascading utilisa.pdf:application/pdf;ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/QPZEUPES/S0959652615013207.html:text/html},
+  ISSN                     = {0959-6526},
+  Keywords                 = {Cascading utilisation, Interdisciplinary research, renewable materials, Resource efficiency, Sustainability},
+  Owner                    = {khusman1},
+  Series                   = {Special {Volume}: {Improved} resource efficiency and cascading utilisation of renewable materials},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0959652615013207},
+  Urldate                  = {2016-07-07}
+}
+
+@Article{genest_2007,
+  Title                    = {Asymptotic local efficiency of Cramer-von Mises tests for multivariate independence},
+  Author                   = {Genest, C. and Quessy, J.-F. and Remillard, B},
+  Journal                  = {The Annals of Statistics},
+  Year                     = {2007},
+
+  Owner                    = {alex},
+  Timestamp                = {2017.01.30}
+}
+
+@Article{genet_2011,
+  Title                    = {Ontogeny partly explains the apparent heterogeneity of published biomass equations for {Fagus} sylvatica in central {Europe}},
+  Author                   = {Genet, A. and Wernsdörfer, H. and Jonard, M. and Pretzsch, H. and Rauch, M. and Ponette, Q. and Nys, C. and Legout, A. and Ranger, J. and Vallet, P. and Saint-Andre, L.},
+  Journal                  = {Forest Ecology and Management},
+  Year                     = {2011},
+
+  Month                    = apr,
+  Number                   = {7},
+  Pages                    = {1188--1202},
+  Volume                   = {261},
+
+  Doi                      = {10.1016/j.foreco.2010.12.034},
+  File                     = {ScienceDirect Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/A9QR45X5/Genet et al. - 2011 - Ontogeny partly explains the apparent heterogeneit.pdf:application/pdf;ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/B535RW5V/S0378112710007486.html:text/html},
+  ISSN                     = {0378-1127},
+  Keywords                 = {allometry, Biomass equations, Ontogeny, Robustness},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0378112710007486},
+  Urldate                  = {2015-11-02}
+}
+
+@Article{goffe_1996,
+  Title                    = {SIMANN: A global optimization algorithm using simulated annealing},
+  Author                   = {Goffe, William L and others},
+  Journal                  = {Studies in Nonlinear Dynamics and Econometrics},
+  Year                     = {1996},
+  Number                   = {3},
+  Pages                    = {169--176},
+  Volume                   = {1},
+
+  Owner                    = {kai},
+  Timestamp                = {2017.04.15}
+}
+
+@InCollection{gorry_1971,
+  Title                    = {A framework for management information systems},
+  Author                   = {Gorry, George Anthony and Morton, Michael S Scott},
+  Booktitle                = {Sloan {Management} {Review}},
+  Publisher                = {Massachusetts Institute of Technology},
+  Year                     = {1971},
+
+  Address                  = {Massachusetts},
+  Pages                    = {21--30},
+  Volume                   = {13},
+
+  Owner                    = {kai},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{graham_2003,
+  Title                    = {Confronting multicollinearity in ecological multiple regression},
+  Author                   = {Graham, Michael H.},
+  Journal                  = {Ecology},
+  Year                     = {2003},
+
+  Month                    = nov,
+  Number                   = {11},
+  Pages                    = {2809--2815},
+  Volume                   = {84},
+
+  Doi                      = {10.1890/02-3114},
+  ISSN                     = {0012-9658},
+  Keywords                 = {confounding factors, multicollinearity, multiple regression, principal components regression, sequential regression, structural equation modeling},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01},
+  Url                      = {http://www.esajournals.org/doi/abs/10.1890/02-3114},
+  Urldate                  = {2015-11-02}
+}
+
+@Book{Gregoire_2008,
+  Title                    = {{Sampling Strategies for Natural Ressources and the Environment}},
+  Author                   = {T. G. Gregoire and H.T. Valentine},
+  Publisher                = {Chapman \& Hall/CRC. Boca Raton, London, New York.},
+  Year                     = {2008},
+
+  Owner                    = {nluepke},
+  Timestamp                = {2011.10.06}
+}
+
+@Article{gregoire_1995,
+  Title                    = {Sampling {Methods} to {Estimate} {Foliage} and {Other} {Characteristics} of {Individual} {Trees}},
+  Author                   = {Gregoire, Timothy G. and Valentine, Harry T. and Furnival, George M.},
+  Journal                  = {Ecology},
+  Year                     = {1995},
+
+  Month                    = jun,
+  Number                   = {4},
+  Pages                    = {1181},
+  Volume                   = {76},
+
+  Doi                      = {10.2307/1940925},
+  File                     = {JSTOR\: Ecology, Vol. 76, No. 4 (Jun., 1995), pp. 1181-1194:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/W36X3Z54/1940925.html:text/html},
+  ISSN                     = {00129658},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.jstor.org/discover/10.2307/1940925?uid=3737864&uid=2&uid=4&sid=21102564354753},
+  Urldate                  = {2013-08-19}
+}
+
+@Article{grote_2003,
+  Title                    = {Oberirdische holzige {Biomasse} in {Kiefern}-/{Buchen}- und {Eichen}-/{Buchen}-{Mischbeständen}},
+  Author                   = {Grote, R. and Schuck, J. and Block, J. and Pretzsch, H},
+  Journal                  = {Forstwissenschaftliches Centralblatt},
+  Year                     = {2003},
+
+  Month                    = oct,
+  Number                   = {5},
+  Pages                    = {287--301},
+  Volume                   = {122},
+
+  Doi                      = {10.1007/s10342-003-0006-2},
+  ISSN                     = {0015-8003, 1439-0337},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://han.sub.uni-goettingen.de/han/40212/link.springer.com/article/10.1007/s10342-003-0006-2},
+  Urldate                  = {2013-04-11}
+}
+
+@Article{gruber_wipfelwachstum_2001,
+  Title                    = {Wipfelwachstum von {Altbuchen} ({Fagus} sylvatica ({L}.) auf einem {Kalkstandort} ({Göttingen}/{Södderich}) in {Abhängigkeit} von der {Witterung}. {I}. {Grundlegende} {Zuwachsmuster}},
+  Author                   = {Gruber, Franz},
+  Journal                  = {Allgemeine Forst- und Jagdzeitung},
+  Year                     = {2001},
+  Number                   = {172},
+  Pages                    = {183--189},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16}
+}
+
+@Article{gruber_2004,
+  Title                    = {Kronenwachstum von {Rotbuchen} ({Fagus} sylvatica {L}.) in {Abhängigkeit} von der {Witterung} auf einem kalkbeeinflussten {Basaltstandort} {Zierenberg}},
+  Author                   = {Gruber, F. and Mann, T. E. and Kuhr, M. and Eichhorn, J.},
+  Journal                  = {Allgemein Forst- und Jagdzeitung},
+  Year                     = {2004},
+  Pages                    = {70--77},
+  Volume                   = {175},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16}
+}
+
+@Book{haarhaus_2012,
+  Title                    = {{AfL}-{Info} 12/13. {Richtpreise}, {Tarife}, {Kalkulationen}, {Adressen}},
+  Author                   = {Haarhaus, Michael},
+  Year                     = {2012},
+
+  Address                  = {Wiegersen-Sauensiek},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Book{hansen_2008,
+  Title                    = {Rohholzpotenziale und ihre {Verfügbarkeit} in {Hessen}},
+  Author                   = {Hansen, Jan and Ludwig, Agatha and Spellmann, Hermann and Nagel, Jürgen and Möhring, Bernhard and von Lüpke, Nikolas and Schmidt-Walter, Paul},
+  Publisher                = {NW-FVA},
+  Year                     = {2008},
+
+  Address                  = {Göttingen},
+  Series                   = {Veröffentlichungen der {NW}-{FVA} und der {Abteilung} für {Forstökonomie} der {Georg}-{August}-{Universität} {Universität} {Göttingen}},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Book{hansen_2014,
+  Title                    = {Waldwachstumskundliche {Softwaresysteme} auf {Basis} von {TreeGrOSS}-{Anwendung} und theoretische {Grundlagen}},
+  Author                   = {Hansen, Jan and Nagel, Jürgen},
+  Publisher                = {Niedersächsische Staats-und Universitätsbibliothek},
+  Year                     = {2014},
+
+  Address                  = {Göttingen},
+
+  ISBN                     = {978-3-86395-149-8},
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Book{hansen_2012,
+  Title                    = {Modellbasierte Entscheidungsunterstützung für den Forstbetrieb: Optimierung kurzfristiger Nutzungsoptionen und mittelfristiger Strategien unter Verwendung metaheuristischer Verfahren und parallelen Rechnens},
+  Author                   = {Hansen, Jan Hendrik},
+  Publisher                = {Cuvillier},
+  Year                     = {2012},
+
+  Address                  = {Göttingen},
+  Edition                  = {1. Aufl.},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Article{hempel_1948,
+  Title                    = {Studies in the {Logic} of {Explanation}},
+  Author                   = {Hempel, Carl G. and Oppenheim, Paul},
+  Journal                  = {Philosophy of Science},
+  Year                     = {1948},
+  Number                   = {2},
+  Pages                    = {135-- 175},
+  Volume                   = {15},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16}
+}
+
+@Article{henderson_2012,
+  Title                    = {Nutrient use efficiency of three fast growing hardwood species across a resource gradient},
+  Author                   = {Henderson, Dawn E and Jose, Shibu and {others}},
+  Journal                  = {Open Journal of Forestry},
+  Year                     = {2012},
+  Number                   = {04},
+  Pages                    = {187},
+  Volume                   = {2},
+
+  Doi                      = {10.4236/ojf.2012.24023},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01}
+}
+
+@Article{hennig_2016,
+  Title                    = {Sustainable feedstock potential - a limitation for the bio-based economy?},
+  Author                   = {Hennig, Christiane and Brosowski, André and Majer, Stefan},
+  Journal                  = {Journal of Cleaner Production},
+  Year                     = {2016},
+
+  Month                    = jun,
+  Pages                    = {200--202},
+  Volume                   = {123},
+
+  Abstract                 = {Within the debate and research of the transition towards a bio-based economy a shortfall in considering and evaluating the actual available sustainable biomass potential for realizing this emerging concept can be noted. This paper provides insights into the role of feedstock availability and provision in particular addressing the current scientific discussion on the availability and cost provision of biomass resources in the context of energy production, and the implications for the technological concepts, mainly biorefineries. A lack of a harmonized methodological approach covering minimum requirements for determining biomass potentials can be seen. This does not allow a comparison and aggregation of the data for receiving a bigger picture on the feedstock potential. Consequently, academia and decision makers may not take a final position on the possible magnitude of an emerging bio-economy at the moment. The presented examples also reveal that a more distributed production might allow developing a larger share of the available biomass potential.},
+  Doi                      = {10.1016/j.jclepro.2015.06.130},
+  File                     = {ScienceDirect Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/QX6D8E3E/Hennig et al. - 2016 - Sustainable feedstock potential – a limitation for.pdf:application/pdf;ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/4D6XGPXE/S095965261500863X.html:text/html},
+  ISSN                     = {0959-6526},
+  Keywords                 = {Bio-based economy, bioenergy, Biomass potential, Feedstock provision costs},
+  Owner                    = {khusman1},
+  Series                   = {Advancing {Sustainable} {Solutions}: {An} {Interdisciplinary} and {Collaborative} {Research} {Agenda}},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S095965261500863X},
+  Urldate                  = {2016-06-24}
+}
+
+@Article{henningsen_2007,
+  Title                    = {systemfit: {A} {Package} for {Estimating} {Systems} of {Simultaneous} {Equations} in {R}},
+  Author                   = {Henningsen, Arne and Hamann, Jeff D.},
+  Journal                  = {Journal of Statistical Software},
+  Year                     = {2007},
+  Number                   = {4},
+  Pages                    = {1--40},
+  Volume                   = {23},
+
+  Doi                      = {10.18637/jss.v023.i04},
+  ISSN                     = {1548-7660},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02},
+  Url                      = {http://www.jstatsoft.org/v23/i04}
+}
+
+@Article{herwartz_2014,
+  Title                    = {Structural analysis with independent innovations},
+  Author                   = {Herwartz, H.},
+  Journal                  = {cege Discussion Papers},
+  Year                     = {2014},
+
+  Owner                    = {alex},
+  Timestamp                = {2017.01.15}
+}
+
+@Article{herwartz_2015,
+  Title                    = {The macroeconomic effects of oil price shocks: Evidence from a statistical identification approach},
+  Author                   = {Herwartz, H. and Pl{\"o}dt, Martin},
+  Journal                  = {Journal of International Money and Finance},
+  Year                     = {2015},
+
+  Owner                    = {alex},
+  Timestamp                = {2017.04.21}
+}
+
+@InProceedings{hildebrandt_2014,
+  Title                    = {Establishing a robust sustainability index for the assessment of bioeconomy regions},
+  Author                   = {Hildebrandt, J. and Bezama, A. and Thrän, D.},
+  Booktitle                = {2014 {International} {Conference} and {Utility} {Exhibition} on {Green} {Energy} for {Sustainable} {Development} ({ICUE})},
+  Year                     = {2014},
+  Month                    = mar,
+  Pages                    = {1--4},
+
+  Abstract                 = {The Bioeconomy strategy fosters the integration of the agricultural, chemical, pulp and paper industries and the energy sector for obtaining sustainable bio-based materials and bioenergy. Basically all industrial sectors relying on biomass are facing economic burdens by resource competition. The cascade and coupled use stand as potential solutions for cross-sectoral cooperations to mutually enhance economic competitiveness. However the monitoring of trade-offs between sustainability goals of individual industries and the overall system demands extensive knowledge-based elicitations. The challenge of establishing a sustainability index arising from stakeholder's subjective perceptions of multidimensional issues requires to develop an integrated methodology out of nowadays most accepted and reliable assessment tools. This paper positions a sustainability index tool by reexamining the methodologies with regard to their appropriateness and generic strengths and weaknesses. The proposed combination of reference point approaches with preference-based elicitations is claimed as appropriate for establishing specific utility functions of sub-goals for bioeconomy.},
+  File                     = {IEEE Xplore Abstract Record:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/42SSTHD3/articleDetails.html:text/html;IEEE Xplore Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/36ZNJ9PU/Hildebrandt et al. - 2014 - Establishing a robust sustainability index for the.pdf:application/pdf},
+  Keywords                 = {agricultural industries, Benchmark testing, bioeconomy region assessment, bioenergy, bioenergy conversion, biomass, Cascade use systems, chemical industries, cross-sectoral cooperations, Educational institutions, energy sector, Indexes, Industries, LCF biorefineries, Life Cycle Sustainability Assessment, Materials, Monitoring, Multi Criteria Analysis, paper industries, pulp industries, renewable materials, Resource competition, Robustness, robust sustainability index tool, stakeholder value, Sustainability Index, sustainable biobased materials, Sustainable development, Wood-based bioeconomy},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Book{himmelblau_1972,
+  Title                    = {Applied nonlinear programming},
+  Author                   = {Himmelblau, David Mautner},
+  Publisher                = {McGraw-Hill Companies},
+  Year                     = {1972},
+
+  Owner                    = {kai},
+  Timestamp                = {2017.04.15}
+}
+
+@Book{hmuklv_2014,
+  Title                    = {Hessen - {Bäume}, {Wälder}, {Lebensräume} : ausgewählte {Ergebnisse} der dritten {Bundeswaldinventur} ({BWI} 3) für {Hessen} - {Deutsche} {Digitale} {Bibliothek}},
+  Author                   = {{HMUKLV}},
+  Publisher                = {Hessisches Ministerium für Umwelt, Klimaschutz, Landwirtschaft und Verbraucherschutz},
+  Year                     = {2014},
+
+  Address                  = {Wiesbaden},
+
+  File                     = {Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/3SSGVHVX/OABDTTQNRBJVF5EFV3LEMQKUTUPZC5BH.html:text/html},
+  ISBN                     = {978-3-89274-369-9},
+  Owner                    = {kai},
+  Shorttitle               = {Hessen - {Bäume}, {Wälder}, {Lebensräume}},
+  Timestamp                = {2016.12.13},
+  Url                      = {http://www.deutsche-digitale-bibliothek.de/item/OABDTTQNRBJVF5EFV3LEMQKUTUPZC5BH},
+  Urldate                  = {2016-05-06}
+}
+
+@Article{hochbichler_2006,
+  Title                    = {Biomass functions for estimating needle and branch biomass of spruce ({Picea} abies) and {Scots} pine ({Pinus} sylvestris) and branch biomass of beech ({Fagus} sylvatica) and oak ({Quercus} robur and petraea)},
+  Author                   = {Hochbichler, E. and Bellos, P. and Lick, E.},
+  Journal                  = {Centralblatt für das gesamte Forstwesen (Austrian Journal of Forest Sciences)},
+  Year                     = {2006},
+  Pages                    = {35--46},
+  Volume                   = {123},
+
+  ISSN                     = {0008-9583},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01}
+}
+
+@Article{hoganson_2015,
+  Title                    = {Constrained {Optimization} for {Addressing} {Forest}-{Wide} {Timber} {Production}},
+  Author                   = {Hoganson, Howard M. and Meyer, Natalie G.},
+  Journal                  = {Current Forestry Reports},
+  Year                     = {2015},
+
+  Month                    = mar,
+  Number                   = {1},
+  Pages                    = {33--43},
+  Volume                   = {1},
+
+  Abstract                 = {Optimization models are important tools for integrating objectives in forest management planning. Timber management objectives are difficult to address without considering complex environmental conditions, other ownership objectives, and forest management policies. Typically, to learn about management opportunities, model applications involve multiple scenarios and tradeoff analysis. Study areas tend to be large with analyses challenging because of model size needs for addressing many facets of the situation. The trend is to decompose large problems into linked subproblems with feedback between analyses. A better understanding of forest management situations can be obtained by integrating forest management decision-making with timber supply chain analyses developed from wood users’ perspectives. Uncertainty surrounds forest management decision-making situations, with analyses expanding recently to address strategies for collecting forest inventory information and recourse opportunities to help reduce risks associated with an uncertain future.},
+  Doi                      = {10.1007/s40725-015-0004-x},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/BPG7ZW8R/Hoganson and Meyer - 2015 - Constrained Optimization for Addressing Forest-Wid.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/PUJE3GIP/s40725-015-0004-x.html:text/html},
+  ISSN                     = {2198-6436},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.16},
+  Url                      = {https://link.springer.com/article/10.1007/s40725-015-0004-x},
+  Urldate                  = {2017-04-16}
+}
+
+@Article{how_2016,
+  Title                    = {Transportation decision tool for optimisation of integrated biomass flow with vehicle capacity constraints},
+  Author                   = {How, Bing Shen and Tan, Ke Yang and Lam, Hon Loong},
+  Journal                  = {Journal of Cleaner Production},
+  Year                     = {2016},
+
+  Abstract                 = {In this paper, an improved mathematical model is proposed to solve the multi-echelon biomass supply chain synthesis problem, including processing hubs selection, biomass allocation design and transportation mode selection, with the consideration of vehicle capacity constraint (weight and volume). On top of that, carbon emission penalty is introduced in the model in order to evaluate the environmental impact in the supply chain. The entire problem is modelled through mixed integer non-linear programming with the aim of maximising the overall profit, at the same time ensuring the minimal CO2 emission. A comparative study between the model developed in the previous work (vehicle capacity constraint and environmental performance are not considered) and the current improved model is carried out to compare the reliability of the outcomes. Both models are illustrated by using a same case study in Johor, Malaysia. In order to fill the gap of lacking user-friendly decision-making tool for the transportation design in supply chain management, a novel graphical decision-making tool, called smart vehicle selection diagram is proposed in this paper. The diagrams are constructed based on the optimised results obtained from the formulated model. The user manual for the proposed decision-making tool is given in this paper. Besides, five sets of sensitivity analysis are conducted to identify the sensitivity of the assumed realistic factors (i.e. terrain profile, weather changes, traffic congestion, fuel price fluctuation and individual environmental preference) to the optimal results obtained from the proposed tools. This paper shows the potential of the proposed tools in providing rigid optimal solution for the proposed research problem. Finally, several potential future works is suggested in this paper to fill up some of the remaining research gaps.},
+  Doi                      = {10.1016/j.jclepro.2016.05.142},
+  File                     = {ScienceDirect Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/BCZDDPF5/How et al. - Transportation decision tool for optimisation of i.pdf:application/pdf;ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/NVHMXJ4V/S095965261630614X.html:text/html},
+  ISSN                     = {0959-6526},
+  Keywords                 = {Biomass supply chain, Carbon emission penalty, Graphical decision-making tool, Sustainability, Transportation design, Vehicle capacity constraint},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S095965261630614X},
+  Urldate                  = {2016-06-24}
+}
+
+@Article{hurmekoski_2013,
+  Title                    = {Studying the future of the forest sector: {Review} and implications for long-term outlook studies},
+  Author                   = {Hurmekoski, Elias and Hetemäki, Lauri},
+  Journal                  = {Forest Policy and Economics},
+  Year                     = {2013},
+
+  Month                    = sep,
+  Pages                    = {17--29},
+  Volume                   = {34},
+
+  Abstract                 = {Outlook studies have long traditions in the forest sector – they have been conducted regularly since the 1950s. Until very recently, the approaches used in these studies have remained relatively unchanged. However, the global forest sector has been faced with major structural changes and its operating environment has become ever more complex and interlinked with other sectors. The aim of this article is to review the forest sector outlook approaches in face of these changes, and to analyze how well they have been able to capture and project the changes. Moreover, we raise the question of whether they seem informative enough for the purposes of today's decision makers and other stakeholders. The results indicate that the existing outlook studies have not been able to sufficiently capture the structural changes in global paper markets, and it may be that they have difficulties in considering the possible structural changes in other markets as well. In order to assess the changes occurring in the operating environment more systematically, and to better meet the needs of policy-makers and stakeholders, there are potential advantages in complementing the current modeling approach dominant in the forest sector with other methods from the field of foresight.},
+  Doi                      = {10.1016/j.forpol.2013.05.005},
+  File                     = {ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/WS2TQQXX/S138993411300097X.html:text/html},
+  ISSN                     = {1389-9341},
+  Keywords                 = {Foresight, Forest products markets, Modeling, Outlook, Paper products, Structural change},
+  Owner                    = {khusman1},
+  Shorttitle               = {Studying the future of the forest sector},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S138993411300097X},
+  Urldate                  = {2016-06-24}
+}
+
+@Manual{husmann_2017,
+  Title                    = {optimization: Flexible optimizer with numerous input specifications. R package version 1.0-4},
+  Author                   = {Kai Husmann and Alexander Lange},
+  Year                     = {2017},
+
+  Url                      = {https://CRAN.R-project.org/package=optimization}
+}
+
+@Book{hutcheson_2008,
+  Title                    = {Statistical {Modeling} for {Management}},
+  Author                   = {Hutcheson, Graeme D. and Moutinho, Luiz},
+  Publisher                = {SAGE Publications},
+  Year                     = {2008},
+
+  Address                  = {London},
+  Month                    = feb,
+
+  ISBN                     = {0-7619-7012-6},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Book{huxley_1932,
+  Title                    = {Problems of relative growth},
+  Author                   = {Huxley, Julian},
+  Publisher                = {Dial Press},
+  Year                     = {1932},
+
+  Address                  = {New York},
+
+  File                     = {Göttinger Universitätskatalog (GUK) - results/titledata:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/I7IH58AX/SHW.html:text/html},
+  ISBN                     = {0-8018-4659-5},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{ingber_1993,
+  Title                    = {Simulated annealing: Practice versus theory},
+  Author                   = {Ingber, Lester},
+  Journal                  = {Mathematical and computer modelling},
+  Year                     = {1993},
+  Number                   = {11},
+  Pages                    = {29--57},
+  Volume                   = {18},
+
+  Owner                    = {kai},
+  Publisher                = {Elsevier},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{ingrao_2016,
+  Title                    = {Agricultural and forest biomass for food, materials and energy: bio-economy as the cornerstone to cleaner production and more sustainable consumption patterns for accelerating the transition towards equitable, sustainable, post fossil-carbon societies},
+  Author                   = {Ingrao, Carlo and Bacenetti, Jacopo and Bezama, Alberto and Blok, Vincent and Geldermann, Jutta and Goglio, Pietro and Koukios, Emmanuel G and Lindner, Marcus and Nemecek, Thomas and Siracusa, Valentina and Zabaniotou, Anastasia and Huisingh, Donald},
+  Journal                  = {Journal of Cleaner Production},
+  Year                     = {2016},
+  Pages                    = {4--6},
+  Volume                   = {117},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.05.04}
+}
+
+@Book{jacobsen_2003,
+  Title                    = {Gehalte chemischer {Elemente} in {Baumkompartimenten}: {Literaturstudie} und {Datensammlung}},
+  Author                   = {Jacobsen, Carsten and Rademacher, Peter and Meesenburg, Henning and Meiwes, Karl Josef},
+  Year                     = {2003},
+  Month                    = jan,
+  Volume                   = {B69},
+
+  Abstract                 = {Official Full-Text Publication: Gehalte chemischer Elemente in Baumkompartimenten: Literaturstudie und Datensammlung on ResearchGate, the professional network for scientists.},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/GH6ZQS83/Jacobsen et al. - 2003 - Gehalte chemischer Elemente in Baumkompartimenten.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/EHAUKU87/259638046_Gehalte_chemischer_Elemente_in_Baumkompartimenten_Literaturstudie_und_Datensammlung.html:text/html},
+  Owner                    = {khusman1},
+  Shorttitle               = {Gehalte chemischer {Elemente} in {Baumkompartimenten}},
+  Timestamp                = {2017.02.28},
+  Url                      = {https://www.researchgate.net/publication/259638046_Gehalte_chemischer_Elemente_in_Baumkompartimenten_Literaturstudie_und_Datensammlung},
+  Urldate                  = {2016-06-27}
+}
+
+@Article{jessen_1955,
+  Title                    = {Determining the {Fruit} {Count} on a {Tree} by {Randomized} {Branch} {Sampling}},
+  Author                   = {Jessen, Raymond J.},
+  Journal                  = {Biometrics},
+  Year                     = {1955},
+
+  Month                    = mar,
+  Note                     = {ArticleType: research-article / Full publication date: Mar., 1955 / Copyright © 1955 International Biometric Society},
+  Number                   = {1},
+  Pages                    = {99--109},
+  Volume                   = {11},
+
+  Doi                      = {10.2307/3001484},
+  File                     = {JSTOR Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/W7KDTW3J/Jessen - 1955 - Determining the Fruit Count on a Tree by Randomize.pdf:application/pdf},
+  ISSN                     = {0006-341X},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.jstor.org/stable/3001484},
+  Urldate                  = {2012-08-06}
+}
+
+@Article{joosten_2003,
+  Title                    = {Schätzung der {Nährstoffexporte} bei einer intensivierten {Holznutzung} in {Buchenwäldern} ({Fagus} sylvatica)},
+  Author                   = {Joosten, R and Schulte, A},
+  Journal                  = {Allgemeine Forstund Jagdzeitung},
+  Year                     = {2003},
+  Number                   = {9},
+  Pages                    = {157--168},
+  Volume                   = {174},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Book{kangas_2015,
+  Title                    = {Decision {Support} for {Forest} {Management}},
+  Author                   = {Kangas, Annika and Kurttila, Mikko and Hujala, Teppo and Eyvindson, Kyle and Kangas, Jyrki},
+  Publisher                = {Springer International Publishing},
+  Year                     = {2015},
+
+  Address                  = {Cham},
+  Edition                  = {2nd ed},
+  Number                   = {30},
+  Series                   = {Managing {Forest} {Ecosystems}},
+
+  File                     = {Library Catalog Entry Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/EBGCZX5P/PPN.html:text/html},
+  Keywords                 = {Electronic books},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.11}
+}
+
+@Article{keeney_1982,
+  Title                    = {Decision analysis: an overview},
+  Author                   = {Keeney, R. L.},
+  Journal                  = {Oper Res},
+  Year                     = {1982},
+
+  Month                    = oct,
+  Number                   = {5},
+  Pages                    = {803--838},
+  Volume                   = {30},
+
+  Abstract                 = {This article, written for the nondecision analyst, describes what decision analysis is, what it can and cannot do, why one should care to do this, and how one does it. To accomplish these purposes, it is necessary first to describe the decision environment. The article also presents an overview of decision analysis and provides additional sources for its foundations, procedures, history, and applications.},
+  ISSN                     = {0030-364X},
+  Keywords                 = {decision making, Decision Theory, Humans, Public Policy, United States},
+  Language                 = {eng},
+  Owner                    = {khusman1},
+  Pmid                     = {10298708},
+  Shorttitle               = {Decision analysis},
+  Timestamp                = {2017.04.12}
+}
+
+@Article{kirkpatrick_1983,
+  Title                    = {Optimization by simulated annealing},
+  Author                   = {Kirkpatrick, Scott and Gelatt, C Daniel and Vecchi, Mario P and others},
+  Journal                  = {science},
+  Year                     = {1983},
+  Number                   = {4598},
+  Pages                    = {671--680},
+  Volume                   = {220},
+
+  Owner                    = {kai},
+  Publisher                = {Washington},
+  Timestamp                = {2017.04.15}
+}
+
+@Book{konig_2012a,
+  Title                    = {Probenvorbereitungsmethoden und {Untersuchungsmethoden}},
+  Author                   = {König, Nils and Fortmann, Heike},
+  Publisher                = {Sektion Waldökosysteforschung der Univ. Göttingen},
+  Year                     = {2012},
+
+  Address                  = {Göttingen},
+  Number                   = {79},
+  Series                   = {[{Berichte} der {Sektion} {Waldökosystemforschung} / {B}] {Berichte} der {Sektion} {Waldökosystemforschung} / {Zentrum} für {Biodiversität} und {Nachhaltige} {Landnutzung} ({CBL}) / {Sektion} {Waldökosystemforschung}. - {Göttingen} : {CBL}, {Sektion} {Waldökosystemforschung}, 2012-},
+
+  File                     = {Library Catalog Entry Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/UZ24CVIE/PPN.html:text/html},
+  Keywords                 = {Umweltanalytik / Dokumentation / Analysenmesstechnik},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01}
+}
+
+@Book{konig_2012b,
+  Title                    = {Elementbestimmungsmethoden und {Qualtätskontrollmethoden}},
+  Author                   = {König, Nils and Fortmann, Heike},
+  Publisher                = {Sektion Waldökosysteforschung der Univ. Göttingen},
+  Year                     = {2012},
+
+  Address                  = {Göttingen},
+  Number                   = {80},
+  Series                   = {[{Berichte} der {Sektion} {Waldökosystemforschung} / {B}] {Berichte} der {Sektion} {Waldökosystemforschung} / {Zentrum} für {Biodiversität} und {Nachhaltige} {Landnutzung} ({CBL}) / {Sektion} {Waldökosystemforschung}. - {Göttingen} : {CBL}, {Sektion} {Waldökosystemforschung}, 2012-},
+
+  File                     = {Library Catalog Entry Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/NHXZ2JVR/PPN.html:text/html},
+  Keywords                 = {Umweltanalytik / Dokumentation / Analysenmesstechnik},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01}
+}
+
+@Article{konopka_2015,
+  Title                    = {Biomass functions and expansion factors for young trees of {European} ash and {Sycamore} maple in the {Inner} {Western} {Carpathians}},
+  Author                   = {Konopka, Bohdan and Pajtik, Jozef and Seben, Vladimir},
+  Journal                  = {Austrian Journal of Forest Science},
+  Year                     = {2015},
+  Number                   = {1},
+  Pages                    = {1--26},
+  Volume                   = {132},
+
+  File                     = {Biomass functions and expansion factors for young trees of European ash and Sycamore maple in the Inner Western Carpathians (PDF Download Available):/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/ECQ5CHRQ/276058947_Biomass_functions_and_expansion_factors_for_young_trees_of_European_ash_and_Sycamore_.html:text/html},
+  ISSN                     = {0379-5292},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Article{kuzelka_2012,
+  Title                    = {Spline representation of irregular and malformed stem profiles of broadleaved tree species in {White} {Carpathian} {Mountains}},
+  Author                   = {Kuzelka, Karel and Marusak, Robert},
+  Journal                  = {Beskydy},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {111--120},
+  Volume                   = {5},
+
+  Doi                      = {10.11118/beskyd201205020111},
+  File                     = {Spline representation of irregular and malformed stem profiles of broadleaved tree species in White Carpathian Mountains Beskydy - The Beskids Bulletin | Mendel University:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/JPH6IVHE/0111.html:text/html},
+  ISSN                     = {1803-2451, 1803-2451},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://beskydy.mendelu.cz/5/2/0111/},
+  Urldate                  = {2014-03-24}
+}
+
+@InCollection{lutkepohl_2006,
+  Title                    = {Structural vector autoregressive analysis for cointegrated variables},
+  Author                   = {L{\"u}tkepohl, Helmut},
+  Booktitle                = {Modern Econometric Analysis},
+  Publisher                = {Springer},
+  Year                     = {2006},
+  Pages                    = {73--86},
+
+  Owner                    = {kai},
+  Timestamp                = {2017.05.06}
+}
+
+@Article{lagarias_1998,
+  Title                    = {Convergence Properties of the Nelder-Mead Simplex Method in Low Dimensions},
+  Author                   = {Lagarias, Jeffrey C. and Reeds, James A. and Wright, Margaret H. and Wright, Paul E.},
+  Journal                  = {SIAM Journal on Optimization},
+  Year                     = {1998},
+  Number                   = {1},
+  Pages                    = {112--147},
+  Volume                   = {9},
+
+  Doi                      = {10.1137/S1052623496303470},
+  ISSN                     = {1052-6234},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Article{ledermann_2006,
+  Title                    = {Biomass equations from data of old long-term experimental plots},
+  Author                   = {Ledermann, Thomas and Neumann, Marcus},
+  Journal                  = {Austrian Journal of Forest Science},
+  Year                     = {2006},
+  Number                   = {123},
+  Pages                    = {47-- 64},
+  Volume                   = {1/2},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Article{lin_1995,
+  Title                    = {A comparative study of both standard and adaptive versions of threshold accepting and simulated annealing algorithms in three scheduling problems},
+  Author                   = {Lin, CKYu and Haley, KBu and Sparks, C},
+  Journal                  = {European Journal of Operational Research},
+  Year                     = {1995},
+  Number                   = {2},
+  Pages                    = {330--346},
+  Volume                   = {83},
+
+  Owner                    = {kai},
+  Publisher                = {Elsevier},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{magee_1990,
+  Title                    = {R2 {Measures} {Based} on {Wald} and {Likelihood} {Ratio} {Joint} {Significance} {Tests}},
+  Author                   = {Magee, Lonnie},
+  Journal                  = {The American Statistician},
+  Year                     = {1990},
+  Number                   = {3},
+  Pages                    = {250--253},
+  Volume                   = {44},
+
+  Abstract                 = {Two methods are suggested for generating R2 measures for a wide class of models. These measures are linked to the R2 of the standard linear regression model through Wald and likelihood ratio statistics for testing the joint significance of the explanatory variables. Some currently used R2's are shown to be special cases of these methods.},
+  Doi                      = {10.2307/2685352},
+  ISSN                     = {0003-1305},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02},
+  Url                      = {http://www.jstor.org/stable/2685352},
+  Urldate                  = {2016-11-08}
+}
+
+@Book{Mandallaz_2008,
+  Title                    = {Sampling Techniques for Forest Inventories},
+  Author                   = {Daniel Mandallaz},
+  Publisher                = {Chapman \& Hall/CRC. Boca Raton, London, New York.},
+  Year                     = {2008},
+
+  Owner                    = {nluepke},
+  Timestamp                = {2011.03.11}
+}
+
+@Book{mantau_2012,
+  Title                    = {Holzrohstoffbilanz {Deutschland}, {Entwicklungen} und {Szenarien} des {Holzaufkommens} und der {Holzverwendung} 1987 bis 2015},
+  Author                   = {Mantau, Uwe},
+  Publisher                = {Infro und Uni Hanburg},
+  Year                     = {2012},
+
+  Address                  = {Hamburg},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Book{marklund_1988,
+  Title                    = {Biomass functions for pine, spruce and birch in sweden},
+  Author                   = {Marklund, Lars Gunnar},
+  Publisher                = {Swedish University of Agricultural Sciences},
+  Year                     = {1988},
+
+  Address                  = {Umea},
+  Series                   = {Department of {Forest} {Survey} {Report}},
+  Volume                   = {45},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Book{mathews_2004,
+  Title                    = {Numerical methods using MATLAB},
+  Author                   = {Mathews, John H. and Fink, Kurtis D.},
+  Publisher                = {Pearson},
+  Year                     = {{\copyright}2004},
+
+  Address                  = {Upper Saddle River and N.J},
+  Edition                  = {4},
+
+  ISBN                     = {0-13-065248-2},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Article{mccormick_2013,
+  Title                    = {The {Bioeconomy} in {Europe}: {An} {Overview}},
+  Author                   = {McCormick, Kes and Kautto, Niina},
+  Journal                  = {Sustainability},
+  Year                     = {2013},
+
+  Month                    = jun,
+  Number                   = {6},
+  Pages                    = {2589--2608},
+  Volume                   = {5},
+
+  Abstract                 = {A bioeconomy can be defined as an economy where the basic building blocks for materials, chemicals and energy are derived from renewable biological resources. This paper provides an overview of the bioeconomy in Europe, examining it from a policy framework and concept perspective. The role of bioenergy in the bioeconomy is discussed particularly through biofuels for transport and biorefineries. The study finds that the definitions of the bioeconomy are evolving and vary depending on the actor, but display similarities such as the emphasis on economic output and a broad, cross-sectoral focus. While there is great optimism about the benefits and opportunities associated with developing an advanced bioeconomy in Europe, significant risks and trade-offs are also expressed. Furthermore, the bioeconomy concept has been criticised for presenting a technical fix and pre-empting alternative visions. To advance a competitive and sustainable bioeconomy, this paper calls for attention on two important themes: participatory governance that engages the general public and key stakeholders in an open and informed dialogue as well as a commitment by government and industry to innovation that drives concerted efforts on sustainable development of the bioeconomy.},
+  Copyright                = {http://creativecommons.org/licenses/by/3.0/},
+  Doi                      = {10.3390/su5062589},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/7KBPXP3C/McCormick und Kautto - 2013 - The Bioeconomy in Europe An Overview.pdf:application/pdf;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/F6MMSVR2/2589.html:text/html},
+  Keywords                 = {bioeconomy, bioenergy, Europe},
+  Language                 = {en},
+  Owner                    = {kai},
+  Shorttitle               = {The {Bioeconomy} in {Europe}},
+  Timestamp                = {2016.12.13},
+  Url                      = {http://www.mdpi.com/2071-1050/5/6/2589},
+  Urldate                  = {2016-06-24}
+}
+
+@Article{meiwes_2012,
+  Title                    = {Vollbaumnutzung: {Untersuchungsergebnisse} zum {Nährelement}-{Export} in {Nordwestdeutschland} und {Ansätze} zur standörtlichen {Bewertung}},
+  Author                   = {Meiwes, Karl Josef and Rumpf, Sabine and Klinck, Uwe and Meesenburg, Henning},
+  Journal                  = {Deutscher Verband Forstlicher Forschungsanstalten Sektion Ertragskunde Jahrestagung 2012 Ottenstein},
+  Year                     = {2012},
+  Pages                    = {88--92},
+
+  Editor                   = {Nagel, Jürgen},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Manual{mersmann_2015,
+  Title                    = {microbenchmark: Accurate Timing Functions},
+  Author                   = {Olaf Mersmann},
+  Note                     = {R package version 1.4-2.1},
+  Year                     = {2015},
+
+  Url                      = {https://CRAN.R-project.org/package=microbenchmark}
+}
+
+@Article{metropolis_1953,
+  Title                    = {Equation of state calculations by fast computing machines},
+  Author                   = {Metropolis, Nicholas and Rosenbluth, Arianna W and Rosenbluth, Marshall N and Teller, Augusta H and Teller, Edward},
+  Journal                  = {The journal of chemical physics},
+  Year                     = {1953},
+  Number                   = {6},
+  Pages                    = {1087--1092},
+  Volume                   = {21},
+
+  Owner                    = {kai},
+  Publisher                = {AIP},
+  Timestamp                = {2017.04.15}
+}
+
+@Book{mfacp_2004,
+  Title                    = {Langfristige ökologische {Waldentwicklung}- {Richtlinie} zur {Baumartenwahl}},
+  Author                   = {{MFACP}},
+  Publisher                = {Federal ministry of Food and Agriculture},
+  Year                     = {2004},
+
+  Address                  = {Wolfenbüttel},
+  Note                     = {Lower Saxony Ministry of Food, Agriculture and Consumer Protection},
+  Series                   = {Aus dem {Walde} - {Schriftenreihe} {Waldentwicklung} {Niedersachsen}},
+  Volume                   = {54},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{miettinen_2014,
+  Title                    = {Whole-tree harvesting with stump removal versus stem-only harvesting in peatlands when water quality, biodiversity conservation and climate change mitigation matter},
+  Author                   = {Miettinen, Jenni and Ollikainen, Markku and Nieminen, Tiina M. and Ukonmaanaho, Liisa and Laurén, Ari and Hynynen, Jari and Lehtonen, Mika and Valsta, Lauri},
+  Journal                  = {Forest Policy and Economics},
+  Year                     = {2014},
+
+  Month                    = oct,
+  Pages                    = {25--35},
+  Volume                   = {47},
+
+  Abstract                 = {This article examines alternative forest harvesting regimes when ecosystem services in terms of water quality, biodiversity conservation and climate change mitigation are included in the analysis. The harvesting regimes are whole-tree harvesting with stump removal and conventional stem-only harvesting. The harvesting regimes are evaluated under two alternative climate policy contexts. The first alternative is a carbon neutral bioenergy policy, which assumes the carbon dioxide (CO2) neutrality of bioenergy and produces substitution benefits, as bioenergy replaces fossil fuels. The second alternative climate policy, a carbon non-neutral bioenergy policy, takes into account the fact that bioenergy causes carbon dioxide emissions, producing substitution costs, and that harvested woody biomass affects the ability of a forest to act as a carbon sink. We extend the traditional Faustmann (1849) rotation model to include nutrient load damage, biodiversity benefits, and climate impacts. The empirical analysis is based on Finnish data from a catchment experiment carried out on drained peatland forests. The empirical results show that under a carbon neutral bioenergy policy, whole-tree harvesting with stump removal produces the highest net social benefits. However, if a carbon non-neutral bioenergy policy is assumed, the net social benefits are greater under stem-only harvesting.},
+  Doi                      = {10.1016/j.forpol.2013.08.005},
+  File                     = {ScienceDirect Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/5AXMUEIX/S1389934113001676.html:text/html},
+  ISSN                     = {1389-9341},
+  Keywords                 = {Biodiversity conservation, Climate policy, Mercury load, Nutrient load, Stem-only harvesting, Whole-tree harvesting},
+  Owner                    = {khusman1},
+  Series                   = {Forests and {Ecosystem} {Services}: {Outlines} for {New} {Policy} {Options}},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S1389934113001676},
+  Urldate                  = {2015-07-28}
+}
+
+@Book{mitscherlich_1970,
+  Title                    = {Form und {Wachstum} von {Baum} und {Bestand}},
+  Author                   = {Mitscherlich, Gerhard},
+  Publisher                = {Sauerländer},
+  Year                     = {1970},
+
+  Address                  = {Frankfurt a.M.},
+
+  File                     = {Library Catalog Entry Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/EJTTXVIU/PPN.html:text/html},
+  ISBN                     = {3-7939-0110-6},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16}
+}
+
+@Book{ml_2014,
+  Title                    = {Der {Wald} in {Niedersachsen}: {Ergebnisse} der {Bundeswaldinventur} 3},
+  Author                   = {{ML}},
+  Publisher                = {Niedersächsisches Ministerium für Ernährung, Landwirtschaft und Verbraucherschutz},
+  Year                     = {2014},
+
+  Address                  = {Hannover},
+  Edition                  = {1},
+
+  File                     = {Library Catalog Entry Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/TPEMJMA2/PPN.html:text/html},
+  Keywords                 = {Niedersachsen / Waldinventur / Waldfläche / Holzwirtschaft},
+  Owner                    = {kai},
+  Shorttitle               = {Der {Wald} in {Niedersachsen}},
+  Timestamp                = {2016.12.13}
+}
+
+@Book{ml_2004,
+  Title                    = {Langfristige ökologische {Waldentwicklung}- {Richtlinie} zur {Baumartenwahl}},
+  Author                   = {{ML}},
+  Publisher                = {Bundesministerium für Verbraucherschutz, Ernährung und Landwirtschaft},
+  Year                     = {2004},
+
+  Address                  = {Wolfenbüttel},
+  Note                     = {Niedersächsisches Ministerium
+für Ernährung, Landwirtschaft und
+Verbraucherschutz},
+  Series                   = {Aus dem {Walde} - {Schriftenreihe} {Waldentwicklung} {Niedersachsen}},
+  Volume                   = {54},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Article{mohring_2010,
+  Title                    = {Optimierung forstlicher {Produktion} unter {Beachtung} von finanziellen {Restriktionen} {\textbar} {Optimisation} of forest production under financial restrictions},
+  Author                   = {Möhring, Bernhard},
+  Journal                  = {Schweizerische Zeitschrift fur Forstwesen},
+  Year                     = {2010},
+
+  Month                    = sep,
+  Number                   = {9},
+  Pages                    = {346--354},
+  Volume                   = {161},
+
+  Abstract                 = {The question of efficiency of resources bound in the silvicultural (biological) production of forest enterprises strikes a central topic of forest management. Using simple spreadsheet calculation models, this paper tries to explicate the relations between silvicultural treatments and economic evaluation criteria under financial restrictions. By means of actual examples, concerning thinning intensity and final harvest age under the restriction of maintenance of capital, practical silvicultural behaviour can be seen as compatible with the optimal economic solutions, determined by the model calculations. This leads to the conclusion that commonly practiced concepts of thinning intensity and productivity dependent harvest age can be interpreted as rational economic behaviour. With reference to such an economic optimum the consequences of changes in forest management, as they are often claimed for instance by directives of nature conservation, water protection etc., can be evaluated based on opportunity costs.},
+  Doi                      = {10.3188/szf.2010.0346},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/A84TT7TQ/Möhring - 2010 - Optimierung forstlicher Produktion unter Beachtung.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/M9MI4FGF/szf.2010.html:text/html},
+  ISSN                     = {0036-7818},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.05.05},
+  Url                      = {http://szf-jfs.org/doi/abs/10.3188/szf.2010.0346},
+  Urldate                  = {2017-05-05}
+}
+
+@Article{mohring_1997,
+  Title                    = {Betriebswirtschaftliche {Probleme} und {Chancen}},
+  Author                   = {Möhring, Bernhard},
+  Journal                  = {AFZ/ Der Wald},
+  Year                     = {1997},
+  Pages                    = {67-- 71},
+  Volume                   = {2},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@InCollection{mohring_2010b,
+  Title                    = {Die wirtschaftliche {Situation} der {Forstwirtschaft}},
+  Author                   = {Möhring, Bernhard and Leefken, Georg and Finckenstein, Bernhard Graf von},
+  Booktitle                = {Waldeigentum},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2010},
+  Editor                   = {Depenheuer, Otto and Möhring, Bernhard},
+  Note                     = {DOI: 10.1007/978-3-642-00232-8\_5},
+  Number                   = {8},
+  Pages                    = {73--97},
+  Series                   = {Bibliothek des {Eigentums}},
+
+  Copyright                = {©2010 Springer - Verlag Berlin Heidelberg},
+  File                     = {Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/IKQW2BMK/978-3-642-00232-8_5.html:text/html},
+  ISBN                     = {978-3-642-00231-1 978-3-642-00232-8},
+  Keywords                 = {Agricultural Economics, Constitutional Law, Cultural Heritage, Environmental Law/Policy/Ecojustice},
+  Language                 = {de},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.06.07},
+  Url                      = {http://link.springer.com/chapter/10.1007/978-3-642-00232-8_5},
+  Urldate                  = {2017-06-07}
+}
+
+@Book{moller_2007,
+  Title                    = {Umweltrecht - {Planung}, {Wald}, {Naturschutz}, {Jagd}, {Wasser}, {Boden}, {Immissionen}, {Abfall} u.a. - {Kommentare}: {Bundesrecht} und exemplarisch niedersächsisches {Landesrecht} - mit verbundenem {Nutzungsrecht}, {Europarecht}},
+  Author                   = {Möller, Wolfdietrich},
+  Publisher                = {Selbstverlag des Autors},
+  Year                     = {2007},
+  Edition                  = {4b., überarb. u. erw. Aufl.},
+
+  ISBN                     = {3-00-009375-3},
+  Owner                    = {kai},
+  Shorttitle               = {Umweltrecht - {Planung}, {Wald}, {Naturschutz}, {Jagd}, {Wasser}, {Boden}, {Immissionen}, {Abfall} u.a. - {Kommentare}},
+  Timestamp                = {2016.12.13}
+}
+
+@InCollection{muller-using_2004,
+  Title                    = {Bioelemententzüge bei der {Holznutzung} in {Rein}- und {Mischbeständen} aus {Buche} und {Fichte}.},
+  Author                   = {Müller-Using, B. and Rademacher, P.},
+  Booktitle                = {Berichte des {Forschungszentrums} {Waldökosysteme}},
+  Year                     = {2004},
+
+  Address                  = {Göttingen},
+  Pages                    = {81--110},
+  Series                   = {Reihe {B}},
+  Volume                   = {Band 71},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Book{mushoff_2013,
+  Title                    = {Modernes {Agrarmanagement}: betriebswirtschaftliche {Analyse}- und {Planungsverfahren}},
+  Author                   = {Mußhoff, Oliver and Hirschauer, Norbert},
+  Publisher                = {Vahlen},
+  Year                     = {2013},
+
+  Address                  = {München},
+  Edition                  = {3., überarb. und erw. Aufl.},
+
+  File                     = {Library Catalog Entry Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/QPRT49M6/PPN.html:text/html},
+  ISBN                     = {978-3-8006-4457-5},
+  Keywords                 = {*Electronic books, *Landwirtschaftliche Betriebslehre, *Wirtschaft \# Management},
+  Owner                    = {khusman1},
+  Shorttitle               = {Modernes {Agrarmanagement}},
+  Timestamp                = {2017.05.05}
+}
+
+@Article{muys_2010,
+  Title                    = {Simulation tools for decision support to adaptive forest management in {Europe}},
+  Author                   = {Muys, Bart and Hynynen, Jari and Palahi, Marc and Lexer, Manfred J. and Fabrika, Marek and Pretzsch, Hans and Gillet, François and Briceño, Elemer and Nabuurs, Gert-Jan and Kint, Vincent},
+  Journal                  = {Forest Systems},
+  Year                     = {2010},
+
+  Month                    = oct,
+  Number                   = {0},
+  Pages                    = {86--99},
+  Volume                   = {19},
+
+  Copyright                = {Copyright (c) 2014 Forest Systems},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/JXZB93IE/Muys et al. - 2010 - Simulation tools for decision support to adaptive .pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/KJS753G8/1493.html:text/html},
+  ISSN                     = {2171-9845},
+  Keywords                 = {cambio climático, climate change, decision support system, forest model, modelos forestales, multi-objective forest planning, Planificacion forestal multi-objetivo, simuladores, simulator, sistemas de soporte a la decisión},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.14},
+  Url                      = {http://revistas.inia.es/index.php/fs/article/view/1930},
+  Urldate                  = {2017-04-14}
+}
+
+@InCollection{nagel_2009,
+  Title                    = {Waldwachstumssimulation mit dem {Java} {Software} {Paket} {TreeGrOSS}- {Neuerungen}, {Erweiterungsmöglichkeiten} und {Qualitätsmamagement}},
+  Author                   = {Nagel, Jürgen},
+  Booktitle                = {Tagungsband der gemainsamen {Jahrestagung} der {Sektion} {Forstliche} {Biometrie} und {Informatik} im {DVFFA} (20. {Tagung}) und der {AG} Ökologie u. {Umwelt} in der {Intern}. {Biometrie} {Gesellschaft}},
+  Publisher                = {Nordwestdeutsche Forstliche Versuchsanstalt},
+  Year                     = {2009},
+  Pages                    = {174-- 178},
+  Series                   = {Die {Grüne} {Reihe}},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.16}
+}
+
+@Article{nagel_1996,
+  Title                    = {Anwendungsprogramm zur Bestandesbewertung und zur Prognose der Bestandesentwicklung},
+  Author                   = {Nagel, J},
+  Journal                  = {Forst und Holz},
+  Year                     = {1996},
+  Number                   = {3},
+  Pages                    = {76--78},
+  Volume                   = {51}
+}
+
+@InCollection{nagel_2008,
+  Title                    = {Wachstum, {Behandlung} und {Ertrag} von {Reinbeständen} der {Rotbuche} ({Fagus} sylvatica {L}.) in {Nordwestdeutschland}},
+  Author                   = {Nagel, Ralf-Volker and Spellmann, Hermann},
+  Booktitle                = {Ergebnisse angewandter {Forschung} zur {Buche}},
+  Publisher                = {Universitätsverlag Göttingen},
+  Year                     = {2008},
+
+  Address                  = {Göttingen},
+  Pages                    = {221-- 265},
+  Series                   = {Beiträge aus der {Nordwestdeutschen} {Forstlichen} {Versuchsanstalt}},
+  Volume                   = {3},
+
+  ISBN                     = {978-3-940344-44-1},
+  Language                 = {de},
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Article{nash_2014,
+  Title                    = {On Best Practice Optimization Methods in R},
+  Author                   = {Nash, John C and others},
+  Journal                  = {Journal of Statistical Software},
+  Year                     = {2014},
+  Number                   = {i02},
+  Volume                   = {60},
+
+  Publisher                = {Foundation for Open Access Statistics}
+}
+
+@Article{nelder_1965,
+  Title                    = {A simplex method for function minimization},
+  Author                   = {Nelder, John and Mead, Roger},
+  Journal                  = {Computer Journal},
+  Year                     = {1965},
+  Number                   = {4},
+  Pages                    = {308--313},
+  Volume                   = {7},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Book{neumann-spallart_1952,
+  Title                    = {Das {Stückmassegesetz} nach {Hilf} in mathematischer {Beleuchtung}},
+  Author                   = {Neumann-Spallart, Otto},
+  Year                     = {1952},
+
+  Address                  = {Wien},
+
+  File                     = {Göttinger Universitätskatalog (GUK) - results/titledata:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/2NPRTFKG/SHW.html:text/html},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16}
+}
+
+@Book{niklas_1994,
+  Title                    = {Plant allometry: the scaling of form and process},
+  Author                   = {Niklas, Karl J.},
+  Publisher                = {Univ. of Chicago Press},
+  Year                     = {1994},
+
+  Address                  = {Chicago [u.a.]},
+
+  File                     = {Göttinger Universitätskatalog (GUK) - results/titledata:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/8AB3UUXN/CMD.html:text/html},
+  ISBN                     = {0-226-58080-6},
+  Owner                    = {khusman1},
+  Shorttitle               = {Plant allometry},
+  Timestamp                = {2017.01.13}
+}
+
+@Misc{nlf_2017,
+  Title                    = {http://www.landesforsten.de/Kurzinformationen-und-Kenndaten.370.0.html -- {Niedersächsische} {Landesforsten}: {Kurzinformationen} und {Kenndaten} -- {Niedersächsisches} {Forstamt} {Reinhausen}},
+
+  Author                   = {{NLF}},
+  Year                     = {2017},
+
+  File                     = {www.landesforsten.de - Niedersächsische Landesforsten\: Kurzinformationen und Kenndaten:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/NNRQDRUD/Kurzinformationen-und-Kenndaten.370.0.html:text/html},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.05.19},
+  Url                      = {http://www.landesforsten.de/Kurzinformationen-und-Kenndaten.370.0.html},
+  Urldate                  = {2017-05-19}
+}
+
+@Article{ochs_2007,
+  Title                    = {Struktur und {Rohstoffbedarf} der {Holzwirtschaft}},
+  Author                   = {Ochs, T. and Duschl, C. and Seintsch, B.},
+  Journal                  = {Holz-Zentralblatt},
+  Year                     = {2007},
+  Number                   = {12},
+  Pages                    = {269--271},
+  Volume                   = {133},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Article{ollikainen_2014,
+  Title                    = {Forestry in bioeconomy -- smart green growth for the humankind},
+  Author                   = {Ollikainen, Markku},
+  Journal                  = {Scandinavian Journal of Forest Research},
+  Year                     = {2014},
+
+  Month                    = may,
+  Number                   = {4},
+  Pages                    = {360--366},
+  Volume                   = {29},
+
+  Abstract                 = {This paper draws on the European Union's Bioeconomy Action Plan (BAP) to clarify the notion “bioeconomy” and examine how it relates to the forest sector and its current challenges. The interpretation is linked to a broader context of climate and energy policies and the ideas of green economy and green growth. It is shown that, despite its good intentions, BAP fails to link bioeconomy to the core idea of green economy and the sources of economic growth. It hardly discusses climate policies and entirely omits the land-use aspects between agriculture and forestry that are important for climate policies. An equally serious shortcoming is that BAP very vaguely recognizes the role and nature of the forest sector as a high-tech biomass utilizing sector and omits its current challenge to renew the product matrix from forest biomass as a response to the decreasing demand for paper. An overview of the topical issues in forest sector shows that it has and will have a great role in bioeconomy as a high-tech and high value-added sector producing all traditional products, bioenergy, and new forest products.},
+  Doi                      = {10.1080/02827581.2014.926392},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/3E73I5SM/Ollikainen - 2014 - Forestry in bioeconomy – smart green growth for th.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/AEGZD2TX/02827581.2014.html:text/html},
+  ISSN                     = {0282-7581},
+  Keywords                 = {biorefineries, climate policies, economic growth, new forest products},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.05.04},
+  Url                      = {http://dx.doi.org/10.1080/02827581.2014.926392},
+  Urldate                  = {2017-04-27}
+}
+
+@Article{parresol_2001,
+  Title                    = {Additivity of nonlinear biomass equations},
+  Author                   = {Parresol, Bernard R},
+  Journal                  = {Canadian Journal of Forest Research},
+  Year                     = {2001},
+  Number                   = {5},
+  Pages                    = {865--878},
+  Volume                   = {31},
+
+  Doi                      = {10.1139/x00-202},
+  ISSN                     = {0045-5067},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01},
+  Url                      = {http://www.nrcresearchpress.com/doi/abs/10.1139/x00-202},
+  Urldate                  = {2014-03-05}
+}
+
+@InCollection{pretzsch_2010,
+  Title                    = {Re-{Evaluation} of {Allometry}: {State}-of-the-{Art} and {Perspective} {Regarding} {Individuals} and {Stands} of {Woody} {Plants}},
+  Author                   = {Pretzsch, Hans},
+  Booktitle                = {Progress in {Botany} 71},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2010},
+  Editor                   = {Lüttge, Ulrich and Beyschlag, Wolfram and Büdel, Burkhard and Francis, Dennis},
+  Month                    = jan,
+  Number                   = {71},
+  Pages                    = {339--369},
+  Series                   = {Progress in {Botany}},
+
+  Abstract                 = {Allometry, in its broader sense, is concerned with the size of organisms and its consequences for their shape and functioning. Since the postulation of the allometric equation in the 1930s, allometry, in a narrow sense, refers to analysis and modelling of logarithmic transformed bivariate size data by linear regression techniques. This chapter first points out that allometric research built up a valuable set of hypotheses and biometrical methods for analysing size of organisms and its consequences for their shape and functioning. Then, a summary of the knowledge about allometry of woody plants and populations will unmask the search for overarching general allometric exponents of shape and form development largely as a hunt for a phantom. Tree size development and self-thinning processes in forest stands give evidence that allometric exponents certainly lie in a narrow corridor, but are species specific and superimposed by site conditions, mechanical disturbances, competition, and other types of stress. The discussion states that as long as allometry searches for universal constants to a certain extent, it stills our innate desire to reduce complexity and generalise. However, time is ready to focus on and understand the differences between the species, sites etc. in order to contribute to a better system of understanding. It is concluded that allometry has to draw attention both to the internal size-driven allometric partitioning process and to the external factors, which determine optimal biomass allocation. And at best, allometric research should analyse both factors in order to understand and integrate them. A systematic analysis, ordering and causal explanation of allometric exponents, which reflects an individuals’ tricks and traits of optimising fitness, may provide an important link between plant genetics, physiology, plant biology and population biology. In contrast, application of inaccurate and imprecise general scaling rules can cause considerable flaws in modelling, prognosis and ecosystem management.},
+  Copyright                = {©2010 Springer-Verlag Berlin Heidelberg},
+  File                     = {Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/D2P5E25K/978-3-642-02167-1_13.html:text/html},
+  ISBN                     = {978-3-642-02166-4 978-3-642-02167-1},
+  Keywords                 = {plant ecology, Plant Genetics \& Genomics, Plant Physiology, Plant Sciences, Plant Systematics/Taxonomy/Biogeography},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Shorttitle               = {Re-{Evaluation} of {Allometry}},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://link.springer.com/chapter/10.1007/978-3-642-02167-1_13},
+  Urldate                  = {2014-10-10}
+}
+
+@Article{pretzsch_2014,
+  Title                    = {Nährstoffentzüge durch die {Holz}-und {Biomassenutzung} in {Wäldern}. {Teil} 1: {Schätzfunktionen} für {Biomasse} und {Nährelemente} und ihre {Anwendung} in {Szenariorechnungen}},
+  Author                   = {Pretzsch, Hans and Block, Joachim and Dieler, Jochen and Gauer, Jürgen and Göttlein, Axel and Moshammer, Ralf and Schuck, Julius and Weis, Wendelin and Wunn, Uwe},
+  Journal                  = {Allgemeine Forst- und Jagdzeitung},
+  Year                     = {2014},
+  Pages                    = {261--285},
+  Volume                   = {185},
+
+  Owner                    = {khusman1},
+  Shorttitle               = {Allg. {Forst}- u. {J}.-{Ztg}},
+  Timestamp                = {2017.02.28}
+}
+
+@Article{pretzsch_2012,
+  Title                    = {Evidence of variant intra- and interspecific scaling of tree crown structure and relevance for allometric theory},
+  Author                   = {Pretzsch, Hans and Dieler, Jochen},
+  Journal                  = {Oecologia},
+  Year                     = {2012},
+
+  Month                    = jul,
+  Number                   = {3},
+  Pages                    = {637--649},
+  Volume                   = {169},
+
+  Abstract                 = {General scaling rules or constants for metabolic and structural plant allometry as assumed by the theory of Euclidian geometric scaling (2/3-scaling) or metabolic scaling (3/4-scaling) may meet human’s innate propensity for simplicity and generality of pattern and processes in nature. However, numerous empirical works show that variability of crown structure rather than constancy is essential for a tree’s success in coping with crowding. In order to link theory and empiricism, we analyzed the intra- and inter-specific scaling of crown structure for 52 tree species. The basis is data from 84 long-term plots of temperate monospecific forests under survey since 1870 and a set of 126 yield tables of angiosperm and gymnosperm forest tree species across the world. The study draws attention to (1) the intra-specific variation and correlation of the three scaling relationships: tree height versus trunk diameter, crown cross-sectional area versus trunk diameter, and tree volume versus trunk diameter, and their dependence on competition, (2) the inter-specific variation and correlation of the same scaling exponents ( TeX \{{\textbackslash}upalpha\}\_\{h,d\}, \{{\textbackslash}upalpha\}\_\{\{{\textbackslash}text\{csa,\}\}d\} and TeX \{\{{\textbackslash}upalpha\}\}\_\{v,d\} ) across 52 tree species, and (3) the relevance of the revealed variable scaling of crown structure for leaf organs and metabolic scaling. Our results arrive at suggesting a more extended metabolic theory of ecology which includes variability and covariation between allometric relationships as prerequisite for the individual plant’s competitiveness.},
+  Doi                      = {10.1007/s00442-011-2240-5},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/KUUX9JBF/Pretzsch und Dieler - 2012 - Evidence of variant intra- and interspecific scali.pdf:application/pdf;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/D8QEJTIM/s00442-011-2240-5.html:text/html},
+  ISSN                     = {0029-8549, 1432-1939},
+  Keywords                 = {ecology, Euclidian geometry, Fractal dimension, Metabolic scaling theory, Plant Sciences, Self-thinning, Structural allometry},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16},
+  Url                      = {http://link.springer.com.929-1.han.sub.uni-goettingen.de/article/10.1007/s00442-011-2240-5},
+  Urldate                  = {2014-10-10}
+}
+
+@Article{pretzsch_2008,
+  Title                    = {Models for {Forest} {Ecosystem} {Management}: {A} {European} {Perspective}},
+  Author                   = {Pretzsch, H. and Grote, R. and Reineking, B. and Rötzer, Th. and Seifert, St.},
+  Journal                  = {Annals of Botany},
+  Year                     = {2008},
+
+  Month                    = may,
+  Number                   = {8},
+  Pages                    = {1065--1087},
+  Volume                   = {101},
+
+  Abstract                 = {Background
+Forest management in Europe is committed to sustainability. In the face of climate change and accompanying risks, however, planning in order to achieve this aim becomes increasingly challenging, underlining the need for new and innovative methods. Models potentially integrate a wide range of system knowledge and present scenarios of variables important for any management decision. In the past, however, model development has mainly focused on specific purposes whereas today we are increasingly aware of the need for the whole range of information that can be provided by models. It is therefore assumed helpful to review the various approaches that are available for specific tasks and to discuss how they can be used for future management strategies.
+
+Scope
+Here we develop a concept for the role of models in forest ecosystem management based on historical analyses. Five paradigms of forest management are identified: (1) multiple uses, (2) dominant use, (3) environmentally sensitive multiple uses, (4) full ecosystem approach and (5) eco-regional perspective. An overview of model approaches is given that is dedicated to this purpose and to developments of different kinds of approaches. It is discussed how these models can contribute to goal setting, decision support and development of guidelines for forestry operations. Furthermore, it is shown how scenario analysis, including stand and landscape visualization, can be used to depict alternatives, make long-term consequences of different options transparent, and ease participation of different stakeholder groups and education.
+
+Conclusions
+In our opinion, the current challenge of forest ecosystem management in Europe is to integrate system knowledge from different temporal and spatial scales and from various disciplines. For this purpose, using a set of models with different focus that can be selected from a kind of toolbox according to particular needs is more promising than developing one overarching model, covering ecological, production and landscape issues equally well.},
+  Doi                      = {10.1093/aob/mcm246},
+  File                     = {PubMed Central Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/376ZV8KZ/Pretzsch et al. - 2008 - Models for Forest Ecosystem Management A European.pdf:application/pdf},
+  ISSN                     = {0305-7364},
+  Owner                    = {khusman1},
+  Pmcid                    = {PMC2710278},
+  Pmid                     = {17954471},
+  Shorttitle               = {Models for {Forest} {Ecosystem} {Management}},
+  Timestamp                = {2017.04.16},
+  Url                      = {http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2710278/},
+  Urldate                  = {2017-04-16}
+}
+
+@Article{pronzato_1984,
+  Title                    = {A general-purpose global optimizer: Implimentation and applications},
+  Author                   = {Pronzato, Luc and Walter, Eric and Venot, Alain and Lebruchec, Jean-Francois},
+  Journal                  = {Mathematics and Computers in Simulation},
+  Year                     = {1984},
+  Number                   = {5},
+  Pages                    = {412--422},
+  Volume                   = {26},
+
+  Doi                      = {10.1016/0378-4754(84)90105-8},
+  ISSN                     = {03784754},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Book{r_core_team_2016,
+  Title                    = {R: {A} {Language} and {Environment} for {Statistical} {Computing}},
+  Author                   = {{R Core Team}},
+  Publisher                = {R Foundation for Statistical Computing},
+  Year                     = {2017},
+
+  Address                  = {Vienna, Austria},
+
+  Owner                    = {kai},
+  Timestamp                = {2017.06.04},
+  Url                      = {http://www.R-project.org/}
+}
+
+@InCollection{rademacher_2011,
+  Title                    = {Elementgehalte in {Baumkompartimenten} von {Fichte}, {Kiefer}, {Buche}, {Eiche} und {Douglasie}},
+  Author                   = {Rademacher, Peter and Schönfelder, Egbert and Meiwes, Karl Josef},
+  Booktitle                = {Forschungsvorhaben: {Möglichkeiten} und {Grenzen} der {Vollbaumnutzung}. {Ergebnisbericht} ({FKZ}: 22015407)},
+  Publisher                = {Fachagentur für Nachwachsende Rohstoffe des Bundesministeriums für Ernährung, Landwirtschaft und Verbraucherschutz},
+  Year                     = {2011},
+
+  Address                  = {Göttingen},
+  Pages                    = {125-- 154},
+
+  Language                 = {de},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01},
+  Url                      = {http://www.fnr-server.de/ftp/pdf/berichte/22015407.pdf}
+}
+
+@Book{redsven_2012,
+  Title                    = {{MELA}2012 {Reference} {Manual} (2nd edition)},
+  Author                   = {Redsven, V. and Hirvelä, H. and Härkönen, K. and Salminen, O. and Siitonen, M. },
+  Publisher                = {The Finnish Forest Research Institute},
+  Year                     = {2012},
+
+  Owner                    = {kai},
+  Timestamp                = {2017.04.15}
+}
+
+@InCollection{reynolds_2008,
+  Title                    = {Decision {Support} {Systems} in {Forest} {Management}},
+  Author                   = {Reynolds, Keith M. and Twery, Mark and Lexer, Manfred J. and Vacik, Harald and Ray, Duncan and Shao, Guofan and Borges, Jose G.},
+  Booktitle                = {Handbook on {Decision} {Support} {Systems} 2},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2008},
+  Note                     = {DOI: 10.1007/978-3-540-48716-6\_24},
+  Pages                    = {499--533},
+  Series                   = {International {Handbooks} {Information} {System}},
+
+  Abstract                 = {Numerous decision support systems have been developed for forest management over the past 20 years or more. In this chapter, the authors briefly review some of the more important and recent developments, including examples from North America, Europe, and Asia. In addition to specific systems, we also review some of the more-significant methodological approaches such as artificial neural networks, knowledge-based systems, and multicriteria decision models. A basic conclusion that emerges from this review is that the availability of DSSs in forest management has enabled more-effective analysis of the options for and implications of alternative management approaches for all components of forest ecosystems. The variety of tools described herein, and the approaches taken by the different systems, provide a sample of the possible methods that can be used to help stakeholders and decision makers arrive at reasoned and reasonable decisions.},
+  Copyright                = {©2008 Springer-Verlag Berlin Heidelberg},
+  File                     = {Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/ZVAPNXFF/10.html:text/html},
+  ISBN                     = {978-3-540-48715-9 978-3-540-48716-6},
+  Keywords                 = {Business Mathematics, IT in Business, Operation Research/Decision Theory},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.15},
+  Url                      = {http://link.springer.com/chapter/10.1007/978-3-540-48716-6_24},
+  Urldate                  = {2017-04-15}
+}
+
+@Book{roloff_1986,
+  Title                    = {Morphologie der {Kronenentwicklung} von {Fagus} sylvatica {L}. ({Rotbuche}) unter besonderer {Berücksichtigung} möglicherweise neuartiger {Veränderungen}},
+  Author                   = {Roloff, Andreas},
+  Publisher                = {Forschungszentrum Waldökosysteme, Waldsterben},
+  Year                     = {1986},
+
+  Address                  = {Göttingen},
+  Series                   = {Berichte des {Forschungszentrums} {Waldökosysteme}, {Waldsterben} / {Forschungszentrum} {Waldökosysteme}, {Waldsterben}, {Göttingen}},
+
+  File                     = {Göttinger Universitätskatalog (GUK) - results/titledata:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/K5TZFRJK/SHW.html:text/html},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16}
+}
+
+@Article{rosenbrock_1960,
+  Title                    = {An Automatic Method for Finding the Greatest or Least Value of a Function},
+  Author                   = {Rosenbrock, H. H.},
+  Journal                  = {The Computer Journal},
+  Year                     = {1960},
+  Number                   = {3},
+  Pages                    = {175--184},
+  Volume                   = {3},
+
+  Doi                      = {10.1093/comjnl/3.3.175},
+  ISSN                     = {0010-4620},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@InCollection{rumpf_2011,
+  Title                    = {Biomasseschätzfunktionen von {Fichte}, {Kiefer}, {Buche} {Eiche} und {Douglasie} für {Nordwestdeutschland}},
+  Author                   = {Rumpf, Sabine and Nagel, Jürgen and Schmidt, Matthias},
+  Booktitle                = {Forschungsvorhaben: {Möglichkeiten} und {Grenzen} der {Vollbaumnutzung}. {Ergebnisbericht} ({FKZ}: 22015407)},
+  Publisher                = {Fachagentur für Nachwachsende Rohstoffe des Bundesministeriums für Ernährung, Landwirtschaft und Verbraucherschutz},
+  Year                     = {2011},
+
+  Address                  = {Göttingen},
+  Pages                    = {25-- 124},
+
+  Language                 = {de},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01},
+  Url                      = {http://www.fnr-server.de/ftp/pdf/berichte/22015407.pdf}
+}
+
+@Book{ruther_2007,
+  Title                    = {Clusterstudie {Forst} und {Holz} {Niedersachsen}},
+  Author                   = {Rüther, Burkhard and Hansen, Jan and Ludwig, Agatha and Spellmann, Hermann and Nagel, Jürgen and Möhring, Bernard and Dieter, Matthias},
+  Publisher                = {Universitätsdrucke Göttingen},
+  Year                     = {2007},
+
+  Address                  = {Göttingen},
+  Series                   = {Beiträge aus der {Nordwestdeutschen} {Forstlichen} {Versuchsanstalt}},
+  Volume                   = {1},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Article{sorensen_2015,
+  Title                    = {Metaheuristics—the metaphor exposed},
+  Author                   = {S{\"o}rensen, Kenneth},
+  Journal                  = {International Transactions in Operational Research},
+  Year                     = {2015},
+  Number                   = {1},
+  Pages                    = {3--18},
+  Volume                   = {22},
+
+  Owner                    = {kai},
+  Publisher                = {Wiley Online Library},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{saborowski_1999,
+  Title                    = {{RBS}, ein mehrstufiges {Inventurverfahren} zur {Schätzung} von {Baummerkmalen} - {II}. {Modifizierte} {RBS}-{Verfahren}},
+  Author                   = {Saborowski, J. and Gaffrey, D.},
+  Journal                  = {Allgemein Forst- und Jagdzeitung},
+  Year                     = {1999},
+  Number                   = {170},
+  Pages                    = {223-- 227},
+  Volume                   = {12},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28}
+}
+
+@Article{sanquetta_2015,
+  Title                    = {Simultaneous estimation as alternative to independent modeling of tree biomass},
+  Author                   = {Sanquetta, Carlos Roberto and Behling, Alexandre and Corte, Ana Paula Dalla and Netto, Sylvio Péllico and Schikowski, Ana Beatriz and Amaral, Mauricio Koubay do},
+  Journal                  = {Annals of Forest Science},
+  Year                     = {2015},
+
+  Month                    = jul,
+  Number                   = {8},
+  Pages                    = {1099--1112},
+  Volume                   = {72},
+
+  Abstract                 = {Key message In this paper it is shown that a simultaneous adjustment provides more efficient estimates of total tree biomass than with independent modelling for biomass estimates by compartments (canopy, bole and roots). Context When modeling tree biomass, it is important to consider the additivity property, since the total tree biomass must be equal to the sum of the biomass of the components. Objective The aim of this study was to assess the simultaneous estimation performance, considering the additivity principle with respect to independent estimate when modeling biomass components and total biomass. Methods Individual modeling of total biomass and biomass components of leaves, branches, bole without bark, bole bark, and roots was performed on Pinus elliottii Engelm trees derived from forest stands in southern Brazil. Five nonlinear models were tested, and the best performance for estimating the total biomass of each component was selected, characterizing the independent estimation. The models selected for each component were fitted using the nonlinear seemingly unrelated regression method, which characterizes simultaneous estimation. Results Independent fitting of coefficients for biomass components and total biomass was not satisfactory, as the sum of the biomass component estimates diverged from the total biomass. This was not observed when the simultaneous fitting was used, which takes into account the additivity principle, and resulted in more effective estimators. Conclusion The simultaneous estimation method must be used in modeling tree biomass.},
+  Doi                      = {10.1007/s13595-015-0497-2},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/XPR3V7UX/Sanquetta et al. - 2015 - Simultaneous estimation as alternative to independ.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/6HC2HQCE/s13595-015-0497-2.html:text/html},
+  ISSN                     = {1286-4560, 1297-966X},
+  Keywords                 = {Additivity, Biomass components, Environment, general, Forestry, Forestry Management, Nonlinear seemingly unrelated regressions, Pinus elliottii, SAS, Tree Biology, Wood Science \& Technology},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02},
+  Url                      = {http://link.springer.com.6681.han.sub.uni-goettingen.de/article/10.1007/s13595-015-0497-2},
+  Urldate                  = {2016-02-03}
+}
+
+@Book{Schanz_1996,
+  Title                    = {{Forstliche Nachhaltigkeit}},
+  Author                   = {Heiner Schanz},
+  Publisher                = {Kessel},
+  Year                     = {1996},
+  Series                   = {{Schriften aus dem Institut für Forstökonomie der Universität Freiburg}},
+  Volume                   = {4},
+
+  Owner                    = {nluepke},
+  Pages                    = {131},
+  Timestamp                = {2012.12.17}
+}
+
+@Book{schmitz_2008,
+  Title                    = {Die zweite {Bundeswaldinventur} {BWI}2. {Inventur} und {Auswertungsmethoden} zu den {Bundeswaldinventuren} 2001 bis 2002 und 1986 bis 1988},
+  Author                   = {Schmitz, Friedrich and Polley, Heino and Hennig, Petra and Dunger, Karsten and Schwitzgebel, Frank},
+  Publisher                = {vTI (von Thünen Institut)},
+  Year                     = {2008},
+
+  Address                  = {Braunschweig},
+
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13},
+  Urldate                  = {2016-08-05}
+}
+
+@Article{schroter_2012,
+  Title                    = {Crown plasticity and neighborhood interactions of {European} beech ({Fagus} sylvatica {L}.) in an old-growth forest},
+  Author                   = {Schröter, Matthias and Härdtle, Werner and Oheimb, Goddert von},
+  Journal                  = {European Journal of Forest Research},
+  Year                     = {2012},
+
+  Month                    = may,
+  Number                   = {3},
+  Pages                    = {787--798},
+  Volume                   = {131},
+
+  Abstract                 = {Competition for canopy space is a process of major importance in forest dynamics. Although virgin and old-growth European beech (Fagus sylvatica L.) forests in Europe have been studied for many years, there are to date no studies of individual-tree crown plasticity and the way this is influenced by local neighborhood interactions in these forests. In this study, we analyzed crown plasticity and local neighborhood interactions of individual trees in the upper canopy of the old-growth beech forests of Serrahn, northeast Germany. In a 2.8-ha sample plot, we measured crown radii of all upper canopy trees and analyzed the direction and extent of crown asymmetry. Size, relative position, and distance of neighboring trees were used to construct vectors of neighborhood asymmetry within different distances from target trees. The crowns of beech trees showed strong morphological plasticity. Mean absolute and relative displacement of crown centers from the stem base were 1.95 m and 0.37, respectively. Circular–circular rank correlation coefficients between the direction of crown displacement and the direction of neighborhood pressure showed that trees strongly positioned their crowns away from local neighbors. Highest correlation coefficients were obtained when basal area and relative position of neighboring trees within a radial distance of 12 m were considered. Clark and Evans index and Ripley’s K-function showed that crowns were more regularly distributed than stems. Projected canopy cover was about 10\% higher than canopy cover with simulated circular crowns. We conclude that the crowns of older beech trees have a high ability to plastically respond to changes in the local canopy conditions, enabling very effective exploitation of canopy space.},
+  Doi                      = {10.1007/s10342-011-0552-y},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/XU63N4MB/Schröter et al. - 2012 - Crown plasticity and neighborhood interactions of .pdf:application/pdf;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/V9XF5VUV/10.html:text/html},
+  ISSN                     = {1612-4669, 1612-4677},
+  Keywords                 = {Canopy displacement, Competition, Crown displacement, Forestry, Neighborhood asymmetry, plant ecology, Plant Sciences, Ripley’s K-function},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16},
+  Url                      = {http://link.springer.com/article/10.1007/s10342-011-0552-y},
+  Urldate                  = {2014-10-10}
+}
+
+@Article{shim_2002,
+  Title                    = {Past, present, and future of decision support technology},
+  Author                   = {Shim, J. P. and Warkentin, Merrill and Courtney, James F. and Power, Daniel J. and Sharda, Ramesh and Carlsson, Christer},
+  Journal                  = {Decision Support Systems},
+  Year                     = {2002},
+
+  Month                    = jun,
+  Number                   = {2},
+  Pages                    = {111--126},
+  Volume                   = {33},
+
+  Abstract                 = {Since the early 1970s, decision support systems (DSS) technology and applications have evolved significantly. Many technological and organizational developments have exerted an impact on this evolution. DSS once utilized more limited database, modeling, and user interface functionality, but technological innovations have enabled far more powerful DSS functionality. DSS once supported individual decision-makers, but later DSS technologies were applied to workgroups or teams, especially virtual teams. The advent of the Web has enabled inter-organizational decision support systems, and has given rise to numerous new applications of existing technology as well as many new decision support technologies themselves. It seems likely that mobile tools, mobile e-services, and wireless Internet protocols will mark the next major set of developments in DSS. This paper discusses the evolution of DSS technologies and issues related to DSS definition, application, and impact. It then presents four powerful decision support tools, including data warehouses, OLAP, data mining, and Web-based DSS. Issues in the field of collaborative support systems and virtual teams are presented. This paper also describes the state of the art of optimization-based decision support and active decision support for the next millennium. Finally, some implications for the future of the field are discussed.},
+  Doi                      = {10.1016/S0167-9236(01)00139-7},
+  File                     = {ScienceDirect Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/7BPUUTI4/Shim et al. - 2002 - Past, present, and future of decision support tech.pdf:application/pdf;ScienceDirect Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/ZBVQPXF3/S0167923601001397.html:text/html},
+  ISSN                     = {0167-9236},
+  Keywords                 = {Collaborative support systems, Decision support technology, DSS development, Optimization-based decision support, Virtual teams},
+  Owner                    = {kai},
+  Series                   = {Decision {Support} {System}: {Directions} for the {Nest} {Decade}},
+  Timestamp                = {2017.04.15},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0167923601001397},
+  Urldate                  = {2017-04-15}
+}
+
+@Article{simon_1979,
+  Title                    = {Rational {Decision} {Making} in {Business} {Organizations}},
+  Author                   = {Simon, Herbert A.},
+  Journal                  = {The American Economic Review},
+  Year                     = {1979},
+  Number                   = {4},
+  Pages                    = {493--513},
+  Volume                   = {69},
+
+  File                     = {JSTOR Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/SW5XT8V2/Simon - 1979 - Rational Decision Making in Business Organizations.pdf:application/pdf},
+  ISSN                     = {0002-8282},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.11},
+  Url                      = {http://www.jstor.org/stable/1808698},
+  Urldate                  = {2017-04-07}
+}
+
+@Article{smith_1993,
+  Title                    = {Logarithmic transformation bias in allometry},
+  Author                   = {Smith, Richard J.},
+  Journal                  = {American Journal of Physical Anthropology},
+  Year                     = {1993},
+  Number                   = {2},
+  Pages                    = {215--228},
+  Volume                   = {90},
+
+  Abstract                 = {It has been known for some time (DJ Finney, J. Roy. Stat. Soc. Suppl. 7:155–161, 1941) that transformation of an arithmetic data set to logarithms results in biased estimates when predicted values from a leastsquares regression are detransformed back to arithmetic units. Predicted values are estimates of the geometric mean of the dependent variable at that value of the independent variable, rather than the arithmetic mean. Since the geometric mean is always less than the arithmetic mean, detransformed predictions will underestimate the value in question. This bias affects the interpretations of allometric equations used for estimation, such as predicting fossil body mass from skeletal dimensions, and applications of allometry as a “criterion of subtraction,” in which residual variation is evaluated.A number of parametric and nonparametric corrections for transformation bias have been developed. Although this problem is relatively unexplored in mammalian morphometrics, it has received considerable attention in other disciplines that use power functions structurally identical to the allometric equation. Insights into transformation bias and the use of correction terms from economics, limnology, forestry, and hydrology are reviewed and interpreted for application to mammalian allometry. © 1993 Wiley-Liss, Inc.},
+  Copyright                = {Copyright © 1993 Wiley-Liss, Inc., A Wiley Company},
+  Doi                      = {10.1002/ajpa.1330900208},
+  File                     = {Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/2J77HXXZ/Smith - 1993 - Logarithmic transformation bias in allometry.pdf:application/pdf;Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/NNI5CSXT/abstract.html:text/html},
+  ISSN                     = {1096-8644},
+  Keywords                 = {allometry, Bias, Logarithms, Lognormal distribution, Transformations},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02},
+  Url                      = {http://onlinelibrary.wiley.com/doi/10.1002/ajpa.1330900208/abstract},
+  Urldate                  = {2012-10-05}
+}
+
+@Book{speidel_1984,
+  Title                    = {{Forstliche Betriebswirtschaftslehre}},
+  Author                   = {Gerhard Speidel},
+  Publisher                = {Paul Parey, Hamburg und Berlin},
+  Year                     = {1984},
+  Edition                  = {2},
+
+  Owner                    = {nluepke},
+  Pages                    = {226},
+  Timestamp                = {2012.11.29}
+}
+
+@Book{speidel_1972,
+  Title                    = {Planung im {Forstbetrieb}: {Grundlagen} und {Methoden} der {Forsteinrichtung}},
+  Author                   = {Speidel, Gerhard},
+  Publisher                = {Paul Parey},
+  Year                     = {1972},
+
+  Address                  = {Hamburg, Berlin},
+
+  ISBN                     = {3-490-08716-X},
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@InCollection{spellmann_2010,
+  Title                    = {Nachhaltige {Waldbewirtschaftung} auf ükologischen {Grundlagen}},
+  Author                   = {Spellmann, Hermann},
+  Booktitle                = {Waldeigentum},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2010},
+  Editor                   = {Depenheuer, Otto and Möhring, Bernhard},
+  Note                     = {DOI: 10.1007/978-3-642-00232-8\_6},
+  Number                   = {8},
+  Pages                    = {99--116},
+  Series                   = {Bibliothek des {Eigentums}},
+
+  Copyright                = {©2010 Springer - Verlag Berlin Heidelberg},
+  File                     = {Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/4IJA2T3V/978-3-642-00232-8_6.html:text/html},
+  ISBN                     = {978-3-642-00231-1 978-3-642-00232-8},
+  Keywords                 = {Agricultural Economics, Constitutional Law, Cultural Heritage, Environmental Law/Policy/Ecojustice},
+  Language                 = {de},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.06.07},
+  Url                      = {http://link.springer.com/chapter/10.1007/978-3-642-00232-8_6},
+  Urldate                  = {2017-06-07}
+}
+
+@Article{spellmann_2013,
+  Title                    = {Masse statt {Klasse} - {Waldbauliche} {Konsequenzen} aus einer veränderten {Rohholznachfrage}.},
+  Author                   = {Spellmann, Hermann},
+  Journal                  = {AFZ-DerWald},
+  Year                     = {2013},
+  Pages                    = {10--15},
+  Volume                   = {9},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.06.07}
+}
+
+@Article{sprugel_1983,
+  Title                    = {Correcting for {Bias} in {Log}-{Transformed} {Allometric} {Equations}},
+  Author                   = {Sprugel, D. G.},
+  Journal                  = {Ecology},
+  Year                     = {1983},
+
+  Month                    = feb,
+  Note                     = {ArticleType: research-article / Full publication date: Feb., 1983 / Copyright © 1983 Ecological Society of America},
+  Number                   = {1},
+  Pages                    = {209--210},
+  Volume                   = {64},
+
+  Copyright                = {Copyright © 1983 Ecological Society of America},
+  Doi                      = {10.2307/1937343},
+  File                     = {JSTOR Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/UBJ8QHZQ/Sprugel - 1983 - Correcting for Bias in Log-Transformed Allometric .pdf:application/pdf},
+  ISSN                     = {0012-9658},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.jstor.org/stable/1937343},
+  Urldate                  = {2012-12-03}
+}
+
+@Article{stanovich_2000,
+  Title                    = {Individual differences in reasoning: {Implications} for the rationality debate?},
+  Author                   = {Stanovich, Keith E. and West, Richard F.},
+  Journal                  = {Behavioral and Brain Sciences},
+  Year                     = {2000},
+
+  Month                    = oct,
+  Number                   = {5},
+  Pages                    = {645--665},
+  Volume                   = {23},
+
+  ISSN                     = {1469-1825, 0140-525X},
+  Keywords                 = {biases, descriptive models, heuristics, individual differences, normative models, rationality, reasoning},
+  Shorttitle               = {Individual differences in reasoning},
+  Url                      = {https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/individual-differences-in-reasoning-implications-for-the-rationality-debate/2906AEF620B36C10018DD291F790BE97},
+  Urldate                  = {2017-04-12}
+}
+
+@Article{starr_1975,
+  Title                    = {Linear {Breakeven} {Analysis} {Under} {Risk}},
+  Author                   = {Starr, Martin K. and Tapiero, Charles S.},
+  Journal                  = {Operational Research Quarterly (1970-1977)},
+  Year                     = {1975},
+
+  Month                    = dec,
+  Number                   = {4},
+  Pages                    = {847},
+  Volume                   = {26},
+
+  Doi                      = {10.2307/3009241},
+  File                     = {JSTOR\: Operational Research Quarterly (1970-1977), Vol. 26, No. 4 (Dec., 1975), pp. 847-856:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/354G8EUE/3009241.html:text/html},
+  ISSN                     = {00303623},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.jstor.org/discover/10.2307/3009241?uid=3737864&uid=2&uid=4&sid=21104311896411},
+  Urldate                  = {2014-10-10}
+}
+
+@Article{stumpf_2012,
+  Title                    = {Critical {Truths} {About} {Power} {Laws}},
+  Author                   = {Stumpf, Michael P. H. and Porter, Mason A.},
+  Journal                  = {Science},
+  Year                     = {2012},
+
+  Month                    = oct,
+  Number                   = {6069},
+  Pages                    = {665--666},
+  Volume                   = {335},
+
+  Doi                      = {10.1126/science.1216142},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/7U8USSRD/Stumpf und Porter - 2012 - Critical Truths About Power Laws.pdf:application/pdf;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/HMUQIBGU/665.html:text/html},
+  ISSN                     = {0036-8075, 1095-9203},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.sciencemag.org/content/335/6069/665},
+  Urldate                  = {2012-10-02}
+}
+
+@Article{tabacchi_2011,
+  Title                    = {Aboveground tree volume and phytomass prediction equations for forest species in {Italy}},
+  Author                   = {Tabacchi, Giovanni and Cosmo, Lucio Di and Gasparini, Patrizia},
+  Journal                  = {European Journal of Forest Research},
+  Year                     = {2011},
+
+  Month                    = feb,
+  Number                   = {6},
+  Pages                    = {911--934},
+  Volume                   = {130},
+
+  Abstract                 = {In this article, we present equations derived for the prediction of the aboveground tree volume and phytomass for twenty-five of the most important forest species growing in Italy. These equations result from ongoing research aiming to fill a gap in the models available at the national scale. With regard to volume, the results are particularly important for thirteen species or groups of species that were once scaled with models, conventionally assumed as reference models, available for other species. In Italy, phytomass models had never been constructed at the national level before. For any single tree, specific equations allow estimations of the following tree components to be made: stem and large branches (for either volume or phytomass), small branches (phytomass), stump (phytomass) and the whole tree phytomass. The models have been constructed on the basis of nearly 1,300 sampling units (sample trees). Although these equations must be considered intermediate results of the ongoing research because only half the scheduled number of samples has been collected, they have already been used in the practice, for example in the estimates reported in the recently published second national forest inventory.},
+  Doi                      = {10.1007/s10342-011-0481-9},
+  File                     = {Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/BKWINB8T/s10342-011-0481-9.html:text/html},
+  ISSN                     = {1612-4669, 1612-4677},
+  Keywords                 = {Aboveground tree phytomass, Forestry, Phytomass prediction equations, plant ecology, Plant Sciences, Tree biomass, Volume functions, Volume prediction equations},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://link.springer.com/article/10.1007/s10342-011-0481-9},
+  Urldate                  = {2016-06-21}
+}
+
+@Article{theussl_2016,
+  Title                    = {{CRAN} {Task} {View}: {Optimization} and {Mathematical} {Programming}},
+  Author                   = {Theussl, Stefan and Borchers, Hans W.},
+  Year                     = {2016},
+
+  Month                    = oct,
+
+  File                     = {Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/2S957BE5/Optimization.html:text/html},
+  Owner                    = {khusman1},
+  Shorttitle               = {{CRAN} {Task} {View}},
+  Timestamp                = {2017.02.17},
+  Url                      = {https://CRAN.R-project.org/view=Optimization},
+  Urldate                  = {2017-02-17}
+}
+
+@Article{thurnher_2013,
+  Title                    = {Analysing different carbon estimation methods for {Austrian} forests {Eine} {Analyse} unterschiedlicher {Kohlenstoffschätzmethoden} für {Wälder} in Österreich},
+  Author                   = {Thurnher, Christopher and Gerritzen, Thomas and Maroschek, Michael and Lexer, Manfred J and Hasenauer, Hubert},
+  Journal                  = {Austrian Journal of Forest Science},
+  Year                     = {2013},
+  Pages                    = {141--166},
+  Volume                   = {3},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.02}
+}
+
+@Misc{ti_2014,
+  Title                    = {Third {National} {Forest} {Inventory} - {Database}},
+
+  Author                   = {{TI}},
+  HowPublished             = {{\url{https://bwi.info/}}},
+  Note                     = {{accessed: 13 January 2017}},
+  Year                     = {2014},
+
+  Journal                  = {Thünen Institute},
+  Organization             = {Thünen Institute},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Urldate                  = {2016-05-06}
+}
+
+@Book{tomick_1995,
+  Title                    = {On Convergence of the Nelder-Mead Simplex Algorithm for Unconstrained Stochastic Optimization},
+  Author                   = {Tomick, John James},
+  Year                     = {1995},
+
+  Institution              = {{The Pennsylvania State University}},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Article{umeki_1995,
+  Title                    = {Importance of {Crown} {Position} and {Morphological} {Plasticity} in {Competitive} {Interaction} in a {Population} of {Xanthium} canadense},
+  Author                   = {Umeki, Kiyoshi},
+  Journal                  = {Annals of Botany},
+  Year                     = {1995},
+
+  Month                    = jan,
+  Number                   = {3},
+  Pages                    = {259--265},
+  Volume                   = {75},
+
+  Abstract                 = {Interactions between individuals in terms of asymmetrical display of crowns and reduction of growth were followed in an experimental population of Xanthium canadense .
+Competitive interaction was analysed using a neighbourhood interference model. For the analysis of morphological interaction, crown-vector, a two-dimensional vector that joins the stem base position of a plant with the centroid of its projected crown area, was used to express the direction and magnitude of the asymmetry in crown display. A model was developed in which the change in crown-vector during a growth period was expressed as a function of both the size of the focal plant and the size and location of its neighbours.
+There was strong morphological interaction between crowns; they repelled each other. The competitive interaction was detectable by the competition model with crown-centres used as plant locations, but not detectable with stem bases used as plant locations.
+It was concluded that the position of neighbours' crowns were important in determining the growth and crown asymmetry, which in turn determine the crown location; and morphological plasticity in crown shape works to reduce interference between individuals.Copyright 1995, 1999 Academic Press},
+  Doi                      = {10.1006/anbo.1995.1019},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/XFA2TN76/Umeki - 1995 - Importance of Crown Position and Morphological Pla.pdf:application/pdf;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/WV79CGQ5/259.html:text/html},
+  ISSN                     = {0305-7364, 1095-8290},
+  Keywords                 = {Crown asymmetry, Xanthium canadense, cocklebur, neighbourhood effect, morphological plasticity},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16},
+  Url                      = {http://aob.oxfordjournals.org/content/75/3/259},
+  Urldate                  = {2013-12-13}
+}
+
+@Book{un_2005,
+  Title                    = {2005 {World} {Summit} {Outcome}},
+  Author                   = {{United Nations General Assembly}},
+  Publisher                = {Adopted by the {General} {Assembly}},
+  Year                     = {2005},
+
+  Address                  = {New York},
+  Volume                   = {A/60/1},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.04.14},
+  Url                      = {https://documents-dds-ny.un.org/doc/UNDOC/GEN/N05/487/60/PDF/N0548760.pdf?OpenElement},
+  Urldate                  = {2017-04-14}
+}
+
+@Manual{urbanek_2016,
+  Title                    = {rJava: Low-Level R to Java Interface},
+  Author                   = {Simon Urbanek},
+  Note                     = {R package version 0.9-8},
+  Year                     = {2016},
+
+  Url                      = {https://CRAN.R-project.org/package=rJava}
+}
+
+@Article{valentine_1984,
+  Title                    = {Subsampling {Trees} for {Biomass}, {Volume}, or {Mineral} {Content}},
+  Author                   = {Valentine, Harry T. and Tritton, Louise M. and Furnival, George M.},
+  Journal                  = {Forest Science},
+  Year                     = {1984},
+  Number                   = {3},
+  Pages                    = {673--681},
+  Volume                   = {30},
+
+  Abstract                 = {A procedure for estimating aboveground biomass, woody volume, or mineral content of a tree uses randomized branch sampling and importance sampling, a technique of Monte Carlo integration. Both techniques involve sampling with selection probabilities proportional to estimated size and produce unbiased estimates of tree components and their variances. The results of a field test of the procedure for the estimation of fresh weight are presented. Forest Sci. 30: 673-681.},
+  Keywords                 = {Importance Sampling, Monte Carlo Integration, Randomized Branch Sampling},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{vallet_2006,
+  Title                    = {Development of total aboveground volume equations for seven important forest tree species in {France}},
+  Author                   = {Vallet, Patrick and Dhôte, Jean-François and Moguédec, Gilles Le and Ravart, Michel and Pignard, Gérôme},
+  Journal                  = {Forest Ecology and Management},
+  Year                     = {2006},
+
+  Month                    = jul,
+  Number                   = {1-3},
+  Pages                    = {98--110},
+  Volume                   = {229},
+
+  Abstract                 = {In order to improve the estimation of carbon stored in the French forest biomass from National Forest Inventory data, we developed six species-specific equations for estimating the total aboveground volume of trees, including merchantable volume, branches and twigs. Equations use circumference at breast height and total height as independent variables. They were built from even-aged forests of the Landes massif, the northern half and the eastern mountain regions of France. The sample was selected within archives of volume measurements taken in growth and yield permanent plots between 1920 and 1955. It is made up of 4619 trees belonging to seven important species: 1222 Sessile Oak, 1293 Common Beech, 347 Douglas Fir, 309 Norway Spruce, 389 Scots Pine, 297 Maritime Pine and 762 Silver Fir. These trees were felled and measured in 26 different forests (62 stands). Tree form factor was analysed, rather than volume, to remove heteroscedasticity, and height was substituted by a hardiness coefficient to remove diameter–height correlation. The analysis identified species-specific modes of variation of tree form with respect to developmental stage and tree hardiness. Maritime and Scots Pine did not differ statistically, despite large differences between ecological and silvicultural situations of both species. This suggests the possibility to use identical volume equations for species belonging to the same genus. Regional variations of tree form were explored by a cross-validation technique. Prediction biases did not exhibit a clear geographic structure. A 5\% overestimation for hardwoods in southern sites is possible, and would deserve further testing. The hypothesis that recent growth changes may have slightly altered tree form is also discussed. Finally, a national-scale application provided Biomass Expansion Factors consistent with former studies and suggested that these volume equations behave well in extrapolation to coppices, uneven-aged or mixed stands.},
+  Doi                      = {10.1016/j.foreco.2006.03.013},
+  File                     = {ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/JTTFMS9I/S0378112706002040.html:text/html},
+  ISSN                     = {0378-1127},
+  Keywords                 = {Abies alba, biomass, Carbon stocks, Fagus sylvatica, Form factor, France, Kyoto Protocol, Picea abies, Pinus pinaster, Pinus sylvestris, Pseudotsuga menziesii, Quercus petraea, Volume equations},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0378112706002040},
+  Urldate                  = {2016-06-21}
+}
+
+@Book{varian_2010,
+  Title                    = {Intermediate microeconomics : a modern approach},
+  Author                   = {Varian, Hal R.},
+  Publisher                = {Norton},
+  Year                     = {2010},
+
+  Address                  = {New York, NY [u.a.]},
+  Edition                  = {8. ed., internat. student ed.},
+
+  File                     = {Göttinger Universitätskatalog (GUK) - results/titledata:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/F8J9MUV3/SHW.html:text/html},
+  ISBN                     = {978-0-393-93533-2},
+  Owner                    = {khusman1},
+  Shorttitle               = {Intermediate microeconomics},
+  Timestamp                = {2017.01.16}
+}
+
+@Book{venables_2002,
+  Title                    = {Modern {Applied} {Statistics} with {S}},
+  Author                   = {Venables, W.N. and Ripley, B.D.},
+  Publisher                = {Springer},
+  Year                     = {2002},
+
+  Address                  = {New York},
+  Edition                  = {4th},
+  Month                    = aug,
+
+  ISBN                     = {0-387-95457-0},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{vitousek_1982,
+  Title                    = {Nutrient cycling and nutrient use efficiency},
+  Author                   = {Vitousek, Peter},
+  Journal                  = {American Naturalist},
+  Year                     = {1982},
+  Pages                    = {553--572},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.03.01}
+}
+
+@Article{wacker_1998,
+  Title                    = {A definition of theory: research guidelines for different theory-building research methods in operations management},
+  Author                   = {Wacker, John G},
+  Journal                  = {Journal of Operations Management},
+  Year                     = {1998},
+
+  Month                    = jul,
+  Number                   = {4},
+  Pages                    = {361--385},
+  Volume                   = {16},
+
+  Abstract                 = {This study examines the definition of theory and the implications it has for the theory-building research. By definition, theory must have four basic criteria: conceptual definitions, domain limitations, relationship-building, and predictions. Theory-building is important because it provides a framework for analysis, facilitates the efficient development of the field, and is needed for the applicability to practical real world problems. To be good theory, a theory must follow the virtues (criteria) for `good' theory, including uniqueness, parsimony, conservation, generalizability, fecundity, internal consistency, empirical riskiness, and abstraction, which apply to all research methods. Theory-building research seeks to find similarities across many different domains to increase its abstraction level and its importance. The procedure for good theory-building research follows the definition of theory: it defines the variables, specifies the domain, builds internally consistent relationships, and makes specific predictions. If operations management theory is to become integrative, the procedure for good theory-building research should have similar research procedures, regardless of the research methodology used. The empirical results from a study of operations management over the last 5 years (1991–1995) indicate imbalances in research methodologies for theory-building. The analytical mathematical research methodology is by far the most popular methodology and appears to be over-researched. On the other hand, the integrative research areas of analytical statistical and the establishment of causal relationships are under-researched. This leads to the conclusion that theory-building in operations management is not developing evenly across all methodologies. Last, this study offers specific guidelines for theory-builders to increase the theory's level of abstraction and the theory's significance for operations managers.},
+  Doi                      = {10.1016/S0272-6963(98)00019-9},
+  File                     = {ScienceDirect Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/U3RFS22I/Wacker - 1998 - A definition of theory research guidelines for di.pdf:application/pdf;ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/NAFUBVA3/S0272696398000199.html:text/html},
+  ISSN                     = {0272-6963},
+  Keywords                 = {Operations management, Research guidelines, Theory},
+  Owner                    = {khusman1},
+  Shorttitle               = {A definition of theory},
+  Timestamp                = {2017.04.13},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0272696398000199},
+  Urldate                  = {2017-04-13}
+}
+
+@Article{wagstaff_2001,
+  Title                    = {Constrained {K}-{Means} clustering with background knowledge},
+  Author                   = {Wagstaff, K. and Rogers, S. and Schroedl, S. and Cardie, C.},
+  Journal                  = {Proceedings of the 18th International Conference on Machine Learning},
+  Year                     = {2001},
+  Pages                    = {577-- 584},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13}
+}
+
+@Article{warton_2012,
+  Title                    = {smatr 3- an {R} package for estimation and inference about allometric lines},
+  Author                   = {Warton, David I. and Duursma, Remko A. and Falster, Daniel S. and Taskinen, Sara},
+  Journal                  = {Methods in Ecology and Evolution},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {257--259},
+  Volume                   = {3},
+
+  Abstract                 = {1. The Standardised Major Axis Tests and Routines (SMATR) software provides tools for estimation and inference about allometric lines, currently widely used in ecology and evolution.2. This paper describes some significant improvements to the functionality of the package, now available on R in smatr version 3.3. New inclusions in the package include sma and ma functions that accept formula input and perform the key inference tasks; multiple comparisons; graphical methods for visualising data and checking (S)MA assumptions; robust (S)MA estimation and inference tools.},
+  Copyright                = {© 2011 The Authors. Methods in Ecology and Evolution © 2011 British Ecological Society},
+  Doi                      = {10.1111/j.2041-210X.2011.00153.x},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/5KP6N8VE/Warton et al. - 2012 - smatr 3– an R package for estimation and inference.pdf:application/pdf;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/3NAPU7QS/full.html:text/html},
+  ISSN                     = {2041-210X},
+  Keywords                 = {common slope testing, model II regression, principal component analysis, robust estimation, standardised major axis},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2011.00153.x/abstract},
+  Urldate                  = {2012-10-05}
+}
+
+@InProceedings{wegener_2005,
+  Title                    = {Simulated annealing beats metropolis in combinatorial optimization},
+  Author                   = {Wegener, Ingo},
+  Booktitle                = {International Colloquium on Automata, Languages, and Programming},
+  Year                     = {2005},
+  Organization             = {Springer},
+  Pages                    = {589--601},
+
+  Owner                    = {kai},
+  Timestamp                = {2017.04.15}
+}
+
+@Article{weis_2012,
+  Title                    = {Nährstoffnachhaltige {Biomassenutzung}},
+  Author                   = {Weis, Wendelin and Göttlein, Axel},
+  Journal                  = {LWF Aktuell},
+  Year                     = {2012},
+  Pages                    = {44--47},
+  Volume                   = {90},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.28}
+}
+
+@Article{west_1999,
+  Title                    = {The {Fourth} {Dimension} of {Life}: {Fractal} {Geometry} and {Allometric} {Scaling} of {Organisms}},
+  Author                   = {West, G. B.},
+  Journal                  = {Science},
+  Year                     = {1999},
+
+  Month                    = jun,
+  Number                   = {5420},
+  Pages                    = {1677--1679},
+  Volume                   = {284},
+
+  Doi                      = {10.1126/science.284.5420.1677},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/W35M8X2T/West et al. - 1999 - The Fourth Dimension of Life Fractal Geometry and.pdf:application/pdf;Search Results:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/7EIZFSU2/search.html:text/html;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/MI4ZID6E/1677.html:text/html},
+  ISSN                     = {00368075, 10959203},
+  Owner                    = {khusman1},
+  Shorttitle               = {The {Fourth} {Dimension} of {Life}},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://han.sub.uni-goettingen.de/han/25/www.sciencemag.org/search?submit=yes&volume=284&firstpage=1677&journal_search_volume_go.x=22&journal_search_volume_go.y=9&andorexactfulltext=and&andorexacttitleabs=and&andorexactfulltext=and&andorexacttitleabs=and},
+  Urldate                  = {2012-04-04}
+}
+
+@Article{west_1997,
+  Title                    = {A {General} {Model} for the {Origin} of {Allometric} {Scaling} {Laws} in {Biology}},
+  Author                   = {West, Geoffrey B. and Brown, James H. and Enquist, Brian J.},
+  Journal                  = {Science},
+  Year                     = {1997},
+
+  Month                    = apr,
+  Number                   = {5309},
+  Pages                    = {122--126},
+  Volume                   = {276},
+
+  Abstract                 = {Allometric scaling relations, including the 3/4 power law for metabolic rates, are characteristic of all organisms and are here derived from a general model that describes how essential materials are transported through space-filling fractal networks of branching tubes. The model assumes that the energy dissipated is minimized and that the terminal tubes do not vary with body size. It provides a complete analysis of scaling relations for mammalian circulatory systems that are in agreement with data. More generally, the model predicts structural and functional properties of vertebrate cardiovascular and respiratory systems, plant vascular systems, insect tracheal tubes, and other distribution networks.},
+  Doi                      = {10.1126/science.276.5309.122},
+  File                     = {Full Text PDF:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/S86SSRMP/West et al. - 1997 - A General Model for the Origin of Allometric Scali.pdf:application/pdf;Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/ZWKT7H5T/122.html:text/html},
+  ISSN                     = {0036-8075, 1095-9203},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.13},
+  Url                      = {http://www.sciencemag.org/content/276/5309/122},
+  Urldate                  = {2012-09-05}
+}
+
+@Article{wilson_2000,
+  Title                    = {Apical control of branch growth and angle in woody plants},
+  Author                   = {Wilson, B F},
+  Journal                  = {American journal of botany},
+  Year                     = {2000},
+
+  Month                    = may,
+  Number                   = {5},
+  Pages                    = {601--607},
+  Volume                   = {87},
+
+  Abstract                 = {Apical control is the inhibition of a lateral branch growth by shoots above it (distal shoots). If the distal shoots are cut off to remove apical control, the lateral branch can grow larger and may bend upwards. Apical control starts when new lateral buds grow after passing through a period of dormancy. Buds initially break and produce leaves, then apical control is exerted and the lower (proximal) laterals stop growing. Apical control also inhibits growth of large, old branches. Gravimorphism and restricted water and nutrient transport can inhibit branch growth, but they are not primary mechanisms of apical control. Apical control may reduce branch photosynthesis. Under apical control allocation of branch-produced assimilate to the stem is relatively high, so low assimilates in the branch may limit branch growth even though hormone levels are adequate for growth. Hormones appear to be involved in apical control, but it is not known how. One role of hormones may be to maintain the strength of the stem sink for branch-produced assimilate. Upward bending of a woody branch after release from apical control requires both new wood production and production of wood cells that can generate an upward bending moment. Apical control inhibits radial growth of branches and, in some species, may regulate the production of wood with an upward bending moment.},
+  ISSN                     = {0002-9122},
+  Language                 = {eng},
+  Owner                    = {khusman1},
+  Pmid                     = {10811784},
+  Timestamp                = {2017.01.16}
+}
+
+@Book{wood_2006,
+  Title                    = {Generalized {Additive} {Models}: {An} {Introduction} with {R}},
+  Author                   = {Wood, Simon N.},
+  Publisher                = {Chapman \& Hall/CRC},
+  Year                     = {2006},
+  Month                    = feb,
+
+  Abstract                 = {Now in widespread use, generalized additive models (GAMs) have evolved into a standard statistical methodology of considerable flexibility. While Hastie and Tibshirani's outstanding 1990 research monograph on GAMs is largely responsible for this, there has been a long-standing need for an accessible introductory treatment of the subject that also emphasizes recent penalized regression spline approaches to GAMs and the mixed model extensions of these models. á Generalized Additive Models: An Introduction with R imparts a thorough understanding of the theory and practical applications of GAMs and related advanced models, enabling informed use of these very flexible tools. The author bases his approach on a framework of penalized regression splines, and builds a well-grounded foundation through motivating chapters on linear and generalized linear models. While firmly focused on the practical aspects of GAMs, discussions include fairly full explanations of the theory underlying the methods. Use of the freely available R software helps explain the theory and illustrates the practicalities of linear, generalized linear, and generalized additive models, as well as their mixed effect extensions. The treatment is rich with practical examples, and it includes an entire chapter on the analysis of real data sets using R and the author's add-on package mgcv. Each chapter includes exercises, for which complete solutions are provided in an appendix. Concise, comprehensive, and essentially self-contained, Generalized Additive Models: An Introduction with R prepares readers with the practical skills and the theoretical background needed to use and understand GAMs and to move on to other GAM-related methods and models, such as SS-ANOVA, P-splines, backfitting and Bayesian approaches to smoothing and additive modelling.},
+  ISBN                     = {978-1-58488-474-3},
+  Keywords                 = {Linear models (Statistics), Mathematics / General, Mathematics / Probability \& Statistics / General, Random walks (Mathematics), R (Computer program language), R (Computer program language) - Mathematical models, R (Computer program language)/ Mathematical models},
+  Language                 = {en},
+  Owner                    = {khusman1},
+  Shorttitle               = {Generalized {Additive} {Models}},
+  Timestamp                = {2017.01.13}
+}
+
+@Book{wordehoff_2011,
+  Title                    = {Kohlenstoffstudie {Forst} und {Holz} {Niedersachsen}},
+  Author                   = {Wördehoff, René and Spellmann, Hermann and Evers, Jan and Nagel, Jürgen},
+  Publisher                = {Univ.-Verl. Göttingen},
+  Year                     = {2011},
+
+  Address                  = {Göttingen},
+  Series                   = {Beiträge aus der {Nordwestdeutschen} {Forstlichen} {Versuchsanstalt}},
+  Volume                   = {6},
+
+  Abstract                 = {Die Speicherung von Kohlenstoff in Wäldern ist klimapolitisch ein hochaktuelles Thema, das die niedersächsische Landesregierung mit der vorliegenden Studie aufgreift. Auf der Basis von Inventurdaten und Szenarienrechnungen werden die Mengen an Kohlenstoff hergeleitet, die heute bzw. künftig in niedersächsischen Wäldern und in den aus niedersächsischem Holz hergestellten Produkten gespeichert werden. Die Kohlenstoffstudie richtet sich an alle Betriebe der Forst- und Holzwirtschaft, politische Entscheidungsträger und die interessierte Öffentlichkeit. Sie liefert wichtige Argumente im Kyoto-Folgeprozess und zeigt die Auswirkungen verschiedener waldbaulicher Strategien auf die Kohlenstoffspeicherung in Wäldern und Forstprodukten auf.},
+  File                     = {Library Catalog Entry Snapshot:/home/kai/.mozilla/firefox/1t7pk6d8.default/zotero/storage/XQWB79NB/PPN.html:text/html},
+  ISBN                     = {978-3-86395-014-9},
+  Keywords                 = {Niedersachsen / Wald / Waldbau / Holzprodukt / Kohlenstoffhaushalt / Klimaänderung / Kyoto-Übereinkommen},
+  Owner                    = {kai},
+  Timestamp                = {2016.12.13}
+}
+
+@Article{xiang_2013,
+  Title                    = {Generalized Simulated Annealing for Global Optimization: the GenSA Package},
+  Author                   = {Xiang, Yang and Gubian, Sylvain and Suomela, Brian and Hoeng, Julia},
+  Journal                  = {The R Journal Volume 5(1):13-29, June 2013},
+  Year                     = {2013},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.02.09}
+}
+
+@Article{yousefpour_2009,
+  Title                    = {Modelling of forest conversion planning with an adaptive simulation-optimization approach and simultaneous consideration of the values of timber, carbon and biodiversity},
+  Author                   = {Yousefpour, Rasoul and Hanewinkel, Marc},
+  Journal                  = {Ecological Economics},
+  Year                     = {2009},
+
+  Month                    = apr,
+  Number                   = {6},
+  Pages                    = {1711--1722},
+  Volume                   = {68},
+
+  Abstract                 = {The paper presents a combined simulation–optimization approach to model forest conversion planning taking the values of timber, carbon and biodiversity into account. The development of a virtual age-class forest was predicted by adopting a single tree forest growth tool, “TreeGrOSS”. The effects of different conversion regimes with continuous variables describing silvicultural prescriptions were monitored for a finite conversion period of forty years in stand level. Dynamic linear programming was employed to adaptively solve the multi-period large-scale optimization problem of a forest enterprise encompassing five different age-classes of pure Norway spruce (Picea abies, L. Karst) stands. The global net present values of biodiversity, carbon sequestration and timber production along with the wood even flow constraint, were considered simultaneously. The obtained optimal sylvicultural pathway differed not only among different stands but also sometimes within a given stand. The integration of the utility of biodiversity into the optimization procedure favoured conversion strategies that foresee the establishment of beech regeneration in all forest stands. The simultaneous consideration of all mentioned utilities resulted in a global utility of 27451 €/ha consisting of 14499 (53\%), 3412 (12\%), 764 (3\%), and 8777 (32\%) €/ha for the value of timber, carbon, biodiversity, and standing volume respectively. The sensitivity analysis showed that the threshold from which no major changes in the relevant silvicultural parameters occurred was observed at 30 €/t carbon price with an interest rate of 2\%.},
+  Doi                      = {10.1016/j.ecolecon.2008.12.009},
+  File                     = {ScienceDirect Full Text PDF:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/RBB2KSUH/Yousefpour and Hanewinkel - 2009 - Modelling of forest conversion planning with an ad.pdf:application/pdf;ScienceDirect Snapshot:/home/khusman1/.mozilla/firefox/ykffmvee.default/zotero/storage/84MHV7VB/S0921800908005351.html:text/html},
+  ISSN                     = {0921-8009},
+  Keywords                 = {Biodiversity, Black Forest, Carbon sequestration, Dynamic linear programming, “TreeGrOSS”, Wood even flow},
+  Owner                    = {khusman1},
+  Series                   = {Eco-efficiency: {From} technical optimisation to reflective sustainability analysis},
+  Timestamp                = {2017.04.16},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0921800908005351},
+  Urldate                  = {2017-04-16}
+}
+
+@Book{zianis_2005,
+  Title                    = {Biomass and stem volume equations for tree species in {Europe}},
+  Author                   = {Zianis, Dimitris and Muukonen, P. and Mäkipää, R. and Mencuccini, M.},
+  Publisher                = {Finnish Society of Forest Science, Finnish Forest Research Institute},
+  Year                     = {2005},
+  Volume                   = {4},
+
+  Owner                    = {khusman1},
+  Timestamp                = {2017.01.16}
+}
+
+@comment{jabref-meta: selector_keywords:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
