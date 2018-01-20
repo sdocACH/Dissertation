@@ -6,6 +6,11 @@ Akaike, H. (1992).
   principle.
 \newblock In {\em Breakthroughs in statistics}  (pp.\ 610--624). Springer.
 
+\bibitem[Akaike, 2011]{Akaike2011}
+Akaike, H. (2011).
+\newblock {\em Akaike's Information Criterion}, (pp.\ 25--25).
+\newblock Springer Berlin Heidelberg: Berlin, Heidelberg.
+
 \bibitem[Baffetta et~al., 2010]{baffetta2010}
 Baffetta, F., Corona, P., \& Fattorini, L. (2010).
 \newblock Design-based diagnostics for k-nn estimators of forest resources this
@@ -28,9 +33,20 @@ Beauchamp, J.~J. \& Olson, J.~S. (1973).
 \bibitem[Beaudoin et~al., 2014]{beaudoin2014}
 Beaudoin, A., Bernier, P., Guindon, L., Villemaire, P., Guo, X., Stinson, G.,
   Bergeron, T., Magnussen, S., \& Hall, R. (2014).
-\newblock Mapping attributes of canada's forests at moderate resolution
-  through k nn and modis imagery.
+\newblock Mapping attributes of canada's forests at moderate resolution through
+  k nn and modis imagery.
 \newblock {\em Canadian Journal of Forest Research}, 44(5), 521--532.
+
+\bibitem[Bitterlich, 1984]{bitterlich1984}
+Bitterlich, W. (1984).
+\newblock {\em The relascope idea. Relative measurements in forestry.}
+\newblock Commonwealth Agricultural Bureaux.
+
+\bibitem[Bohlin et~al., 2017]{bohlin2017}
+Bohlin, J., Bohlin, I., Jonz{\'e}n, J., \& Nilsson, M. (2017).
+\newblock Mapping forest attributes using data from stereophotogrammetry of
+  aerial images and field data from the national forest inventory.
+\newblock {\em SILVA FENNICA}, 51(2).
 
 \bibitem[Brassel \& Lischke, 2001]{brassel2001}
 Brassel, P. \& Lischke, H. (2001).
@@ -51,6 +67,34 @@ Breidenbach, J. \& Astrup, R. (2012).
 \newblock Small area estimation of forest attributes in the norwegian national
   forest inventory.
 \newblock {\em European Journal of Forest Research}, 131(4), 1255--1267.
+
+\bibitem[Breidenbach et~al., 2008]{breidenbach2008}
+Breidenbach, J., Kublin, E., McGaughey, R., Andersen, H.-E., \& Reutebuch,
+  S.~E. (2008).
+\newblock Mixed-effects models for estimating stand volume by means of small
+  footprint airborne laser scanner data.
+\newblock {\em Photogrammetric Journal of Finland}, 21(1), 4--15.
+
+\bibitem[Breiman, 2001]{breiman2001}
+Breiman, L. (2001).
+\newblock Random forests.
+\newblock {\em Machine learning}, 45(1), 5--32.
+
+\bibitem[Brosofske et~al., 2014]{brosofske2014}
+Brosofske, K.~D., Froese, R.~E., Falkowski, M.~J., \& Banskota, A. (2014).
+\newblock A review of methods for mapping and prediction of inventory
+  attributes for operational forest management.
+\newblock {\em Forest Science}, 60(4), 733--756.
+
+\bibitem[{B}undesministerium~für {E}rn{\"a}hrung, 2011]{bwi3_aufn}
+{B}undesministerium~für {E}rn{\"a}hrung, L. u.~V. (2011).
+\newblock Aufnahmeanweisung für die dritte {B}undeswaldinventur {BWI3} (2011 -
+  2012).
+
+\bibitem[Carroll et~al., 2006]{carroll2006}
+Carroll, R.~J., Ruppert, D., Stefanski, L.~A., \& Crainiceanu, C.~M. (2006).
+\newblock {\em Measurement error in nonlinear models: a modern perspective}.
+\newblock CRC press.
 
 \bibitem[Chirici et~al., 2012]{chirici2012}
 Chirici, G., Corona, P., Marchetti, M., Mastronardi, A., Maselli, F., Bottai,
@@ -82,6 +126,12 @@ Cullmann, A.~D. (2016).
 \newblock {\em \pkg{maSAE}: Mandallaz' Model-Assisted Small Area Estimators}.
 \newblock \proglang{R}~package version~0.1-5.
 
+\bibitem[Deo et~al., 2016]{deo2016}
+Deo, R.~K., Froese, R.~E., Falkowski, M.~J., \& Hudak, A.~T. (2016).
+\newblock Optimizing variable radius plot size and lidar resolution to model
+  standing volume in conifer forests.
+\newblock {\em Canadian Journal of Remote Sensing}, 42(5), 428--442.
+
 \bibitem[Dowle \& Srinivasan, 2017]{dt2017}
 Dowle, M. \& Srinivasan, A. (2017).
 \newblock {\em \pkg{data.table}: Extension of `data.frame`}.
@@ -91,6 +141,11 @@ Dowle, M. \& Srinivasan, A. (2017).
 Draper, N.~R. \& Smith, H. (2014).
 \newblock {\em Applied regression analysis}.
 \newblock John Wiley \& Sons.
+
+\bibitem[Fahrmeir et~al., 2013]{fahrmeir2013}
+Fahrmeir, L., Kneib, T., Lang, S., \& Marx, B. (2013).
+\newblock {\em Regression: Models, Methods and Applications}.
+\newblock Springer Science \& Business Media.
 
 \bibitem[Fehrmann et~al., 2008]{fehrmann2008}
 Fehrmann, L., Lehtonen, A., Kleinn, C., \& Tomppo, E. (2008).
@@ -109,6 +164,12 @@ Fuller, W.~A. (2009).
 \newblock {\em Measurement error models}, volume 305.
 \newblock John Wiley \& Sons.
 
+\bibitem[Gauer \& Aldinger, 2005]{gauer2005}
+Gauer, J. \& Aldinger, E. (2005).
+\newblock {W}ald{\"o}kologische {N}aturr{\"a}ume {D}eutschlands-{W}uchsgebiete.
+\newblock {\em {M}itteilungen des {V}ereins f{\"u}r {F}orstliche
+  {S}tandortskunde und {F}orstpflanzenz{\"u}chtung}, 43, 281--288.
+
 \bibitem[Gregoire \& Valentine~Harry, 2008]{gregoire2008}
 Gregoire, T. \& Valentine~Harry, T. (2008).
 \newblock Sampling strategies for natural resources and the environment chapman
@@ -118,6 +179,12 @@ Gregoire, T. \& Valentine~Harry, T. (2008).
 \bibitem[Gregoire \& Valentine, 2007]{gregoire2007}
 Gregoire, T.~G. \& Valentine, H.~T. (2007).
 \newblock {\em Sampling Strategies for Natural Resources and the Environment}.
+\newblock CRC Press.
+
+\bibitem[Gustafson, 2003]{gustafson2003}
+Gustafson, P. (2003).
+\newblock {\em Measurement error and misclassification in statistics and
+  epidemiology: impacts and Bayesian adjustments}.
 \newblock CRC Press.
 
 \bibitem[Haara \& Kangas, 2012]{haara2012}
@@ -138,6 +205,12 @@ Hill, A. (2017).
 \newblock {\em forestinventory}.
 \newblock GitHub repository.
 
+\bibitem[Hill et~al., 2014]{hill2014}
+Hill, A., Breschan, J., \& Mandallaz, D. (2014).
+\newblock Accuracy assessment of timber volume maps using forest inventory data
+  and lidar canopy height models.
+\newblock {\em Forests}, 5(9), 2253--2275.
+
 \bibitem[Hill et~al., 2017]{hill2017a}
 Hill, A., Mandallaz, D., Buddenbaum, H., Stoffels, J., \& Langshausen, J.
   (2017).
@@ -152,11 +225,29 @@ Hoffmann, C. (1982).
 \newblock Die berechnung von tarifen f{\"u}r die waldinventur.
 \newblock {\em Forstwissenschaftliches Centralblatt}, 101(1), 24--36.
 
+\bibitem[Hollaus et~al., 2007]{hollaus2007}
+Hollaus, M., Wagner, W., Maier, B., \& Schadauer, K. (2007).
+\newblock Airborne laser scanning of forest stem volume in a mountainous
+  environment.
+\newblock {\em Sensors}, 7(8), 1559--1577.
+
 \bibitem[Holmgren, 2004]{holmgren2004}
 Holmgren, J. (2004).
 \newblock Prediction of tree height, basal area and stem volume in forest
   stands using airborne laser scanning.
 \newblock {\em Scandinavian Journal of Forest Research}, 19(6), 543--553.
+
+\bibitem[Husmann et~al., 2017]{husmann2017}
+Husmann, K., Rumpf, S., \& Nagel, J. (2017).
+\newblock Biomass functions and nutrient contents of european beech, oak,
+  sycamore maple and ash and their meaning for the biomass supply chain.
+\newblock {\em Journal of Cleaner Production}.
+
+\bibitem[Jakubowski et~al., 2013]{jakubowski2013}
+Jakubowski, M.~K., Guo, Q., \& Kelly, M. (2013).
+\newblock Tradeoffs between lidar pulse density and forest measurement
+  accuracy.
+\newblock {\em Remote Sensing of Environment}, 130, 245--253.
 
 \bibitem[Keller, 2011]{keller2011}
 Keller, M. (2011).
@@ -164,16 +255,47 @@ Keller, M. (2011).
   2004--2007.
 \newblock {\em Swiss Federal Research Institute WSL, Birmensdorf, CH}.
 
+\bibitem[Kirchhoefer et~al., 2017]{kirchhoefer2017}
+Kirchhoefer, M., Schumacher, J., Adler, P., \& K{\"a}ndler, G. (2017).
+\newblock Considerations towards a novel approach for integrating angle-count
+  sampling data in remote sensing based forest inventories.
+\newblock {\em Forests}, 8(7), 239.
+
 \bibitem[Kirkpatrick et~al., 1983]{kirkpatrick1983}
 Kirkpatrick, S., Gelatt, C.~D., Vecchi, M.~P., et~al. (1983).
 \newblock Optimization by simulated annealing.
 \newblock {\em science}, 220(4598), 671--680.
+
+\bibitem[Koch, 2010]{koch2010}
+Koch, B. (2010).
+\newblock Status and future of laser scanning, synthetic aperture radar and
+  hyperspectral remote sensing data for forest biomass assessment.
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing}, 65(6),
+  581--590.
 
 \bibitem[K{\"o}hl et~al., 2006]{kohl2006}
 K{\"o}hl, M., Magnussen, S.~S., \& Marchetti, M. (2006).
 \newblock {\em Sampling Methods, Remote Sensing and GIS Multiresource Forest
   Inventory}.
 \newblock Springer-Verlag Berlin Heidelberg.
+
+\bibitem[Kublin, 2003]{kublin2003}
+Kublin, E. (2003).
+\newblock Einheitliche beschreibung der schaftform--methoden und
+  programme--bdatpro.
+\newblock {\em Forstwissenschaftliches Centralblatt}, 122(3), 183--200.
+
+\bibitem[Kublin et~al., 2013]{kublin2013}
+Kublin, E., Breidenbach, J., \& K{\"a}ndler, G. (2013).
+\newblock A flexible stem taper and volume prediction method based on
+  mixed-effects b-spline regression.
+\newblock {\em European journal of forest research}, 132(5-6), 983--997.
+
+\bibitem[Lamprecht et~al., 2017]{lambrecht2017}
+Lamprecht, S., Hill, A., Stoffels, J., \& Udelhoven, T. (2017).
+\newblock A machine learning method for co-registration and individual tree
+  matching of forest inventory and airborne laser scanning data.
+\newblock {\em Remote Sensing}, 9(5).
 
 \bibitem[Latifi et~al., 2010]{latifi2010}
 Latifi, H., Nothdurft, A., \& Koch, B. (2010).
@@ -182,6 +304,12 @@ Latifi, H., Nothdurft, A., \& Koch, B. (2010).
   predictors.
 \newblock {\em Forestry}, 83(4), 395--407.
 
+\bibitem[Latifi et~al., 2012]{latifi2012}
+Latifi, H., Nothdurft, A., Straub, C., \& Koch, B. (2012).
+\newblock Modelling stratified forest attributes using optical/lidar features
+  in a central european landscape.
+\newblock {\em International Journal of Digital Earth}, 5(2), 106--132.
+
 \bibitem[Lefsky et~al., 1999]{lefsky1999}
 Lefsky, M.~A., Cohen, W., Acker, S., Parker, G.~G., Spies, T., \& Harding, D.
   (1999).
@@ -189,10 +317,23 @@ Lefsky, M.~A., Cohen, W., Acker, S., Parker, G.~G., Spies, T., \& Harding, D.
   properties of douglas-fir western hemlock forests.
 \newblock {\em Remote sensing of environment}, 70(3), 339--361.
 
+\bibitem[Liaw \& Wiener, 2002]{liaw2002}
+Liaw, A. \& Wiener, M. (2002).
+\newblock Classification and regression by randomforest.
+\newblock {\em R News}, 2(3), 18--22.
+
 \bibitem[Lumley, 2016]{survey}
 Lumley, T. (2016).
 \newblock {\em \pkg{survey}: Analysis of Complex Survey Samples}.
 \newblock R package version 3.32.
+
+\bibitem[Maack et~al., 2016]{maack2016}
+Maack, J., Lingenfelder, M., Weinacker, H., \& Koch, B. (2016).
+\newblock Modelling the standing timber volume of baden-w{\"u}rttemberg-a
+  large-scale approach using a fusion of landsat, airborne lidar and national
+  forest inventory data.
+\newblock {\em International Journal of Applied Earth Observation and
+  Geoinformation}, 49, 107--116.
 
 \bibitem[Magnussen et~al., 1999]{magnussen1999}
 Magnussen, S., Eggermont, P., \& LaRiccia, V.~N. (1999).
@@ -301,6 +442,10 @@ Massey, A.~F. (2015).
   the Design-Based Monte Carlo Approach}.
 \newblock PhD thesis, ETH Zurich.
 
+\bibitem[Mathworks, 2017]{matlab}
+Mathworks (2017).
+\newblock Matlab version 9.2.0.538062 (r2017a).
+
 \bibitem[Mauro et~al., 2010]{mauro2010}
 Mauro, F., Valbuena, R., Manzanera, J., \& Garc{\'\i}a-Abril, A. (2010).
 \newblock Influence of global navigation satellite system errors in positioning
@@ -315,6 +460,13 @@ McRoberts, R.~E., N{\ae}sset, E., \& Gobakken, T. (2013).
   volume.
 \newblock {\em Remote Sensing of Environment}, 128, 268--275.
 
+\bibitem[McRoberts et~al., 2015]{mcroberts2015}
+McRoberts, R.~E., N{\ae}sset, E., Gobakken, T., \& Bollands{\aa}s, O.~M.
+  (2015).
+\newblock Indirect and direct estimation of forest biomass change using forest
+  inventory and airborne laser scanning data.
+\newblock {\em Remote Sensing of Environment}, 164, 36--42.
+
 \bibitem[McRoberts et~al., 2007]{mcroberts2007}
 McRoberts, R.~E., Tomppo, E.~O., Finley, A.~O., \& Heikkinen, J. (2007).
 \newblock Estimating areal means and variances of forest attributes using the
@@ -326,17 +478,31 @@ McRoberts, R.~E., Tomppo, E.~O., \& N{\ae}sset, E. (2010).
 \newblock Advances and emerging issues in national forest inventories.
 \newblock {\em Scandinavian Journal of Forest Research}, 25(4), 368--381.
 
-\bibitem[N{\ae}sset, 2002]{naesset2002}
+\bibitem[N{\ae}sset, 1997]{naesset1997}
+N{\ae}sset, E. (1997).
+\newblock Estimating timber volume of forest stands using airborne laser
+  scanner data.
+\newblock {\em Remote Sensing of Environment}, 61(2), 246 -- 253.
+
+\bibitem[N{\ae}sset, 2002]{naesset2007}
 N{\ae}sset, E. (2002).
 \newblock Predicting forest stand characteristics with airborne scanning laser
   using a practical two-stage procedure and field data.
 \newblock {\em Remote sensing of environment}, 80(1), 88--99.
 
-\bibitem[N{\ae}sset, 2007]{naesset2007}
-N{\ae}sset, E. (2007).
-\newblock Airborne laser scanning as a method in operational forest inventory:
-  status of accuracy assessments accomplished in scandinavia.
-\newblock {\em Scandinavian Journal of Forest Research}, 22(5), 433--442.
+\bibitem[N{\ae}sset, 2014]{naesset2014inmaltamo}
+N{\ae}sset, E. (2014).
+\newblock Area-based inventory in norway - from innovation to an operational
+  reality.
+\newblock In {\em Forest Applications of Airborne Laser Scanning - Concepts and
+  Case Studies}  chapter~11, (pp.\ 216--240). Springer.
+
+\bibitem[Nink et~al., 2015]{nink2015}
+Nink, S., Hill, J., Buddenbaum, H., Stoffels, J., Sachtleber, T., \&
+  Langshausen, J. (2015).
+\newblock Assessing the suitability of future multi-and hyperspectral satellite
+  systems for mapping the spatial distribution of norway spruce timber volume.
+\newblock {\em Remote Sensing}, 7(9), 12009--12040.
 
 \bibitem[Nothdurft et~al., 2009]{nothdurft2009}
 Nothdurft, A., Saborowski, J., \& Breidenbach, J. (2009).
@@ -349,6 +515,11 @@ Ott, E., Frehner, M., Frey, H.-U., \& Lüscher, P. (1997).
   standortgerechte Waldbehandlung}.
 \newblock Haupt.
 \newblock .
+
+\bibitem[Pinheiro \& Bates, 2000]{pinheirobates2000}
+Pinheiro, J. \& Bates, D. (2000).
+\newblock {\em Mixed-Effects Models in S and S-PLUS}.
+\newblock Springer-Verlag.
 
 \bibitem[Pirlot, 1996]{pirlot1996}
 Pirlot, M. (1996).
@@ -399,6 +570,20 @@ Steinmann, K., Mandallaz, D., Ginzler, C., \& Lanz, A. (2013).
   combining lidar data and stereo aerial images with terrestrial data.
 \newblock {\em Scandinavian journal of forest research}, 28(4), 373--385.
 
+\bibitem[Stoffels et~al., 2015]{stoffels2015}
+Stoffels, J., Hill, J., Sachtleber, T., Mader, S., Buddenbaum, H., Stern, O.,
+  Langshausen, J., Dietz, J., \& Ontrup, G. (2015).
+\newblock Satellite-based derivation of high-resolution forest information
+  layers for operational forest management.
+\newblock {\em Forests}, 6(6), 1982--2013.
+
+\bibitem[Straub et~al., 2009]{straub2009}
+Straub, C., Dees, M., Weinacker, H., \& Koch, B. (2009).
+\newblock Using airborne laser scanner data and cir orthophotos to estimate the
+  stem volume of forest stands.
+\newblock {\em Photogrammetrie-Fernerkundung-Geoinformation}, 2009(3),
+  277--287.
+
 \bibitem[Tomppo, 2006]{tomppo2006}
 Tomppo, E. (2006).
 \newblock The finnish multi-source national forest inventory--small area
@@ -438,9 +623,27 @@ von L{\"u}pke, N. \& Saborowski, J. (2014).
   a three-level sampling design for continuous forest inventories.
 \newblock {\em European journal of forest research}, 133(1), 89--100.
 
+\bibitem[von Th{\"u}nen-Institut, 2014]{bwi3}
+von Th{\"u}nen-Institut (2014).
+\newblock Dritte {B}undeswaldinventur 2012.
+\newblock Accessed: 2017-02-03.
+
+\bibitem[White et~al., 2016]{white2016}
+White, J.~C., Coops, N.~C., Wulder, M.~A., Vastaranta, M., Hilker, T., \&
+  Tompalski, P. (2016).
+\newblock Remote sensing technologies for enhancing forest inventories: A
+  review.
+\newblock {\em Canadian Journal of Remote Sensing}, 42(5), 619--641.
+
 \bibitem[Wickham, 2009]{ggplot2}
 Wickham, H. (2009).
 \newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
 \newblock Springer-Verlag New York.
+
+\bibitem[Zianis et~al., 2005]{zianis2005}
+Zianis, D., Muukkonen, P., M{\"a}kip{\"a}{\"a}, R., Mencuccini, M., et~al.
+  (2005).
+\newblock {B}iomass and stem volume equations for tree species in {E}urope.
+\newblock {\em Silva Fennica}, Monographs 4.
 
 \end{thebibliography}

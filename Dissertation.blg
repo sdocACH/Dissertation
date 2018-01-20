@@ -29,6 +29,10 @@ Repeated entry---line 784 of file Dissliterature/Dissertation.bib
  : @article{mandallaz2013b
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 852 of file Dissliterature/Dissertation.bib
+ : @article{naesset2007
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 913 of file Dissliterature/Dissertation.bib
  : @article{saborowski2010
  :                        ,
@@ -37,4 +41,102 @@ Repeated entry---line 925 of file Dissliterature/Dissertation.bib
  : @book{schreuder1993
  :                    ,
 I'm skipping whatever remains of this entry
-(There were 9 error messages)
+Repeated entry---line 1000 of file Dissliterature/Dissertation.bib
+ : @article{beaudoin2014
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1030 of file Dissliterature/Dissertation.bib
+ : @article{breidenbach2012
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1097 of file Dissliterature/Dissertation.bib
+ : @book{congalton2008
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1124 of file Dissliterature/Dissertation.bib
+ : @book{draper2014
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1140 of file Dissliterature/Dissertation.bib
+ : @book{fahrmeir2013
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1173 of file Dissliterature/Dissertation.bib
+ : @book{gregoire2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1190 of file Dissliterature/Dissertation.bib
+ : @article{hill2014
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1268 of file Dissliterature/Dissertation.bib
+ : @book{kohl2006
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1314 of file Dissliterature/Dissertation.bib
+ : @article{latifi2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1353 of file Dissliterature/Dissertation.bib
+ : @article{vonLuebke2014
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1379 of file Dissliterature/Dissertation.bib
+ : @article{magnussen2014
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1392 of file Dissliterature/Dissertation.bib
+ : @article{magnussen2010
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1406 of file Dissliterature/Dissertation.bib
+ : @book{mandallaz2008
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1415 of file Dissliterature/Dissertation.bib
+ : @article{mandallaz2013c
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1429 of file Dissliterature/Dissertation.bib
+ : @article{mandallaz2013a
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1443 of file Dissliterature/Dissertation.bib
+ : @article{mandallaz2013b
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1457 of file Dissliterature/Dissertation.bib
+ : @article{massey2015b
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1472 of file Dissliterature/Dissertation.bib
+ : @article{massey2014a
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1507 of file Dissliterature/Dissertation.bib
+ : @article{mcroberts2010
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1571 of file Dissliterature/Dissertation.bib
+ : @book{pinheirobates2000
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1594 of file Dissliterature/Dissertation.bib
+ : @article{saborowski2010
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1607 of file Dissliterature/Dissertation.bib
+ : @book{schreuder1993
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1642 of file Dissliterature/Dissertation.bib
+ : @manual{R
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1660 of file Dissliterature/Dissertation.bib
+ : @article{tonolli2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "naesset2002"
+Warning--can't use both author and editor fields in Akaike2011
+(There were 34 error messages)
