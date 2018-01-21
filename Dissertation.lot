@@ -1,15 +1,17 @@
 \select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Descriptive statistics of the forest observed on NFI sample plots located iwithin communal and state forest area (n=5791).\relax }}{43}{table.caption.29}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Accuracy metrics for submodels of final OLS regression model. $p$ gives the number of parameters for each model. Interaction terms are indicated by ':'.\relax }}{53}{table.caption.44}
-\contentsline {table}{\numberline {2.3}{\ignorespaces $R^2$, RMSE and RMSE\% of final regression model within ALS acquisition year strata (\textit {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit {n}: number of validation data.\relax }}{54}{table.caption.47}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Descriptive statistics of the forest observed on NFI sample plots located iwithin communal and state forest area (n=5791).\relax }}{48}{table.caption.28}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Accuracy metrics for submodels of final OLS regression model. $p$ gives the number of parameters for each model. Interaction terms are indicated by ':'.\relax }}{58}{table.caption.43}
+\contentsline {table}{\numberline {3.3}{\ignorespaces $R^2$, RMSE and RMSE\% of final regression model within ALS acquisition year strata (\textit {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit {n}: number of validation data.\relax }}{59}{table.caption.46}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{69}{table.caption.55}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{70}{table.caption.58}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Summary statistics of the CHM metrics calculated at the 67 terrestrial sample plots (in meters).\relax }}{72}{table.caption.62}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Summary statistics of the regression model.\relax }}{76}{table.caption.67}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Constant class width of 200 m$^3$/ha (five timber volume classes); OAA ($\pm $ 95\% confidence interval) (\%): 55.22 (42.58, 67.4); kappa: 0.36; square sum of class width: 200'000.\relax }}{78}{table.caption.69}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Optimized class width for five timber volume classes; OAA ($\pm $ 95\% confidence interval) (\%): 64.18 (51.53, 75.53); kappa: 0.54; square sum of class width: 176'600. Class widths smaller than 200 m$^3$/ha are indicated by *.\relax }}{78}{table.caption.70}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{74}{table.caption.53}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{75}{table.caption.56}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Summary statistics of the CHM metrics calculated at the 67 terrestrial sample plots (in meters).\relax }}{77}{table.caption.60}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Summary statistics of the regression model.\relax }}{81}{table.caption.65}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Constant class width of 200 m$^3$/ha (five timber volume classes); OAA ($\pm $ 95\% confidence interval) (\%): 55.22 (42.58, 67.4); kappa: 0.36; square sum of class width: 200'000.\relax }}{83}{table.caption.67}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Optimized class width for five timber volume classes; OAA ($\pm $ 95\% confidence interval) (\%): 64.18 (51.53, 75.53); kappa: 0.54; square sum of class width: 176'600. Class widths smaller than 200 m$^3$/ha are indicated by *.\relax }}{83}{table.caption.68}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

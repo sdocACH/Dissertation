@@ -115,6 +115,8 @@ headinclude]{scrbook}
 
 %============================================ Define Settings ========================================================%
 
+\pagestyle{fancy}
+
 %% - Absatzformatierung
 \setlength{\parindent}{0.5cm}
 %\setlength{\parskip}{1.0ex plus 1.0ex minus 0.5ex}
@@ -151,6 +153,10 @@ headinclude]{scrbook}
 %\newcommand{\changed}[1]{\color{red}{#1} \color{black}}
 \newcommand{\added}[1]{\color{black}{#1} \color{black}}
 \newcommand{\changed}[1]{\color{black}{#1} \color{black}}
+
+
+\addtolength{\headwidth}{\marginparsep}
+\addtolength{\headwidth}{\marginparwidth}
 
 %============================================ Stat-Journal specific styles =========================================%
 
@@ -288,24 +294,28 @@ headinclude]{scrbook}
 %	\pagebreak
 %	\thispagestyle{empty}
 %	
-%	%Definiert die Länge der Kopfzeile
-%	\pagestyle{fancy} \renewcommand{\headrulewidth}{0.4pt}
-%	\renewcommand{\headrulewidth}{0.4pt}
-%	\fancyhead{} \fancyfoot{}
-%	\setlength{\headheight}{30pt}
-%	\renewcommand{\chaptermark}[1]{\markboth{\small\ \thechapter\ \ #1}{}} 
-%	\renewcommand{\sectionmark}[1]{\markright{\small\thesection\ #1}{}}
-%	\fancyhead[LE]{\rightmark} \fancyhead[RO]{\leftmark}
-%	\fancyfoot[LE]{\thepage} \fancyfoot[RO]{\thepage}
-%	
-%	
+	%Definiert die Länge der Kopfzeile
+	% --> (L=Left, R=Right, E=Even (pagenumbers), O=Odd (page numbers)
+	\pagestyle{fancy} \renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\headrulewidth}{0.4pt}
+	\fancyhead{} \fancyfoot{}
+	\setlength{\headheight}{30pt}
+	\renewcommand{\chaptermark}[1]{ \markboth{\small\ \thechapter\ \hspace{1.5mm}\ #1}{} }   % \thechapter defines current chapter number
+		\fancyhead[RO]{\leftmark} %  \leftmark defines current CHAPTER name (where to put \chaptermark)
+	\renewcommand{\sectionmark}[1]{ \markright{\small \thesection\ \hspace{1.5mm}\  #1}{} }  % \thesection defines current section number
+		\fancyhead[LE]{\rightmark} % \rightmark defines current SECTION name (where to put \sectionmark)
+	\fancyfoot[LE]{\thepage} % \thepage defines current page number 
+	\fancyfoot[RO]{\thepage}
+
+
+%% ------------------------------ Introduction -------------------------------------------------------- %%	
 \pagenumbering{arabic}
-%\input{Introduction}
-%	\clearpage
-%	\newpage
-%	\mbox{}
-%	\pagebreak
-%	\thispagestyle{empty}
+\input{main/Introduction}
+	\clearpage
+	\newpage
+	\mbox{}
+	\pagebreak
+	\thispagestyle{empty}
 	
 %% ------------------------------ Artikel 1 R-Package-------------------------------------------------- %%
 \input{Rpackage_Article/Rpackage_forestinventory}
@@ -339,10 +349,10 @@ headinclude]{scrbook}
 \pagebreak
 \thispagestyle{empty}
 
-%%% ------------------------------ Discussion -------------------------------------- %%
-%\input{Discussion}
-%	%\cleardoublepage
-%	
+%%% ------------------------------ Synthese ---------------------------------------- %%
+\input{main/Synthese}
+\cleardoublepage
+	
 %%% ------------------------------ Literature -------------------------------------- %%
 \bibliographystyle{apalike2}
 %\bibliographystyle{spbasic} 

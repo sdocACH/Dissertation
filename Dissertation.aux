@@ -25,19 +25,30 @@
 \@writefile{lof}{\select@language{british}}
 \@writefile{lot}{\select@language{british}}
 \@writefile{toc}{\contentsline {chapter}{Acknowledgements}{1}{chapter*.4}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {1}The \textit  {R} Package {\fontseries  {b}\selectfont  forestinventory}: Design-Based Global and Small Area Estimations for Multi-Phase Forest Inventories}{2}{chapter.1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}General Introduction}{2}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chap:rpack}{{1}{2}{The \proglang {R} Package \pkg {forestinventory}: Design-Based Global and Small Area Estimations for Multi-Phase Forest Inventories}{chapter.1}{}}
+\newlabel{chap:intro}{{1}{2}{General Introduction}{chapter.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Goals}{3}{section.1.1}}
+\newlabel{sec:intro:goal}{{1.1}{3}{Goals}{section.1.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}History and state of the art}{4}{section.1.2}}
+\newlabel{sec:intro:hist_soa}{{1.2}{4}{History and state of the art}{section.1.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Outline}{5}{section.1.3}}
+\newlabel{sec:intro:outline}{{1.3}{5}{Outline}{section.1.3}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}The \textit  {R} Package {\fontseries  {b}\selectfont  forestinventory}: Design-Based Global and Small Area Estimations for Multi-Phase Forest Inventories}{7}{chapter.2}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{chap:rpack}{{2}{7}{The \proglang {R} Package \pkg {forestinventory}: Design-Based Global and Small Area Estimations for Multi-Phase Forest Inventories}{chapter.2}{}}
 \citation{gregoire2007,kohl2006,schreuder1993,mandallaz2008}
 \citation{vonluepke2013}
 \citation{gregoire2007,saborowski2010,mandallaz2013a,mandallaz2013c,vonLuepke2012}
 \citation{gregoire2007,saborowski2010,mandallaz2013a,mandallaz2013c,vonLuepke2012}
 \citation{breidenbach2012,vonLuebke2014,mandallaz2013b,magnussen2014,massey2014a}
-\newlabel{chap:rpack:Abstract}{{1}{4}{Abstract}{section*.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}}
-\newlabel{sec:intro}{{1.1}{4}{Introduction}{section.1.1}{}}
+\newlabel{chap:rpack:Abstract}{{2}{9}{Abstract}{section*.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}}
+\newlabel{sec:intro}{{2.1}{9}{Introduction}{section.2.1}{}}
 \citation{sas}
 \citation{survey}
 \citation{josae2015}
@@ -45,162 +56,162 @@
 \citation{massey2014a,massey2015b,mandallaz2013b}
 \citation{hill2017a}
 \citation{massey2015}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Methods and structure of the package}{6}{section.1.2}}
-\newlabel{sec:str_and_mod}{{1.2}{6}{Methods and structure of the package}{section.1.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Forest inventory in the infinite population approach}{6}{subsection.1.2.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Artificial representation of a local density surface. The spatial distribution of a hypothetical density function for every point in a forested area is represented as a wavy piecewise constant green surface. Sample plots (white dots) inform the inventorist of the value of the density function at that point. Note that the plateaus of constant $Y(x)$ values here have the shape of squares whereas in reality they are likely to be formed by the intersection of circles around trees.\relax }}{6}{figure.caption.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Methods and structure of the package}{11}{section.2.2}}
+\newlabel{sec:str_and_mod}{{2.2}{11}{Methods and structure of the package}{section.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Forest inventory in the infinite population approach}{11}{subsection.2.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Artificial representation of a local density surface. The spatial distribution of a hypothetical density function for every point in a forested area is represented as a wavy piecewise constant green surface. Sample plots (white dots) inform the inventorist of the value of the density function at that point. Note that the plateaus of constant $Y(x)$ values here have the shape of squares whereas in reality they are likely to be formed by the intersection of circles around trees.\relax }}{11}{figure.caption.6}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:inf_pop_apr}{{1.1}{6}{Artificial representation of a local density surface. The spatial distribution of a hypothetical density function for every point in a forested area is represented as a wavy piecewise constant green surface. Sample plots (white dots) inform the inventorist of the value of the density function at that point. Note that the plateaus of constant $Y(x)$ values here have the shape of squares whereas in reality they are likely to be formed by the intersection of circles around trees.\relax }{figure.caption.6}{}}
+\newlabel{fig:inf_pop_apr}{{2.1}{11}{Artificial representation of a local density surface. The spatial distribution of a hypothetical density function for every point in a forested area is represented as a wavy piecewise constant green surface. Sample plots (white dots) inform the inventorist of the value of the density function at that point. Note that the plateaus of constant $Y(x)$ values here have the shape of squares whereas in reality they are likely to be formed by the intersection of circles around trees.\relax }{figure.caption.6}{}}
 \citation{mandallaz2008}
 \citation{mandallaz2013a}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Two-phase sampling}{7}{subsection.1.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Three-phase sampling}{7}{subsection.1.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4}Small area estimation}{7}{subsection.1.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Two-phase sampling}{12}{subsection.2.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Three-phase sampling}{12}{subsection.2.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Small area estimation}{12}{subsection.2.2.4}}
 \citation{mandallaz2008,mandallaz2013techa,mandallaz2013techb,mandallaz2015tech}
 \citation{mandallaz2016,mandallaz2013techa,mandallaz2013techb}
-\newlabel{fig:concmphase_and_sae_a}{{1.2a}{8}{\relax }{figure.caption.7}{}}
-\newlabel{sub@fig:concmphase_and_sae_a}{{a}{8}{\relax }{figure.caption.7}{}}
-\newlabel{fig:concmphase_and_sae_b}{{1.2b}{8}{\relax }{figure.caption.7}{}}
-\newlabel{sub@fig:concmphase_and_sae_b}{{b}{8}{\relax }{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces (a) Concept of multi-phase sampling. The square represents the forest area for which an inventory is being conducted. The points denote the sample locations $x$. Filled points indicate available information. (b) Illustration of the small area estimation problem.\relax }}{8}{figure.caption.7}}
-\newlabel{fig:concmphase_and_sae}{{1.2}{8}{(a) Concept of multi-phase sampling. The square represents the forest area for which an inventory is being conducted. The points denote the sample locations $x$. Filled points indicate available information. (b) Illustration of the small area estimation problem.\relax }{figure.caption.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.5}Design-based vs. model-dependent approach}{8}{subsection.1.2.5}}
-\newlabel{sec:db_vs_md}{{1.2.5}{8}{Design-based vs. model-dependent approach}{subsection.1.2.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.6}Package structure}{9}{subsection.1.2.6}}
-\newlabel{sec:packstruc}{{1.2.6}{9}{Package structure}{subsection.1.2.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Structure of the multi-phase estimators in the \textit  {R} package {\fontseries  {b}\selectfont  forestinventory}.\relax }}{9}{figure.caption.8}}
-\newlabel{fig:struct_package}{{1.3}{9}{Structure of the multi-phase estimators in the \proglang {R} package \pkg {forestinventory}.\relax }{figure.caption.8}{}}
+\newlabel{fig:concmphase_and_sae_a}{{2.2a}{13}{\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:concmphase_and_sae_a}{{a}{13}{\relax }{figure.caption.7}{}}
+\newlabel{fig:concmphase_and_sae_b}{{2.2b}{13}{\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:concmphase_and_sae_b}{{b}{13}{\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces (a) Concept of multi-phase sampling. The square represents the forest area for which an inventory is being conducted. The points denote the sample locations $x$. Filled points indicate available information. (b) Illustration of the small area estimation problem.\relax }}{13}{figure.caption.7}}
+\newlabel{fig:concmphase_and_sae}{{2.2}{13}{(a) Concept of multi-phase sampling. The square represents the forest area for which an inventory is being conducted. The points denote the sample locations $x$. Filled points indicate available information. (b) Illustration of the small area estimation problem.\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}Design-based vs. model-dependent approach}{13}{subsection.2.2.5}}
+\newlabel{sec:db_vs_md}{{2.2.5}{13}{Design-based vs. model-dependent approach}{subsection.2.2.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.6}Package structure}{14}{subsection.2.2.6}}
+\newlabel{sec:packstruc}{{2.2.6}{14}{Package structure}{subsection.2.2.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Structure of the multi-phase estimators in the \textit  {R} package {\fontseries  {b}\selectfont  forestinventory}.\relax }}{14}{figure.caption.8}}
+\newlabel{fig:struct_package}{{2.3}{14}{Structure of the multi-phase estimators in the \proglang {R} package \pkg {forestinventory}.\relax }{figure.caption.8}{}}
 \citation{massey2015a}
 \citation{mandallaz2016}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Two-phase estimators and their application}{10}{section.1.3}}
-\newlabel{sec:twophase_and_appl}{{1.3}{10}{Two-phase estimators and their application}{section.1.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Global estimators}{10}{subsection.1.3.1}}
-\newlabel{sec:twophase_globest}{{1.3.1}{10}{Global estimators}{subsection.1.3.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Mathematical background}{10}{section*.9}}
-\newlabel{normequ_simple}{{1.1}{10}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:pointest_2p_reg}{{1.2}{10}{Mathematical background}{equation.1.3.2}{}}
-\newlabel{eq:pointest_2p_reg_ex}{{1.2a}{10}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:pointest_2p_reg_nex}{{1.2b}{10}{Mathematical background}{equation.1.3.2}{}}
-\newlabel{eq:gw_var_2p_reg}{{1.3}{10}{Mathematical background}{equation.1.3.3}{}}
-\newlabel{eq:gw_var_2p_reg_ex}{{1.3a}{10}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:gw_var_2p_reg_nex}{{1.3b}{10}{Mathematical background}{equation.1.3.2}{}}
-\newlabel{eq:estvarmatrix}{{1.4}{10}{Mathematical background}{equation.1.3.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Two-phase estimators and their application}{15}{section.2.3}}
+\newlabel{sec:twophase_and_appl}{{2.3}{15}{Two-phase estimators and their application}{section.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Global estimators}{15}{subsection.2.3.1}}
+\newlabel{sec:twophase_globest}{{2.3.1}{15}{Global estimators}{subsection.2.3.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Mathematical background}{15}{section*.9}}
+\newlabel{normequ_simple}{{2.1}{15}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:pointest_2p_reg}{{2.2}{15}{Mathematical background}{equation.2.3.2}{}}
+\newlabel{eq:pointest_2p_reg_ex}{{2.2a}{15}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:pointest_2p_reg_nex}{{2.2b}{15}{Mathematical background}{equation.2.3.2}{}}
+\newlabel{eq:gw_var_2p_reg}{{2.3}{15}{Mathematical background}{equation.2.3.3}{}}
+\newlabel{eq:gw_var_2p_reg_ex}{{2.3a}{15}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:gw_var_2p_reg_nex}{{2.3b}{15}{Mathematical background}{equation.2.3.2}{}}
+\newlabel{eq:estvarmatrix}{{2.4}{15}{Mathematical background}{equation.2.3.4}{}}
 \citation{mandallaz2013b}
-\newlabel{estvarcovaux}{{1.5}{11}{Mathematical background}{equation.1.3.5}{}}
-\newlabel{eq:varexternal_2p_reg}{{1.6}{11}{Mathematical background}{equation.1.3.6}{}}
-\newlabel{eq:varexternal_2p_reg_ex}{{1.6a}{11}{Mathematical background}{equation.1.3.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Calculation of explanatory variables}{11}{section*.10}}
+\newlabel{estvarcovaux}{{2.5}{16}{Mathematical background}{equation.2.3.5}{}}
+\newlabel{eq:varexternal_2p_reg}{{2.6}{16}{Mathematical background}{equation.2.3.6}{}}
+\newlabel{eq:varexternal_2p_reg_ex}{{2.6a}{16}{Mathematical background}{equation.2.3.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Calculation of explanatory variables}{16}{section*.10}}
 \citation{mandallaz2013b}
 \citation{mandallaz2013b}
-\newlabel{fig:exh_nexh_and_boundweights_a}{{1.4a}{12}{\relax }{figure.caption.11}{}}
-\newlabel{sub@fig:exh_nexh_and_boundweights_a}{{a}{12}{\relax }{figure.caption.11}{}}
-\newlabel{fig:exh_nexh_and_boundweights_b}{{1.4b}{12}{\relax }{figure.caption.11}{}}
-\newlabel{sub@fig:exh_nexh_and_boundweights_b}{{b}{12}{\relax }{figure.caption.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Concept of (a) exhaustive and (b) non-exhaustive calculation of explanatory variables including boundary adjustment at the support level. Auxiliary data are in both cases available over the entire inventory area marked by the large rectangle. A vector of explanatory variables $\pmb  {Z}(x)$ is calculated within the supports (small squares) at each sample location $x$ (points) that falls into the forest area (green underlying polygon).\relax }}{12}{figure.caption.11}}
-\newlabel{fig:exh_nexh_bw}{{1.4}{12}{Concept of (a) exhaustive and (b) non-exhaustive calculation of explanatory variables including boundary adjustment at the support level. Auxiliary data are in both cases available over the entire inventory area marked by the large rectangle. A vector of explanatory variables $\pmb {Z}(x)$ is calculated within the supports (small squares) at each sample location $x$ (points) that falls into the forest area (green underlying polygon).\relax }{figure.caption.11}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Boundary adjustment}{12}{section*.12}}
-\newlabel{eq:wmeanZ}{{1.7}{12}{Boundary adjustment}{equation.1.3.7}{}}
+\newlabel{fig:exh_nexh_and_boundweights_a}{{2.4a}{17}{\relax }{figure.caption.11}{}}
+\newlabel{sub@fig:exh_nexh_and_boundweights_a}{{a}{17}{\relax }{figure.caption.11}{}}
+\newlabel{fig:exh_nexh_and_boundweights_b}{{2.4b}{17}{\relax }{figure.caption.11}{}}
+\newlabel{sub@fig:exh_nexh_and_boundweights_b}{{b}{17}{\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Concept of (a) exhaustive and (b) non-exhaustive calculation of explanatory variables including boundary adjustment at the support level. Auxiliary data are in both cases available over the entire inventory area marked by the large rectangle. A vector of explanatory variables $\pmb  {Z}(x)$ is calculated within the supports (small squares) at each sample location $x$ (points) that falls into the forest area (green underlying polygon).\relax }}{17}{figure.caption.11}}
+\newlabel{fig:exh_nexh_bw}{{2.4}{17}{Concept of (a) exhaustive and (b) non-exhaustive calculation of explanatory variables including boundary adjustment at the support level. Auxiliary data are in both cases available over the entire inventory area marked by the large rectangle. A vector of explanatory variables $\pmb {Z}(x)$ is calculated within the supports (small squares) at each sample location $x$ (points) that falls into the forest area (green underlying polygon).\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Boundary adjustment}{17}{section*.12}}
+\newlabel{eq:wmeanZ}{{2.7}{17}{Boundary adjustment}{equation.2.3.7}{}}
 \citation{R}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Application}{13}{section*.13}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Application}{18}{section*.13}}
 \citation{mandallaz2013b}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}Small area estimators}{15}{subsection.1.3.2}}
-\newlabel{sec:twophase_sae}{{1.3.2}{15}{Small area estimators}{subsection.1.3.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Mathematical background}{15}{section*.14}}
-\newlabel{eq:pest_2p_small_psmall}{{1.8}{15}{Mathematical background}{equation.1.3.8}{}}
-\newlabel{eq:pointest_2p_small}{{1.8a}{15}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:pepsmall}{{1.8b}{15}{Mathematical background}{equation.1.3.2}{}}
-\newlabel{eq:var_2p_small_psmall}{{1.9}{15}{Mathematical background}{equation.1.3.9}{}}
-\newlabel{eq:var_2p_reg_small}{{1.9a}{15}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:var_2p_reg_psmall}{{1.9b}{15}{Mathematical background}{equation.1.3.2}{}}
-\newlabel{eq:varext_2p_small_psmall}{{1.10}{15}{Mathematical background}{equation.1.3.10}{}}
-\newlabel{eq:varext_2p_reg_small}{{1.10a}{15}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:varext_2p_reg_psmall}{{1.10b}{15}{Mathematical background}{equation.1.3.2}{}}
-\newlabel{eq:pest_2p_synth_psynth}{{1.11}{16}{Mathematical background}{equation.1.3.11}{}}
-\newlabel{eq:pointest_2p_reg_synth}{{1.11a}{16}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:pointest_2p_reg_psynth}{{1.11b}{16}{Mathematical background}{equation.1.3.2}{}}
-\newlabel{eq:var_2p_reg_synth}{{1.11c}{16}{Mathematical background}{equation.1.3.3}{}}
-\newlabel{eq:var_2p_reg_psynth}{{1.11d}{16}{Mathematical background}{equation.1.3.4}{}}
-\newlabel{estvarcovaux_G}{{1.12}{16}{Mathematical background}{equation.1.3.12}{}}
-\newlabel{ext_normequ_simple}{{1.13}{16}{Mathematical background}{equation.1.3.13}{}}
-\newlabel{eq:pest_2p_extsynth_extpsynth}{{1.14}{16}{Mathematical background}{equation.1.3.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Small area estimators}{20}{subsection.2.3.2}}
+\newlabel{sec:twophase_sae}{{2.3.2}{20}{Small area estimators}{subsection.2.3.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Mathematical background}{20}{section*.14}}
+\newlabel{eq:pest_2p_small_psmall}{{2.8}{20}{Mathematical background}{equation.2.3.8}{}}
+\newlabel{eq:pointest_2p_small}{{2.8a}{20}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:pepsmall}{{2.8b}{20}{Mathematical background}{equation.2.3.2}{}}
+\newlabel{eq:var_2p_small_psmall}{{2.9}{20}{Mathematical background}{equation.2.3.9}{}}
+\newlabel{eq:var_2p_reg_small}{{2.9a}{20}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:var_2p_reg_psmall}{{2.9b}{20}{Mathematical background}{equation.2.3.2}{}}
+\newlabel{eq:varext_2p_small_psmall}{{2.10}{20}{Mathematical background}{equation.2.3.10}{}}
+\newlabel{eq:varext_2p_reg_small}{{2.10a}{20}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:varext_2p_reg_psmall}{{2.10b}{20}{Mathematical background}{equation.2.3.2}{}}
+\newlabel{eq:pest_2p_synth_psynth}{{2.11}{21}{Mathematical background}{equation.2.3.11}{}}
+\newlabel{eq:pointest_2p_reg_synth}{{2.11a}{21}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:pointest_2p_reg_psynth}{{2.11b}{21}{Mathematical background}{equation.2.3.2}{}}
+\newlabel{eq:var_2p_reg_synth}{{2.11c}{21}{Mathematical background}{equation.2.3.3}{}}
+\newlabel{eq:var_2p_reg_psynth}{{2.11d}{21}{Mathematical background}{equation.2.3.4}{}}
+\newlabel{estvarcovaux_G}{{2.12}{21}{Mathematical background}{equation.2.3.12}{}}
+\newlabel{ext_normequ_simple}{{2.13}{21}{Mathematical background}{equation.2.3.13}{}}
+\newlabel{eq:pest_2p_extsynth_extpsynth}{{2.14}{21}{Mathematical background}{equation.2.3.14}{}}
 \citation{mandallaz2016}
-\newlabel{eq:pointest_2p_extsynth}{{1.14a}{17}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:pointest_2p_extsynth}{{1.14b}{17}{Mathematical background}{equation.1.3.2}{}}
-\newlabel{eq:var_2p_extsynth}{{1.14c}{17}{Mathematical background}{equation.1.3.3}{}}
-\newlabel{eq:var_2p_extpsynth}{{1.14d}{17}{Mathematical background}{equation.1.3.4}{}}
-\newlabel{eq:ext_varexternal_2p_extsynth}{{1.15}{17}{Mathematical background}{equation.1.3.15}{}}
-\newlabel{eq:ext_varexternal_2p_extsynth}{{1.15a}{17}{Mathematical background}{equation.1.3.1}{}}
-\newlabel{eq:ext_varexternal_2p_extpsynth}{{1.15b}{17}{Mathematical background}{equation.1.3.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Application}{17}{section*.15}}
+\newlabel{eq:pointest_2p_extsynth}{{2.14a}{22}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:pointest_2p_extsynth}{{2.14b}{22}{Mathematical background}{equation.2.3.2}{}}
+\newlabel{eq:var_2p_extsynth}{{2.14c}{22}{Mathematical background}{equation.2.3.3}{}}
+\newlabel{eq:var_2p_extpsynth}{{2.14d}{22}{Mathematical background}{equation.2.3.4}{}}
+\newlabel{eq:ext_varexternal_2p_extsynth}{{2.15}{22}{Mathematical background}{equation.2.3.15}{}}
+\newlabel{eq:ext_varexternal_2p_extsynth}{{2.15a}{22}{Mathematical background}{equation.2.3.1}{}}
+\newlabel{eq:ext_varexternal_2p_extpsynth}{{2.15b}{22}{Mathematical background}{equation.2.3.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Application}{22}{section*.15}}
 \citation{mandallaz2013b}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}Three-phase estimators and their application}{21}{section.1.4}}
-\newlabel{sec:threephase_and_appl}{{1.4}{21}{Three-phase estimators and their application}{section.1.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}Global estimators}{21}{subsection.1.4.1}}
-\newlabel{sec:glob_est_3p}{{1.4.1}{21}{Global estimators}{subsection.1.4.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Mathematical background}{21}{section*.16}}
-\newlabel{eq:normequ_3p}{{1.16}{21}{Mathematical background}{equation.1.4.16}{}}
-\newlabel{eq:normequ_redmod}{{1.16a}{21}{Mathematical background}{equation.1.4.1}{}}
-\newlabel{eq:normequ_fullmod}{{1.16b}{21}{Mathematical background}{equation.1.4.2}{}}
-\newlabel{eq:reg3p}{{1.17}{21}{Mathematical background}{equation.1.4.17}{}}
-\newlabel{eq:reg3p_ex}{{1.17a}{21}{Mathematical background}{equation.1.4.1}{}}
-\newlabel{eq:reg3p_nex}{{1.17b}{21}{Mathematical background}{equation.1.4.2}{}}
-\newlabel{meanvalues3pnex}{{1.18}{21}{Mathematical background}{equation.1.4.18}{}}
-\newlabel{eq:dbvar_reg3p}{{1.19}{21}{Mathematical background}{equation.1.4.19}{}}
-\newlabel{eq:dbvar_reg3p_ex}{{1.19a}{21}{Mathematical background}{equation.1.4.1}{}}
-\newlabel{eq:dbvar_reg3p_nex}{{1.19b}{21}{Mathematical background}{equation.1.4.2}{}}
-\newlabel{eq:covar3p}{{1.20}{22}{Mathematical background}{equation.1.4.20}{}}
-\newlabel{eq:covar_alpha}{{1.20b}{22}{Mathematical background}{equation.1.4.2}{}}
-\newlabel{eq:covar_beta}{{1.20c}{22}{Mathematical background}{equation.1.4.3}{}}
-\newlabel{eq:extvar_reg3p}{{1.21}{22}{Mathematical background}{equation.1.4.21}{}}
-\newlabel{eq:extvar_reg3p_ex}{{1.21a}{22}{Mathematical background}{equation.1.4.1}{}}
-\newlabel{eq:extvar_reg3p_nex}{{1.21b}{22}{Mathematical background}{equation.1.4.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Application}{22}{section*.17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}Small area estimators}{23}{subsection.1.4.2}}
-\newlabel{sec:threephase_sae}{{1.4.2}{23}{Small area estimators}{subsection.1.4.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Mathematical background}{23}{section*.18}}
-\newlabel{eq:pest_3p_small_psmall}{{1.22}{23}{Mathematical background}{equation.1.4.22}{}}
-\newlabel{eq:pe_3p_small}{{1.22a}{23}{Mathematical background}{equation.1.4.1}{}}
-\newlabel{eq:pe_3p_psmall}{{1.22b}{23}{Mathematical background}{equation.1.4.2}{}}
-\newlabel{eq:var_3p_small_psmall}{{1.23}{23}{Mathematical background}{equation.1.4.23}{}}
-\newlabel{eq:var_3p_reg_small}{{1.23a}{24}{Mathematical background}{equation.1.4.1}{}}
-\newlabel{eq:var_3p_reg_psmall}{{1.23b}{24}{Mathematical background}{equation.1.4.2}{}}
-\newlabel{estvarcovaux3pG}{{1.24}{24}{Mathematical background}{equation.1.4.24}{}}
-\newlabel{eq:pest_3p_small_psmall}{{1.25}{24}{Mathematical background}{equation.1.4.25}{}}
-\newlabel{eq:var_3p_reg_small}{{1.25a}{24}{Mathematical background}{equation.1.4.1}{}}
-\newlabel{eq:var_3p_reg_psmall}{{1.25b}{24}{Mathematical background}{equation.1.4.2}{}}
-\newlabel{eq:3p_synth_psynth}{{1.26}{24}{Mathematical background}{equation.1.4.26}{}}
-\newlabel{eq:pe_3p_synth}{{1.26a}{24}{Mathematical background}{equation.1.4.1}{}}
-\newlabel{eq:pe_3p_psynth}{{1.26b}{24}{Mathematical background}{equation.1.4.2}{}}
-\newlabel{eq:var_3p_reg_synth}{{1.26c}{24}{Mathematical background}{equation.1.4.3}{}}
-\newlabel{eq:var_3p_reg_psynth}{{1.26d}{24}{Mathematical background}{equation.1.4.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Application}{25}{section*.19}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Three-phase estimators and their application}{26}{section.2.4}}
+\newlabel{sec:threephase_and_appl}{{2.4}{26}{Three-phase estimators and their application}{section.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Global estimators}{26}{subsection.2.4.1}}
+\newlabel{sec:glob_est_3p}{{2.4.1}{26}{Global estimators}{subsection.2.4.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Mathematical background}{26}{section*.16}}
+\newlabel{eq:normequ_3p}{{2.16}{26}{Mathematical background}{equation.2.4.16}{}}
+\newlabel{eq:normequ_redmod}{{2.16a}{26}{Mathematical background}{equation.2.4.1}{}}
+\newlabel{eq:normequ_fullmod}{{2.16b}{26}{Mathematical background}{equation.2.4.2}{}}
+\newlabel{eq:reg3p}{{2.17}{26}{Mathematical background}{equation.2.4.17}{}}
+\newlabel{eq:reg3p_ex}{{2.17a}{26}{Mathematical background}{equation.2.4.1}{}}
+\newlabel{eq:reg3p_nex}{{2.17b}{26}{Mathematical background}{equation.2.4.2}{}}
+\newlabel{meanvalues3pnex}{{2.18}{26}{Mathematical background}{equation.2.4.18}{}}
+\newlabel{eq:dbvar_reg3p}{{2.19}{26}{Mathematical background}{equation.2.4.19}{}}
+\newlabel{eq:dbvar_reg3p_ex}{{2.19a}{26}{Mathematical background}{equation.2.4.1}{}}
+\newlabel{eq:dbvar_reg3p_nex}{{2.19b}{26}{Mathematical background}{equation.2.4.2}{}}
+\newlabel{eq:covar3p}{{2.20}{27}{Mathematical background}{equation.2.4.20}{}}
+\newlabel{eq:covar_alpha}{{2.20b}{27}{Mathematical background}{equation.2.4.2}{}}
+\newlabel{eq:covar_beta}{{2.20c}{27}{Mathematical background}{equation.2.4.3}{}}
+\newlabel{eq:extvar_reg3p}{{2.21}{27}{Mathematical background}{equation.2.4.21}{}}
+\newlabel{eq:extvar_reg3p_ex}{{2.21a}{27}{Mathematical background}{equation.2.4.1}{}}
+\newlabel{eq:extvar_reg3p_nex}{{2.21b}{27}{Mathematical background}{equation.2.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Application}{27}{section*.17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Small area estimators}{28}{subsection.2.4.2}}
+\newlabel{sec:threephase_sae}{{2.4.2}{28}{Small area estimators}{subsection.2.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Mathematical background}{28}{section*.18}}
+\newlabel{eq:pest_3p_small_psmall}{{2.22}{28}{Mathematical background}{equation.2.4.22}{}}
+\newlabel{eq:pe_3p_small}{{2.22a}{28}{Mathematical background}{equation.2.4.1}{}}
+\newlabel{eq:pe_3p_psmall}{{2.22b}{28}{Mathematical background}{equation.2.4.2}{}}
+\newlabel{eq:var_3p_small_psmall}{{2.23}{28}{Mathematical background}{equation.2.4.23}{}}
+\newlabel{eq:var_3p_reg_small}{{2.23a}{29}{Mathematical background}{equation.2.4.1}{}}
+\newlabel{eq:var_3p_reg_psmall}{{2.23b}{29}{Mathematical background}{equation.2.4.2}{}}
+\newlabel{estvarcovaux3pG}{{2.24}{29}{Mathematical background}{equation.2.4.24}{}}
+\newlabel{eq:pest_3p_small_psmall}{{2.25}{29}{Mathematical background}{equation.2.4.25}{}}
+\newlabel{eq:var_3p_reg_small}{{2.25a}{29}{Mathematical background}{equation.2.4.1}{}}
+\newlabel{eq:var_3p_reg_psmall}{{2.25b}{29}{Mathematical background}{equation.2.4.2}{}}
+\newlabel{eq:3p_synth_psynth}{{2.26}{29}{Mathematical background}{equation.2.4.26}{}}
+\newlabel{eq:pe_3p_synth}{{2.26a}{29}{Mathematical background}{equation.2.4.1}{}}
+\newlabel{eq:pe_3p_psynth}{{2.26b}{29}{Mathematical background}{equation.2.4.2}{}}
+\newlabel{eq:var_3p_reg_synth}{{2.26c}{29}{Mathematical background}{equation.2.4.3}{}}
+\newlabel{eq:var_3p_reg_psynth}{{2.26d}{29}{Mathematical background}{equation.2.4.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Application}{30}{section*.19}}
 \citation{mandallaz2013a}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Calculation of confidence intervals}{27}{section.1.5}}
-\newlabel{sec:confint_calc}{{1.5}{27}{Calculation of confidence intervals}{section.1.5}{}}
-\newlabel{ci_1phase}{{1.27}{27}{Calculation of confidence intervals}{equation.1.5.27}{}}
-\newlabel{ci_2phase_global}{{1.28}{27}{Calculation of confidence intervals}{equation.1.5.28}{}}
-\newlabel{ci_2phase_sae}{{1.29}{27}{Calculation of confidence intervals}{equation.1.5.29}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.6}Special cases and scenarios}{28}{section.1.6}}
-\newlabel{sec:speccas_and_scen}{{1.6}{28}{Special cases and scenarios}{section.1.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.1}Post-stratification}{28}{subsection.1.6.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.2}Small area estimation under cluster sampling}{28}{subsection.1.6.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.3}Violation of nesting in sample design}{29}{subsection.1.6.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.7}Analysis and visualization}{32}{section.1.7}}
-\newlabel{sec:anal_and_vis}{{1.7}{32}{Analysis and visualization}{section.1.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.7.1}Analysis}{32}{subsection.1.7.1}}
-\newlabel{eq:esterror}{{1.30}{33}{Analysis}{equation.1.7.30}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Calculation of confidence intervals}{32}{section.2.5}}
+\newlabel{sec:confint_calc}{{2.5}{32}{Calculation of confidence intervals}{section.2.5}{}}
+\newlabel{ci_1phase}{{2.27}{32}{Calculation of confidence intervals}{equation.2.5.27}{}}
+\newlabel{ci_2phase_global}{{2.28}{32}{Calculation of confidence intervals}{equation.2.5.28}{}}
+\newlabel{ci_2phase_sae}{{2.29}{32}{Calculation of confidence intervals}{equation.2.5.29}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}Special cases and scenarios}{33}{section.2.6}}
+\newlabel{sec:speccas_and_scen}{{2.6}{33}{Special cases and scenarios}{section.2.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.1}Post-stratification}{33}{subsection.2.6.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.2}Small area estimation under cluster sampling}{33}{subsection.2.6.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.3}Violation of nesting in sample design}{34}{subsection.2.6.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.7}Analysis and visualization}{37}{section.2.7}}
+\newlabel{sec:anal_and_vis}{{2.7}{37}{Analysis and visualization}{section.2.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}Analysis}{37}{subsection.2.7.1}}
+\newlabel{eq:esterror}{{2.30}{38}{Analysis}{equation.2.7.30}{}}
 \citation{ggplot2}
-\newlabel{eq:releff}{{1.31}{34}{Analysis}{equation.1.7.31}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.7.2}Visualization}{34}{subsection.1.7.2}}
+\newlabel{eq:releff}{{2.31}{39}{Analysis}{equation.2.7.31}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}Visualization}{39}{subsection.2.7.2}}
 \citation{github_forestinventory}
 \citation{dt2017}
-\@writefile{toc}{\contentsline {section}{\numberline {1.8}Future plans}{35}{section.1.8}}
-\newlabel{sec:future}{{1.8}{35}{Future plans}{section.1.8}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{37}{chapter.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.8}Future plans}{40}{section.2.8}}
+\newlabel{sec:future}{{2.8}{40}{Future plans}{section.2.8}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{42}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chap:regmod}{{2}{37}{Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{chapter.2}{}}
+\newlabel{chap:regmod}{{3}{42}{Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{chapter.3}{}}
 \citation{mandallaz2008}
 \citation{brosofske2014}
 \citation{naesset1997}
@@ -213,9 +224,9 @@
 \citation{white2016}
 \citation{maack2016}
 \citation{jakubowski2013}
-\newlabel{chap:regmod:Abstract}{{2}{39}{Abstract}{section*.27}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}Introduction}{39}{section.2.1}}
-\newlabel{sec:intro}{{2.1}{39}{Introduction}{section.2.1}{}}
+\newlabel{chap:regmod:Abstract}{{3}{44}{Abstract}{section*.26}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Introduction}{44}{section.3.1}}
+\newlabel{sec:intro}{{3.1}{44}{Introduction}{section.3.1}{}}
 \citation{koch2010,white2016}
 \citation{husmann2017,zianis2005}
 \citation{white2016}
@@ -230,10 +241,10 @@
 \citation{bwi3}
 \citation{bwi3}
 \citation{gauer2005}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Materials and Methods}{41}{section.2.2}}
-\newlabel{sec:MatMeth}{{2.2}{41}{Materials and Methods}{section.2.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Study Area}{41}{subsection.2.2.1}}
-\newlabel{sec:studyarea}{{2.2.1}{41}{Study Area}{subsection.2.2.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Materials and Methods}{46}{section.3.2}}
+\newlabel{sec:MatMeth}{{3.2}{46}{Materials and Methods}{section.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Study Area}{46}{subsection.3.2.1}}
+\newlabel{sec:studyarea}{{3.2.1}{46}{Study Area}{subsection.3.2.1}{}}
 \citation{bwi3_aufn}
 \citation{bitterlich1984}
 \citation{bwi3_aufn}
@@ -241,31 +252,31 @@
 \citation{kublin2013}
 \citation{mandallaz2013a,mandallaz2013b,mandallaz2013c}
 \citation{mandallaz2008}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Spatial distribution of the BWI3{} cluster samples over Rhineland-Palatinate\relax }}{42}{figure.caption.28}}
-\newlabel{fig:Study Area}{{2.1}{42}{Spatial distribution of the \bwi {} cluster samples over Rhineland-Palatinate\relax }{figure.caption.28}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Terrestrial Inventory Data}{42}{subsection.2.2.2}}
-\newlabel{sec:terrdata}{{2.2.2}{42}{Terrestrial Inventory Data}{subsection.2.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Spatial distribution of the BWI3{} cluster samples over Rhineland-Palatinate\relax }}{47}{figure.caption.27}}
+\newlabel{fig:Study Area}{{3.1}{47}{Spatial distribution of the \bwi {} cluster samples over Rhineland-Palatinate\relax }{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Terrestrial Inventory Data}{47}{subsection.3.2.2}}
+\newlabel{sec:terrdata}{{3.2.2}{47}{Terrestrial Inventory Data}{subsection.3.2.2}{}}
 \citation{matlab}
 \citation{mandallaz2013b}
 \citation{kublin2003,kublin2013}
-\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Descriptive statistics of the forest observed on NFI sample plots located iwithin communal and state forest area (n=5791).\relax }}{43}{table.caption.29}}
-\newlabel{tab:fieldata}{{2.1}{43}{Descriptive statistics of the forest observed on NFI sample plots located iwithin communal and state forest area (n=5791).\relax }{table.caption.29}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Auxiliary Data}{43}{subsection.2.2.3}}
-\newlabel{sec:auxinfo}{{2.2.3}{43}{Auxiliary Data}{subsection.2.2.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline ALS Canopy Height Model}{43}{section*.30}}
-\newlabel{sec:chm}{{2.2.3}{43}{ALS Canopy Height Model}{section*.30}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Descriptive statistics of the forest observed on NFI sample plots located iwithin communal and state forest area (n=5791).\relax }}{48}{table.caption.28}}
+\newlabel{tab:fieldata}{{3.1}{48}{Descriptive statistics of the forest observed on NFI sample plots located iwithin communal and state forest area (n=5791).\relax }{table.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Auxiliary Data}{48}{subsection.3.2.3}}
+\newlabel{sec:auxinfo}{{3.2.3}{48}{Auxiliary Data}{subsection.3.2.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline ALS Canopy Height Model}{48}{section*.29}}
+\newlabel{sec:chm}{{3.2.3}{48}{ALS Canopy Height Model}{section*.29}{}}
 \citation{stoffels2015}
 \citation{kublin2013}
 \citation{stoffels2015}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Separate ALS acquisitions in Rhineland-Palatinate over the years. The colors also indicate the quality of the data: \textit  {light}: low point densities (0.04/$m^2$), \textit  {dark}: high point densities ($>$4/$m^2$). \color  {black}{Blue semitransparent layer: state and communal forest area.} \color  {black}\relax }}{44}{figure.caption.31}}
-\newlabel{abb:lidaryears}{{2.2}{44}{Separate ALS acquisitions in Rhineland-Palatinate over the years. The colors also indicate the quality of the data: \textit {light}: low point densities (0.04/$m^2$), \textit {dark}: high point densities ($>$4/$m^2$). \added {Blue semitransparent layer: state and communal forest area.}\relax }{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Separate ALS acquisitions in Rhineland-Palatinate over the years. The colors also indicate the quality of the data: \textit  {light}: low point densities (0.04/$m^2$), \textit  {dark}: high point densities ($>$4/$m^2$). \color  {black}{Blue semitransparent layer: state and communal forest area.} \color  {black}\relax }}{49}{figure.caption.30}}
+\newlabel{abb:lidaryears}{{3.2}{49}{Separate ALS acquisitions in Rhineland-Palatinate over the years. The colors also indicate the quality of the data: \textit {light}: low point densities (0.04/$m^2$), \textit {dark}: high point densities ($>$4/$m^2$). \added {Blue semitransparent layer: state and communal forest area.}\relax }{figure.caption.30}{}}
 \citation{latifi2012}
 \citation{carroll2006}
 \citation{magnussen2010}
 \citation{gustafson2003}
 \citation{carroll2006}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{45}{section*.32}}
-\newlabel{sec:tspecclass}{{2.2.3}{45}{Tree Species Classification Map}{section*.32}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{50}{section*.31}}
+\newlabel{sec:tspecclass}{{3.2.3}{50}{Tree Species Classification Map}{section*.31}{}}
 \citation{breiman2001}
 \citation{liaw2002}
 \citation{R}
@@ -273,58 +284,58 @@
 \citation{mandallaz2013c,mandallaz2013a}
 \citation{deo2016}
 \citation{mandallaz2013c,mandallaz2013a}
-\newlabel{eq:calibmod}{{2.1}{46}{Calibration}{equation.2.2.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Choice of Support under Angle Count Sampling}{46}{subsection.2.2.4}}
-\newlabel{sec:supp}{{2.2.4}{46}{Choice of Support under Angle Count Sampling}{subsection.2.2.4}{}}
+\newlabel{eq:calibmod}{{3.1}{51}{Calibration}{equation.3.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Choice of Support under Angle Count Sampling}{51}{subsection.3.2.4}}
+\newlabel{sec:supp}{{3.2.4}{51}{Choice of Support under Angle Count Sampling}{subsection.3.2.4}{}}
 \citation{congalton2008}
 \citation{Akaike2011}
-\newlabel{fig:sf1}{{2.3a}{47}{\relax }{figure.caption.35}{}}
-\newlabel{sub@fig:sf1}{{a}{47}{\relax }{figure.caption.35}{}}
-\newlabel{fig:sf2}{{2.3b}{47}{\relax }{figure.caption.35}{}}
-\newlabel{sub@fig:sf2}{{b}{47}{\relax }{figure.caption.35}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Identification (\textit  {a}) and visualization (\textit  {b}) of potential support radii used for calculating the predictor variables on plot level based on ECDF of maximum limiting distances of all BWI3{} sample locations in RLP.\relax }}{47}{figure.caption.35}}
-\newlabel{fig:tspec_supps}{{2.3}{47}{Identification (\textit {a}) and visualization (\textit {b}) of potential support radii used for calculating the predictor variables on plot level based on ECDF of maximum limiting distances of all \bwi {} sample locations in RLP.\relax }{figure.caption.35}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}\color  {black}{Model Building and Evaluation} \color  {black}}{47}{subsection.2.2.5}}
-\newlabel{sec:modval}{{2.2.5}{47}{\changed {Model Building and Evaluation}}{subsection.2.2.5}{}}
-\newlabel{eq:RMSE}{{2.2}{48}{\changed {Model Building and Evaluation}}{equation.2.2.2}{}}
-\newlabel{eq:RMSEa}{{2.2a}{48}{\changed {Model Building and Evaluation}}{equation.2.2.1}{}}
-\newlabel{eq:RMSEb}{{2.2b}{48}{\changed {Model Building and Evaluation}}{equation.2.2.2}{}}
-\newlabel{eq:chmtspec_fullmod_term}{{2.3}{48}{\changed {Model Building and Evaluation}}{equation.2.2.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Results}{48}{section.2.3}}
-\newlabel{sec:Res}{{2.3}{48}{Results}{section.2.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Classification Accuracies}{48}{subsection.2.3.1}}
-\newlabel{sec:supp_tspec_res}{{2.3.1}{48}{Classification Accuracies}{subsection.2.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Classification accuracy for the main tree species of a sample location \textit  {before} and \textit  {after} calibration: \textit  {top)} overall accuracies. \textit  {bottom)} user's accuracies. \textit  {ind}: plot individual support sizes.\relax }}{49}{figure.caption.37}}
-\newlabel{fig:cos_oaa_ua}{{2.4}{49}{Classification accuracy for the main tree species of a sample location \textit {before} and \textit {after} calibration: \textit {top)} overall accuracies. \textit {bottom)} user's accuracies. \textit {ind}: plot individual support sizes.\relax }{figure.caption.37}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Regression Model Accuracies}{50}{subsection.2.3.2}}
-\newlabel{sec:supp_chm_tspec_res}{{2.3.2}{50}{Regression Model Accuracies}{subsection.2.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces 10-fold RMSE$_{cv}${}[\%] and adjusted $R^2${} realized under various support choices for the CHM and $tree species$ explanatory variables\relax }}{51}{figure.caption.41}}
-\newlabel{fig:supp_perf_res}{{2.5}{51}{10-fold \rmsecv {}[\%] and \adjrsq {} realized under various support choices for the CHM and $tree species$ explanatory variables\relax }{figure.caption.41}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Final Regression Model}{51}{subsection.2.3.3}}
-\newlabel{sec:regmod_final}{{2.3.3}{51}{Final Regression Model}{subsection.2.3.3}{}}
+\newlabel{fig:sf1}{{3.3a}{52}{\relax }{figure.caption.34}{}}
+\newlabel{sub@fig:sf1}{{a}{52}{\relax }{figure.caption.34}{}}
+\newlabel{fig:sf2}{{3.3b}{52}{\relax }{figure.caption.34}{}}
+\newlabel{sub@fig:sf2}{{b}{52}{\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Identification (\textit  {a}) and visualization (\textit  {b}) of potential support radii used for calculating the predictor variables on plot level based on ECDF of maximum limiting distances of all BWI3{} sample locations in RLP.\relax }}{52}{figure.caption.34}}
+\newlabel{fig:tspec_supps}{{3.3}{52}{Identification (\textit {a}) and visualization (\textit {b}) of potential support radii used for calculating the predictor variables on plot level based on ECDF of maximum limiting distances of all \bwi {} sample locations in RLP.\relax }{figure.caption.34}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}\color  {black}{Model Building and Evaluation} \color  {black}}{52}{subsection.3.2.5}}
+\newlabel{sec:modval}{{3.2.5}{52}{\changed {Model Building and Evaluation}}{subsection.3.2.5}{}}
+\newlabel{eq:RMSE}{{3.2}{53}{\changed {Model Building and Evaluation}}{equation.3.2.2}{}}
+\newlabel{eq:RMSEa}{{3.2a}{53}{\changed {Model Building and Evaluation}}{equation.3.2.1}{}}
+\newlabel{eq:RMSEb}{{3.2b}{53}{\changed {Model Building and Evaluation}}{equation.3.2.2}{}}
+\newlabel{eq:chmtspec_fullmod_term}{{3.3}{53}{\changed {Model Building and Evaluation}}{equation.3.2.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Results}{53}{section.3.3}}
+\newlabel{sec:Res}{{3.3}{53}{Results}{section.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Classification Accuracies}{53}{subsection.3.3.1}}
+\newlabel{sec:supp_tspec_res}{{3.3.1}{53}{Classification Accuracies}{subsection.3.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Classification accuracy for the main tree species of a sample location \textit  {before} and \textit  {after} calibration: \textit  {top)} overall accuracies. \textit  {bottom)} user's accuracies. \textit  {ind}: plot individual support sizes.\relax }}{54}{figure.caption.36}}
+\newlabel{fig:cos_oaa_ua}{{3.4}{54}{Classification accuracy for the main tree species of a sample location \textit {before} and \textit {after} calibration: \textit {top)} overall accuracies. \textit {bottom)} user's accuracies. \textit {ind}: plot individual support sizes.\relax }{figure.caption.36}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Regression Model Accuracies}{55}{subsection.3.3.2}}
+\newlabel{sec:supp_chm_tspec_res}{{3.3.2}{55}{Regression Model Accuracies}{subsection.3.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces 10-fold RMSE$_{cv}${}[\%] and adjusted $R^2${} realized under various support choices for the CHM and $tree species$ explanatory variables\relax }}{56}{figure.caption.40}}
+\newlabel{fig:supp_perf_res}{{3.5}{56}{10-fold \rmsecv {}[\%] and \adjrsq {} realized under various support choices for the CHM and $tree species$ explanatory variables\relax }{figure.caption.40}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Final Regression Model}{56}{subsection.3.3.3}}
+\newlabel{sec:regmod_final}{{3.3.3}{56}{Final Regression Model}{subsection.3.3.3}{}}
 \citation{fahrmeir2013}
 \citation{mandallaz2013a,mandallaz2013b}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Effect on the adjusted $R^2${} when substituting the actual main tree species with the predicted main tree species of a sample plot. The \textit  {dotted} line tracks the the model with the highest adjusted $R^2${} under the use of the error-free \textit  {treespecies} variable. Semitransparent colours for the data points are used to visualize overlap.\relax }}{52}{figure.caption.42}}
-\newlabel{fig:supp_r2_calnocal}{{2.6}{52}{Effect on the \adjrsq {} when substituting the actual main tree species with the predicted main tree species of a sample plot. The \textit {dotted} line tracks the the model with the highest \adjrsq {} under the use of the error-free \textit {treespecies} variable. Semitransparent colours for the data points are used to visualize overlap.\relax }{figure.caption.42}{}}
-\newlabel{sec:prop_regmod_final}{{2.3.3}{52}{Interpretation of Final Regression Model}{section*.45}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces Visualization of the timber volume prediction function (\textit  {final regression model}) on sample plot level for each main plot tree species and ALS acquisition year. For visualization purposes, the predictor variable $stddev$ was set to its average value within the respective \textit  {treespecies} and \textit  {ALSyear} categories. The terrestrially observed timber volume values are plotted in the background.\relax }}{53}{figure.caption.43}}
-\newlabel{fig:predlines_tspec}{{2.7}{53}{Visualization of the timber volume prediction function (\textit {final regression model}) on sample plot level for each main plot tree species and ALS acquisition year. For visualization purposes, the predictor variable $stddev$ was set to its average value within the respective \textit {treespecies} and \textit {ALSyear} categories. The terrestrially observed timber volume values are plotted in the background.\relax }{figure.caption.43}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2.2}{\ignorespaces Accuracy metrics for submodels of final OLS regression model. $p$ gives the number of parameters for each model. Interaction terms are indicated by ':'.\relax }}{53}{table.caption.44}}
-\newlabel{tab:modacc_modterms}{{2.2}{53}{Accuracy metrics for submodels of final OLS regression model. $p$ gives the number of parameters for each model. Interaction terms are indicated by ':'.\relax }{table.caption.44}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2.3}{\ignorespaces $R^2$, RMSE and RMSE\% of final regression model within ALS acquisition year strata (\textit  {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit  {n}: number of validation data.\relax }}{54}{table.caption.47}}
-\newlabel{tab:adj_r2_within}{{2.3}{54}{$R^2$, RMSE and RMSE\% of final regression model within ALS acquisition year strata (\textit {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit {n}: number of validation data.\relax }{table.caption.47}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Effect on the adjusted $R^2${} when substituting the actual main tree species with the predicted main tree species of a sample plot. The \textit  {dotted} line tracks the the model with the highest adjusted $R^2${} under the use of the error-free \textit  {treespecies} variable. Semitransparent colours for the data points are used to visualize overlap.\relax }}{57}{figure.caption.41}}
+\newlabel{fig:supp_r2_calnocal}{{3.6}{57}{Effect on the \adjrsq {} when substituting the actual main tree species with the predicted main tree species of a sample plot. The \textit {dotted} line tracks the the model with the highest \adjrsq {} under the use of the error-free \textit {treespecies} variable. Semitransparent colours for the data points are used to visualize overlap.\relax }{figure.caption.41}{}}
+\newlabel{sec:prop_regmod_final}{{3.3.3}{57}{Interpretation of Final Regression Model}{section*.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Visualization of the timber volume prediction function (\textit  {final regression model}) on sample plot level for each main plot tree species and ALS acquisition year. For visualization purposes, the predictor variable $stddev$ was set to its average value within the respective \textit  {treespecies} and \textit  {ALSyear} categories. The terrestrially observed timber volume values are plotted in the background.\relax }}{58}{figure.caption.42}}
+\newlabel{fig:predlines_tspec}{{3.7}{58}{Visualization of the timber volume prediction function (\textit {final regression model}) on sample plot level for each main plot tree species and ALS acquisition year. For visualization purposes, the predictor variable $stddev$ was set to its average value within the respective \textit {treespecies} and \textit {ALSyear} categories. The terrestrially observed timber volume values are plotted in the background.\relax }{figure.caption.42}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Accuracy metrics for submodels of final OLS regression model. $p$ gives the number of parameters for each model. Interaction terms are indicated by ':'.\relax }}{58}{table.caption.43}}
+\newlabel{tab:modacc_modterms}{{3.2}{58}{Accuracy metrics for submodels of final OLS regression model. $p$ gives the number of parameters for each model. Interaction terms are indicated by ':'.\relax }{table.caption.43}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces $R^2$, RMSE and RMSE\% of final regression model within ALS acquisition year strata (\textit  {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit  {n}: number of validation data.\relax }}{59}{table.caption.46}}
+\newlabel{tab:adj_r2_within}{{3.3}{59}{$R^2$, RMSE and RMSE\% of final regression model within ALS acquisition year strata (\textit {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit {n}: number of validation data.\relax }{table.caption.46}{}}
 \citation{kublin2003,kublin2013}
 \citation{latifi2012}
 \citation{breidenbach2008}
 \citation{draper2014}
 \citation{maack2016}
 \citation{kirchhoefer2017}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces $R^2$-values of the final regression model, submodel 1 and submodel 2 achieved $within$ the ALS acquisition year strata.\relax }}{55}{figure.caption.48}}
-\newlabel{fig:r2adj_in_lyears}{{2.8}{55}{$R^2$-values of the final regression model, submodel 1 and submodel 2 achieved $within$ the ALS acquisition year strata.\relax }{figure.caption.48}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Discussion}{55}{section.2.4}}
-\newlabel{sec:Dis}{{2.4}{55}{Discussion}{section.2.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Stratification according to ALS Acquisition Years and Tree Species}{55}{subsection.2.4.1}}
-\newlabel{sec:strat_dis}{{2.4.1}{55}{Stratification according to ALS Acquisition Years and Tree Species}{subsection.2.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces $R^2$-values of the final regression model, submodel 1 and submodel 2 achieved $within$ the ALS acquisition year strata.\relax }}{60}{figure.caption.47}}
+\newlabel{fig:r2adj_in_lyears}{{3.8}{60}{$R^2$-values of the final regression model, submodel 1 and submodel 2 achieved $within$ the ALS acquisition year strata.\relax }{figure.caption.47}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Discussion}{60}{section.3.4}}
+\newlabel{sec:Dis}{{3.4}{60}{Discussion}{section.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Stratification according to ALS Acquisition Years and Tree Species}{60}{subsection.3.4.1}}
+\newlabel{sec:strat_dis}{{3.4.1}{60}{Stratification according to ALS Acquisition Years and Tree Species}{subsection.3.4.1}{}}
 \citation{mandallaz2013a}
 \citation{breidenbach2008}
 \citation{pinheirobates2000}
@@ -337,22 +348,22 @@
 \citation{deo2016}
 \citation{kirchhoefer2017}
 \citation{lambrecht2017}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Calibration of Tree Species Map Information}{57}{subsection.2.4.2}}
-\newlabel{sec:calib_dis}{{2.4.2}{57}{Calibration of Tree Species Map Information}{subsection.2.4.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}Choice of Support under Angle Count Sampling}{57}{subsection.2.4.3}}
-\newlabel{sec:supp_choice_dis}{{2.4.3}{57}{Choice of Support under Angle Count Sampling}{subsection.2.4.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.5}Conclusion}{58}{section.2.5}}
-\newlabel{sec:concl}{{2.5}{58}{Conclusion}{section.2.5}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}A double-sampling extension of the German National Forest Inventory for design-based small area estimation of timber volume resources on forest district levels}{60}{chapter.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Calibration of Tree Species Map Information}{62}{subsection.3.4.2}}
+\newlabel{sec:calib_dis}{{3.4.2}{62}{Calibration of Tree Species Map Information}{subsection.3.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Choice of Support under Angle Count Sampling}{62}{subsection.3.4.3}}
+\newlabel{sec:supp_choice_dis}{{3.4.3}{62}{Choice of Support under Angle Count Sampling}{subsection.3.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Conclusion}{63}{section.3.5}}
+\newlabel{sec:concl}{{3.5}{63}{Conclusion}{section.3.5}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}A double-sampling extension of the German National Forest Inventory for design-based small area estimation of timber volume resources on forest district levels}{65}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chap:regmod}{{3}{60}{A double-sampling extension of the German National Forest Inventory for design-based small area estimation of timber volume resources on forest district levels}{chapter.3}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Accuracy Assessment of Timber Volume Maps using Forest Inventory Data and LiDAR Canopy Height Models}{63}{chapter.4}}
+\newlabel{chap:regmod}{{4}{65}{A double-sampling extension of the German National Forest Inventory for design-based small area estimation of timber volume resources on forest district levels}{chapter.4}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Accuracy Assessment of Timber Volume Maps using Forest Inventory Data and LiDAR Canopy Height Models}{68}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chap:regmod}{{4}{63}{Accuracy Assessment of Timber Volume Maps using Forest Inventory Data and LiDAR Canopy Height Models}{chapter.4}{}}
+\newlabel{chap:regmod}{{5}{68}{Accuracy Assessment of Timber Volume Maps using Forest Inventory Data and LiDAR Canopy Height Models}{chapter.5}{}}
 \citation{mcroberts2010}
 \citation{gregoire2008,mandallaz2007,schreuder1993}
 \citation{gregoire2008,mandallaz2007,cochran2007,kohl2006}
@@ -361,11 +372,11 @@
 \citation{mandallaz2013b}
 \citation{breidenbach2012}
 \citation{mandallaz2013a}
-\newlabel{chap:regmod:Abstract}{{4}{65}{Abstract}{section*.51}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{65}{section.4.1}}
-\newlabel{sec:intro}{{4.1}{65}{Introduction}{section.4.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Context and Problem}{65}{subsection.4.1.1}}
-\newlabel{sec:co_and_prob}{{4.1.1}{65}{Context and Problem}{subsection.4.1.1}{}}
+\newlabel{chap:regmod:Abstract}{{5}{70}{Abstract}{section*.49}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction}{70}{section.5.1}}
+\newlabel{sec:intro}{{5.1}{70}{Introduction}{section.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Context and Problem}{70}{subsection.5.1.1}}
+\newlabel{sec:co_and_prob}{{5.1.1}{70}{Context and Problem}{subsection.5.1.1}{}}
 \citation{tonolli2011,van2008}
 \citation{franco2001,latifi2010,nothdurft2009}
 \citation{magnussen2014}
@@ -384,40 +395,40 @@
 \citation{kirkpatrick1983}
 \citation{hill2013}
 \citation{ott1997}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Background on Heuristic Search Methods}{67}{subsection.4.1.2}}
-\newlabel{sec:HSM_theory}{{4.1.2}{67}{Background on Heuristic Search Methods}{subsection.4.1.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Materials and Methods}{67}{section.4.2}}
-\newlabel{sec:Meth}{{4.2}{67}{Materials and Methods}{section.4.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Materials}{67}{subsection.4.2.1}}
-\newlabel{sec:mat}{{4.2.1}{67}{Materials}{subsection.4.2.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Study Area}{67}{section*.52}}
-\newlabel{sec:studarea}{{4.2.1}{67}{Study Area}{section*.52}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Background on Heuristic Search Methods}{72}{subsection.5.1.2}}
+\newlabel{sec:HSM_theory}{{5.1.2}{72}{Background on Heuristic Search Methods}{subsection.5.1.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Materials and Methods}{72}{section.5.2}}
+\newlabel{sec:Meth}{{5.2}{72}{Materials and Methods}{section.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Materials}{72}{subsection.5.2.1}}
+\newlabel{sec:mat}{{5.2.1}{72}{Materials}{subsection.5.2.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Study Area}{72}{section*.50}}
+\newlabel{sec:studarea}{{5.2.1}{72}{Study Area}{section*.50}{}}
 \citation{brassel2001}
 \citation{keller2011}
 \citation{hoffmann1982}
 \citation{brassel2001}
 \citation{mandallaz2007}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Study site, including the distribution of the 67 field plots (regional forest inventory) that are part of the forest area derived from the TLM3D (Topographic Landscape Model) data (with approval of swisstopo JA100120/JD100042).\relax }}{68}{figure.caption.53}}
-\newlabel{fig:StudyArea}{{4.1}{68}{Study site, including the distribution of the 67 field plots (regional forest inventory) that are part of the forest area derived from the TLM3D (Topographic Landscape Model) data (with approval of swisstopo JA100120/JD100042).\relax }{figure.caption.53}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Timber Volume Densities from Field Inventory}{68}{section*.54}}
-\newlabel{sec:tvolvar}{{4.2.1}{68}{Timber Volume Densities from Field Inventory}{section*.54}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{69}{table.caption.55}}
-\newlabel{tab:sumfplots}{{4.1}{69}{Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }{table.caption.55}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Terrestrial observed timber volume on plot level for all 67 sample plots of the study area (histogram bandwidth = 50 m$^3$/ha; origin = 0 m$^3$/ha).\relax }}{69}{figure.caption.56}}
-\newlabel{fig:sumfplots}{{4.2}{69}{Terrestrial observed timber volume on plot level for all 67 sample plots of the study area (histogram bandwidth = 50 m$^3$/ha; origin = 0 m$^3$/ha).\relax }{figure.caption.56}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline LiDAR Data}{69}{section*.57}}
-\newlabel{sec:lidardata}{{4.2.1}{69}{LiDAR Data}{section*.57}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{70}{table.caption.58}}
-\newlabel{tab:lidarspecs}{{4.2}{70}{Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }{table.caption.58}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Methods}{70}{subsection.4.2.2}}
-\newlabel{sec:met}{{4.2.2}{70}{Methods}{subsection.4.2.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Conceptual model illustrating the workflow of producing the timber volume map and assessing its accuracy.\relax }}{70}{figure.caption.59}}
-\newlabel{fig:concept}{{4.3}{70}{Conceptual model illustrating the workflow of producing the timber volume map and assessing its accuracy.\relax }{figure.caption.59}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Study site, including the distribution of the 67 field plots (regional forest inventory) that are part of the forest area derived from the TLM3D (Topographic Landscape Model) data (with approval of swisstopo JA100120/JD100042).\relax }}{73}{figure.caption.51}}
+\newlabel{fig:StudyArea}{{5.1}{73}{Study site, including the distribution of the 67 field plots (regional forest inventory) that are part of the forest area derived from the TLM3D (Topographic Landscape Model) data (with approval of swisstopo JA100120/JD100042).\relax }{figure.caption.51}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Timber Volume Densities from Field Inventory}{73}{section*.52}}
+\newlabel{sec:tvolvar}{{5.2.1}{73}{Timber Volume Densities from Field Inventory}{section*.52}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{74}{table.caption.53}}
+\newlabel{tab:sumfplots}{{5.1}{74}{Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }{table.caption.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Terrestrial observed timber volume on plot level for all 67 sample plots of the study area (histogram bandwidth = 50 m$^3$/ha; origin = 0 m$^3$/ha).\relax }}{74}{figure.caption.54}}
+\newlabel{fig:sumfplots}{{5.2}{74}{Terrestrial observed timber volume on plot level for all 67 sample plots of the study area (histogram bandwidth = 50 m$^3$/ha; origin = 0 m$^3$/ha).\relax }{figure.caption.54}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline LiDAR Data}{74}{section*.55}}
+\newlabel{sec:lidardata}{{5.2.1}{74}{LiDAR Data}{section*.55}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{75}{table.caption.56}}
+\newlabel{tab:lidarspecs}{{5.2}{75}{Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }{table.caption.56}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Methods}{75}{subsection.5.2.2}}
+\newlabel{sec:met}{{5.2.2}{75}{Methods}{subsection.5.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Conceptual model illustrating the workflow of producing the timber volume map and assessing its accuracy.\relax }}{75}{figure.caption.57}}
+\newlabel{fig:concept}{{5.3}{75}{Conceptual model illustrating the workflow of producing the timber volume map and assessing its accuracy.\relax }{figure.caption.57}{}}
 \citation{holmgren2004,naesset2002,lefsky1999,magnussen1999}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Step I: Computation of Canopy Height Model}{71}{section*.60}}
-\newlabel{sec:step1}{{4.2.2}{71}{Step I: Computation of Canopy Height Model}{section*.60}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Step I: Regression Model}{71}{section*.61}}
-\newlabel{sec:step1regmod}{{4.2.2}{71}{Step I: Regression Model}{section*.61}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Step I: Computation of Canopy Height Model}{76}{section*.58}}
+\newlabel{sec:step1}{{5.2.2}{76}{Step I: Computation of Canopy Height Model}{section*.58}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Step I: Regression Model}{76}{section*.59}}
+\newlabel{sec:step1regmod}{{5.2.2}{76}{Step I: Regression Model}{section*.59}{}}
 \citation{draper2014}
 \citation{akaike1992}
 \citation{srivastava1995}
@@ -425,65 +436,76 @@
 \citation{tonolli2011,latifi2010,clementel2012}
 \citation{congalton2008}
 \citation{richards1999}
-\newlabel{eq:regmod}{{4.1}{72}{Step I: Regression Model}{equation.4.2.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Summary statistics of the CHM metrics calculated at the 67 terrestrial sample plots (in meters).\relax }}{72}{table.caption.62}}
-\newlabel{tab:sumCHMmetr}{{4.3}{72}{Summary statistics of the CHM metrics calculated at the 67 terrestrial sample plots (in meters).\relax }{table.caption.62}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Step II: Assessment of Map Accuracy}{72}{section*.63}}
-\newlabel{sec:step2}{{4.2.2}{72}{Step II: Assessment of Map Accuracy}{section*.63}{}}
-\newlabel{eq:var1}{{4.2}{74}{Step II: Assessment of Map Accuracy}{equation.4.2.2}{}}
-\newlabel{eq:var2}{{4.3}{74}{Step II: Assessment of Map Accuracy}{equation.4.2.3}{}}
-\newlabel{eq:var3}{{4.4}{74}{Step II: Assessment of Map Accuracy}{equation.4.2.4}{}}
-\newlabel{eq:var4}{{4.5}{74}{Step II: Assessment of Map Accuracy}{equation.4.2.5}{}}
-\newlabel{eq:optmod}{{4.6}{74}{Step II: Assessment of Map Accuracy}{equation.4.2.6}{}}
-\newlabel{eq:constr}{{4.7}{74}{Step II: Assessment of Map Accuracy}{equation.4.2.7}{}}
-\newlabel{eq:constra}{{4.7a}{74}{Step II: Assessment of Map Accuracy}{equation.4.2.1}{}}
-\newlabel{eq:constrb}{{4.7b}{74}{Step II: Assessment of Map Accuracy}{equation.4.2.2}{}}
+\newlabel{eq:regmod}{{5.1}{77}{Step I: Regression Model}{equation.5.2.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Summary statistics of the CHM metrics calculated at the 67 terrestrial sample plots (in meters).\relax }}{77}{table.caption.60}}
+\newlabel{tab:sumCHMmetr}{{5.3}{77}{Summary statistics of the CHM metrics calculated at the 67 terrestrial sample plots (in meters).\relax }{table.caption.60}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Step II: Assessment of Map Accuracy}{77}{section*.61}}
+\newlabel{sec:step2}{{5.2.2}{77}{Step II: Assessment of Map Accuracy}{section*.61}{}}
+\newlabel{eq:var1}{{5.2}{79}{Step II: Assessment of Map Accuracy}{equation.5.2.2}{}}
+\newlabel{eq:var2}{{5.3}{79}{Step II: Assessment of Map Accuracy}{equation.5.2.3}{}}
+\newlabel{eq:var3}{{5.4}{79}{Step II: Assessment of Map Accuracy}{equation.5.2.4}{}}
+\newlabel{eq:var4}{{5.5}{79}{Step II: Assessment of Map Accuracy}{equation.5.2.5}{}}
+\newlabel{eq:optmod}{{5.6}{79}{Step II: Assessment of Map Accuracy}{equation.5.2.6}{}}
+\newlabel{eq:constr}{{5.7}{79}{Step II: Assessment of Map Accuracy}{equation.5.2.7}{}}
+\newlabel{eq:constra}{{5.7a}{79}{Step II: Assessment of Map Accuracy}{equation.5.2.1}{}}
+\newlabel{eq:constrb}{{5.7b}{79}{Step II: Assessment of Map Accuracy}{equation.5.2.2}{}}
 \citation{congalton2008}
 \citation{mandallaz2013b}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Step III: Computation of the Timber Volume Map}{75}{section*.64}}
-\newlabel{sec:step3}{{4.2.2}{75}{Step III: Computation of the Timber Volume Map}{section*.64}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Schematic design of the timber volume map.\relax }}{75}{figure.caption.65}}
-\newlabel{fig:mapdesign}{{4.4}{75}{Schematic design of the timber volume map.\relax }{figure.caption.65}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Results}{76}{section.4.3}}
-\newlabel{sec:Res}{{4.3}{76}{Results}{section.4.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Regression Model}{76}{subsection.4.3.1}}
-\newlabel{sec:resmod}{{4.3.1}{76}{Regression Model}{subsection.4.3.1}{}}
-\newlabel{eq:regmodres}{{4.8}{76}{Regression Model}{equation.4.3.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Model-predicted timber volume on plot level against the observed timber volume of the 67 field plots; the distribution of the predictions and observations are also indicated on the respective axis.\relax }}{76}{figure.caption.66}}
-\newlabel{fig:regmodplot}{{4.5}{76}{Model-predicted timber volume on plot level against the observed timber volume of the 67 field plots; the distribution of the predictions and observations are also indicated on the respective axis.\relax }{figure.caption.66}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Summary statistics of the regression model.\relax }}{76}{table.caption.67}}
-\newlabel{tab:sumregmod}{{4.4}{76}{Summary statistics of the regression model.\relax }{table.caption.67}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Assessment of Map Classification Accuracy}{77}{subsection.4.3.2}}
-\newlabel{sec:mapacc}{{4.3.2}{77}{Assessment of Map Classification Accuracy}{subsection.4.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Overall accuracies with 95\% confidence intervals and corresponding kappa coefficients for a pre-defined number of classes, calculated for constant and locally-adapted class widths.\relax }}{77}{figure.caption.68}}
-\newlabel{fig:accuracies}{{4.6}{77}{Overall accuracies with 95\% confidence intervals and corresponding kappa coefficients for a pre-defined number of classes, calculated for constant and locally-adapted class widths.\relax }{figure.caption.68}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Constant class width of 200 m$^3$/ha (five timber volume classes); OAA ($\pm $ 95\% confidence interval) (\%): 55.22 (42.58, 67.4); kappa: 0.36; square sum of class width: 200'000.\relax }}{78}{table.caption.69}}
-\newlabel{tab:classacc1}{{4.5}{78}{Constant class width of 200 m$^3$/ha (five timber volume classes); OAA ($\pm $ 95\% confidence interval) (\%): 55.22 (42.58, 67.4); kappa: 0.36; square sum of class width: 200'000.\relax }{table.caption.69}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Optimized class width for five timber volume classes; OAA ($\pm $ 95\% confidence interval) (\%): 64.18 (51.53, 75.53); kappa: 0.54; square sum of class width: 176'600. Class widths smaller than 200 m$^3$/ha are indicated by *.\relax }}{78}{table.caption.70}}
-\newlabel{tab:classacc2}{{4.6}{78}{Optimized class width for five timber volume classes; OAA ($\pm $ 95\% confidence interval) (\%): 64.18 (51.53, 75.53); kappa: 0.54; square sum of class width: 176'600. Class widths smaller than 200 m$^3$/ha are indicated by *.\relax }{table.caption.70}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Volume map with model-predictions on a continuous scale for the entire study area covering 2000 hectares of forest with a spatial resolution of 25 meters; the subareas show the classified volume map using a constant class width of 200 m$^3$/ha (upper) and locally-optimized class widths for five classes (lower).\relax }}{79}{figure.caption.71}}
-\newlabel{fig:volmap}{{4.7}{79}{Volume map with model-predictions on a continuous scale for the entire study area covering 2000 hectares of forest with a spatial resolution of 25 meters; the subareas show the classified volume map using a constant class width of 200 m$^3$/ha (upper) and locally-optimized class widths for five classes (lower).\relax }{figure.caption.71}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Calculation of the Timber Volume Map}{79}{subsection.4.3.3}}
-\newlabel{sec:mapcalc}{{4.3.3}{79}{Calculation of the Timber Volume Map}{subsection.4.3.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Step III: Computation of the Timber Volume Map}{80}{section*.62}}
+\newlabel{sec:step3}{{5.2.2}{80}{Step III: Computation of the Timber Volume Map}{section*.62}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Schematic design of the timber volume map.\relax }}{80}{figure.caption.63}}
+\newlabel{fig:mapdesign}{{5.4}{80}{Schematic design of the timber volume map.\relax }{figure.caption.63}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Results}{81}{section.5.3}}
+\newlabel{sec:Res}{{5.3}{81}{Results}{section.5.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Regression Model}{81}{subsection.5.3.1}}
+\newlabel{sec:resmod}{{5.3.1}{81}{Regression Model}{subsection.5.3.1}{}}
+\newlabel{eq:regmodres}{{5.8}{81}{Regression Model}{equation.5.3.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Model-predicted timber volume on plot level against the observed timber volume of the 67 field plots; the distribution of the predictions and observations are also indicated on the respective axis.\relax }}{81}{figure.caption.64}}
+\newlabel{fig:regmodplot}{{5.5}{81}{Model-predicted timber volume on plot level against the observed timber volume of the 67 field plots; the distribution of the predictions and observations are also indicated on the respective axis.\relax }{figure.caption.64}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces Summary statistics of the regression model.\relax }}{81}{table.caption.65}}
+\newlabel{tab:sumregmod}{{5.4}{81}{Summary statistics of the regression model.\relax }{table.caption.65}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Assessment of Map Classification Accuracy}{82}{subsection.5.3.2}}
+\newlabel{sec:mapacc}{{5.3.2}{82}{Assessment of Map Classification Accuracy}{subsection.5.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Overall accuracies with 95\% confidence intervals and corresponding kappa coefficients for a pre-defined number of classes, calculated for constant and locally-adapted class widths.\relax }}{82}{figure.caption.66}}
+\newlabel{fig:accuracies}{{5.6}{82}{Overall accuracies with 95\% confidence intervals and corresponding kappa coefficients for a pre-defined number of classes, calculated for constant and locally-adapted class widths.\relax }{figure.caption.66}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces Constant class width of 200 m$^3$/ha (five timber volume classes); OAA ($\pm $ 95\% confidence interval) (\%): 55.22 (42.58, 67.4); kappa: 0.36; square sum of class width: 200'000.\relax }}{83}{table.caption.67}}
+\newlabel{tab:classacc1}{{5.5}{83}{Constant class width of 200 m$^3$/ha (five timber volume classes); OAA ($\pm $ 95\% confidence interval) (\%): 55.22 (42.58, 67.4); kappa: 0.36; square sum of class width: 200'000.\relax }{table.caption.67}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.6}{\ignorespaces Optimized class width for five timber volume classes; OAA ($\pm $ 95\% confidence interval) (\%): 64.18 (51.53, 75.53); kappa: 0.54; square sum of class width: 176'600. Class widths smaller than 200 m$^3$/ha are indicated by *.\relax }}{83}{table.caption.68}}
+\newlabel{tab:classacc2}{{5.6}{83}{Optimized class width for five timber volume classes; OAA ($\pm $ 95\% confidence interval) (\%): 64.18 (51.53, 75.53); kappa: 0.54; square sum of class width: 176'600. Class widths smaller than 200 m$^3$/ha are indicated by *.\relax }{table.caption.68}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Volume map with model-predictions on a continuous scale for the entire study area covering 2000 hectares of forest with a spatial resolution of 25 meters; the subareas show the classified volume map using a constant class width of 200 m$^3$/ha (upper) and locally-optimized class widths for five classes (lower).\relax }}{84}{figure.caption.69}}
+\newlabel{fig:volmap}{{5.7}{84}{Volume map with model-predictions on a continuous scale for the entire study area covering 2000 hectares of forest with a spatial resolution of 25 meters; the subareas show the classified volume map using a constant class width of 200 m$^3$/ha (upper) and locally-optimized class widths for five classes (lower).\relax }{figure.caption.69}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Calculation of the Timber Volume Map}{84}{subsection.5.3.3}}
+\newlabel{sec:mapcalc}{{5.3.3}{84}{Calculation of the Timber Volume Map}{subsection.5.3.3}{}}
 \citation{beauchamp1973}
 \citation{mandallaz2007}
 \citation{mandallaz2013b,mandallaz2013a}
 \citation{mcroberts2013}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Discussion}{80}{section.4.4}}
-\newlabel{sec:disc}{{4.4}{80}{Discussion}{section.4.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Assessment of Map Accuracy}{80}{subsection.4.4.1}}
-\newlabel{sec:mapaccass}{{4.4.1}{80}{Assessment of Map Accuracy}{subsection.4.4.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Class Selection by Optimization Model}{80}{subsection.4.4.2}}
-\newlabel{sec:cspmod}{{4.4.2}{80}{Class Selection by Optimization Model}{subsection.4.4.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Discussion}{85}{section.5.4}}
+\newlabel{sec:disc}{{5.4}{85}{Discussion}{section.5.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Assessment of Map Accuracy}{85}{subsection.5.4.1}}
+\newlabel{sec:mapaccass}{{5.4.1}{85}{Assessment of Map Accuracy}{subsection.5.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Class Selection by Optimization Model}{85}{subsection.5.4.2}}
+\newlabel{sec:cspmod}{{5.4.2}{85}{Class Selection by Optimization Model}{subsection.5.4.2}{}}
 \citation{mauro2010,steinmann2013}
 \citation{fuller2009}
 \citation{mandallaz2013a}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Regression Model}{81}{subsection.4.4.3}}
-\newlabel{sec:regmod}{{4.4.3}{81}{Regression Model}{subsection.4.4.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Availability and Quality of Reference Data}{81}{subsection.4.4.4}}
-\newlabel{sec:refdata}{{4.4.4}{81}{Availability and Quality of Reference Data}{subsection.4.4.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Conclusion}{82}{section.4.5}}
-\newlabel{sec:conc}{{4.5}{82}{Conclusion}{section.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Regression Model}{86}{subsection.5.4.3}}
+\newlabel{sec:regmod}{{5.4.3}{86}{Regression Model}{subsection.5.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.4}Availability and Quality of Reference Data}{86}{subsection.5.4.4}}
+\newlabel{sec:refdata}{{5.4.4}{86}{Availability and Quality of Reference Data}{subsection.5.4.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusion}{87}{section.5.5}}
+\newlabel{sec:conc}{{5.5}{87}{Conclusion}{section.5.5}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Synthesis}{89}{chapter.6}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{loa}{\addvspace {10\p@ }}
+\newlabel{chap:synth}{{6}{89}{Synthesis}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Goals}{90}{section.6.1}}
+\newlabel{sec:synth:goal}{{6.1}{90}{Goals}{section.6.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Main results}{91}{section.6.2}}
+\newlabel{sec:synth:mainres}{{6.2}{91}{Main results}{section.6.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Outlook}{92}{section.6.3}}
+\newlabel{sec:synth:outline}{{6.3}{92}{Outlook}{section.6.3}{}}
 \bibstyle{apalike2}
 \bibdata{Dissliterature/Dissertation}
 \bibcite{akaike1992}{{1}{1992}{{Akaike}}{{}}}
@@ -501,7 +523,7 @@
 \bibcite{breiman2001}{{13}{2001}{{Breiman}}{{}}}
 \bibcite{brosofske2014}{{14}{2014}{{Brosofske et~al.}}{{}}}
 \bibcite{bwi3_aufn}{{15}{2011}{{{B}undesministerium~f\~A\IeC {\textonequarter }r {E}rn{\"a}hrung}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{84}{chapter*.73}}
+\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.70}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
@@ -597,7 +619,7 @@
 \bibcite{white2016}{{105}{2016}{{White et~al.}}{{}}}
 \bibcite{ggplot2}{{106}{2009}{{Wickham}}{{}}}
 \bibcite{zianis2005}{{107}{2005}{{Zianis et~al.}}{{}}}
-\newlabel{chap:curriculum}{{4.5}{91}{Curriculum Vitae}{chapter*.74}{}}
-\@writefile{toc}{\contentsline {chapter}{Curriculum Vitae}{91}{chapter*.74}}
+\newlabel{chap:curriculum}{{6.3}{100}{Curriculum Vitae}{chapter*.71}{}}
+\@writefile{toc}{\contentsline {chapter}{Curriculum Vitae}{100}{chapter*.71}}
 \global\@namedef{scr@dte@chapter@lastmaxnumwidth}{10.3499pt}
 \global\@namedef{scr@dte@section@lastmaxnumwidth}{16.7777pt}
