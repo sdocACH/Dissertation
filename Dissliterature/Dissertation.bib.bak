@@ -312,7 +312,7 @@ as auxiliary information.},
   doi       = {10.1139/cjfr-2013-0181},
   file      = {:pdf\\mandallaz2013three_exh_cjfr-2013-0181.pdf:PDF},
   publisher = {NRC Research Press},
-  url       = { https://doi.org/10.1139/cjfr-2013-0181},
+  url       = {https://doi.org/10.1139/cjfr-2013-0181},
 }
 
 @TechReport{mandallaz2016,

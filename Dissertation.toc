@@ -1,10 +1,10 @@
 \select@language {british}
 \contentsline {chapter}{Acknowledgements}{1}{chapter*.4}
 \contentsline {chapter}{\numberline {1}General Introduction}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Goals}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}History and state of the art}{4}{section.1.2}
+\contentsline {section}{\numberline {1.1}History and state of the art}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Goals}{4}{section.1.2}
 \contentsline {section}{\numberline {1.3}Outline}{5}{section.1.3}
-\contentsline {chapter}{\numberline {2}The \textit {R} Package {\fontseries {b}\selectfont forestinventory}: Design-Based Global and Small Area Estimations for Multi-Phase Forest Inventories}{7}{chapter.2}
+\contentsline {chapter}{\numberline {2}The \textit {R} Package {\fontseries {b}\selectfont forestinventory}: design-based global and small area estimations for multi-phase forest inventories}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Methods and structure of the package}{11}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Forest inventory in the infinite population approach}{11}{subsection.2.2.1}
@@ -44,8 +44,8 @@
 \contentsline {subsection}{\numberline {3.2.1}Study Area}{46}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Terrestrial Inventory Data}{47}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Auxiliary Data}{48}{subsection.3.2.3}
-\contentsline {subsubsection}{\nonumberline ALS Canopy Height Model}{48}{section*.29}
-\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{50}{section*.31}
+\contentsline {subsubsection}{\nonumberline ALS Canopy Height Model}{48}{section*.30}
+\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{50}{section*.32}
 \contentsline {subsection}{\numberline {3.2.4}Choice of Support under Angle Count Sampling}{51}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}\color {black}{Model Building and Evaluation} \color {black}}{52}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}Results}{53}{section.3.3}
@@ -58,20 +58,20 @@
 \contentsline {subsection}{\numberline {3.4.3}Choice of Support under Angle Count Sampling}{62}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Conclusion}{63}{section.3.5}
 \contentsline {chapter}{\numberline {4}A double-sampling extension of the German National Forest Inventory for design-based small area estimation of timber volume resources on forest district levels}{65}{chapter.4}
-\contentsline {chapter}{\numberline {5}Accuracy Assessment of Timber Volume Maps using Forest Inventory Data and LiDAR Canopy Height Models}{68}{chapter.5}
+\contentsline {chapter}{\numberline {5}Accuracy assessment of timber volume maps using forest inventory data and LiDAR canopy height models}{68}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{70}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Context and Problem}{70}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Background on Heuristic Search Methods}{72}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}Materials and Methods}{72}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Materials}{72}{subsection.5.2.1}
-\contentsline {subsubsection}{\nonumberline Study Area}{72}{section*.50}
-\contentsline {subsubsection}{\nonumberline Timber Volume Densities from Field Inventory}{73}{section*.52}
-\contentsline {subsubsection}{\nonumberline LiDAR Data}{74}{section*.55}
+\contentsline {subsubsection}{\nonumberline Study Area}{72}{section*.52}
+\contentsline {subsubsection}{\nonumberline Timber Volume Densities from Field Inventory}{73}{section*.54}
+\contentsline {subsubsection}{\nonumberline LiDAR Data}{74}{section*.57}
 \contentsline {subsection}{\numberline {5.2.2}Methods}{75}{subsection.5.2.2}
-\contentsline {subsubsection}{\nonumberline Step I: Computation of Canopy Height Model}{76}{section*.58}
-\contentsline {subsubsection}{\nonumberline Step I: Regression Model}{76}{section*.59}
-\contentsline {subsubsection}{\nonumberline Step II: Assessment of Map Accuracy}{77}{section*.61}
-\contentsline {subsubsection}{\nonumberline Step III: Computation of the Timber Volume Map}{80}{section*.62}
+\contentsline {subsubsection}{\nonumberline Step I: Computation of Canopy Height Model}{76}{section*.60}
+\contentsline {subsubsection}{\nonumberline Step I: Regression Model}{76}{section*.61}
+\contentsline {subsubsection}{\nonumberline Step II: Assessment of Map Accuracy}{77}{section*.63}
+\contentsline {subsubsection}{\nonumberline Step III: Computation of the Timber Volume Map}{80}{section*.64}
 \contentsline {section}{\numberline {5.3}Results}{81}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Regression Model}{81}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Assessment of Map Classification Accuracy}{82}{subsection.5.3.2}
@@ -86,5 +86,5 @@
 \contentsline {section}{\numberline {6.1}Goals}{90}{section.6.1}
 \contentsline {section}{\numberline {6.2}Main results}{91}{section.6.2}
 \contentsline {section}{\numberline {6.3}Outlook}{92}{section.6.3}
-\contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.70}
-\contentsline {chapter}{Curriculum Vitae}{100}{chapter*.71}
+\contentsline {chapter}{\nonumberline Bibliography}{93}{chapter*.73}
+\contentsline {chapter}{Curriculum Vitae}{100}{chapter*.74}
