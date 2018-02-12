@@ -1,5 +1,6 @@
 \chapter{A double-sampling extension of the German National Forest Inventory for design-based small area estimation of timber volume resources on forest district levels}
-\label{chap:regmod}
+\label{chap:sae}
+
 {\large Andreas Hill$^1$, Daniel Mandallaz$^1$, Joachim Langshausen$^2$}\\
 
 \vspace{3cm}
@@ -21,3 +22,617 @@ In progress
 \end{itemize}
 
 \clearpage
+%%%%%%%%%%%%%%
+%% Abstract %%
+%%%%%%%%%%%%%%
+\section*{Abstract}
+\label{chap:sae:Abstract}
+The German National Forest Inventory consists of a systematic grid of permanent sample plots and provides a reliable evidence-based assessment of the state and the development of Germany's forests on national and federal state level in a 10 year interval. However, the data have yet been scarcely used for estimation on smaller management levels such as forest districts due to insufficient sample sizes within the area of interests and the implied large estimation errors. In this study, we present a double-sampling extension to the existing German National Forest Inventory (NFI) that allows for the application of recently developed design-based small area regression estimators. We illustrate the implementation of the estimation procedure and evaluate its potential by the example of timber volume estimation on two small scale management levels (45 and 405 forest district units respectively) in the federal German state of Rhineland-Palatinate. An airborne laserscanning (ALS) derived canopy height model and a tree species classification map based on satellite data were used as auxiliary data in an ordinary least square regression model to produce the timber volume predictions on the plot level.
+The results support that the suggested double-sampling procedure can substantially increase estimation precision on both management levels: the two-phase estimators were able to reduce the variance of the SRS estimator by 43\% and 25\% on average for the two management levels respectively.
+
+
+%------------------------------------------------------------------------------------------------%
+% ---------------------------------- Introduction ---------------------------------------------- %
+
+\section{Introduction}
+\label{sec:intro}
+
+The German National Forest Inventory (NFI) provides reliable evidence-based and accurate information of the current state and the development of Germanys forest over time. The NFI thereby has to satisfy various information needs and amongst others reports to public and state forestry administrations, wood-based industries and the public on the national level, as well as to the Food and Agriculture Organization of the United Nations (FAO) and United Nations Framework Convention on Climate Change (UNFCC) on the international level \citep{polley2010intomppo}. At the current time, the inventory design of the German NFI solely rests upon a terrestrial cluster inventory that is carried out at sample locations systematically distributed over the entire forest state area of Germany. As this implies covering a large area of 114'191 ha \citep{bwi3}, the sample size has been chosen according to satisfy high estimation accuracies for forest attributes on the national and federal state level. This however leads to very low sampling intensities and consequently, sample sizes often drop dramatically when entering spatial units below the federal state level. This is particularly true for forest management levels such as forest districts for which the estimation uncertainties turn out be unacceptably large due to the very limited number of sample plots within these units. For this reason, the German NFI data have not yet been extensively incorporated in operational forest planning on forest district management levels. In most German federal states, management strategies are thus still based on expert judgements from time-consuming standwise inventories (SFI), which are prone to systematic deviations \cite{kulievsis2016} and do not provide any measure of uncertainty.\par
+
+Some German federal states, such as Lower Saxony, have approached this problem by establishing a regional Forest District Inventory (FDI) with a much higher sampling density than used by the NFI in order to base their regional management strategies on quantitative and accurate information \citep{bockmann1998}. However, such FDIs are cost-intensive and, facing increasing restrictions in budget and staff resources, there has been a need for more cost-efficient inventory methods \citep{vonluepke2013}. One method which has proven to be efficient is double-or two-phase sampling \citep{sarndal2003, gregoire2007, kohl2006, mandallaz2008}. Double sampling incorporates inexpensive auxiliary information and can be used to either increase estimation precision under given terrestrial sample size, or maintain estimation precision under reduced terrestrial sample size. A double sampling for stratification procedure has e.g. been used in the FDI of Lower Saxony \citep{saborowski2010}, and \citet{grafstrom2017a} lately illustrated how to use the auxiliary information to determine optimised balanced terrestrial sample designs. Recent studies have lately extended double-sampling to triple-sampling estimation methods using auxiliary information in two different sampling intensities. An example can be found in \citet{vonLuepke2012} who illustrated an extension of the existing two-phase FDI Lower Saxony to a three-phase design that uses updates of past inventory data as additional auxiliary information and allows for a significant reduction of the terrestrial sample size in intermediate inventories. An other example is \citet{massey2014a} who developed a triple-sampling extension based on the ideas of \citet{mandallaz2013c} for the Swiss NFI that can significantly reduce the increase in estimation uncertainty caused by the new annual inventory design.\par
+
+Two-phase and three-phase samplings techniques have also been used in the service of small area estimation (SAE). SAE techniques particular address the situation where the number of samples within a subunit, so-called small area (SA), of the entire sampling frame is too small to provide reliable estimates for that unit. A broad range of SA estimators used in forest inventories \citep{kohl2006} originally comes from official statistics. A commonly applied SAE method is thereby known as indirect estimation \citep{rao2015}, where statistical models are used to convert auxiliary information into predictions of the target variable that is rarely or not available in the small area. The statistical models are thereby often developed by "borrowing strength" from data outside the small area. There are numerous applications of SAE in forestry \citep{breidenbach2012, goerndt2011, steinmann2013, mandallaz2013b}, and most of the studies use unit-level models, i.e. the statistical models are fitted using data from inventory plots. Especially unit-level models for timber volume estimation under the use of various remote sensing data have been intensively investigated with respect to timber volume prediction \citep{koch2010, naesset2014inmaltamo}. There are also few studies that have investigated area level-models, where the auxiliary information is only provided on the SA-level \citep{magnussen2017}. Some studies have illustrated that even NFI data of low sampling densities can be used in small area estimation procedures to provide estimations of acceptable accuracy on much smaller management levels. One example is \citet{breidenbach2012} who used data from the Norwegian NFI for SAE estimations of standing timber volume for 14 municipalities where the number of NFI samples within these areas were between 1 and 35. Estimation errors under the applied model-based and design-based SAE estimators turned to be markedly smaller than achieved under simple random sampling (SRS). Another example is \citet{magnussen2014} who recently used the Swiss NFI data for SAE estimation of timber volume within 108 Swiss forest districts with sample sizes between 9 and 206. Despite these promising results, a similar study in Germany using the German NFI data for SAE estimation has not yet been conducted.\par
+
+The aim of this study was to investigate whether the German NFI data can provide acceptable estimation precision on two forest district levels when incorporated in small area estimation procedures. We therefore conducted a study in the German federal state Rhineland-Palatinate where we extended the German NFI to a double-sampling design and applied three types of design-based small area regression estimators in order to derive point and variance estimates of mean standing timber volume for 45 and 405 forest districts respectively. The SA-estimators we considered were the \textit{pseudo-small}, \textit{extended pseudo-synthetic} and the \textit{pseudo-synthetic} design-based small area estimator suggested by \citet{mandallaz2013a, mandallaz2013b}. Auxiliary data were obtained from a countrywide airborne Laser scanning (ALS) canopy height model (CHM) and a tree species classification map and used for regression within tree species strata. The estimation accuracies were compared to those achieved under SRS sampling. The chosen double-sampling estimators were favoured for several reasons: \textbf{(i)} the design-based frame considerably relaxes requirements on the regression model which seemed appropriate facing severe quality restrictions in the ALS data; \textbf{(ii)} the estimators can consider \textit{non-exhaustive}, i.e. non wall-to-wall, auxiliary information; \textbf{(iii)} all estimators are explicitly formulated for cluster sampling which has not yet been the case for frequently used model-dependent estimators; and \textbf{(iv)} the asymptotically unbiased g-weight variance accounts for the design-dependency of the regression coefficients on the sample (\textit{internal model approach}) and is also robust to heteroscedasticity of the model residuals. The results from this study were considered to provide valuable information whether the suggested procedure might be a cost-saving alternative to a regional FDI.\par
+
+
+%---------------------------------------------------------------------------------------------------------%
+% ---------------------------------- Materials and Methods ---------------------------------------------- %
+
+\section{Terrestrial sampling design of the German NFI}
+\label{sec:germanNFI}
+
+The German National Forest Inventory (German NFI) is a periodic inventory that is carried out every 10 years over the entire forest area of Germany. The most recent inventory (BWI3) was conducted in the years 2011 and 2012. While information was originally gathered at a systematic 4x4 km grid, some federal states such as Rhineland-Palatinate have switched to a densified 2x2 km grid. The German NFI uses a cluster sampling design, which means that a sample unit consists of maximal four sample locations (also referred to as \textit{sample plots}) that are arranged in a square (so called \textit{cluster}) with a side length of 150 metres (Picture). The number of plots per cluster can however vary between 1 and 4 depending on forest/non-forest decisions by the field crews on the individual plot level \citep{bwi3_aufn}. In the field survey of the BWI3, sample trees for timber volume estimation are selected according to the angle count sampling technique \citep{bitterlich1984}, using a basal area factor ($BAF$) of 4 that is respectively adjusted for sample trees at the forest boundary by a geometric intersection of the boundary transect with the tree-individual inclusion circle \citep{bwi3_aufn}. A further inventory threshold for a tree to be recorded is a diameter at breast height ($dbh$) of at least 7 cm. For each sample tree that is selected by this procedure, the dbh, the absolute tree height, the tree diameter at 7 m ($D7$) and the tree species is measured and used to calculate a volume estimation on the tree level. These volume estimations are based on the application of tree species specific taper curves that are adjusted to the set of diameters and corresponding height measurements taken from the respective sample tree \citep{kublin2013}.
+
+
+\section{Double sampling in the infinite population approach}
+\label{sec:inf_pop}
+
+The estimators used in this study have been proposed by \citep{mandallaz2013a,mandallaz2013b} and build upon the so called infinite population approach (IPA) in order to bridge the inventory procedure and the derived information to the mathematics behind the estimators. Therefore, we shall first provide a short introduction into this general estimation frame. We start by assuming that the population $P$ of trees $i \in 1,2, ..., N$ within a forest of interest $F$ is exactly defined, and each tree $i$ has a directly or indirectly observable response variable $Y_i$ (e.g. its timber volume) that allows to specify the population mean $Y$ (e.g., the average timber volume per unit area) over $F$. If a full census of all tree population individuals is not possible, $Y$ has to be estimated by the conduction of an inventory.  The infinite population approach assumes that the spatial distribution of the local density $Y(x)$ (e.g., the timber volume per unit area) at each point or location $x$ in the forest $F$ is given by a fixed (i.e. non stochastic) piecewise constant function. The population mean $Y$ is thus mathematically equivalent to the integral of the density function surface divided by the forest area $\lambda(F)$, i.e. $Y=\frac{1}{\lambda(F)} \sum_{i=1}^{N}Y_i=\frac{1}{\lambda(F)}\int_{F}Y(x)dx$, and thus the population mean $Y$ corresponds to a spatial mean. Since the local density function is in practice always unknown, one estimates $Y$ by collecting a sample $s_2$ of all local density values by the conduction of a terrestrial inventory at $n_2$ uniformly and independently distributed sample points over $F$. This procedure is often referred to as \textit{one-phase sampling} (OPS). Opposed to the one-phase approach, \textit{two-phase} or \textit{double-sampling} procedures use information from two nested samples (phases). Practically speaking, the terrestrial inventory $s_2$ is embedded in a large phase $s_1$ comprising $n_1$ sample locations that each provide a set of explanatory variables described by the column vector $\pmb{Z}(x)=(z(x)_1, z(x)_2,...,z(x)_p)^{\top}$ at each point $x \in s_1$. These explanatory variables are derived from auxiliary information that is available in high quantity within the forest $F$. For every $x \in s_1$, $\pmb{Z}(x)$ is transformed into a prediction $\hat{Y}(x)$ of $Y(x)$ using the choice of some prediction model. The basic idea of this method is to boost the sample size by providing a large sample of less precise but cheaper predictions of $Y(x)$ in $s_1$ and to correct any possible model bias, i.e., $\EX{(Y(x)-\hat{Y}(x))}$, using the subsample of terrestrial inventory units where the value of $Y(x)$ is observed.
+
+
+% ----------------------------------------------------------------------- %
+% ----------------------------------------------------------------------- %
+\section{Estimators}
+\label{sec:estimators}
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+\subsection{Design-based SRS estimator for cluster sampling}
+\label{sec:srs_estimator}
+
+The simple random sampling (SRS) estimator for cluster sampling constitutes the \textit{status quo} that is currently applied under the existing one-phase sampling design of the German NFI in order to obtain a point and variance estimate for the mean timber volume of a given estimation unit. In order to provide all estimators in the infinite population framework and ensure a consistent terminology with the two-phase estimators in Section \ref{sec:SAestimators}, we will introduce the SRS estimator that is applied in the BWI3 algorithms \citep{bwi3_ausw} in the form given in \citet{mandallaz2008, mandallaz2016}.\par 
+In order to calculate the local density $Y_{c}(x)$ at the cluster level, a cluster is defined as consisting of $M$ sample locations (in the BWI3, we have $M=4$ ) where $M-1$ sample locations $x_2, ..., x_M$ are created close to the cluster origin $x_1$ by adding a fixed set of spatial vectors $e_2, ..., e_M$ to $x_1$. The actual number of plots per cluster, $M(x)$, is a random variable due to the uniform distribution of $x_l$ ($l=1, ..., M$) in the forest $F$ and forest/non-forest decision for each sample location $x_l$:
+
+\begin{equation}\label{eq:Mx}
+M(x)=\sum_{l=1}^{M}I_{F}(x_l) \hspace{3ex} \text{where} \hspace{3ex} I_F(x_l)=\begin{cases}&1 \text{ if $x_l \in F$}\\
+&0 \text{ if $x_l\not\in F$}
+\end{cases}
+\end{equation}
+
+The local density on cluster level $Y_{c}(x)$, in our case the timber volume per hectare, is then defined as the average of the individual sample plot densities $Y(x_l)$:
+
+\begin{equation}\label{eq:locdens_clust}
+Y_{c}(x) = \frac{\sum_{l=1}^{M} I_{F}(x_{l}) Y(x_l)}{M(x)}
+\end{equation}
+
+The local density $Y(x_l)$ on individual sample plot level was calculated according to the description in \citet{mandallaz2008}, which can be rewritten for angle-count sampling technique applied in the BWI3. The general form of $Y(x)$ in \citet{mandallaz2008} is given as the Horwitz-Thompson estimator 
+
+\begin{equation}\label{eq:locdens_plot}
+Y(x_l)=\sum_{i \in s_{2}(x_l)}\frac{Y_i}{\pi_{i}\lambda(F)}
+\end{equation}
+
+where $Y_i$ is in our case the predicted timber volume of the tree $i$ recorded at sample location $x$ in m$^3$. Each tree has an inclusion probability $\pi_{i}$ that is well defined as the proportion of its inclusion circle area $\lambda(K_i)$ within the forest area $\lambda(F)$, i.e. via their geometric intersection:
+
+%with the binary indicator variable $Ii$ for the $i$th tree defined as
+%
+%\begin{equation}\label{1stage}
+%I_i(x)=\begin{cases}&1 \text{ if $x \in K_i$}\\
+%&0 \text{ if $x\not\in K_i$}
+%\end{cases}
+%\end{equation}
+
+\begin{equation}\label{locdens_plot_1}
+\pi_{i} = \frac{\lambda(K_i \cap F)}{\lambda(F)}
+\end{equation}
+
+The radius $R_i$ of the tree-individual inclusion circle $K_i$ is given by $R_i = bhd_{i}/cf_{i,corr}$ (also referred to as \textit{limiting distance}), where $cf_{i,corr}$ is the counting factor corrected for potential boundary effects at the forest border. In case of angle-count sampling, we can rewrite $\pi_{i}$ as
+
+\begin{equation}\label{eq:locdens_plot_2}
+\pi_{i} = \frac{G_i}{cf_{i,corr}\lambda(F)}
+\end{equation}
+
+since the intersection area $\lambda(K_i \cap F)/\lambda(F)$ can be expressed using the trees basal area $G_i$ (in m$^2$) and the corrected counting factor:
+
+\begin{equation}\label{eq:locdens_plot_3}
+\lambda(K_i \cap F) = \frac{G_i}{cf_{i, corr}} \hspace{3ex} \text{where} \hspace{3ex} cf_{i,corr} = cf\frac{\lambda(K_i)}{\lambda(K_i \cap F)}
+\end{equation}
+
+Using Eq. \ref{eq:locdens_plot_2} in Eq. \ref{eq:locdens_plot} yields the rewritten form of $Y(x_l)$ for angle count sampling that conforms to the definition used in the BWI3 algorithms \citep{bwi3_ausw}:
+
+\begin{equation}\label{eq:locdens_plot_4}
+Y(x_l)= \sum_{i \in s_{2}(x_l)} \frac{cf_{i, corr}Y_i}{G_i} = \sum_{i \in s_{2}(x_l)} nha_{i}{Y_i}
+\end{equation}
+
+where $nha_i$ is the number of trees per hectare represented by tree $i$. The local densities on cluster level can then be used to derive the estimated spatial mean $\hat{Y}_c$ and its estimated variance $\hat{\var}(\hat{Y}_c)$ for any given spatial unit for which $n_2 \geq 2$ ($n_2$ denoting the number of sample units, i.e. clusters):
+
+\begin{subequations}\label{eq:srs_est_cluster}
+	\begin{align}
+	\hat{Y}_c &= \frac{\sum_{x \in s_2} M(x) Y_{c}(x)}{\sum_{x \in s_2} M(x)} \\
+	\hat{\var}(\hat{Y}_c) &= \frac{1}{n_2(n_2 - 1)}\sum_{x \in s_2}\Big(\frac{M(x)}{\bar{M_2}}\Big)^2(Y_{c}(x) - \hat{Y}_c)^2
+	\end{align}
+\end{subequations}
+
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+\subsection{Design-based small area regression estimators for cluster sampling}
+\label{sec:SAestimators}
+
+All three considered small area estimators have in common that they use ordinary least square (OLS) regression models to produce the predictions of the local density $Y_{c}(x)$ directly on the cluster level $c$. We consider the \textit{internal model approach}, where the vector of estimated regression coefficients on the cluster level is found by "borrowing strength" from the entire terrestrial sample $s_2$ of the current inventory:
+
+\begin{subequations}\label{normequ_simple_cluster}
+	\begin{align}
+	\hat{\pmb{\beta}}_{c,s_2} &= \pmb{A}_{c,s_2}^{-1} \Big(\frac{1}{n_2}\sum_{x\in{s_2}}M(x)Y_{c}(x)\pmb{Z}_{c}(x)\Big) \\
+	\pmb{A}_{c,s_2} &=\frac{1}{n_2}\sum_{x\in{s_2}}M(x)\pmb{Z}_{c}(x)\pmb{Z}_{c}^{\top}(x)
+	\end{align}
+\end{subequations}
+
+\noindent $\pmb{Z}_{c}(x)$ is the vector of explanatory variables on the cluster level, which is calculated as the weighted average of the explanatory variables $\pmb{Z}(x_l)$ on the individual plot levels $x_1, ..., x_l$ (Eq.\ref{eq:Zc(x)}). The weight $w(x_l)$ is the proportion of the support-area within the forest $F$ used to derive the explanatory variables from the raw auxiliary information.
+
+\begin{equation}\label{eq:Zc(x)}
+\pmb{Z}_{c}(x)=\frac{\sum_{l=1}^{M}I_{F}(x_l)w(x_l)\pmb{Z}(x_l)}{\sum_{l=1}^{M}I_{F}(x_l)w(x_l)}
+\end{equation}
+
+\noindent The estimated design-based variance-covariance matrix $\hat{\pmb{\Sigma}}_{\hat{\pmb{\beta}}_{s_2}}$ accounts for the fact that the regression model is internal by reflecting the dependency of the estimated regression coefficients on the realized sample $s_2$. It is defined as
+
+\begin{equation}\label{eq:varcovarbeta}
+\hat{\pmb{\Sigma}}_{\hat{\pmb{\beta}}_{s_2}}=\pmb{A}_{c,s_2}^{-1}
+\Big(\frac{1}{n_2^2}\sum_{x\in{s_2}}M^{2}(x)\hat{R}_{c}^2(x)\pmb{Z}_{c}(x)\pmb{Z}_{c}^{\top}(x)\Big)
+\pmb{A}_{c,s_2}^{-1}
+\end{equation}
+
+\noindent with $\hat{R}_{c}=Y_{c}(x)-\pmb{Z}_{c}^{\top}(x)\hat{\pmb{\beta}}_{c,s_2}$ being the empirical model residuals at the cluster level, which by construction of OLS satisfy the important \textit{zero mean residual property}, i.e. $\frac{\sum_{x \in s_{2}} M(x) \hat{R}_{c}(x)}{\sum_{x \in s_{2}} M(x)}=0$.\\
+
+In the following, we will give a short description of each small area estimator and refer to \citet{mandallaz2013a, mandallaz2016, mandallaz2013b} if the reader requires additional details or proofs. The estimators have also been implemented in the R-package \textit{forestinventory} \citep{forestinventory} which was used to compute all estimates in this study.\\
+
+
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+% PSMALL estimator:
+\subsubsection{Pseudo Small Area Estimator (\psmall{})}
+\label{sec:psmall}
+
+All point information used for small area estimation is now restricted to that available at the sample locations $s_{1,G}$ or $s_{2,G}$ in the small area $G$, with exception of $\hat{\pmb{\beta}}_{c,s_2}$ and $\hat{\pmb{\Sigma}}_{\hat{\pmb{\beta}}_{c,s_2}}$ which are always based on the entire sample $s_2$. We thus first define the following quantities on the small area level:
+
+\begin{subequations}\label{eq:compsG}
+	\begin{align}
+	\hat{\bar{\pmb{Z}}}_{c,G} &= \frac{\sum_{x \in s_{1,G}} M_{G}(x) \pmb{Z}_{c,G}(x)}{\sum_{x \in s_{1,G}} M_{G}(x)} \label{eq:meanZcG} \hspace{3ex} &\text{where} \hspace{3ex}
+	\pmb{Z}_{c,G}(x) =  \frac{\sum_{l=1}^{L} I_{G}(x_l)\pmb{Z}(x_l)}{M_{G}(x)}\\		
+	Y_{c,G}(x) &= \frac{\sum_{l=1}^{L} I_{G}(x_l)\pmb{Y}(x_l)}{M_{G}(x)}  &\text{and} \hspace{3ex}
+	\hat{Y}_{c,G}(x)=\hat{\bar{\pmb{Z}}}_{c,G}^{\top}\hat{\pmb{\beta}}_{c,s_2}\\
+	\bar{\hat{R}}_{2,G} &= \frac{\sum_{x \in s_{2,G}} M_{G}(x) \hat{R}_{c,G}(x)}{\sum_{x \in s_{2,G}} M_{G}(x)} \hspace{3ex} &\text{where} \hspace{3ex}
+	\hat{R}_{c,G}(x) = Y_{c,G}(x)-\hat{Y}_{c,G}(x)
+	\end{align}
+\end{subequations}
+
+Note that the restriction to $G$, i.e. $I_{G}(x_l)=\{0,1\}$, is made on the individual sample plot level $x_l$, and $M_{G}(x) = \sum_{l=1}^{L}I_{G}(x_l)$ thus is the number of sample plots per cluster within the small area. The asymptotically design-unbiased point estimate of \textit{PSMALL} is then defined according to Eq. \ref{eq:psmall_pest}. The first term estimates the small area population mean of $G$ by applying the globally derived regression coefficients to the small area cluster means of the explanatory variables $\hat{\bar{\pmb{Z}}}_{c,G}$. The second term then corrects for a potential bias of the regression model predictions in the small area $G$ by adding the mean of the empirical residuals $\bar{\hat{R}}_{2,G}$ in $G$. This correction insures that the \textit{zero mean residual property} in $F$ also holds within the small area $G$, which is per se not ensured by fitting the regression coefficients with data outside $G$.
+
+\begin{subequations}\label{eq:psmall}
+	\begin{align}
+	\hat{Y}_{c,G,PSMALL} &= \hat{\bar{\pmb{Z}}}_{c,G}^{\top}\hat{\pmb{\beta}}_{c,s_2} + \bar{\hat{R}}_{2,G} \label{eq:psmall_pest} \\
+	\hat{\var}(\hat{Y}_{c,G,PSMALL}) & = \hat{\bar{\pmb{Z}}}_{c,G}^{\top}\hat{\pmb{\Sigma}}_{\hat{\pmb{\beta}}_{c,s_2}}\hat{\bar{\pmb{Z}}}_{c,G}
+	+ \hat{\pmb{\beta}}_{c,s_2}^{\top}\hat{\Sigma}_{\hat{\bar{\pmb{Z}}}_{c,G}}\hat{\pmb{\beta}}_{c,s_2} \nonumber \\
+	& + \frac{1}{n_{2,G}(n_{2,G}-1)}\sum_{x \in s_{2,G}}\Big(\frac{M_{G}(x)}{\bar{M}_{2,G}}\Big)^2(\hat{R}_{c,G}(x) - \bar{\hat{R}}_{2,G})^2
+	\label{eq:psmall_var}
+	\end{align}
+\end{subequations}
+
+The estimated design-based variance of $ \hat{Y}_{c,G,PSMALL}$ is given by Eq. \ref{eq:psmall_var}. Basically, the first term constitutes the variance introduced by the uncertainty in the regression coefficients, whereas the second term expresses the variance caused by estimating the exact auxiliary mean in $G$ using a non-exhaustive sample $s_{1,G}$. The third term is the variance of the model residuals and thus accounts for the inaccuracies of the model predictions. Note that the first term can also be rewritten using g-weights \cite[pg.14]{mandallaz2016} which ensure calibration properties of the auxiliary variables on the terrestrial sample.\\ 
+
+The variance-covariance matrix of the auxiliary vector $\hat{\Sigma}_{\hat{\bar{\pmb{Z}}}_{c,G}}$ is thereby defined as
+
+\begin{equation}\label{estvarcovaux_G}
+\hat{\Sigma}_{\hat{\bar{\pmb{Z}}}_{c,G}} = \frac{1}{n_{1,G}(n_{1,G}-1)} \sum_{x \in s_{1,G}} \big(\frac{M_{G}(x)}{\bar{M}_{1,G}}\big)^2 (\pmb{Z}_{c,G}(x)-\hat{\bar{\pmb{Z}}}_{c,G})(\pmb{Z}_{c,G}(x)-\hat{\bar{\pmb{Z}}}_{c,G})^{\top}
+\end{equation}
+
+with $\bar{M}_{1,G}=\frac{\sum_{x \in s_{1,G}}M_{G}(x)}{n_{1,G}}$.\\
+
+
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+% PSYNTH estimator:
+\subsubsection{Pseudo Synthetic Estimator (\psynth{})}
+\label{sec:psynth}
+
+The \psynth{} estimator is commonly applied when no terrestrial sample is available within the small area $G$ (i.e. $n_{2,G}=0$). The point estimate (Eq. \ref{eq:psynth_pest}) is thus only based on the predictions generated by applying the globally derived regression coefficients to the small area cluster means of the explanatory variables $\hat{\bar{\pmb{Z}}}_{c,G}$. Note that the bias correction term using the empirical residuals (Eq. \ref{eq:psmall_pest}) can no longer be applied. The \psynth{} estimator thus has a potential unobservable design-based bias.
+
+\begin{subequations}\label{eq:psynth}
+	\begin{align}
+	\hat{Y}_{c,G,PSYNTH} & =\hat{\bar{\pmb{Z}}}_{c,G}^{\top}\hat{\pmb{\beta}}_{c,s_2} \label{eq:psynth_pest} \\
+	\hat{\var}(\hat{Y}_{c,G,PSYNTH})& =
+	\hat{\bar{\pmb{Z}}}_{c,G}^{\top}\hat{\pmb{\Sigma}}_{\hat{\pmb{\beta}}_{c,s_2}}
+	\hat{\bar{\pmb{Z}}}_{c,G}
+	+ \hat{\pmb{\beta}}^{\top}_{c,s_2}\hat{\Sigma}_{\hat{\bar{\pmb{Z}}}_{c,G}}\hat{\pmb{\beta}}_{c,s_2} \label{eq:psynth_var}
+	\end{align}
+\end{subequations}
+
+The uncertainty of the model predictions can also no longer be considered in the variance estimation (Eq. \ref{eq:psynth_var}). The synthetic estimator will therefore usually have a smaller variance than estimators incorporating the model uncertainties, but at the cost of a potential bias. Note that the \psynth{} estimator is still design-based, but one purely has to rely on the validity of the regression model within the small area as it is the case in the model-dependent framework.\\
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+% EXTPSYNTH estimator:
+\subsubsection{Extended Pseudo Synthetic Estimator (\extpsynth{})}
+\label{sec:extpsynth}
+
+The \extpsynth{} estimator (Eq. \ref{eq:extpsynth}) has been proposed by \cite{mandallaz2013a} as a transformed version of the \psmall{} estimator that has the form of the \psynth{} estimator but remains asymptotically design unbiased. It has the advantage that the mean of the empirical model residuals of the OLS regression model for the entire area $F$ and the small area $G$ are by construction both zero at the same time, i.e. $\bar{\hat{R}}_{c} = \bar{\hat{R}}_{c,G} = 0$. This is realized by \textit{extending} the auxiliary vector $\pmb{Z}_{c}(x)$ by the indicator variable $I_{c,G}$ which takes the value 1 if the entire cluster lies within the small area $G$ and 0 if the entire cluster is outside $G$, i.e. $I_{c,G}(x)=\frac{M_{G}(x)}{M(x)}$. The extended auxiliary vector thus becomes $\pmb{\mathbb{Z}}_{c}^{\top}(x)= (\pmb{Z}_{c}^{\top}(x),I_{c,G}(x))$ and the new regression coefficient using $\pmb{\mathbb{Z}}_{c}(x)$ instead of $\pmb{Z}_{c}(x)$ in Eq. \ref{normequ_simple_cluster} is denoted as $\hat{\pmb{\theta}}_{s_2}$. All remaining components are calculated by plugging in $\pmb{\mathbb{Z}}_{c}(x)$ in Eq. \ref{eq:compsG}. A decomposition of $\hat{\pmb{\theta}}_{s_2}$ reveals that the residual correction term is now included in the regression coefficient $\hat{\pmb{\theta}}_{s_2}$.
+
+\begin{subequations}\label{eq:extpsynth}
+	\begin{align}
+	\hat{Y}_{c,G,EXTPSYNTH} & =\hat{\bar{\pmb{\mathbb{Z}}}}_{c,G}^{\top}\hat{\pmb{\theta}}_{c,s_2} \label{eq:extpsynth_pest} \\
+	\hat{\var}(\hat{Y}_{c,G,EXTPSYNTH})& =
+	\hat{\bar{\pmb{\mathbb{Z}}}}_{c,G}^{\top}\hat{\pmb{\Sigma}}_{\hat{\pmb{\theta}}_{c,s_2}}
+	\hat{\bar{\pmb{\mathbb{Z}}}}_{c,G}
+	+ \hat{\pmb{\theta}}^{\top}_{c,s_2}\hat{\pmb{\Sigma}}_{\hat{\bar{\pmb{\mathbb{Z}}}}_{c,G}}\hat{\pmb{\theta}}_{c,s_2} \label{eq:extpsynth_var}
+	\end{align}
+\end{subequations}
+
+However, it is important to note that $\bar{\hat{R}}_{c,G} = 0$ under the extended regression model only holds if the sample plots $x_1, ..., x_l$ of a cluster are \textit{all} either inside our outside the small area, i.e. $M_G(x)\equiv M(x)$, and thus $I_{c,G}(x)=\frac{M_{G}(x)}{M(x)}$ can only take the values 1 or 0. \citet{mandallaz2016} assumed that the effects on the estimates should be negligible as the number of occasions where $M_{G}(x) < M(x)$ was considered to be small in practical implementations. It was thus a further objective of this study to investigate the actual occurrences and effects of this phenomenon by comparing the estimates of \extpsynth{} to those of \psmall{}. % where the estimates stay unaffected
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+\subsection{Measures of estimation accuracy}
+
+The estimation accuracies were quantified by the \textit{estimation error}, which is the ratio of the standard error and the point estimate:
+
+\begin{equation}\label{eq:error}
+error(\hat{Y})_{[\%]}=\frac{\sqrt{\var(\hat{Y})}}{\hat{Y}}*100
+\end{equation}
+
+We further calculated the 95\% confidence interval for each estimate for visualization purpose. The confidence intervals can also be used for hypothesis testing whether the point estimates of the three estimators for a given small area are statistically different. The confidence intervals under SRS can be obtained as:
+
+\begin{equation}\label{ci_1phase}
+CI_{1-\alpha}(\hat{Y})=\bigg{\lbrack}\hat{Y}-t_{n_{2}-1, 1-\frac{\alpha}{2}}\sqrt{\hat{\var}(\hat{Y})},
+\hat{Y}+t_{n_{2}-1, 1-\frac{\alpha}{2}}\sqrt{\hat{\var}(\hat{Y})}\bigg{\rbrack}
+\end{equation}
+
+The confidence intervals for the \psmall{} and \extpsynth{} estimates are calculated as:
+
+\begin{equation}\label{ci_2phase_sae}
+CI_{1-\alpha}(\hat{Y})=\bigg{\lbrack}\hat{Y}-t_{n_{2,G}-1, 1-\frac{\alpha}{2}}\sqrt{\hat{\var}(\hat{Y})},
+\hat{Y}+t_{n_{2,G}-1, 1-\frac{\alpha}{2}}\sqrt{\hat{\var}(\hat{Y})}\bigg{\rbrack}
+\end{equation}
+
+For the \psynth{} estimates, the confidence intervals are
+
+\begin{equation}\label{ci_2phase_global}
+CI_{1-\alpha}(\hat{Y})=\bigg{\lbrack}\hat{Y}-t_{n_{2}-p, 1-\frac{\alpha}{2}}\sqrt{\hat{\var}(\hat{Y})},
+\hat{Y}+t_{n_{2}-p, 1-\frac{\alpha}{2}}\sqrt{\hat{\var}(\hat{Y})}\bigg{\rbrack}
+\end{equation}
+
+In order to address the potential benefits of the small area estimators compared with the SRS approach, we calculated the \textit{relative efficiency} (Eq. \ref{eq:releff}) which can be interpreted as the relative sample size under SRS needed to achieve the variance under the double sampling estimators.
+
+\begin{equation}\label{eq:releff}
+rel.eff=\frac{\hat{\var}_{SRS}(\hat{Y})}{\hat{\var}_{SAE_{2phase}}(\hat{Y})}
+\end{equation}
+
+\newpage
+
+
+
+% ----------------------------------------------------------------------- %
+% ----------------------------------------------------------------------- %
+\section{Case study}
+\label{sec:CaseStudy}
+
+\subsection{Study area and small area units}
+\label{sec:studyarea}
+
+The German federal state Rhineland-Palatinate (\textit{RLP}) is located in the western part of Germany and borders Luxembourg, France and Belgium. With 42.3\% (appr. 8400 km$^2$) of the entire state area (19850 km$^2$) covered by forest, RLP is one of the two states with the highest forest coverage among all federal states of Germany \citep{bwi3}. The forests of RLP are further characterized by a pronounced diversity in bioclimatic growing conditions that have strong influence on the local growth dynamics as well as tree species composition \citep{gauer2005} and are further characterized by large variety of forest structures ranging from characteristic oak coppices (Moselle valley), pure spruce, beech and scots pine forests (i.a. Hunsr{\"u}ck and Palatinate forest) up to mixed forests comprising variable proportions of oak, larch, spruce, Scots pine and beech. Around 82\% of the forest area in RLP are mixed forest stands and 69\% of the forest area exhibit a multi-layered vertical structure. The forest area of RLP are divided into 3 ownership classes, i.e. state forest (27\%), communal forest (46\%) and privately owned forest (27\%). The forest service of RLP has the legal mandate to sustainably manage the state and communal forest area (73\% of the entire forest area), including forest planning, harvesting and the sale of wood \citep{lwaldg_rlp}. For this reason, the entire forest area has been spatially organised in 3 main hierarchical management units (Figure \ref{fig:StudyArea}). On the upper level, RLP has been divided into 45 Forst{\"a}mter (\textit{FA}), which are further divided into a total number of 405 Forstreviere (\textit{FR}). The next level are the forest stands (104'184 in total) for which expert judgements are conducted by SFIs in a 5- to 10 year period in order to set up management strategies for the upcoming 10 years. The FAs and FRs constituted the small area (SA) units for which design-based small area estimations of the mean standing timber volume were calculated by incorporating the available terrestrial inventory data of the BWI3 in the estimators described in Section \ref{sec:estimators}. The average area of the SA units were 43'777 ha on the FA-level, and 4624 ha on the FR level.
+
+% | managment level | average area (min-max)  | average no cluster (plots) | min no. cluster (plots | max no. cluster (plots |
+%   FA                43'777 ha  (17367 - 125423)     46 (128)                            11 (36)            64 (198)
+%   FR                4624 ha   (0.68 - 43284)         5  (14)                            0 (0)             13 (34)
+%   stand level       6 ha     (0.03 ha - 73)          0 (0)                              0 (0)             2 (4)
+
+
+% Add Graphic 1:
+% - Graphic of RLP with "zoom" in the 3 managament units (or later all together in Graphic
+
+% Add in text:
+% - add information on the (average) spatial area of each sae-level
+
+% Notes to myself:
+% - in the original forstrevier layer, we have 427 FR units but 21 of them are not covered by woefis-layer (so no state- and communal forest), and 1 is the "Bundesforstamt" not considered by us
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+\subsection{Terrestrial sample}
+
+Rhineland-Palatinate (RLP) is covered by a 2x2 km inventory grid of the German NFI. In the last inventory (BWI3) conducted in the year 2013, timber volume information was derived for 2810 cluster (8092 plots) in the field survey. The local timber volume density on the plot and cluster level for this sample was consequently calculated according to Section \ref{sec:srs_estimator}. In the frame of this survey, the plot center coordinates were re-measured with differential global satellite navigation system (DGPS) technique. Knowledge about the exact plot positions were considered crucial to provide optimal comparability between the terrestrially observations and the information derived from the auxiliary information. A comparison of the DGPS coordinates with the so-far used target coordinates revealed that 90\% of all horizontal deviations lay in the range of 25 meters. A detailed analysis of horizontal DGPS errors in RLP by \citet{lambrecht2017} indicated that 80\% of the plots should not exceed horizontal DGPS errors of 8 meters. For 162 plots, the DGPS coordinates were replaced by their target coordinates due to missingness or implausible values. The terrestrial sample size $n_{2,G}$ within the FA units was 46 cluster on average and ranged between 11 and 64. Within the FR units, $n_{2,G}$ was considerably smaller with an average of 5 cluster and a range between 0 and 13.
+
+\begin{figure}[H]
+	\centering
+	\resizebox{0.85\hsize}{!}{\includegraphics*{Grafiken/SAE_article/SAunitsRLP.png}}
+	\caption{\textit{Left}: Study Area with delineated FA forest management units. \textit{Right}: Example for each of the three management units (from top to bottom): FA, FR and forest stand unit with overlayed the extended double sampling cluster design. \textit{Green}: Forest stand polygon layer defining the forest area of this study.}
+	\label{fig:StudyArea}
+\end{figure}
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+\subsection{Extension to double sampling design}
+\label{ext_to_2phase}
+
+In order to apply the small area estimators (Section (\ref{sec:SAestimators}), the existing NFI design was extended to a double sampling design by densifying the existing systematic 2x2 kilometer grid to a grid size of 500x500 meters that constituted the large first phase $s_1$ in accordance to Section \ref{sec:inf_pop} (Figure \ref{fig:StudyArea}, \textit{right}). The existing terrestrial phase $s_2$ was consequently integrated by replacing the target coordinates of the respective $s_1$ cluster by the terrestrially measured DGPS coordinates. For our study, we restricted the \textit{sampling frame} to the communal and state forest. The forest/non-forest decision for each plot was thereby made by a spatial intersection of the plot center coordinates with a polygon layer of the communal and state forest stands provided by the forest service. Using this stand layer provided the advantage to consistently apply the same forest/non-forest definition to the entire sample $s_1$ in order to decide about excluding or including a plot in the sampling frame. The terrestrial sample size $n_2$ was thus reduced to 2055 cluster (5791 plots). Table \ref{tab:fieldata} provides a short descriptive summary about the volume densities and the main attributes of the NFI plots located in the state and communal forest sampling frame. The densification led to an average sample size $n_{1,G}$ of 759  cluster (range: 246 -- 1022) in the FA units, and 88 cluster (range: 1 -- 194) in the FR units.
+
+\input{Tabellen/SAE_article/table_fieldmeasuredvals.tex}
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+\subsection{Auxiliary data}
+\label{sec:auxinfo}
+
+% --------------------------- %
+\subsubsection{LiDAR canopy height model}
+\label{sec:chm}
+
+A prerequisite for the application of the suggested two-phase small area estimators was the identification of suitable auxiliary data available over the entire study area. Between the year 2003 and 2013, the topographic survey institution of RLP conducted an airborne laser scanning (ALS) acquisition over the entire federal state at leaf-off condition in order to derive a countrywide digital terrain and surface model. For this study, the recorded LiDAR data was used to create a canopy height model (CHM) in raster format, providing discrete information about the canopy surface height of the forest area in a spatial resolution of 5 meters (Figure \ref{fig:Auxvars}, \textit{top}). The CHM (Fig. \ref{fig:Auxvars}, \textit{top}) was calculated as the difference between the digital terrain model (DTM) and the digital surface model (DSM) that were derived by a Delauney interpolation of the ground and first ALS pulses respectively. A more detailed description of the procedure can be found in \citet{hill2017a}. The CHM was considered to provide the most valuable information to be used in the OLS regression model for predicting the timber volume on sample plot and cluster level. However, the extended acquisition period of the ALS campaign led to substantial time gaps to the BWI3 survey of up to 10 years. In addition, the CHM exhibited severe quality variations in the CHM du to evolving ALS technology over the years. LiDAR acquisition recorded in 2002 and 2003 particularly showed a rather poor quality with about only 0.04 point per m$^2$, while more recently acquired datasets contained more than 5 points per m$^2$. Furthermore CHM information was not available at 16 sample locations due to sensor failures. These plots were deleted from the sampling frame and its non-available information thus treated as missing at random. This assumption was considered to be reasonable as the respective sample locations did not exclude specific forest structures.
+
+% --------------------------- %
+\subsubsection{Tree species map}
+\label{sec:tspecclass}
+
+Additional auxiliary data was derived from a countrywide satellite-based classification map predicting the five main tree species \citep{stoffels2015}, i.e. European beech, Sessile and Pedunculate oak, Norway spruce, Douglas fir and Scots pine (Fig. \ref{fig:Auxvars}, \textit{bottom}). The tree species map has a grid size of 5 meters and was calculated from 22 bi-temporal satellite images (SPOT5 and RapidEye) by application of a spatially adaptive classification algorithm \citep{stoffels2012}. As timber volume estimations on the tree level are often based on species-specific biomass and volume equations, the use of tree species information has often been stated as a key factor for improving the precision of timber volume estimates \cite{white2016}. In this respect, incorporating the tree species map was particularly attractive as it predicts five of the seven tree species that are used in the BWI3 taper functions \citep{kublin2013} to calculate the timber volume of a sample tree. However, due to unavailable satellite data, the tree species map excluded one large patch with an area of 415 km$^2$ in the south-west part of RLP covering an entire FA unit (10 FR units respectively). In 9 additional FR units, the tree species information was also missing for a subset of the sample locations due to two additional patches with an area of 76 km$^2$ and 100 km$^2$ in the northern part of RLP. For these 19 FR units, small area estimation was thus restricted to using only the available CHM information in the regression model. With respect to fitting the internal model for estimation, the tree species information was missing for 411 (7\%) of the 5791 sample locations. A summary of the sample sizes and missing auxiliary data for both the CHM and the tree species map is provided in Table \ref{tab:ssize}.
+
+% Graphik:
+\begin{figure}[H]
+	\centering
+	\resizebox{0.9\hsize}{!}{\includegraphics*{Grafiken/SAE_article/Auxvars_100dpi.png}}
+	\caption{Left: CHM (top) and tree species classification map (bottom) available on the federal state level were used as auxiliary information. Right: Magnified illustration of the supports used to derive the explanatory variables from the auxiliary data.}
+	\label{fig:Auxvars}
+\end{figure}
+
+% neu:
+\begin{table}[H]
+	\begin{center}
+		\caption{Sample size for each phase in entire study area. $n_{\{1,2\},plots}$: number of plots. $n_{\{1,2\}}$: number of cluster}
+		\vspace{0.2cm}
+		\label{tab:ssize}
+		{\small %
+			\begin{tabular}{l|r|r|r|r}
+				\hline
+				\multicolumn{1}{c|}{\textit{Sampling frame}} & \multicolumn{1}{c|}{\textbf{$n_{1,plot}$}}  & \multicolumn{1}{c|}{\textbf{$n_1$}}  & \multicolumn{1}{c|}{\textbf{$n_{2,plot}$}}  & \multicolumn{1}{c}{\textbf{$n_2$}} \\ % <-- added & and content for each column
+				\hline \hline
+				communal and state forest & 96'854 & 33'365 & 5791 & 2055\\
+				\hspace{5mm} \footnotesize missing CHM & \footnotesize 18 & \footnotesize 10 & \footnotesize 0 & \footnotesize 0\\ % <--
+				\hspace{5mm} \footnotesize missing TSPEC & \footnotesize 7060  & \footnotesize 3587 & \footnotesize 414 & \footnotesize 385\\ % <--
+				\hspace{5mm} \footnotesize missing CHM \textit{and} TSPEC & \footnotesize 3 & \footnotesize 2 & \footnotesize 0 & \footnotesize 0\\ % <--
+				\hspace{5mm} \footnotesize missing CHM \textit{or} TSPEC & \footnotesize 7075 & \footnotesize 3595 & \footnotesize 414 & \footnotesize 385\\ % <--
+				\hline \hline
+			\end{tabular}
+		} %
+	\end{center}
+\end{table}
+
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+\subsection{Calculation of the explanatory variables}
+\label{sec:expvarcalc}
+
+% --------------------------- %
+\subsubsection{ALS canopy height model}
+
+Continuous explanatory variables derived from the CHM were the mean canopy height (\textit{meanheight}) and the standard deviation (\textit{stddev}). The quantities were calculated by evaluating the raster values around each sample location within a predefined circle (\textit{support}) with a radius of 12 meters. In order to correct for edge effects at the forest border, each support area was previously intersected with the state and communal forest area, which was defined by a polygon mask provided by the state forest service. The percentage of the support within the forest layer was used as the weight $w(x_l)$ introduced in Eq. \ref{eq:Zc(x)} in order to derive the weighted mean of the explanatory variables on the cluster level. Restricting the auxiliary data evaluation to the forest area was primarily a means to optimize the coherence between explanatory variables computed at the forest boundary and the corresponding local density, but also supports the consistency with the sampling frame (section \ref{ext_to_2phase}). In particular, the BWI3 survey applies an edge correction at the forest border at the individual tree level by intersection of the trees' inclusion circle with the forest border. An adjustment for the fact that part of a trees' inclusion circle is outside the forest area is then realized by increasing its counting factor, which would otherwise lead to an underestimation of the local density. Since the ALS height values will usually drop to around zero outside the forest area, neglecting the edge correction of the support attenuates the mean canopy height value towards zero and thus increases the discrepancy to the local density.\par
+We further derived the year of the ALS acquisition (\textit{ALSyear}) as an additional categorical variable which was used to account for the time-lag between the CHM information and the terrestrial survey as well as to explain heterogeneity in the data introduced by the varying ALS quality. Adjustments were made to the original acquisition years by introducing an additional factor level \textit{2008\_1} for a subset of the 2008 acquisition where the quality turned out to be considerably poor due to a sensor error. In addition, the years 2006 and 2007 as well as 2012 and 2013 were pooled in order to increase the number of observations per factor level, resulting in nine categories in total (\textit{2002}, \textit{2003}, \textit{2007}, \textit{2008\_1}, \textit{2008}, \textit{2009}, \textit{2010}, \textit{2011} and \textit{2012}).
+
+% --------------------------- %
+\subsubsection{Tree species map}
+
+The tree species map information was used to predict the main tree species of the sample trees at each sample plot (\textit{treespecies}) as an additional categorical variable. This implied two consecutive processing steps. In the \textit{first} step, one of the five tree species was assigned to a sample location if 100\% of the raster values within the edge-corrected support were classified as that species. Otherwise, the sample location was assigned the value 'mixed'. Likewise for the CHM variables, the support radius was 12 meters although the use of different support sizes for each explanatory variable would be in agreement with the two-phase estimators presented in section \ref{sec:SAestimators}. When using the \textit{treespecies} variable in a regression model, the support size and the percentage threshold particularly constitute parameters to be optimized in order to achieve an optimal variance decomposition of the data that subsequently leads to the best possible model accuracy. A detailed analysis and description of the optimal processing parameters for the explanatory variables of the present data set is provided in \citet{hill2017a}. In this study, the authors also applied a calibration model to the initially derived \textit{treespecies} variable that successfully removed the effects of misclassification errors on the regression model coefficients and increased the model accuracy. The calibration model consists of a decision tree from a random forest algorithm \citet{breiman2001} that was trained to predict the actual main plot tree species (known for all terrestrial plots) based on available auxiliary variables. These variables were the predicted \textit{treespecies} variable, the mean canopy height and standard deviation of the CHM, as well as the proportion of coniferous trees estimated from the classification map and the growing region derived from a polygon map. The algorithm was grown with 2000 trees considering $\sqrt{p} \approx$ 3 of the predictors for each split. In a \textit{second} step, we thus applied this calibration model to the \textit{treespecies} variable derived at all sample locations $s_1$. Table \ref{tab:classacc} gives the classification accuracies of the \textit{treespecies} variable before and after calibration.
+
+
+\begin{table}[H]
+	\begin{center}
+		\caption{Classification accuracies of the \textit{treespecies} variable before and after calibration. $n_{ref}$: number of terrestrial reference plots. $n_{class}$: number of classified plots.}
+		\vspace{0.2cm}
+		\label{tab:classacc}
+		{\small %
+			\begin{tabular}{l|c|c|c|c} %8cols
+				\hline
+				Main plot species & Producer's accuracy[\%] & User's accuracy[\%] & nref & nclass \\
+				\hline \hline	
+				Beech       & 22.31 & 47.02 & 883 & 419 \\
+				Douglas Fir & 24.78 & 48.72 & 230 & 117 \\
+				Oak         & 11.07 & 48.48 & 289 & 66 \\
+				Spruce      & 53.15 & 61.13 & 651 & 566 \\
+				Scots Pine  & 22.91 & 46.07 & 179 & 89 \\
+				Mixed       & 84.49 & 64.53 & 3152 & 4127 \\
+				\hlineB{2}
+				& \multicolumn{2}{l|}{Overall accuracy: 61.96\%} & 5384 & 5384 \\
+				\hline \hline
+			\end{tabular}
+		}%
+	\end{center}
+\end{table}
+
+%% Here is the table with calibrated and uncalibrated values:
+%\begin{table}[H]
+%	\begin{center}
+%	\caption{Classification accuracies of the \textit{treespecies} variable before and after calibration. $n_{ref}$: number of terrestrial reference plots. $n_{class}$: number of classified plots.}
+%	\vspace{0.2cm}
+%	\label{tab:classacc}
+% {\small %
+%	\begin{tabular}{l|c c|c c|c|c c} %8cols
+%		\hlineB{1}
+%		\multirow{2}{*}{Main plot species} & \multicolumn{2}{c|}{Producer's accuracy[\%]} & \multicolumn{2}{c|}{User's accuracy[\%]} & \multirow{2}{*}{nref} & \multicolumn{2}{c}{nclass} \\ 
+%		\cline{2-3} \cline{4-5} \cline{7-8} & uncalib & calib & uncalib & calib & & uncalib & calib \\
+%		\hline \hline	
+%		 Beech       & 29.56 & 22.31 & 46.11 & 47.02 & 883 & 566 & 419 \\
+%		 Douglas Fir & 33.04 & 24.78 & 47.50 & 48.72 & 230 & 160 & 117 \\
+%		 Oak         & 47.75 & 11.07 & 24.34 & 48.48 & 289 & 567 & 66 \\
+%		 Spruce      & 43.63 & 53.15 & 60.81 & 61.13 & 651 & 467 & 566 \\
+%		 Scots Pine  & 55.87 & 22.91 & 29.59 & 46.07 & 179 & 338 & 89 \\
+%		 Mixed       & 66.40 & 84.49 & 63.69 & 64.53 & 3152 & 3286 & 4127 \\
+%		\hline
+%		 & \multicolumn{4}{l|}{Overall accuracy: 54.83\% (61.96\%)} & 5384 & \multicolumn{2}{c}{5384} \\
+%		 \hline \hline
+%	\end{tabular}
+%}%
+%	\end{center}
+%\end{table}
+
+
+
+% ------------------------------------------------ %
+% ------------------------------------------------ %
+\subsection{Regression Model}
+\label{sec:regmod}
+
+The model selection constituted a major part of the current study, especially because sophisticated challenges such as a) the heterogeneity in the remote sensing data, b) the identification of the optimal support sizes under angle count sampling and c) the incorporation of tree species information had to be addressed and investigated in order to identify the most accurate regression model realizable under the given data. We will here thus only provide a shortened summary of the extensive analysis carried out and refer to the study of \citet{hill2017a} if the reader is interested in more detailed information on the subjects.\par
+
+The model with highest \adjrsq{} and lowest RMSE was achieved with the variables \meanheight{}, \meanheight{}$^2$, \stddev{} and \alsyear{} derived from the ALS data as well as the \treespecies{} variable derived from the classification map as main effect terms. Additionally, interaction terms between \meanheight{} and \alsyear{}, \stddev{} and \alsyear{}, \meanheight{} and \stddev{}, and \meanheight{} and \treespecies{} were included. The model yielded an \adjrsq{} of 0.48 and an RMSE of 140.62 \mha{} (46.7\%) on the plot level (table \ref{tab:modacc_modterms}, full model). While the study of \citet{hill2017a} only provide the model evaluations on the plot level, the two-phase estimators described in section \ref{sec:SAestimators} derive and apply the regression coefficients and the residuals on the aggregated cluster level. We thus re-evaluated the model as used in the estimators also on the cluster level and found the model accuracies to be higher than on the plot level (\adjrsq{} of 0.53 and RMSE of 101.61 \mha{} and 33.6\%). A stratification to the ALS acquisition years substantially improved the model accuracy and thus proved to be an effective means in accounting for the artificially introduced noise in the data set due to ALS quality variations and time-gaps between the ALS and the terrestrial survey. However, the stratification led to a highly unbalanced dataset when stratifying according to the \treespecies{} variable. For this reason, a species individual modeling within each \alsyear{} stratum remained infeasible, but might have further improved the model accuracy. An additional evaluation of the model residuals within each ALS acquisition year stratum revealed that the model accuracies substantially varied between the strata (table \ref{tab:adj_r2_within}). Values above the overall \adjrsq{} were particularly achieved in ALS acquisition years close to the terrestrial survey date (0.59 to 0.66 on the cluster level). This effect was substantially diminished when dropping the \alsyear{} variable from the model term.\par
+
+As depicted in section \ref{sec:tspecclass}, the information of the tree species classification map was missing within 1 FA and 19 FR units. For these small area units, we applied the regression model without the \treespecies{} variable (table \ref{tab:modacc_modterms}, reduced model). However, the model accuracy of the full and reduced model were found to be very similar on both the plot and cluster level. We thus assumed that the application of the reduced model would not cause substantially larger estimation errors as compared to the full model and subsequently performed a joint evaluation of the estimation results in section \ref{sec:Res}.
+
+% Table 1:
+\input{Tabellen/SAE_article/modacc_modterms.tex}
+
+Concerning the treatment of outliers or leverage points for model fitting, it should be noted that there is a major difference between the external and internal model approach. In order to ensure the zero-mean-residual property of the \psmall{} and \extpsynth{} estimator under the internal model approach (section \ref{sec:psmall} and \ref{sec:extpsynth}), all observations of the terrestrial sample $s_2$ used for estimation must also be included in the modeling frame. Thus, excluding an observation from the model fit does also require its deletion from the sampling frame, which has to be regarded as an interference with the random sampling process the design-based inference relies on. For this reason, a removal of potential outliers or leverage points is, strictly speaking, only justified if the terrestrial response value or the explanatory variable value turns out to be truly erroneous (e.g. typos or measurement errors). If this is not the case, the removal of outliers or influential data points might increase the model fit, but to the cost of possible bias for the estimates. With respect to these considerations, we conducted an analysis of influential observations \citep[pp. 160--167]{fahrmeir2013} on the plot level for the full regression model. In order to identify implausible observations in the explanatory data, we calculated the \textit{leverage} values and found that the critical threshold of $2p/n$ (i.e. twice the average of the hat matrix' diagonal entries) was exceeded by 10\% of all observations. Further investigation revealed that several leverage points showed unusually large \meanheight{} values associated to their respective timber volume density values. These implausible height values particularly occured in ALSyear acquisition years differing from the terrestrial survey date and were thus much more likely caused by harvesting activities in the sample plot area than erroneous ALS data. A deletion of these plots from the sampling frame was thus not justified due to the reasons given before. Also the remaining leverage points could not be definitely attributed to erroneous auxiliary data and were kept in the data set. The same was true for 10 observation with exceptionally large local density values that were identified as \textit{outliers}.
+
+\vspace{-0.7cm}
+\input{Tabellen/SAE_article/mod_r2_lyearstrata_table.tex}
+
+%-------------------------------------------------------------------------------------------%
+% ---------------------------------- Results ---------------------------------------------- %
+\newpage
+\section{Results}
+\label{sec:Res}
+
+% ----------------------------------------------------------------------- %
+% ----------------------------------------------------------------------- %
+\subsection{General estimation results}
+\label{sec:feasest}
+
+An application of the SRS, \psmall{} and \extpsynth{} estimator was not feasible for 17 of all 405 FR-units due to an insufficient terrestrial sample size of $n_{2,G} < 2$. We further restricted the calculation of the \psmall{} and \extpsynth{} estimator to small area units with a minimum terrestrial sample size of $n_{2,G} \geq 4$ to avoid unstable estimates. This affected 65 additional FR units and limited unbiased two-phase estimations to 321 (79\%) of the 405 FR units. It should be noted that also the \psynth{} estimator could not be applied for 2 FR-units since $n_{1,G} < 2$. Due to substantial larger sample sizes, all estimators could however be applied to all 45 FA units. The average value and the range of the mean timber volume estimates over the evaluated FA and FR units turned out to be very similar between all estimators (table \ref{tab:estres}). An additional pairwise comparison of the 95\% confidence intervals revealed that the four estimators did in fact not produce statistically different point estimates for all FA and FR units. This confirmed that the differences between the estimators are solely found in the precision which they provide for the point estimates.
+
+\begin{table}[H]
+	\begin{center}
+		\caption{Descriptive summary of point estimates and estimation errors on the two forest district levels. $N_u$: number of evaluated small area units.}
+		\vspace{0.2cm}
+		\label{tab:estres}
+		{\small %
+			\begin{tabular}{c|l c|c c c|c c c} %8cols
+				\hlineB{1}
+				\multirow{2}{*}{District level} & \multicolumn{2}{c|}{\multirow{2}{*}{Estimator}} & \multicolumn{3}{c|}{Point estimates} & \multicolumn{3}{c}{Errors [\%]} \\
+				\cline{4-9} & & & mean & min & max & mean & min & max \\
+				\hline \hline
+				\multirow{4}{*}{FA} & SRS       & ($N_u$=45)  & 300.16 & 215.91 & 392.84 &  6.69 & 3.87 & 13.21 \\
+				& PSMALL    & ($N_u$=45)  & 307.29 & 209.26 & 417.10 &  5.16 & 3.46 & 14.33 \\
+				& EXTPSYNTH & ($N_u$=45)  & 307.27 & 209.01 & 415.02 &  4.78 & 3.25 & 13.88 \\
+				& PSYNTH    & ($N_u$=45)  & 306.90 & 223.51 & 409.92 &  2.34 & 1.54 &  3.95 \\
+				\hlineB{2}          
+				\multirow{4}{*}{FR} & SRS       & ($N_u$=388) & 301.83 &  99.89 & 612.13 & 18.32 & 0.34 & 104.97 \\
+				& PSMALL    & ($N_u$=321) & 308.15 & 159.64 & 568.67 & 12.24 & 3.48 &  44.94 \\
+				& EXTPSYNTH & ($N_u$=321) & 308.38 & 154.07 & 544.34 & 11.34 & 3.60 &  40.91 \\
+				& PSYNTH    & ($N_u$=403) & 307.82 & 166.01 & 444.29 & 4.65  & 2.56 &  62.51 \\
+				\hline \hline
+			\end{tabular}
+		}%
+	\end{center}
+\end{table}
+
+% ----------------------------------------------------------------------- %
+% ----------------------------------------------------------------------- %
+\subsection{Estimation errors}
+\label{sec:esterr}
+
+On both small area levels, the design-unbiased estimators \psmall{} and \extpsynth{} led to a substantial reduction in the estimation errors compared to the SRS estimator (fig. \ref{fig:disterrors}). On the FA level, the SRS estimator yielded an estimation error of 6.7\% on average compared to 5.2\% and 4.8\% under the \extpsynth{} and \psmall{} estimator (table \ref{tab:estres}). The cumulative error distribution (fig. \ref{fig:disterrors}, left) reveals that under the SRS estimator, errors $\leq$ 5\% were achieved for 17\% of the FA units (8 of 45). This proportion could be increased to 62\% (28 FA units) and 73\% (33 FA units) by application of the \psmall{} and \extpsynth{} estimator. 95\% of all estimates exhibited errors $\leq$ 9.5\% under the SRS estimator and $\leq$ 6.6\% when using \psmall{} or \extpsynth{}. Estimation errors higher than 10\% only appeared twice for each of the three estimators.\par
+The error reduction by the \psmall{} and \extpsynth{} estimator was even more pronounced on the FR level (fig. \ref{fig:disterrors}, right), although the overall error niveau was substantially higher than on FA level. The average error under the SRS estimator was 18.3\%, while it was 11.3\% and 12.2\% under the \psmall{} and \extpsynth{} estimator (table \ref{tab:estres}). Errors smaller than 10\% were achieved for 15\% of the FR units by the SRS estimator, and for 46\% by the \psmall{} and \psynth{} estimator. 95\% of the 321 FR units where \psmall{} and \extpsynth{} could be applied exhibited errors $\leq$ 20\%. In comparion, the SRS estimates resulted in errors $\leq$ 36.6\% for 95\% of the 388 FR units.\par
+On both small area levels, the \psynth{} estimator resulted in much smaller estimation errors compared to \psmall{} and \extpsynth{}. This was as expected, since the \psynth{} variance estimate does not take the residual variation in each small area unit into account (section \ref{sec:psynth}). Compared to the asymptotically design-unbiased estimators \psmall{} and \extpsynth{}, the estimation errors produced by \psynth{} thus seem to be too optimistic. One should also recall that the estimates of the \psynth{} estimator are potentially design-biased.
+
+\begin{figure}[H]
+	\centering
+	\resizebox{1\hsize}{!}{\includegraphics{Grafiken/SAE_article/error_distr_foa_fu.png}}
+	\caption{Cumulative distribution of estimation errors under the simple random sampling (SRS), the pseudo small (\psmall{}), the extended pseudo synthetic (\extpsynth{}) and the pseudo synthetic (\psynth{}) estimator. \textit{Left}: Results for the 45 FA units. \textit{Right}: Results for the 388 (SRS), 321 (\psmall{} / \extpsynth{}) and 403 (\psynth{}) FR units.}
+	\label{fig:disterrors}
+\end{figure}
+
+
+% ----------------------------------------------------------------------- %
+% ----------------------------------------------------------------------- %
+\newpage
+\subsection{Comparison of \psmall{} and \extpsynth{}}
+\label{sec:comp}
+
+Figure \ref{fig:disterrors} reveals that the error distribution of \psmall{} and \extpsynth{} are very similar, with \psmall{} showing marginally higher estimation errors. In order to investigate the differences between \psmall{} and \extpsynth{}, we compared the g-weight variances of both estimators for all 321 FR units (fig. \ref{fig:compvar}, left). As obvious, \psmall{} yielded slightly larger variances for the vast majority of the estimates. As addressed in section \ref{sec:extpsynth}, one possible explanation for such differences was the effect of one or more cluster not entirely being included in a small area unit, as this would constitute a violation of the \extpsynth{} estimator. This violation was actually observed in 155 of the 321 FR units (48\%). However, the affected FR units (depicted in red diamonds, fig. \ref{fig:compvar}) did not show a significant divergence from the \psmall{} variances with respect to the remaining unaffected FR units. The variance differences between the two estimators were thus due to the mathematical formulations of the \psmall{} and \extpsynth{} estimator, which are asymptotically equivalent only under large terrestrial sample sizes $n_{2,G}$ within the small area \citep[pp.17--18]{mandallaz2016}. An additional comparison of the absolute differences in the g-weight variance (fig. \ref{fig:compvar}, right) revealed that large divergences did in fact particularly occur for small area units with small terrestrial sample sizes ($n_{2,G} \leq 5$). The differences decreased with increasing sample size and thus confirmed the asymptotic relationship between the two estimators. However, a comparison of the confidence intervals of \psmall{} and \extpsynth{} revealed that the variance differences did not lead to statistically significant point estimates.\par
+
+\begin{figure}[H]
+	\centering
+	\resizebox{1\hsize}{!}{\includegraphics{Grafiken/SAE_article/psmall_vs_extpsynth_fu.png}}
+	\caption{\textit{Left}: Comparison of the g-weight variance between the PSMALL and the EXTPSYNTH estimator for the 321 FR units.
+		\textit{Right}: Difference in g-weight variance between the PSMALL and the EXTPSYNTH estimator in dependence of the terrestrial data ($n2G$) in the FR unit.}
+	\label{fig:compvar}
+\end{figure}
+
+
+
+
+% ----------------------------------------------------------------------- %
+% ----------------------------------------------------------------------- %
+\newpage
+\subsection{Reduction of SRS variance by \psmall{} and \extpsynth{}}
+\label{sec:gain_eval}
+
+A direct comparison of the realized variances within the small area units revealed that the application of the design-unbiased estimators (\psmall{} and \extpsynth{}) led to a reduction of the respective SRS variance in all FA units. In 75\% of the FA units, the \extpsynth{} estimator was able to reduce the SRS variance by up to 54.1\% (fig. \ref{fig:gain}). The reduction in variance was also expressed in the relative efficiency values, which were 2.02 on average and ranged between 1.18 and 4.13 on the FA level. On FR-level, the reduction in variance and the relative efficiencies reached even higher values (table \ref{tab:gain} and fig. \ref{fig:gain}). The \psmall{} estimator again yielded slightly lower variance reductions and relative efficiencies due to the generally smaller variances of the \extpsynth{} estimator (section \ref{sec:comp}).
+
+\begin{figure}[H]
+	\centering
+	\resizebox{0.73\hsize}{!}{\includegraphics{Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png}}
+	\caption{Cumulative distribution of variance reduction by the PSMALL and EXTPSYNTH compared to the SRS estimator for the  45 FA and 321 FR units.}
+	\label{fig:gain}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\caption{Descriptive summary of SRS variance reduction and relative efficiencies on the two forest district levels. $N_u$: number of evaluated small area units.}
+		\vspace{0.2cm}
+		\label{tab:gain}
+		{\small %
+			\begin{tabular}{c|l c|c c c|c c c} %8cols
+				\hlineB{1}
+				\multirow{2}{*}{District level} & \multicolumn{2}{c|}{\multirow{2}{*}{Estimator}} & \multicolumn{3}{c|}{Reduction of SRS variance [\%]} & \multicolumn{3}{c}{relative efficiency} \\
+				\cline{4-9} & & & mean & min & max & mean & min & max \\
+				\hline \hline
+				\multirow{2}{*}{FA} & PSMALL    & ($N_u$=45)  & 33.51 &  2.6 & 72.5 & 1.74 & 1.03 & 3.64 \\
+				& EXTPSYNTH & ($N_u$=45)  & 43.30 & 15.7 & 75.8 & 2.03  & 1.18 & 4.13 \\
+				\hlineB{2}          
+				\multirow{2}{*}{FR} & PSMALL    & ($N_u$=321) & 12.48 & -1203.9 & 96.8 & 2.54 & 0.08 & 31.61  \\
+				& EXTPSYNTH & ($N_u$=321) & 24.75 & -892.7  & 97.0 & 2.95 & 0.10 & 33.70 \\
+				\hline \hline
+			\end{tabular}
+		}%
+	\end{center}
+\end{table}
+
+However, cases also occurred on the FR level where one or both two-phase estimators produced larger variance values than under the SRS estimator. This particularly happened in 19\% (61) of the FR units under the \extpsynth{}, and in 24\% (76) of the FR units under the \psmall{} estimator. One possible reason for this was supposed to be a large residual variance due to a poor performance of the regression model within the small area unit. In order to investigate this hypothesis, we analyzed the three variance terms of the \psmall{} estimator (eq. \ref{eq:psmall_var}), i.e. the variance introduced by the uncertainty of the regression coefficients (term 1), the variance caused by estimating the auxiliary means (term 2), and the variance of the model residual (term 3).  The latter particularly expresses the model performance within the small area unit. Figure \ref{fig:fail} illustrates the percentage reduction or increase of the SRS variance when compared to the \psmall{} variance for all FR units in dependence on a) the impact of residual variance on the g-weight variance, and b) the terrestrial sample size $n_{2,G}$.\par
+
+Obviously, the residual term generally constitutes the dominating part of the \psmall{} g-weight variance (around 84\% on average). However, a high proportion of the residual variance term seems not to be the driver for large \psmall{} variances, as apparent from Fig. \ref{fig:fail} (\textit{right}). The FR units where the \psmall{} estimator produced larger variances than the SRS estimator did not systematically differ from the majority of the FR units where \psmall{} performed better than SRS. However, FR units with exceptionally large variance increases compared to SRS particularly occurred under small terrestrial sample sizes of $n_{2,G} = 4$ (fig. \ref{fig:fail}, \textit{left}). These FR units exhibited a 272\% average increase of the SRS variance, compared to 62\% for the critical FR units with $n_{2,G} > 4$. In comparison, the achievable reduction in SRS variances compared to SRS were not considerably impacted by the terrestrial sample size (fig. \ref{fig:fail}, \textit{right}). The average reduction of these units was around 50\% under sampling sizes of both $n_{2,G} = 4$ and $n_{2,G} > 4$. 
+
+\begin{figure}[H]
+	\centering
+	\resizebox{1\hsize}{!}{\includegraphics{Grafiken/SAE_article/eval_2phase_fail_11.png}}
+	\caption{Increase or reduction of the SRS variance by application of the \psmall{} estimator for all 321 FR units in dependence of a) the terrestrial sample size in the FR units (\textit{x-axis}) and b) the residual term proportion of the \psmall{} g-weight variance (\textit{y-axis}).}
+	\label{fig:fail}
+\end{figure}
+
+
+%----------------------------------------------------------------------------------------------%
+% ---------------------------------- Discussion ---------------------------------------------- %
+
+\section{Discussion}
+\label{sec:Dis}
+
+% ------------------------ %
+\subsection{Performance of estimators}
+
+The aim of this study was to investigate the performance of design-based estimators for small area estimation of mean standing timber volume on two spatial forest management levels in Germany. It was of particular interest to gather information about the estimation error levels that can be realized using the German NFI data, characterized by low sampling intensities in the area of interests, as terrestrial phase information in the two-phase estimators. To address these research questions, we applied the simple random sampling (SRS), the pseudo-small (\psmall{}) and the extended pseudo-synthetic (\extpsynth{}) estimator to 45 and 405 small area units in the German state of Rhineland-Palatinate.\par
+
+Our study showed that on both small area levels, the \psmall{} and the \extpsynth{} estimator generally leads to a substantial reduction of the estimation errors produced by the SRS estimator. On the upper management level (FA districts), \psmall{} and \extpsynth{} allowed to provide estimation errors smaller than 5\% for 73\% of the small areas compared to only 17\% under the SRS estimator. This level of estimation accuracy could not be achieved on the subsequent management level (FR districts). The reason for this were primarily the substantially smaller terrestrial sample sizes. However, in most FR units (95\%), the estimation errors could be limited to 20\% compared to 40\% under SRS. A pairwise comparison of the confidence intervals revealed that the estimators did thereby not produce significantly different point estimates. The much smaller estimation errors of the \psynth{} estimator suggested that the neglection of the regression model accuracies in the small area units leads to overoptimistic estimation accuracies and confidence intervals. If possible, one should thus prefer the unbiased estimates of \psmall{} or \extpsynth{}.\par
+
+For several FR units, it was observed that the \psmall{} and the \extpsynth{} estimator can produce larger variances than the SRS estimator. It is important to note that this is in perfect agreement with the theory of both two-phase estimators and can theoretically appear if the residual variance in the small area, which generally constitutes the dominating part of the two-phase variance, turns out to be much higher than the variance of the terrestrial data in the small area. The empirical findings of our study suggest that such cases can particularly occur if moderate or poor model fits within a small area are combined with small terrestrial sample sizes ($\leq 5$) in the small area. A closer look on these small areas thus might reveal the reason for the poor prediction performance and help to improve the model fit. Nonetheless, it should be kept in mind that small terrestrial sample sizes can also cause the SRS estimator to not reflect the actual variation of the local density within a small area. In this case, the two-phase variance estimate might be larger but more realistic. Whereas a visual analysis of aerial images, remote sensing data or stand maps might give some further evidence for or against this hypothesis, a definite proof is practically infeasible.\par
+
+We were also able to empirically confirm that the \extpsynth{} estimator generally produces slightly smaller variances and estimation errors than the \psmall{}. This is most probably caused by marginally smaller model residuals due to the intercept adjustment to the terrestrial data in the small area unit, which is primarily a means to ensure the zero-mean-residual property of the \extpsynth{}. However, our analysis indicated that the difference between the two estimators are negligible for sample sizes $\geq$ 10 due to their asymptotic relationship. Furthermore, one or more clusters not entirely included in the small area unit did reassuringly not have a notable impact on the estimates of \extpsynth{}. This empirical evidence can however not be generalized to any application of \extpsynth{} under cluster sampling. It thus seems recommendable to calculate both \psmall{} and \extpsynth{}, and subsequently compare their results. If no suspicious deviations occur, we consider the \extpsynth{} as the estimator of choice.\par
+
+% ------------------------ %
+\subsection{Auxiliary data}
+
+The auxiliary data used in our study were derived from two remote sensing sources, i.e. an ALS canopy height model and a tree species classification map. Likewise in many similar studies, the ALS mean canopy height proved to be the explanatory variable with highest predictive power. However, the large time-gaps of up to 10 years between the ALS acquisition and the terrestrial survey date caused a substantial introduction of artificial noise in the data. Whereas a stratification to the ALS acquisition years was an effective means to counteract the implied residual inflation, several leverage points were unambiguously caused by the temporal asynchronicity. As opposed to the ALS data, the availability of a country-wide tree species classification map has yet been unique among all German federal states. Whereas the study of \citet{hill2017a} already showed that the tree species information was able to improve the model accuracy, it has yet not been used to its full potential. One reason for this was the impossibility of a tree species individual modeling within each ALS acquisition year, which we consider to add further explanatory power. Another reason was the lack of available satellite data for classification in some parts of the country, which led to missingness in the inventory data and restricted 19 FR units to a simpler regression model. Promising steps with respect to more up-to-date canopy height information have already been made, as the topographic survey institution of RLP will from this year on provide a country-wide canopy height model derived from aerial imagery acquisitions. These campaigns will in the future be conducted in a two-year period and allow to derive canopy height information matching the dates of terrestrial forest inventories. A study of \citet{kirchhoefer2017} recently indicated that similar model accuracies for German NFI data can be achieved using such imagery-based canopy height models. Due to the improved coverage and repetition rate of the Sentinel-2 satellite, also the tree species classification map will in the future be updated each year. We consider these alternative auxiliary data sources to also solve the problem of missing explanatory variables at inventory plots. Thus, one could also make use of the exhaustive information within the two-phase estimators by using the true the auxiliary means \citep{mandallaz2013a, mandallaz2013b}, which theoretically leads to a further decrease of the estimation errors. Previous studies of \citet{mandallaz2013b} however showed that given a reasonable large sample size of the first phase, the differences in the estimation error are usually small. With respect to the substantial improvements in the temporal synchronicity between auxiliary and terrestrial inventory data, we consider the demonstrated double-sampling approach also to be very efficient for change estimation \citep{massey2015b}.\par
+
+
+%----------------------------------------------------------------------------------------------%
+% ---------------------------------- Conclusion ---------------------------------------------- %
+
+\section{Conclusion}
+\label{sec:concl}
+
+The study led to two major conclusions: (1) the \extpsynth{} and \psmall{} estimator generally achieved substantially smaller estimation errors on the two investigated forest district levels compared to the SRS estimator. The demonstrated double-sampling procedure thus constitutes a major contribution to an increase in value of the existing German NFI data on the federal state level. However, it is not possible to conclude from our study results alone whether the realized error levels are already acceptable in order to support forest planning decisions. Thus, further investigations are necessary in close cooperation with the forest authorities. A first study will concentrate on testing the \extpsynth{} and \psmall{} confidence intervals as a validation source for the stand-wise inventories. (2) Despite the quality restrictions in the ALS data and the tree species map, the two data sources were found to be well suited to model the mean timber volume on plot and cluster level. With respect to frequently updated aerial canopy height models and tree species maps, it will thus be of hight interest to investigate the model and estimation accuracies that can be expected for future applications. In this framework, the incorporation of additional auxiliary data and the extension to change estimation seem the reasonable next steps to be explored towards an operational implementation of the demonstrated double-sampling procedure.
+
+
+%------------------------------------------------------------------------------------------------%
+% ---------------------------------------- Acknowledgements ------------------------------------ %
+
+\section*{Acknowledgements}
+We want to express our gratitude to Prof. H. Heinimann (Chair of Land Use Engineering, ETH Zurich) for supporting this study. We also want to explicitly thank Johannes Stoffels and Henning Buddenbaum from the Environmental Sensing and Geoinformatic Group of University of Trier for providing the ALS data and tree species classification map, and Kai Husmann and Christoph Fischer from the Northwest German Forest Research Institution G{\"o}ttingen for their advice in processing the terrestrial inventory data. Special gratitude is also owed to Thomas Riedel from the Th{\"u}nen Institute for providing the densified NFI sample grid, and Alexander Massey for proofreading.

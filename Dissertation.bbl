@@ -170,6 +170,12 @@ Gauer, J. \& Aldinger, E. (2005).
 \newblock {\em {M}itteilungen des {V}ereins f{\"u}r {F}orstliche
   {S}tandortskunde und {F}orstpflanzenz{\"u}chtung}, 43, 281--288.
 
+\bibitem[Goerndt et~al., 2011]{goerndt2011}
+Goerndt, M.~E., Monleon, V.~J., \& Temesgen, H. (2011).
+\newblock A comparison of small-area estimation techniques to estimate selected
+  stand attributes using lidar-derived auxiliary variables.
+\newblock {\em Canadian journal of forest research}, 41(6), 1189--1201.
+
 \bibitem[Gregoire \& Valentine~Harry, 2008]{gregoire2008}
 Gregoire, T. \& Valentine~Harry, T. (2008).
 \newblock Sampling strategies for natural resources and the environment chapman
@@ -219,6 +225,11 @@ Hill, A., Mandallaz, D., Buddenbaum, H., Stoffels, J., \& Langshausen, J.
   with data of the {T}hird {N}ational {G}erman {I}nventory.
 \newblock {T}hird {I}nternational {W}orkshop on {F}orest {I}nventory
   {S}tatistics, {F}reiburg.
+
+\bibitem[Hill \& Massey, 2016]{forestinventory}
+Hill, A. \& Massey, A. (2016).
+\newblock {\em forestinventory: Design-Based Global and Small-Area Estimations
+  for Multiphase Forest Inventories. R package version 0.3.1}.
 
 \bibitem[Hoffmann, 1982]{hoffmann1982}
 Hoffmann, C. (1982).
@@ -345,6 +356,11 @@ Magnussen, S., Mandallaz, D., Breidenbach, J., Lanz, A., \& Ginzler, C. (2014).
 \newblock National forest inventories in the service of small area estimation
   of stem volume.
 \newblock {\em Canadian Journal of Forest Research}, 44(9), 1079--1090.
+
+\bibitem[Magnussen et~al., 2017]{magnussen2017}
+Magnussen, S., Mauro, F., Breidenbach, J., Lanz, A., \& K{\"a}ndler, G. (2017).
+\newblock Area-level analysis of forest inventory variables.
+\newblock {\em European Journal of Forest Research}, (pp.\ 1--17).
 
 \bibitem[Magnussen et~al., 2010]{magnussen2010}
 Magnussen, S., Tomppo, E., \& McRoberts, R.~E. (2010).
@@ -531,6 +547,11 @@ Pirlot, M. (1996).
 \newblock {\em R: A Language and Environment for Statistical Computing}.
 \newblock R Foundation for Statistical Computing, Vienna, Austria.
 
+\bibitem[Rao, 2015]{rao2015}
+Rao, J.~N. (2015).
+\newblock {\em Small-Area Estimation}.
+\newblock Wiley Online Library.
+
 \bibitem[Rayward-Smith et~al., 1996]{rayward1996}
 Rayward-Smith, V.~J., Osman, C., Reeves, C.~R., \& Smith, G.~D. (1996).
 \newblock {\em Modern heuristic search methods}.
@@ -547,6 +568,11 @@ Saborowski, J., Marx, A., Nagel, J., \& B{\"o}ckmann, T. (2010).
 \newblock Double sampling for stratification in periodic inventories-infinite
   population approach.
 \newblock {\em Forest ecology and management}, 260(10), 1886--1895.
+
+\bibitem[S{\"a}rndal et~al., 2003]{sarndal2003}
+S{\"a}rndal, C.-E., Swensson, B., \& Wretman, J. (2003).
+\newblock {\em Model Assisted Survey Sampling}.
+\newblock Springer Science \& Business Media.
 
 \bibitem[{\proglang{SAS} Institute Inc.}, 2015]{sas}
 {\proglang{SAS} Institute Inc.} (2015).
@@ -576,6 +602,12 @@ Stoffels, J., Hill, J., Sachtleber, T., Mader, S., Buddenbaum, H., Stern, O.,
 \newblock Satellite-based derivation of high-resolution forest information
   layers for operational forest management.
 \newblock {\em Forests}, 6(6), 1982--2013.
+
+\bibitem[Stoffels et~al., 2012]{stoffels2012}
+Stoffels, J., Mader, S., Hill, J., Werner, W., \& Ontrup, G. (2012).
+\newblock Satellite-based stand-wise forest cover type mapping using a
+  spatially adaptive classification approach.
+\newblock {\em European journal of forest research}, 131(4), 1071--1089.
 
 \bibitem[Straub et~al., 2009]{straub2009}
 Straub, C., Dees, M., Weinacker, H., \& Koch, B. (2009).
