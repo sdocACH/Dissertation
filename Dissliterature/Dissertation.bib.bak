@@ -2925,16 +2925,4 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {Elsevier},
 }
 
-@Article{brosofske2014,
-  author    = {Brosofske, Kimberley D and Froese, Robert E and Falkowski, Michael J and Banskota, Asim},
-  title     = {A review of methods for mapping and prediction of inventory attributes for operational forest management},
-  journal   = {Forest Science},
-  year      = {2014},
-  volume    = {60},
-  number    = {4},
-  pages     = {733--756},
-  file      = {:pdf/review mapping.pdf:PDF},
-  publisher = {Society of American Foresters},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}
