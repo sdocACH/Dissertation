@@ -30,8 +30,7 @@
 \section{Thesis objective and structure}
 \label{sec:intro:obj_and_struct}
 
-
-% The objective of this thesis particularly was to contribute methodologies to the recent developments of operationally integrating information from auxiliary data 
+The objective of this thesis was to contribute methodologies to the recent developments of combining existing forest inventories with auxiliary data, such as remote sensing data. The particular objective
 
 
 
@@ -46,9 +45,9 @@
 %   o main question to be answered by case studies: --> what estimation / prediction accuracies can be realized using national forest inventory data on much smaller
 %     spatial levels as the terrestrial inventory has been designed for?
 %      --> investigated in two main studies:
-%          1)*  Small area estimation of timber volume on forest district level using the German NFI data
+%          1)*  Design-based small area estimation of timber volume on forest district level using the German NFI data
 %          2)** Mapping of timber volume on sample plot level using the Regional FDI of the canton of Grisons (CH)
-%   o mainly concentrating on exploring the capabilities and performances of design-based multi-phase estimators in the service of small area estimation
+%    o thesis is mainly concentrating on exploring the capabilities and performances of design-based multi-phase estimators in the service of small area estimation
 %
 
 % --------------------------------- %
@@ -71,7 +70,7 @@
 
 
 % ----------------------------------------------
-% # --- Chapter 1: Software implementation --- #
+% # --- Chapter 2: Software implementation --- #
 %
 %   - development of a robust and flexible software application which allowed for the calculation of a comprehensive set of small area regression estimators
 %   - the software is - at the moment - the most extensive open-source software for design-based estimation for forestry applications. The interest and need of such software was also indicated by
@@ -96,7 +95,7 @@
 
 
 %--------------------------------
-% # --- Chapter 2: Modeling --- #
+% # --- Chapter 3: Modeling --- #
 %
 %   - Modeling the 'FI timber volume' based on available auxiliary data
 %   - has also been addressed in recently publicated studies such as Maack et. al and Kirchhoefer et. al. As specialty / uniqueness of our study were a) the additional use of tree species information, b) the handling of substantially large time-lags between ALS data and NFI date, c) extensive analysis of optimal parameter settings under angle-count sampling
@@ -114,7 +113,7 @@
 \subsubsection{Work Package 3} % Chapter 4
 
 % -------------------------------------
-% # --- Chapter 3: SAE estimation --- #
+% # --- Chapter 4: SAE estimation --- #
 %  - basically bringing the work of chapter 2 and chapter 3 together ...
 %     -> application of SAE estimations
 %   - objective: 1) which est.accuracies are already achievable with the current data (situation)?
@@ -137,7 +136,7 @@ Forest attribute maps provide an area-wide overview of important information suc
 
 Despite the advantages of providing such high-resolution predictions maps, one should however have in mind that the predictions are often made for considerably small spatial units (map pixels). In most cases, the map pixels match the extent of an inventory sample plot on which the prediction model has been calibrated. One can thus interpret mapping as an extreme case of \textit{small area estimation}. Design-based double-sampling estimators for small area estimation (Study 1) provide closed-form variance formulas that allow for quantifying the estimation precision for every small area unit individually by its estimation error or confidence interval. However, these concepts of quantifying the uncertainty cannot be transferred to mapping approaches, particularly in the extreme case of a small area unit (i.e. map pixel) corresponding to the size of a sample plot. It is thus necessary that similar efforts than for model building are invested in methods that reliably quantify the resulting map accuracies. A common way to characterize the map accuracy is to use metrics such as the coefficient of determination (R$^2$) or cross-validated root mean square error (RMSE), which rather address the overall prediction performance than the accuracy of individual predictions. For this reason, the specification of confidence intervals on pixel level has been stated as an important contribution to map accuracy assessment \citep{mcroberts2010a}.\par
 
-In case of continuous response variables such as standing timber volume, the application of linear regression models allows for providing a confidence region for each pixel based the \textit{prediction interval} \citep[pp.136--139]{fahrmeir2013}. The objective of the study presented in Chapter 5 was to investigate an alternative approach of deriving pixel-wise confidence intervals by applying well-known concepts of accuracy assessment for categorical classification results \citep{congalton2008}. The core of our approach was to define intervals within the range of terrestrial data and their respective model predictions, and subsequently calculate the \textit{user's accuracy} for each of those intervals. The calculated users' accuracies can then be regarded as the confidence levels for the chosen intervals. In this framework, we demonstrate an optimization algorithm (heuristic search method) that - given a pre-defined number of intervals - automatically identifies the interval boundaries with respect the best possible classification accuracies. The motivation for the development of this method was twofold: 1) to provide a map user with the possibility to evaluate the map detail, i.e. number of intervals/classes, in dependence of the realizable prediction accuracies. 2) to allow for identifying intervals of the response variable for which the map produces considerably high or low prediction accuracies.\par 
+In case of continuous response variables such as standing timber volume, the application of linear regression models allows for providing a confidence region for each prediction (i.e. pixel) based on the \textit{prediction interval} \citep[pp.136--139]{fahrmeir2013}. The objective of the study presented in Chapter 5 was to investigate an alternative approach of deriving pixel-wise confidence intervals by applying well-known concepts of accuracy assessment for categorical classification results \citep{congalton2008}. The core of our approach was to define intervals within the range of terrestrial data and their respective model predictions, and subsequently calculate the \textit{user's accuracy} for each of those intervals. The calculated users' accuracies can then be regarded as the confidence levels for the chosen intervals. In this framework, we demonstrate an optimization algorithm (heuristic search method) that - given a pre-defined number of intervals - automatically identifies the interval boundaries with respect to the best possible classification accuracies. The motivation for the development of this method was twofold: 1) to provide a map user with the possibility to evaluate the map detail, i.e. number of intervals/classes, in dependence of the realizable prediction accuracies. 2) to allow for identifying intervals of the response variable for which the map produces considerably high or low prediction accuracies.\par 
 
 The proposed methods were applied in a mountainous study site in the canton of Grisons (Switzerland). We used the regional forest district inventory data in combination with data from an airborne laser scanning acquisition to produce a map of the standing timber volume on sample plot level, on which we subsequently applied the developed accuracy assessment. The setup of this study also addressed the overall question of the thesis, i.e. what prediction accuracies can be realized on small spatial scales when using forest inventory data that are only available in comparatively low sampling frequencies.
 
@@ -161,12 +160,4 @@ The proposed methods were applied in a mountainous study site in the canton of G
 % for discussion:
 % - Compared to overall accuracy metrics such as RMSE, we consider that individual 'unit/pixel-level' CIs provide a more detailed and realistic idea of the map accuracies and should be preferred.
 % - for discussion: with regard to an integration of sae methods in operation forest management information systems, its has to be considered which auxiliary data are available on a long-term perspective.
-
-
-
-
-
-
-
-
 
