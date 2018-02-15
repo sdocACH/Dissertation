@@ -2,4 +2,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Descriptive statistics of the forest observed on NFI sample plots located within communal and state forest area (n=5791).\relax }}{48}{table.caption.32}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Accuracy metrics for submodels of final OLS regression model. $p$ gives the number of parameters for each model. Interaction terms are indicated by ':'.\relax }}{58}{table.caption.47}
+\contentsline {table}{\numberline {3.3}{\ignorespaces $R^2$, RMSE and RMSE\% of final regression model within ALS acquisition year strata (\textit {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit {n}: number of validation data.\relax }}{59}{table.caption.50}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Descriptive statistics of the forest observed on NFI sample plots located within communal and state forest area (n=5791).\relax }}{77}{table.caption.59}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Sample size for each phase in entire study area. $n_{\{1,2\},plots}$: number of plots. $n_{\{1,2\}}$: number of cluster\relax }}{79}{table.caption.63}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Classification accuracies of the \textit {treespecies} variable before and after calibration. $n_{ref}$: number of terrestrial reference plots. $n_{class}$: number of classified plots.\relax }}{80}{table.caption.66}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Accuracy metrics for the two OLS regression models. Interaction terms are indicated by ':'. () give the respective values on the cluster level.\relax }}{81}{table.caption.67}
+\contentsline {table}{\numberline {4.5}{\ignorespaces $R^2$, RMSE and RMSE\% of the full regression model within ALS acquisition year strata (\textit {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit {n}: number of validation data. () give the respective values on the cluster level.\relax }}{82}{table.caption.68}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Descriptive summary of point estimates and estimation errors on the two forest district levels. $N_u$: number of evaluated small area units.\relax }}{83}{table.caption.69}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Descriptive summary of SRS variance reduction and relative efficiencies on the two forest district levels. $N_u$: number of evaluated small area units.\relax }}{86}{table.caption.73}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{98}{table.caption.80}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{99}{table.caption.83}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Summary statistics of the CHM metrics calculated at the 67 terrestrial sample plots (in meters).\relax }}{101}{table.caption.87}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Summary statistics of the regression model.\relax }}{105}{table.caption.92}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Constant class width of 200 m$^3$/ha (five timber volume classes); OAA ($\pm $ 95\% confidence interval) (\%): 55.22 (42.58, 67.4); kappa: 0.36; square sum of class width: 200'000.\relax }}{107}{table.caption.94}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Optimized class width for five timber volume classes; OAA ($\pm $ 95\% confidence interval) (\%): 64.18 (51.53, 75.53); kappa: 0.54; square sum of class width: 176'600. Class widths smaller than 200 m$^3$/ha are indicated by *.\relax }}{107}{table.caption.95}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
