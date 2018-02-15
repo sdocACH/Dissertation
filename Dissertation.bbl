@@ -13,15 +13,15 @@ Akaike, H. (2011).
 
 \bibitem[Baffetta et~al., 2010]{baffetta2010}
 Baffetta, F., Corona, P., \& Fattorini, L. (2010).
-\newblock Design-based diagnostics for k-nn estimators of forest resources this
-  article is one of a selection of papers from extending forest inventory and
-  monitoring over space and time.
+\newblock Design--based diagnostics for k-nn estimators of forest resources
+  this article is one of a selection of papers from extending forest inventory
+  and monitoring over space and time.
 \newblock {\em Canadian Journal of Forest Research}, 41(1), 59--72.
 
 \bibitem[Baffetta et~al., 2009]{baffetta2009}
 Baffetta, F., Fattorini, L., Franceschi, S., \& Corona, P. (2009).
-\newblock Design-based approach to k-nearest neighbours technique for coupling
-  field and remotely sensed data in forest surveys.
+\newblock Design--based approach to k--nearest neighbours technique for
+  coupling field and remotely sensed data in forest surveys.
 \newblock {\em Remote Sensing of Environment}, 113(3), 463--475.
 
 \bibitem[Beauchamp \& Olson, 1973]{beauchamp1973}
@@ -41,6 +41,11 @@ Beaudoin, A., Bernier, P., Guindon, L., Villemaire, P., Guo, X., Stinson, G.,
 Bitterlich, W. (1984).
 \newblock {\em The relascope idea. Relative measurements in forestry.}
 \newblock Commonwealth Agricultural Bureaux.
+
+\bibitem[B{\"o}ckmann et~al., 1998]{bockmann1998}
+B{\"o}ckmann, T., Saborowski, J., Dahm, S., Nagel, J., \& Spellmann, H. (1998).
+\newblock A new conception for forest inventory in lower saxony.
+\newblock {\em Forst und Holz (Germany)}.
 
 \bibitem[Bohlin et~al., 2017]{bohlin2017}
 Bohlin, J., Bohlin, I., Jonz{\'e}n, J., \& Nilsson, M. (2017).
@@ -82,7 +87,7 @@ Breidenbach, J. \& Astrup, R. (2012).
 \bibitem[Breidenbach et~al., 2008]{breidenbach2008}
 Breidenbach, J., Kublin, E., McGaughey, R., Andersen, H.-E., \& Reutebuch,
   S.~E. (2008).
-\newblock Mixed-effects models for estimating stand volume by means of small
+\newblock Mixed--effects models for estimating stand volume by means of small
   footprint airborne laser scanner data.
 \newblock {\em Photogrammetric Journal of Finland}, 21(1), 4--15.
 
@@ -110,14 +115,14 @@ Carroll, R.~J., Ruppert, D., Stefanski, L.~A., \& Crainiceanu, C.~M. (2006).
 \bibitem[Chirici et~al., 2012]{chirici2012}
 Chirici, G., Corona, P., Marchetti, M., Mastronardi, A., Maselli, F., Bottai,
   L., \& Travaglini, D. (2012).
-\newblock K-nn forest: a software for the non-parametric prediction and mapping
-  of environmental variables by the k-nearest neighbors algorithm.
+\newblock K--nn forest: a software for the non--parametric prediction and
+  mapping of environmental variables by the k--nearest neighbors algorithm.
 \newblock {\em European Journal of Remote Sensing}, 45(1), 433--442.
 
 \bibitem[Clementel et~al., 2012]{clementel2012}
 Clementel, F., Colle, G., Farruggia, C., Floris, A., Scrinzi, G., \& Torresan,
   C. (2012).
-\newblock Estimating forest timber volume by means of" low-cost" lidar data.
+\newblock Estimating forest timber volume by means of 'low--cost' lidar data.
 \newblock {\em Italian Journal of Remote Sensing/Rivista Italiana di
   Telerilevamento}, 44(1).
 
@@ -155,19 +160,19 @@ Draper, N.~R. \& Smith, H. (2014).
 
 \bibitem[Fahrmeir et~al., 2013]{fahrmeir2013}
 Fahrmeir, L., Kneib, T., Lang, S., \& Marx, B. (2013).
-\newblock {\em Regression: Models, Methods and Applications}.
+\newblock {\em Regression: models, methods and applications}.
 \newblock Springer Science \& Business Media.
 
 \bibitem[Fehrmann et~al., 2008]{fehrmann2008}
 Fehrmann, L., Lehtonen, A., Kleinn, C., \& Tomppo, E. (2008).
-\newblock Comparison of linear and mixed-effect regression models and
-  ak-nearest neighbour approach for estimation of single-tree biomass.
+\newblock Comparison of linear and mixed--effect regression models and a
+  k--nearest neighbour approach for estimation of single--tree biomass.
 \newblock {\em Canadian Journal of Forest Research}, 38(1), 1--9.
 
 \bibitem[Franco-Lopez et~al., 2001]{franco2001}
 Franco-Lopez, H., Ek, A.~R., \& Bauer, M.~E. (2001).
 \newblock Estimation and mapping of forest stand density, volume, and cover
-  type using the k-nearest neighbors method.
+  type using the k--nearest neighbors method.
 \newblock {\em Remote sensing of environment}, 77(3), 251--274.
 
 \bibitem[Fuller, 2009]{fuller2009}
@@ -177,15 +182,22 @@ Fuller, W.~A. (2009).
 
 \bibitem[Gauer \& Aldinger, 2005]{gauer2005}
 Gauer, J. \& Aldinger, E. (2005).
-\newblock {W}ald{\"o}kologische {N}aturr{\"a}ume {D}eutschlands-{W}uchsgebiete.
+\newblock {W}ald{\"o}kologische {N}aturr{\"a}ume
+  {D}eutschlands--{W}uchsgebiete.
 \newblock {\em {M}itteilungen des {V}ereins f{\"u}r {F}orstliche
   {S}tandortskunde und {F}orstpflanzenz{\"u}chtung}, 43, 281--288.
 
 \bibitem[Goerndt et~al., 2011]{goerndt2011}
 Goerndt, M.~E., Monleon, V.~J., \& Temesgen, H. (2011).
-\newblock A comparison of small-area estimation techniques to estimate selected
-  stand attributes using lidar-derived auxiliary variables.
+\newblock A comparison of small--area estimation techniques to estimate
+  selected stand attributes using lidar--derived auxiliary variables.
 \newblock {\em Canadian journal of forest research}, 41(6), 1189--1201.
+
+\bibitem[Grafstr{\"o}m et~al., 2017]{grafstrom2017a}
+Grafstr{\"o}m, A., Schnell, S., Saarela, S., Hubbell, S., \& Condit, R. (2017).
+\newblock The continuous population approach to forest inventories and use of
+  information in the design.
+\newblock {\em Environmetrics}.
 
 \bibitem[Gregoire \& Valentine~Harry, 2008]{gregoire2008}
 Gregoire, T. \& Valentine~Harry, T. (2008).
@@ -195,7 +207,7 @@ Gregoire, T. \& Valentine~Harry, T. (2008).
 
 \bibitem[Gregoire \& Valentine, 2007]{gregoire2007}
 Gregoire, T.~G. \& Valentine, H.~T. (2007).
-\newblock {\em Sampling Strategies for Natural Resources and the Environment}.
+\newblock {\em Sampling strategies for natural resources and the environment}.
 \newblock CRC Press.
 
 \bibitem[Gustafson, 2003]{gustafson2003}
@@ -206,8 +218,8 @@ Gustafson, P. (2003).
 
 \bibitem[Haara \& Kangas, 2012]{haara2012}
 Haara, A. \& Kangas, A. (2012).
-\newblock Comparing k nearest neighbours methods and linear regression-is there
-  reason to select one over the other?
+\newblock Comparing k nearest neighbours methods and linear regression--is
+  there reason to select one over the other?
 \newblock {\em Mathematical and Computational Forestry \& Natural Resource
   Sciences}, 4(1), 50.
 
@@ -228,7 +240,14 @@ Hill, A., Breschan, J., \& Mandallaz, D. (2014).
   and lidar canopy height models.
 \newblock {\em Forests}, 5(9), 2253--2275.
 
-\bibitem[Hill et~al., 2017]{hill2017a}
+\bibitem[Hill et~al., 2018]{hill2017a}
+Hill, A., Buddenbaum, H., \& Mandallaz, D. (2018).
+\newblock Combining canopy height and tree species map information for large
+  scale timber volume estimations under strong heterogeneity of auxiliary data
+  and variable sample plot sizes.
+\newblock submitted for publication.
+
+\bibitem[Hill et~al., 2017]{hill2017c}
 Hill, A., Mandallaz, D., Buddenbaum, H., Stoffels, J., \& Langshausen, J.
   (2017).
 \newblock Implementation of design-based small area estimations on forest
@@ -237,14 +256,14 @@ Hill, A., Mandallaz, D., Buddenbaum, H., Stoffels, J., \& Langshausen, J.
 \newblock {T}hird {I}nternational {W}orkshop on {F}orest {I}nventory
   {S}tatistics, {F}reiburg.
 
-\bibitem[Hill \& Massey, 2016]{forestinventory}
-Hill, A. \& Massey, A. (2016).
-\newblock {\em forestinventory: Design-Based Global and Small-Area Estimations
+\bibitem[Hill \& Massey, 2017]{forestinventory}
+Hill, A. \& Massey, A. (2017).
+\newblock {\em forestinventory: Design--Based Global and Small-Area Estimations
   for Multiphase Forest Inventories. R package version 0.3.1}.
 
 \bibitem[Hoffmann, 1982]{hoffmann1982}
 Hoffmann, C. (1982).
-\newblock Die berechnung von tarifen f{\"u}r die waldinventur.
+\newblock Die {B}erechnung von {T}arifen f{\"u}r die {W}aldinventur.
 \newblock {\em Forstwissenschaftliches Centralblatt}, 101(1), 24--36.
 
 \bibitem[Hollaus et~al., 2007]{hollaus2007}
@@ -279,7 +298,7 @@ Keller, M. (2011).
 
 \bibitem[Kirchhoefer et~al., 2017]{kirchhoefer2017}
 Kirchhoefer, M., Schumacher, J., Adler, P., \& K{\"a}ndler, G. (2017).
-\newblock Considerations towards a novel approach for integrating angle-count
+\newblock Considerations towards a novel approach for integrating angle--count
   sampling data in remote sensing based forest inventories.
 \newblock {\em Forests}, 8(7), 239.
 
@@ -297,9 +316,9 @@ Koch, B. (2010).
 
 \bibitem[K{\"o}hl et~al., 2006]{kohl2006}
 K{\"o}hl, M., Magnussen, S.~S., \& Marchetti, M. (2006).
-\newblock {\em Sampling Methods, Remote Sensing and GIS Multiresource Forest
-  Inventory}.
-\newblock Springer-Verlag Berlin Heidelberg.
+\newblock {\em Sampling methods, remote sensing and GIS multiresource forest
+  inventory}.
+\newblock Springer Science \& Business Media.
 
 \bibitem[Kublin, 2003]{kublin2003}
 Kublin, E. (2003).
@@ -310,12 +329,19 @@ Kublin, E. (2003).
 \bibitem[Kublin et~al., 2013]{kublin2013}
 Kublin, E., Breidenbach, J., \& K{\"a}ndler, G. (2013).
 \newblock A flexible stem taper and volume prediction method based on
-  mixed-effects b-spline regression.
+  mixed--effects b--spline regression.
 \newblock {\em European journal of forest research}, 132(5-6), 983--997.
+
+\bibitem[Kulie{\v{s}}is et~al., 2016]{kulievsis2016}
+Kulie{\v{s}}is, A., Tomter, S.~M., Vidal, C., \& Lanz, A. (2016).
+\newblock Estimates of stem wood increments in forest resources: comparison of
+  different approaches in forest inventory: consequences for international
+  reporting: case studyof european forests.
+\newblock {\em Annals of Forest Science}, 73(4), 857--869.
 
 \bibitem[Lamprecht et~al., 2017]{lambrecht2017}
 Lamprecht, S., Hill, A., Stoffels, J., \& Udelhoven, T. (2017).
-\newblock A machine learning method for co-registration and individual tree
+\newblock A machine learning method for co--registration and individual tree
   matching of forest inventory and airborne laser scanning data.
 \newblock {\em Remote Sensing}, 9(5).
 
@@ -349,9 +375,15 @@ Lumley, T. (2016).
 \newblock {\em \pkg{survey}: Analysis of Complex Survey Samples}.
 \newblock R package version 3.32.
 
+\bibitem[LWaldG, 2000]{lwaldg_rlp}
+LWaldG (2000).
+\newblock {\em {L}andeswaldgesetz {R}heinland-{P}falz ({F}orest {Act}
+  {R}hineland-{P}alatinate)}.
+\newblock {R}hineland-{P}alatinate, {G}ermany.
+
 \bibitem[Maack et~al., 2016]{maack2016}
 Maack, J., Lingenfelder, M., Weinacker, H., \& Koch, B. (2016).
-\newblock Modelling the standing timber volume of baden-w{\"u}rttemberg-a
+\newblock Modelling the standing timber volume of baden-w{\"u}rttemberg--a
   large-scale approach using a fusion of landsat, airborne lidar and national
   forest inventory data.
 \newblock {\em International Journal of Applied Earth Observation and
@@ -362,7 +394,7 @@ Magnussen, S., Eggermont, P., \& LaRiccia, V.~N. (1999).
 \newblock Recovering tree heights from airborne laser scanner data.
 \newblock {\em Forest science}, 45(3), 407--422.
 
-\bibitem[Magnussen et~al., 2014]{magnussen2014}
+\bibitem[Magnussen et~al., 2014]{magnussen2014a}
 Magnussen, S., Mandallaz, D., Breidenbach, J., Lanz, A., \& Ginzler, C. (2014).
 \newblock National forest inventories in the service of small area estimation
   of stem volume.
@@ -373,8 +405,19 @@ Magnussen, S., Mauro, F., Breidenbach, J., Lanz, A., \& K{\"a}ndler, G. (2017).
 \newblock Area-level analysis of forest inventory variables.
 \newblock {\em European Journal of Forest Research}, (pp.\ 1--17).
 
-\bibitem[Magnussen et~al., 2010]{magnussen2010}
-Magnussen, S., Tomppo, E., \& McRoberts, R.~E. (2010).
+\bibitem[Magnussen et~al., 2010a]{magnussen2010a}
+Magnussen, S., N{\ae}sset, E., \& Gobakken, T. (2010a).
+\newblock Reliability of lidar derived predictors of forest inventory
+  attributes: A case study with norway spruce.
+\newblock {\em Remote Sensing of Environment}, 114(4), 700--712.
+
+\bibitem[Magnussen \& Tomppo, 2014]{magnussen2014}
+Magnussen, S. \& Tomppo, E. (2014).
+\newblock The k-nearest neighbor technique with local linear regression.
+\newblock {\em Scandinavian journal of forest research}, 29(2), 120--131.
+
+\bibitem[Magnussen et~al., 2010b]{magnussen2010}
+Magnussen, S., Tomppo, E., \& McRoberts, R.~E. (2010b).
 \newblock A model-assisted k-nearest neighbour approach to remove extrapolation
   bias.
 \newblock {\em Scandinavian Journal of Forest Research}, 25(2), 174--184.
@@ -386,7 +429,7 @@ Mallows, C.~L. (2000).
 
 \bibitem[Mandallaz, 2008]{mandallaz2008}
 Mandallaz, D. (2008).
-\newblock {\em Sampling Techniques for Forest Inventories}.
+\newblock {\em Sampling techniques for forest inventories}.
 \newblock CRC Press.
 
 \bibitem[Mandallaz, 2013a]{mandallaz2013a}
@@ -397,16 +440,16 @@ Mandallaz, D. (2013a).
 
 \bibitem[Mandallaz, 2013b]{mandallaz2013techb}
 Mandallaz, D. (2013b).
-\newblock {\em Regression Estimators in Forest Inventories with Three-Phase
-  Sampling and Two Multivariate Components of Auxiliary Information}.
+\newblock {\em Regression estimators in forest inventories with three-phase
+  sampling and two multivariate components of auxiliary information}.
 \newblock Technical report, Department of Environmental Systems Science, ETH
   Zurich.
 
 \bibitem[Mandallaz, 2013c]{mandallaz2013techa}
 Mandallaz, D. (2013c).
-\newblock {\em Regression Estimators in Forest Inventories with Two-Phase
-  Sampling and Partially Exhaustive Information with Applications to Small-Area
-  Estimation}.
+\newblock {\em Regression estimators in forest inventories with two-phase
+  sampling and partially exhaustive information with applications to small-area
+  estimation}.
 \newblock Technical report, Department of Environmental Systems Science, ETH
   Zurich.
 
@@ -433,8 +476,8 @@ Mandallaz, D., Breschan, J., \& Hill, A. (2013).
 
 \bibitem[Mandallaz et~al., 2016]{mandallaz2016}
 Mandallaz, D., Hill, A., \& Massey, A. (2016).
-\newblock {\em Design-Based Properties of Some Small-Area Estimators in Forest
-  Inventory with Two-Phase Sampling - Revised Version}.
+\newblock {\em Design-based properties of some small-area estimators in forest
+  inventory with two-phase sampling - revised version}.
 \newblock Technical report, Department of Environmental Systems Science, ETH
   Zurich.
 
@@ -458,6 +501,12 @@ Massey, A., Mandallaz, D., \& Lanz, A. (2014).
   design-based regression estimation.
 \newblock {\em Canadian Journal of Forest Research}, 44(10), 1177--1186.
 
+\bibitem[Massey, 2015]{massey2015_thesis}
+Massey, A.~F. (2015).
+\newblock {\em Multiphase estimation procedures for forest inventories under
+  the design-based Monte Carlo approach}.
+\newblock PhD thesis, ETH Zurich.
+
 \bibitem[Mathworks, 2017]{matlab}
 Mathworks (2017).
 \newblock Matlab version 9.2.0.538062 (r2017a).
@@ -473,7 +522,7 @@ Mauro, F., Valbuena, R., Manzanera, J., \& Garc{\'\i}a-Abril, A. (2010).
 \bibitem[McRoberts, 2010]{mcroberts2010a}
 McRoberts, R.~E. (2010).
 \newblock The effects of rectification and global positioning system errors on
-  satellite image-based estimates of forest area.
+  satellite image--based estimates of forest area.
 \newblock {\em Remote Sensing of Environment}, 114(8), 1710--1717.
 
 \bibitem[McRoberts et~al., 2013]{mcroberts2013}
@@ -500,24 +549,24 @@ McRoberts, R.~E., Tomppo, E.~O., \& N{\ae}sset, E. (2010).
 \newblock Advances and emerging issues in national forest inventories.
 \newblock {\em Scandinavian Journal of Forest Research}, 25(4), 368--381.
 
-\bibitem[N{\ae}sset, 1997]{naesset1997}
-N{\ae}sset, E. (1997).
-\newblock Estimating timber volume of forest stands using airborne laser
-  scanner data.
-\newblock {\em Remote Sensing of Environment}, 61(2), 246 -- 253.
-
-\bibitem[N{\ae}sset, 2002]{naesset2007}
+\bibitem[N{\ae}sset, 2002]{naesset2002}
 N{\ae}sset, E. (2002).
 \newblock Predicting forest stand characteristics with airborne scanning laser
   using a practical two-stage procedure and field data.
 \newblock {\em Remote sensing of environment}, 80(1), 88--99.
 
-\bibitem[N{\ae}sset, 2014]{naesset2014inmaltamo}
-N{\ae}sset, E. (2014).
-\newblock Area-based inventory in norway - from innovation to an operational
+\bibitem[N{\ae}sset, 2007]{naesset2007}
+N{\ae}sset, E. (2007).
+\newblock Airborne laser scanning as a method in operational forest inventory:
+  status of accuracy assessments accomplished in scandinavia.
+\newblock {\em Scandinavian Journal of Forest Research}, 22(5), 433--442.
+
+\bibitem[Naesset, 2014]{naesset2014inmaltamo}
+Naesset, E. (2014).
+\newblock Area-based inventory in norway -- from innovation to an operational
   reality.
-\newblock In {\em Forest Applications of Airborne Laser Scanning - Concepts and
-  Case Studies}  chapter~11, (pp.\ 216--240). Springer.
+\newblock In {\em Forest Applications of Airborne Laser Scanning -- Concepts
+  and Case Studies}  chapter~11, (pp.\ 216--240). Springer.
 
 \bibitem[Nink et~al., 2015]{nink2015}
 Nink, S., Hill, J., Buddenbaum, H., Stoffels, J., Sachtleber, T., \&
@@ -531,6 +580,12 @@ Nothdurft, A., Saborowski, J., \& Breidenbach, J. (2009).
 \newblock Spatial prediction of forest stand variables.
 \newblock {\em European Journal of Forest Research}, 128(3), 241--251.
 
+\bibitem[Næsset, 1997]{naesset1997}
+Næsset, E. (1997).
+\newblock Estimating timber volume of forest stands using airborne laser
+  scanner data.
+\newblock {\em Remote Sensing of Environment}, 61(2), 246 -- 253.
+
 \bibitem[Ott et~al., 1997]{ott1997}
 Ott, E., Frehner, M., Frey, H.-U., \& Lüscher, P. (1997).
 \newblock {\em Gebirgsnadelwälder: Ein praxisorientierter Leitfaden für eine
@@ -541,12 +596,18 @@ Ott, E., Frehner, M., Frey, H.-U., \& Lüscher, P. (1997).
 \bibitem[Pinheiro \& Bates, 2000]{pinheirobates2000}
 Pinheiro, J. \& Bates, D. (2000).
 \newblock {\em Mixed-Effects Models in S and S-PLUS}.
-\newblock Springer-Verlag.
+\newblock Springer.
 
 \bibitem[Pirlot, 1996]{pirlot1996}
 Pirlot, M. (1996).
 \newblock General local search methods.
 \newblock {\em European journal of operational research}, 92(3), 493--511.
+
+\bibitem[Polley et~al., 2010]{polley2010intomppo}
+Polley, H., Schmitz, F., Hennig, P., \& Kroiher, F. (2010).
+\newblock Germany.
+\newblock In {\em National Forest Inventories - Pathways for Common Reporting}
+  chapter~13, (pp.\ 223--243). Springer.
 
 \bibitem[{R Core Team}, 2017]{R}
 {R Core Team} (2017).
@@ -571,13 +632,13 @@ Richards, J.~A. \& Richards, J. (1999).
 
 \bibitem[Saborowski et~al., 2010]{saborowski2010}
 Saborowski, J., Marx, A., Nagel, J., \& B{\"o}ckmann, T. (2010).
-\newblock Double sampling for stratification in periodic inventories-infinite
+\newblock Double sampling for stratification in periodic inventories--infinite
   population approach.
 \newblock {\em Forest ecology and management}, 260(10), 1886--1895.
 
 \bibitem[S{\"a}rndal et~al., 2003]{sarndal2003}
 S{\"a}rndal, C.-E., Swensson, B., \& Wretman, J. (2003).
-\newblock {\em Model Assisted Survey Sampling}.
+\newblock {\em Model assisted survey sampling}.
 \newblock Springer Science \& Business Media.
 
 \bibitem[{\proglang{SAS} Institute Inc.}, 2015]{sas}
@@ -585,9 +646,15 @@ S{\"a}rndal, C.-E., Swensson, B., \& Wretman, J. (2003).
 \newblock {\em \proglang{SAS/STAT} Software, Version~9.4}.
 \newblock Cary, NC.
 
+\bibitem[Schmitz et~al., 2008]{bwi3_ausw}
+Schmitz, F., Polley, H., Hennig, P., Dunger, K., \& Schwitzgebel, F. (2008).
+\newblock Die zweite {B}undeswaldinventur - {BWI2}: {I}nventur- und
+  {A}uswertmethoden, {B}undesministerium fur {E}rnahrung, {L}and- {W}irtschaft
+  und {V}erbraucherschutz ({H}rsg).
+
 \bibitem[Schreuder et~al., 1993]{schreuder1993}
 Schreuder, H.~T., Gregoire, T.~G., \& Wood, G.~B. (1993).
-\newblock {\em Sampling Methods for Multiresource Forest Inventory}.
+\newblock {\em Sampling methods for multiresource forest inventory}.
 \newblock John Wiley \& Sons.
 
 \bibitem[Srivastava et~al., 1995]{srivastava1995}
@@ -622,6 +689,11 @@ Straub, C., Dees, M., Weinacker, H., \& Koch, B. (2009).
 \newblock {\em Photogrammetrie-Fernerkundung-Geoinformation}, 2009(3),
   277--287.
 
+\bibitem[Th{\"u}nen-Institut, 2014]{bwi3}
+Th{\"u}nen-Institut (2014).
+\newblock Dritte {B}undeswaldinventur 2012.
+\newblock Accessed: 2017-02-03.
+
 \bibitem[Tomppo, 2006]{tomppo2006}
 Tomppo, E. (2006).
 \newblock The finnish multi-source national forest inventory--small area
@@ -634,7 +706,7 @@ Tonolli, S., Dalponte, M., Vescovo, L., Rodeghiero, M., Bruzzone, L., \&
   Gianelle, D. (2011).
 \newblock Mapping and modeling forest tree volume using forest inventory and
   airborne laser scanning.
-\newblock {\em european Journal of forest Research}, 130(4), 569--577.
+\newblock {\em European Journal of Forest Research}, 130(4), 569--577.
 
 \bibitem[Van~Aardt et~al., 2008]{vanaardt2008}
 Van~Aardt, J., Wynne, R., \& Scrivani, J. (2008).
@@ -660,11 +732,6 @@ von L{\"u}pke, N. \& Saborowski, J. (2014).
 \newblock Combining double sampling for stratification and cluster sampling to
   a three-level sampling design for continuous forest inventories.
 \newblock {\em European journal of forest research}, 133(1), 89--100.
-
-\bibitem[von Th{\"u}nen-Institut, 2014]{bwi3}
-von Th{\"u}nen-Institut (2014).
-\newblock Dritte {B}undeswaldinventur 2012.
-\newblock Accessed: 2017-02-03.
 
 \bibitem[White et~al., 2016]{white2016}
 White, J.~C., Coops, N.~C., Wulder, M.~A., Vastaranta, M., Hilker, T., \&
