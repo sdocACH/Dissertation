@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.3)  16 FEB 2018 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.3)  17 FEB 2018 18:21
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -1221,6 +1221,17 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks47
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen267
+\nom@tempdim=\dimen268
+\nomitemsep=\skip103
+)
+\@nomenclaturefile=\write6
+\openout6 = `Dissertation.nlo'.
+
+
+Writing nomenclature file Dissertation.nlo
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\chapterbib.sty"
 \c@inputfile=\count165
 Package: chapterbib 2010/09/18  v 1.17
@@ -1233,7 +1244,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks49
 \@floatcapt=\box76
 )
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 126.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 128.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1261,65 +1272,65 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 10.0pt
 (typearea)              \footskip       = 44.10013pt
 (typearea)              \baselineskip   = 12.60004pt
-(typearea)              on input line 126.
+(typearea)              on input line 128.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count167
 \Gm@cntv=\count168
 \c@Gm@tempcnt=\count169
-\Gm@bindingoffset=\dimen267
-\Gm@wd@mp=\dimen268
-\Gm@odd@mp=\dimen269
-\Gm@even@mp=\dimen270
-\Gm@layoutwidth=\dimen271
-\Gm@layoutheight=\dimen272
-\Gm@layouthoffset=\dimen273
-\Gm@layoutvoffset=\dimen274
+\Gm@bindingoffset=\dimen269
+\Gm@wd@mp=\dimen270
+\Gm@odd@mp=\dimen271
+\Gm@even@mp=\dimen272
+\Gm@layoutwidth=\dimen273
+\Gm@layoutheight=\dimen274
+\Gm@layouthoffset=\dimen275
+\Gm@layoutvoffset=\dimen276
 \Gm@dimlist=\toks50
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 Package scrkbase Info: You've told me to redefine the font selection of the
 (scrkbase)             element `dictumtext' that is an alias of element
-(scrkbase)             `dictum' on input line 139.
+(scrkbase)             `dictum' on input line 141.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\alltt.sty"
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 ) (Dissertation.aux)
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 236.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 236.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 238.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 238.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count170
-\scratchdimen=\dimen275
+\scratchdimen=\dimen277
 \scratchbox=\box77
 \nofMPsegments=\count171
 \nofMParguments=\count172
 \everyMPshowfont=\toks51
 \MPscratchCnt=\count173
-\MPscratchDim=\dimen276
+\MPscratchDim=\dimen278
 \MPnumerator=\count174
 \makeMPintoPDFobject=\count175
 \everyMPtoPDFconversion=\toks52
@@ -1342,7 +1353,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 236.
+Package hyperref Info: Link coloring ON on input line 238.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1352,13 +1363,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count176
 )
-LaTeX Info: Redefining \ref on input line 236.
-LaTeX Info: Redefining \pageref on input line 236.
-LaTeX Info: Redefining \nameref on input line 236.
+LaTeX Info: Redefining \ref on input line 238.
+LaTeX Info: Redefining \pageref on input line 238.
+LaTeX Info: Redefining \nameref on input line 238.
 
 (Dissertation.out) (Dissertation.out)
-\@outlinefile=\write6
-\openout6 = `Dissertation.out'.
+\@outlinefile=\write7
+\openout7 = `Dissertation.out'.
 
 
 Option `squaren' provided! 
@@ -1411,7 +1422,7 @@ ABD: EveryShipout initializing macros
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 262.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 264.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
@@ -1462,21 +1473,21 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write7
-\openout7 = `Dissertation.toc'.
+\tf@toc=\write8
+\openout8 = `Dissertation.toc'.
 
  [1
 
 ]
 (Dissertation.lof)
-\tf@lof=\write8
-\openout8 = `Dissertation.lof'.
+\tf@lof=\write9
+\openout9 = `Dissertation.lof'.
 
  [2
 
 ] (Dissertation.lot)
-\tf@lot=\write9
-\openout9 = `Dissertation.lot'.
+\tf@lot=\write10
+\openout10 = `Dissertation.lot'.
 
  (Acknowledgements.tex [3
 
@@ -1509,49 +1520,46 @@ Class scrbook Warning: \float@addtolists detected!
 
 ] [3]
 
-LaTeX Warning: Reference `chap:rpack' on page 4 undefined on input line 47.
+LaTeX Warning: Reference `chap:rpack' on page 4 undefined on input line 48.
 
 
-LaTeX Warning: Reference `chap:regmod' on page 4 undefined on input line 47.
+LaTeX Warning: Reference `chap:regmod' on page 4 undefined on input line 48.
 
 
-LaTeX Warning: Reference `chap:sae' on page 4 undefined on input line 47.
+LaTeX Warning: Reference `chap:sae' on page 4 undefined on input line 48.
 
 [4]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 58.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
-LaTeX Warning: Reference `chap:rpack' on page 5 undefined on input line 57.
+LaTeX Warning: Reference `chap:rpack' on page 5 undefined on input line 58.
 
-[5]
+[5] [6]
 
-LaTeX Warning: Reference `chap:regmod' on page 6 undefined on input line 126.
+LaTeX Warning: Reference `chap:regmod' on page 7 undefined on input line 125.
 
-) [6]
+) [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
+ [8
 
 ]
 (Main/Synthese.tex
 chapter 2.
-[8
+[9
 
-] [9] [10] [11]) [12
-
-] (Dissertation.bbl
+] [10] [11] [12]) (Dissertation.bbl
 chapter without number
 
 LaTeX Font Warning: Font shape `T1/lmr/b/it' in size <10> not available
-(Font)              Font shape `T1/lmr/b/sl' tried instead on input line 77.
+(Font)              Font shape `T1/lmr/b/sl' tried instead on input line 16.
 
 [13
 
-]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 106.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [14] [15] [16]
-[17] [18] [19]) (Main/Curriculum.tex [20]
+]) (Main/Curriculum.tex [14]
 Overfull \hbox (2.65912pt too wide) in alignment at lines 8--14
 [][] 
  []
@@ -1581,7 +1589,7 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 41--57
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
+ [15
 
 ]
 
@@ -1602,48 +1610,48 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 78--90
 [][] 
  []
 
-) [22]
+) [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23
+ [17
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 387.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 387.
 
 (Dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 387.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 387.
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 8A418483EAB68A07150D5F95502DD3C2;574.
+(rerunfilecheck)             Checksum: EE35807107DF0D2CEEF4F7C47FB86018;594.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 387.
  ) 
 Here is how much of TeX's memory you used:
- 28826 strings out of 493328
- 547599 string characters out of 3139125
- 737023 words of memory out of 3000000
- 31546 multiletter control sequences out of 15000+200000
- 72627 words of font info for 66 fonts, out of 3000000 for 9000
+ 28498 strings out of 493328
+ 540858 string characters out of 3139125
+ 735570 words of memory out of 3000000
+ 31322 multiletter control sequences out of 15000+200000
+ 72164 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,69p,8825b,788s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,11n,69p,8825b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmb10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbo10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb>
-Output written on Dissertation.pdf (27 pages, 383622 bytes).
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbo10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Dissertation.pdf (21 pages, 365533 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

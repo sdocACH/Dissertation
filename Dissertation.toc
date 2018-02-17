@@ -1,16 +1,16 @@
 \select@language {british}
 \contentsline {chapter}{Acknowledgements}{1}{chapter*.4}
 \contentsline {chapter}{\numberline {1}General Introduction}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}History and state of the art}{3}{section.1.1}
+\contentsline {section}{\numberline {1.1}History and state of the art of forest inventory}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Thesis objective and structure}{4}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Study 1: Design-based small area estimation}{4}{subsection.1.2.1}
 \contentsline {subsubsection}{\nonumberline Work Package 1: Software implementation}{5}{section*.5}
-\contentsline {subsubsection}{\nonumberline Work Package 2: Modeling}{5}{section*.6}
-\contentsline {subsubsection}{\nonumberline Work Package 3: Small area estimation}{5}{section*.7}
-\contentsline {subsection}{\numberline {1.2.2}Study 2: Mapping}{6}{subsection.1.2.2}
-\contentsline {chapter}{\numberline {2}Synthesis}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Goals}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Main results}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}Outlook}{11}{section.2.3}
+\contentsline {subsubsection}{\nonumberline Work Package 2: Derivation of auxiliary data and modeling}{5}{section*.6}
+\contentsline {subsubsection}{\nonumberline Work Package 3: Small area estimation}{6}{section*.7}
+\contentsline {subsection}{\numberline {1.2.2}Study 2: Mapping}{7}{subsection.1.2.2}
+\contentsline {chapter}{\numberline {2}Synthesis}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Goals}{10}{section.2.1}
+\contentsline {section}{\numberline {2.2}Main results}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Outlook}{12}{section.2.3}
 \contentsline {chapter}{\nonumberline Bibliography}{13}{chapter*.8}
-\contentsline {chapter}{Curriculum Vitae}{21}{chapter*.9}
+\contentsline {chapter}{Curriculum Vitae}{15}{chapter*.9}

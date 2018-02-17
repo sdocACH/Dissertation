@@ -108,6 +108,8 @@ headinclude]{scrbook}
 
 %% - für Abkürzungsverzeichnis
 \usepackage{acronym} 
+\usepackage{nomencl}
+\makenomenclature
 
 %% - sonstige
 \usepackage{chapterbib}
@@ -278,8 +280,14 @@ headinclude]{scrbook}
 	%\pagebreak
 	%\thispagestyle{empty}
 	
+	%% ------------------------------ List of Abbreviations -------------------------------------- %%
+%	\input{main/abbreviations}
+%	\thispagestyle{plain}
+%	\newpage
+	
+	
 %% ------------------------------ Acknowledgements -------------------------------------- %%
-\input{Acknowledgements}
+    \input{Acknowledgements}
 	\thispagestyle{plain}
 	%\clearpage
 	%\newpage
