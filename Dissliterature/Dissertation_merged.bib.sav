@@ -1783,7 +1783,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {Taylor \& Francis Group},
 }
 
-@Book{grosenbaugh1958,
+@Book{grosenbaugh1958poin,
   title     = {Point sampling and line sampling: probability theory, geometric implications, synthesis},
   publisher = {Southern Forest Experiment Station, Forest Service, US Department of Agriculture},
   year      = {1958},

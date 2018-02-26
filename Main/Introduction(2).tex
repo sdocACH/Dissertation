@@ -5,21 +5,51 @@
 %\setchapterpreamble[uc][0.8\textwidth]{%
 %			\dictum[George Bernard Shaw]{%
 %				``Science never solves a problem without creating ten more.''}\vskip20em}
-			
+
 \setchapterpreamble[uc][0.8\textwidth]{%
-	\dictum[Han Solo]{%
-		``She may not look like much, but she's got it where it counts.''}\vskip20em}			
+			\dictum[Hans Schreuder, Timothy Gregoire, Geoffrey Wood \\ \textit{Sampling Methods for Multisource Forest Inventory}]{%
+				``Statistics should be an aid to common sense and it is not surprising that practitioners sometimes develop sound and reasonable methods before theoreticians do.''}\vskip20em}
+			
+%\setchapterpreamble[uc][0.8\textwidth]{%
+%	\dictum[Han Solo]{%
+%		``She may not look like much, but she's got it where it counts.''}\vskip20em}			
 	
 
 	
 \chapter{General Introduction}
 \label{chap:intro}
 \newpage
-
 %------------------------------------------------------------------------------------------------%
 % ---------------------------- History and state of the art------------------------------------- %
-\section{History and state of the art of forest inventory}
+\section{History of forest inventory and recent developments}
 \label{sec:intro:hist_soa}
+
+This first section has the objective to outline important developments in forest inventories that subsequently led to the recent state of methods to which this thesis was intended to contribute. 
+The first known conductions of forest inventories go back to the 14th and 15th century. They however looked quite different from todays inventories and exclusively comprised a visual inspection by riding or walking through the forest. These inspections were a means to acquire a representative impression about the state of large forest areas as well as to determine spatial units for harvesting \citep{zoehrer1980}. The ability to estimate forest attributes by eye remained a crucial ability of forest practicioners for the next five centuries and is today still applied for stand inventories in many countries. Whereas these inspections constituted a response to increasing wood shortages, the first reference to sustainable forest management in literature is only found two centuries later in the book \textit{Silviculatura Oeconomica} written by \citet{carlowitz1713}. With the objective of a 'continuous and sustainable usage', Carlowitz suggested concepts that besides reforstation mostly targeted a more efficient use of wood.\par
+
+While the first use of sample plots to gather representative information date back to \citet{hartig1795}, major advancements of sample-based inventories came up at the beginning of the 20th century together with the development of statistical sampling methods. In North America, the first sample-based inventories (so-called \textit{timber cruises}) were conducted around 1930. The surveys were initially performed by visual assessment and later by a full census of all trees along systematically arranged lines. The idea of these \textit{strip-sampling} inventories was to gather data only for a small percentage of the forest, and subsequently extrapolate the results to the entire forest area. The use of strips was at the same time also a means to produce forest attribute maps. An important further development was the work of \citet{goodspeed1934} who advocated the collection of data within plots aligned with the strip lines (line-plot sampling) in substitution for a complete census in order to improve the efficiency of the cruises. At the same time, \citet{langballe1938} demonstrated an early two-stage sampling approach in Canada in order to further reduce costs of a terrestrial cruise. They were confronted with considerable increases in survey costs triggered by stands becoming smaller, which required closer line spacing and more plots surveyed in the cruise. They thus proposed a method where field crews quickly counted the trees within each strip by eye, whereas they only performed time-consuming measurements at few plots within the strip. They subsequently used the relationship between the target variable (basal area) and the counted stem number to extrapolate the plot measurements to the entire strip area. This concept can be regarded as an early version of modern two-phase or two-stage estimation techniques.\par 
+
+Beside improving the efficiency, an issue that also became of high importance was to quantify the estimation error when sampling techniques were used. Solutions to this were developed in two mathematical frameworks that today constitute the two approaches for inference of estimates. One approach was the randomization of the plot locations, which was first recommended by \citet{hasel1938} in order to allow for a valid estimate of the sampling error under random sampling by applying the technique of variance analysis suggested by \citet{fisher1925}. For actual implementation, he suggested to devide the forest area into equally sized and shaped blocks and then randomly select a subset of these plots to be terrestrially surveyed. He thereby also described the so-called finite-population setup that builds the frame for a broad range of sampling methods \citep{schreuder1993}. At the same time, also other countries made huge advancement in the conduction of forest inventory methods. Around 1920, the first national, i.e. country-wide forest inventories (NFI) were conducted in the Nordic countries. Likewise the inventories in North America and Canada, also the Nordic NFIs were based on systematic strip sampling. This led to considerable contributions to variance estimation under \textit{systematic sampling}, particularly by Mat\'{e}rn (1947, 1960) who developed a variance estimator that relies on modeling spatial trends. The two theoretical frameworks of inference thus relied on either randomization of the sampling process or sampling from an underlying stochastic process and are today known as the \textit{design-based} and \textit{model-dependent} approach. A defining advancement in design-based survey sampling was made by the introduction of unequal propability sampling by \citet{hansen1943}, who showed that using inclusion probabilities proportional to the value of the target attribute could substantially increase estimation precision. An unbiased estimator for unequal probability sampling was contributed by \citet{horvitz1952}. The concept of \textit{probability proportional to size} (PPS) sampling is today implemented in most forest inventories by the use of concentric sample plots. A method which, even without intention at the time of invention, perfectly realizes PPS sampling is the angle-count sampling (ACS) technique introduced by Bitterlich in 1947 \citep{bitterlich1984}, and it was \citet{grosenbaugh1958} who later related ACS to the probabilistic sampling theory. A further important development was the reformulation of the design-based estimation frame within the \textit{infinite population approach} by \citet{mandallaz2008}. This approach provided a much better definition of the underlying population for forest inventories compared to design-based survey methods for finite populations as applied in official statistics.\par
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 % end with: A conclusion from recent developments is that future forest planning methods will increasingly integrate information of auxiliary data such as remote sensing and geo data. 
@@ -55,7 +85,7 @@ The conduction of this study was divided into 3 work packages that each addresse
 % ----------------------------------------------
 % # --- Chapter 2: Software implementation --- #
 
-With respect to the study objective, work package 1 addressed the need of a robust and flexible software implementation of the design-based regression estimators that could handle large inventory data sets and process a large number of small area estimations at once. Whereas several of the estimators suggested by Mandallaz had been applied in simulations and real-world case studies \citep{mandallaz2013a, mandallaz2013b, mandallaz2013c, massey2014a, massey2015a, massey2015b}, there had yet not been an unified and consistent implementation of the estimators in the same software environment. The work on this study was thus taken as an opportunity to implement the full range of these regression estimators as a \textit{package} in the statistical software \proglang{R} \citep{R}. The implementation procedure comprised three steps in general: First, a comprehensive review of all published regression estimators by Mandallaz; second, the completion of yet missing estimators for three-phase small area estimation; and third, the actual implementation of the estimators in \proglang{R}. The latter seemed to be the software of choice, as it constitutes one of the most intensively used statistical softwares and also provides interfaces to data base systems in which inventory and geodata are commonly stored. A review of existing software for multi-stage and multi-phase estimation revealed that in comparison to official statistics, applications particularly suited for forest inventories have been rare. Exceptions are the \proglang{R} package \pkg{JoSAE} by \citet{josae2015} and the \pkg{maSAE} package by \citet{cullmann2016}. However, a more comprehensive software package covering a larger variety of sample designs and estimators - particularly in the design-based infinite population frame - had not yet been available. In order to address this lack between availability and recent interest in such methods, we also made our software package freely available as the \proglang{R} package \pkg{forestinventory} that can be installed from the CRAN server (\url{https://CRAN.R-project.org/package=forestinventory}). Chapter \ref{chap:rpack} describes the implementation and the application of the two-phase and three-phase estimators in \proglang{R} and provides a comprehensive review of the design-based regression estimators for global and small area estimation published by \citet{mandallaz2008, mandallaz2013a, mandallaz2013c} and \citet{mandallaz2013b}. The availability of the software package in combination with its comprehensive documentation also had the objective to support the transparency and the reproducibility of the methods applied in this study.
+With respect to the study objective, work package 1 addressed the need of a robust and flexible software implementation of the design-based regression estimators that could handle large inventory data sets and process a large number of small area estimations at once. Whereas several of the estimators suggested by Mandallaz had been applied in simulations and real-world case studies \citep{mandallaz2013a, mandallaz2013b, mandallaz2013c, massey2014a, massey2015a, massey2015b}, there had yet not been an unified and consistent implementation of the estimators in the same software environment. The work on this study was thus taken as an opportunity to implement the full range of these regression estimators as a \textit{package} in the statistical software \proglang{R} \citep{R}. The implementation procedure comprised three steps in general: First, a comprehensive review of all published regression estimators by Mandallaz; second, the completion of yet missing estimators for three-phase small area estimation; and third, the actual implementation of the estimators in \proglang{R}. The latter seemed to be the software of choice, as it constitutes one of the most intensively used statistical softwares and also provides interfaces to data base systems in which inventory and geodata are commonly stored. A review of existing software for multi-stage and multi-phase estimation revealed that in comparison to official statistics, applications particularly suited for forest inventories have been rare. Exceptions are the \proglang{R} package \pkg{JoSAE} by \citet{josae2015} and the \pkg{maSAE} package by \citet{cullmann2016}. However, a more comprehensive software package covering a larger variety of sample designs and estimators - particularly in the design-based infinite population frame - had not yet been available. In order to address this lack between availability and recent interest in such methods, we also made our software package freely available as the \proglang{R} package \pkg{forestinventory} that can be installed from the CRAN server (\url{https://CRAN.R-project.org/package=forestinventory}). Chapter \ref{chap:rpack} describes the implementation and the application of the two-phase and three-phase estimators in \proglang{R} and provides a comprehensive review of the design-based regression estimators for global and small area estimation published by \citet{mandallaz2008, mandallaz2013a, mandallaz2013c} and \citet{mandallaz2013b}. The availability of the software package in combination with its comprehensive documentation also had the objective to support the transparency and the reproducibility of the methods applied in this thesis.
 
 
 %   - provides a review of all design-based estimators for global and small area estimation published by Mandallaz
@@ -76,7 +106,7 @@ With respect to the study objective, work package 1 addressed the need of a robu
 
 % ---------------------- %
 % ---------------------- %
-\subsubsection{Work Package 2: Derivation of auxiliary data and modeling building} % Chapter 3
+\subsubsection{Work Package 2: Processing of auxiliary data and model building} % Chapter 3
 
 %--------------------------------
 % # --- Chapter 3: Modeling --- #

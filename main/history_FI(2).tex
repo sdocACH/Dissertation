@@ -1,0 +1,146 @@
+
+%------------------------------------------------------------------------------------------------%
+% ---------------------------- History and state of the art------------------------------------- %
+\section{History of forest inventory and recent developments}
+\label{sec:intro:hist_soa}
+
+% Vorläufer der Forstinventur
+This first section has the objective to outline important developments in forest inventories that subsequently led to the recent state of methods to which this thesis was intended to contribute. 
+The first known conductions of forest inventories go back to the 14th and 15th century. They however looked quite different from todays inventories and exclusively comprised a visual inspection by riding or walking through the forest. These inspections were a means to acquire a representative impression about the state of large forest areas as well as to determine spatial units for harvesting \citep{zoehrer1980}. The ability to estimate forest attributes by eye remained a crucial ability of forest practicioners for the next five centuries and is today still applied for stand inventories in many countries. Whereas these inspections constituted a response to increasing wood shortages, the first reference to sustainable forest management in literature is only found two centuries later in the book \textit{Silviculatura Oeconomica} written by \citet{carlowitz1713}. With the objective of a 'continuous and sustainable usage', Carlowitz suggested concepts that besides reforestation mostly targeted a more efficient use of wood.\par
+
+% Anwendung repräsentativer Probeflächen
+While the first use of sample plots to gather representative information date back to \citet{hartig1795}, major advancements of sample based inventories came up at the beginning of the 20th century together with the development of statistical sampling methods. In North America, the first sample-based inventories (so-called \textit{timber cruises}) were conducted around 1930. The surveys were initially performed by visual assessment and later by a full census of all trees along systematically arranged lines. The idea of these \textit{strip-sampling} inventories was to gather data only for a small percentage of the forest, and subsequently extrapolate the results to the entire forest area. The use of strips was at the same time also a means to produce forest attribute maps. An important further development was the work of \citet{goodspeed1934} who advocated the collection of data within plots aligned with the strip lines (line-plot sampling) in substitution for a complete census in order to improve the efficiency of the cruises.  At the same time, \citet{langballe1938} demonstrated an early two-stage sampling approach in Canada in order to further reduce costs of a terrestrial cruise. They were confronted with considerable increases in survey costs triggered by stands becoming smaller, which required closer line spacing and more plots surveyed in the cruise. They thus proposed a method where field crews quickly counted the trees within each strip by eye, whereas they only performed time-consuming measurements at few plots within the strip. They subsequently used the relationship between the target variable (basal area) and the counted stem number to extrapolate the plot measurements to the entire strip area. This concept can be regarded as an early version of modern two-phase or two-stage estimation techniques.\par
+
+% Einfluss mathematischer Statistik
+Beside improving the efficiency, an issue that also became of high importance was to quantify the estimation error when sampling techniques were used. Solutions to this were developed in two mathematical frameworks that today constitute the two approaches for inference of estimates. One approach was the randomization of the plot locations, which was first recommended by \citet{hasel1938} in order to allow for a valid estimate of the sampling error under random sampling by applying the technique of variance analysis suggested by \citet{fisher1925}. For actual implementation, he suggested to devide the forest area into equally sized and shaped blocks and then randomly select a subset of these plots to be terrestrially surveyed. He thereby also described the so-called finite-population setup that builds the frame for a broad range of sampling methods \citep{schreuder1993}. At the same time, also other countries made huge advancement in the conduction of forest inventory methods. Around 1920, the first national, i.e. country-wide forest inventories (NFI) were conducted in the Nordic countries. Likewise the inventories in North America and Canada, also the Nordic NFIs were based on systematic strip sampling. This led to considerable contributions to variance estimation under \textit{systematic sampling}, particularly by Mat\'{e}rn (1947, 1960) who developed a variance estimator that relies on modeling spatial trends. The two theoretical frameworks of inference thus relied on either randomization of the sampling process or sampling from an underlying stochastic process and are today known as the \textit{design-based} and \textit{model-dependent} approach. A defining advancement in design-based survey sampling was made by the introduction of unequal propability sampling by \citet{hansen1943}, who showed that using inclusion probabilities proportional to the value of the target attribute could substantially increase estimation precision. An unbiased estimator for unequal probability sampling was contributed by \citet{horvitz1952}. The concept of \textit{probability proportional to size} (PPS) sampling is today implemented in most forest inventories by the use of concentric sample plots. A method which, even without intention at the time of invention, perfectly realizes PPS sampling is the angle-count sampling (ACS) technique introduced by Bitterlich in 1947 \citep{bitterlich1984}, and it was \citet{grosenbaugh1958} who later related ACS to the probabilistic sampling theory. A further important development was the reformulation of the design-based estimation frame within the \textit{infinite population approach} by \citet{mandallaz2008}. This approach provided a much better definition of the underlying population for forest inventories compared to design-based survey methods for finite populations as applied in official statistics.\par
+
+% Verwendung von Hilfsinformationen
+%
+% 
+%
+%
+%
+%
+%
+
+
+
+
+
+
+
+
+% - aerial forest surveys in canada in the 1920's:
+%   + Langball & Fogh (1938) (Canada): they also mentioned that for 2 years (1936 - 1938) "the use of aerial photographs has considerably helped to cheapen operating cruises and improve maps" 
+%     photos used to place line systems in merchantable areas
+%
+% - forstliche Anwendung von Luftbildtechnik bereits ab ca. 1910, vor allem in Deutschland
+%
+% - bereits Schmidt-Haas 1970 mit der Idee einer zweiphasigen-Luftbildgestützten NFI
+%
+% - 1980 Zöhrer: 
+%   + Verwednung von Luftbildern "selbstverständlichkeit einer modernen Forstinventur"
+%   + Zweck: 1) Orientierung im Gelände, 2)! "Informationsgewinnung mit nur wenigen Bodenkontrollen"!!! --> Idee mehrphasiger Inventuren
+%   + all Informationen werden hier noch manuell aus visueller Luftbildinterpretation gewonnen
+%   + - Untergliederung in Waldtypen zur Stratifizierung
+%   + - Stichprobenweise Interpretation
+%   + - bereits viele Ideen der Ableitung von Attributen
+%
+% 
+%
+%
+%
+
+
+
+% However, it has to be emphasized that many methods such as line or plot sampling, stratification or unequal probability sampling had been applied by forest practicioners before they were mathematically described in the statistical literature \citep{schreuder1993}.
+
+
+%% NOTES / STRUCTURE:
+%
+%
+% - use of auxiliary information:
+%  + Langball & Fogh (1938) (Canada): they also mentioned that for 2 years (1936 - 1938) "the use of aerial photographs has considerably helped to cheapen operating cruises and improve maps" 
+%    photos used to place line systems in merchantable areas
+%  + forstliche Anwendung von Luftbildtechnik bereits ab ca. 1910, vor allem in Deutschland (Huggershoff)
+%  + ...  
+%  + bereits Schmidt-Haas 1970 mit der Idee einer zweiphasigen-Luftbildgestützten NFI
+%  + ... 
+%  + aber Durchbruch durch die Verfügbarkeit von FE-Daten und automatischen Auswertemethoden: ----> [letzter Abschhitt]
+
+% ** Noch interessant aus Zöhrer selbst (als Primärquelle 1980):
+% - ausführliche Beschriebung der Verwendung von Luftbilder für die Forstinventur
+%   o "selbstverständlichkeit einer modernen Forstinventur" 
+%   o Zweck: 1) Orientierung im Gelände, 2)! "Informationsgewinnung mit nur wenigen Bodenkontrollen"!!! --> Idee mehrphasiger Inventuren
+%   o all Informationen werden hier noch manuell aus visueller Luftbildinterpretation gewonnen
+%   o - Untergliederung in Waldtypen zur Stratifizierung
+%   o - Stichprobenweise Interpretation
+%
+% - Stratifizierung nach Waldtypen, Baumarten, Mischungsformen, Höhe des Vorrates (Vorratsklassen aus Stereo-Luftbild bestimmt) --> Karten
+% - Verwendung der Karten: 1) Verteilung der Stichproben innerhalb der Straten (mit unterschiedlicher Stiprodichte) == Vorstartifizeriung
+%                          2) Nach-Startifizierung
+%                          ( --> diese Idee auch bei Schmidt-Haas erwähnt)
+%
+% Attribute: Einzelbauminfos wie Höhe und Vorrat, aber auch aggregierte Infos wie Mittelhöhe und Durchmesser,
+% Interessant: - "Volumenschätzung / ha für Bestände --> Multiplikation mit Bestandesfläche ergibt Totalvorrat des Bestandes"
+%              - viele Attribute werden heute tatsächlich automatisch abgeleitet (z.b. Kronendurchmesser, Baumhöhe, Baumarten, Volumenschätzung)
+% ==> Zöhrer gibt bereits 1980 einen Ausblick, dass viele Attribute in Zukunft automatisch abgeleitet werden können
+%
+% ===> das könnte ein schöner Übergang zu dem "state-of-the-art" sein: 
+%  - Tatsächlich hat sich vieles bewahrheitet hinsichtlich automat. Ableitung und Berechnung
+%  - Dadurch haben auch Schätzverfahren an Bedeutung gewonnen, welche diese zusätzlichen Informationen für Schätzungen verwenden können ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

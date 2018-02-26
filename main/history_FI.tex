@@ -1,0 +1,232 @@
+
+%------------------------------------------------------------------------------------------------%
+% ---------------------------- History and state of the art------------------------------------- %
+\section{History and state of the art of forest inventory}
+\label{sec:intro:hist_soa}
+
+
+% --------------------- %
+%% NOTES Kangas (2006):
+% - 'sampling-based methods already used in forestry a century before the mathematical foundations of sampling techniques were described'
+%   --> first works on sampling techniques (schreuder 1993, gregoire 1992, ...)
+% - North-America: first inventory surveys by "timber cruising" (Bell 1949) --> strip & plot sampling (quantitative assessment by measuring trees; "X-precent strip cruise")
+% - graves 1906: plot-based visual assessment used for "per acre" estimation of timber volume
+% - even today, visual estimation is still used in many countries to derive information at the stand level, where no sample-based inventory is carried out (still part of the training in many countries)
+%   --> prone to systematic errors (Kuliesis 2016) 
+% - first small scale forest inventory using strip sampling carried out in sweden in 1830 (Isreal af Ström)
+% - statistical knowledge gradually introduced into forest literature bewteen 1900 - 1920 (primarily in scandinavia)
+% - NFIs in Nordic countries starting around 1920; first inventories were systematic strips --> estimators for variance of syst, sampl. intensively developed in these countries,
+%   e.g. Lindberg 1924/1926, Langsaeter 1926, ...)
+% - switch from systematic strips to line-plot systems: advantage of line-plot system: surveying a much smaller percentage of the area for a given accuracy
+% - USA: Formalization of statistical sampling methods applied to forest inventories, with specific focus on error estimation (Schumacher & Bull, 1932) 
+% - Schumacher and Chapman (1942): publication of first known book on sampling in any field (?)
+% - Hasel(1938)**: advocated the randomization principle for forest inventories
+% - Matern: work on the theory for variance estimation in a systematic survey
+% - introduction of sampling with unequal propabilities --> theory from Hansen & Hurwitz; Bitterlich, Grosenbaugh
+% - Angle-count sampling (ACS\textsl{}) introduced by Bitterlich 1947; later shown that this is relates to the Horwitz-Thompson estimator under perfect PPS sampling
+% - Grosenbaugh (1952,55,58): relating ACS to the probabilistic sampling realm
+% - Grosenbaugh: coined the term "point sampling" by relation of a point falling into a trees' inclusion circle
+% - point sampling was a major innovation in sampling forests
+% - The ideas of matern have been followed by Mandallaz 1991 (kriging, double-kriging)
+
+% --------------------- %
+%% **Hasel(1938) (USA - USFS)
+% - in this article, Hasel [advocates the randomization of cruises (i.e. the plots of cruises)]
+%    --> this was new! the plots or strips usually were systematically arranged, i.e. line-plot-sampling (also in order to support mapping)
+%   o he states that forest are mostly heterogeneous populations, even if they appear homogeneous
+%   o and in heterogneous populations, size and shpahe of the plots are important factors in efficient sampling -> Cochran 1977!!!
+%   o only randomization of the plots (i.e. they are seclected randomly and independently) allows for deriving a valid estimate of the sampling error
+%   o his suggestion: dividing area into blocks of uniform size and shape, and randomly selecting a number of these units to be cruised 
+%     --> this method allows for a significant variance reduction by Fisher's method of analysis of variance (Fisher 1934)
+%   o he states that only under random sampling, the elements (blocks, pixels) contributing most to the heterogeneity of the population are most likely represented in the in their true proportion
+
+% --------------------- %
+%% Goodspeed (1934) (USA)
+% - summary: Goodspeed demonstrated "that the plot method can satisfactory be substituted for the strip sampling method" in timber cruising
+% - objective: necessity of densifying the strips in order to sample all stands --> modified plot method necessary to minimize costs
+%   (method shoudl "be done by one man", be "as accuracte as the strip method", be "less expensive than the strip method") ==> more efficient
+% - plots so close to each other "that all the stands on the line were sampled"
+
+% --------------------- %
+%% Langball & Fogh (1938) (Canada)
+% -> summary: they basically demonstrate an early "two-stage sampling" inventory for small areas in order to reduce costs of a terrestrial cruise
+%             --> 2 measurements on the ground: one precise and costly, another coarse info but ceaply and quickly measured
+% - problem statement: unit areas become smaller, which has been addressed by closer line spacing and more plots in cruises. This resulted
+%   in an increase of costs 
+% - solution: aerial phot. used to place line systems in merchantable areas + new: partly substituting a calipering of trees in the field by counting trees in the field
+%             within aerial photographs --> "counting a proportion of the total number of sample plots rather than calipering them 100%"
+%                                           (within the strip, only a subset of plots were calipered, but the entire strip was measured)
+%   -> method relies on relationship between "basal area variation and stem number variation"
+%  !!! ==> this idea is suprisingly close to principle of two-phase sampling!!! 
+% - 
+% ! they also mentioned that for 2 years (1936 - 1938) "the use of aerial photographs has considerably helped to cheapen operating cruises and improve maps"
+%  ==> so they also used aerial photography to increase the efficiency of cruises
+
+% --------------------- %
+%% Schmidt-Haas (1970) (Schweiz) "Probleme der Waldinventur"
+%
+% - beschreibt Weiterentwicklung der Kontrollmethode von Biolley. Ziel der neuen Methode: Kontrollmethode soll nach Durchführung von Folgeinventuren
+%   Zuwachsschätzungen ermöglichen und somit im Forstbetrieb duetlich besser Plaungsgrundlagen bereitsstellen
+%
+% - Vorbereitungen zur ersten schweizer NFI, obwohl noch nicht tatsächlich vorgesehen. Diese wurde erst 13 Jahre später zum ersten mal durchgeführt!
+% - Bereits hier die Idee einer zweiphasigen Inventur! "Baumhöhen, Bestandesdichte, Kronendurchmesser und Stammzahlen aus Luftbilder messen. An einer Teilstichprobe
+%   dann im Feld die terrestrische Erhebung durchführen. Systematische Fehler in der Luftbildanalyse durch terrestrische Daten ausgleichen"
+%   ==> das ist design-basierte zwei-phasoge Inventur!!! (1970!)
+
+% --------------------- %
+%% Schreuder (1993)
+% - provide a broad range of statistical sampling methods for forest inventories, including design-based inference, multilevel sampling strategies and model-dependent strategies
+% - this work considerably contributed to summarize the application of existing sampling strategies in forest inventories
+% - they also provide a short summary of the history of sample surveys:
+%   o two early pioneers in sample surveys were Kiaer in Norway, and Wright in the USA
+%   o Bowley (1906): "Need to include error estimates when sampling is used!"
+%   o Student (1908) developed the t-distribution which is used in the design-based frame to construct confidence intervals
+%   o Theoretical work on the central limit theorem (also important in design-based inference)
+%   o first known attempt at random sampling in 1921 in a survey of a rice crop 
+%   o Tschuprow (1923): theoretical basis for stratified sampling
+%   o Fisher (1925): technique of variance analysis for estimating the sampling error from the results of the observations (under random sampling)
+%     --> used and advocated by Hasel (1938^)
+% - "random sampling allowed for the construction of CIs within the design-based framework" (i.e. theoretical repetitions of the sampling)
+%   o Cochran (1939): summary of analysis of variance in sampling
+%   o Hansen & Hurwitz (1943): sampling with unequal probablities --> PPS
+%   o Horwitz & Thompson: HT-Estimator = unbiased estimator --> for PPS
+% - "methods such as representative sampling, stratified sampling & unequal propability sampling were used in forestry well before they were accepted or published in the statistical literature"
+
+
+% --------------------- %
+% NOTES Mandallaz:
+% - Key references for sampling in forest inventories: -de Vries (1986), - Schreuder et. al (1993), Köhl et. al (2006), - Gregoire & Valentine (2007)
+% - book of Mandallaz extended the design-based frame used in forest inventory to the infinite population approach, which basically uses the concepts of
+%   local densities and the Horwitz-Thompson Estimator
+% - 
+%
+%
+% --> Carlowitz 1713 (sylvicultura oeconomica): Idee des Prinzips Nachhaltigkeit
+%
+
+% --------------------- %
+%% NOTES Zöhrer (1980):
+%
+% + Vorläufer der Waldinventuren:
+%  - Anfänge der "Forstwirtschaft" mit der einsetzender drohender Holzknappheit im 14. und 15. Jahrhundert
+%    --> bereits in dieser Zeit erste Forstinventuren, damals "Waldbeschaue", "Waldbereitungen" und "Forsttaxationen" genannt
+%  - Beispiele: o Walbereitung 1499-1510 für den Betrieb des österreichischen Erzberges unter Kaiser Maximilian I.
+%              o Einrichtung Erfurter Stadtwald Mitte des 14. Jhd.
+%  Ziele dieser "Bereitungen": 1) visuelle, repräsentative Erfassung der Waldfläche
+%                             2) Flächengliederung für Schlageinteilung von kleineren Waldgebieten
+%  - Vollaufnahmen damals nur auf kleine, wertvolle Waldflächen beschränkt, ansonsten bis Mitte 20. Jhd visuelle Einschätzungen (auch noch heute wichtiger Bestandteil der Forsteinrichtung)    
+% 
+% + Anwendung repräsentativer Stichproben:
+%  - man benutzte schon lange vor der Entwicklung der mathematischen Statistik und der Stichprobentheorie repräsentative Probeflächen, die in den aufzunehmenden Waldteilen angelegt wurden.
+%    Die auf den Probeflächen bestimmten Werte wurden dann auf die Gesamtwaldfläche hochgerechnet (--> timber cruising)
+%     --> Idee modernen Inventurmethoden, aber noch keine Möglichkeit der Genauigkeitsbestimmung für die Schätzungen
+% - bereits 1795 Hinweis auf Probeflächen von G.L. Hartig ("Anweisung zur Taxation der Forsten")
+% 
+% + Erste Grossrauminventuren:
+% - Erste Grossrauminventuren in Skandinavien im 19. Jhd. (1920 -> see Kangas); Schweden --> Linientaxation durch Av Ström
+% - In tropischen Wäldern erste Anwendungen durch Probestreifen 1850 durch Brandis
+%
+% ( - in der Schweiz erste NFI 1983 - 85) 
+% ( - in Deutschland: erste NFI in 1986)
+%
+% + Einfluss der mathematischen Statistik:
+% - erst ab etwa 1930
+% - ester Gebrauch dieser Methoden in USA und Skandinavien
+% - Neuerungen: 1) Abschätzung der Schätzfehler durch Varianzschätzer, 2) Quantifizierbahre Abhängigkeit von Stipor-umfang und Genauigkeit --> Optimierung des Inventuraufwands
+%               3) Regressionstatistik erlaubte die Berechnung von genaueren Modellen für Volumenfunktionen
+%
+% + Kontrollstichproben:
+% - Gedanke einer kontinuierlichen Überwachung und Kontrolle des Waldes durch eine sog. "Kontrollmethode"
+% -erstmals verwirklicht durch Gurnaud in Frankreich (1897) und Biolley in der Schweiz (1922)
+%  
+% + Entwicklung der Luftbildtechnik:
+% - forstliche Anwendung von Luftbildtechnik bereits ab ca. 1910, vor allem in Deutschland (Huggershoff)
+% - auch in USA frühzeitiger Verwendung von Luftbilder in Inventuren
+%
+% 
+% ** Noch interessant aus Zöhrer selbst (als Primärquelle 1980):
+% - ausführliche Beschriebung der Verwendung von Luftbilder für die Forstinventur
+%   o "selbstverständlichkeit einer modernen Forstinventur" 
+%   o Zweck: 1) Orientierung im Gelände, 2)! "Informationsgewinnung mit nur wenigen Bodenkontrollen"!!! --> Idee mehrphasiger Inventuren
+%   o all Informationen werden hier noch manuell aus visueller Luftbildinterpretation gewonnen
+%   o - Untergliederung in Waldtypen zur Stratifizierung
+%   o - Stichprobenweise Interpretation
+%
+% - Stratifizierung nach Waldtypen, Baumarten, Mischungsformen, Höhe des Vorrates (Vorratsklassen aus Stereo-Luftbild bestimmt) --> Karten
+% - Verwendung der Karten: 1) Verteilung der Stichproben innerhalb der Straten (mit unterschiedlicher Stiprodichte) == Vorstartifizeriung
+%                          2) Nach-Startifizierung
+%                          ( --> diese Idee auch bei Schmidt-Haas erwähnt)
+%
+% Attribute: Einzelbauminfos wie Höhe und Vorrat, aber auch aggregierte Infos wie Mittelhöhe und Durchmesser,
+% Interessant: - "Volumenschätzung / ha für Bestände --> Multiplikation mit Bestandesfläche ergibt Totalvorrat des Bestandes"
+%              - viele Attribute werden heute tatsächlich automatisch abgeleitet (z.b. Kronendurchmesser, Baumhöhe, Baumarten, Volumenschätzung)
+% ==> Zöhrer gibt bereits 1980 einen Ausblick, dass viele Attribute in Zukunft automatisch abgeleitet werden können
+%
+% ===> das könnte ein schöner Übergang zu dem "state-of-the-art" sein: 
+%  - Tatsächlich hat sich vieles bewahrheitet hinsichtlich automat. Ableitung und Berechnung
+%  - Dadurch haben auch Schätzverfahren an Bedeutung gewonnen, welche diese zusätzlichen Informationen für Schätzungen verwenden können ...
+%
+
+
+
+%% Keywords:
+%
+% - design-bases vs. model-dependent
+%
+%
+%
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

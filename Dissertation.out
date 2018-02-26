@@ -1,40 +1,6 @@
 \BOOKMARK [0][-]{chapter*.4}{Acknowledgements}{}% 1
 \BOOKMARK [0][-]{chapter.1}{General Introduction}{}% 2
-\BOOKMARK [1][-]{section.1.1}{History and state of the art of forest inventory}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.1}{History of forest inventory and recent developments}{chapter.1}% 3
 \BOOKMARK [1][-]{section.1.2}{Thesis objective and structure}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{The R Package forestinventory: design-based global and small area estimations for multi-phase forest inventories}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Methods and structure of the package}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Two-phase estimators and their application}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.4}{Three-phase estimators and their application}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.5}{Calculation of confidence intervals}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.6}{Special cases and scenarios}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.7}{Analysis and visualization}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.8}{Future plans}{chapter.2}% 13
-\BOOKMARK [0][-]{chapter.3}{Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{}% 14
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.2}{Materials and Methods}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.3}{Results}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.5}{Conclusion}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{A double-sampling extension of the German National Forest Inventory for design-based small area estimation of timber volume resources on forest district levels}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{Terrestrial sampling design of the German NFI}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.3}{Double sampling in the infinite population approach}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.4}{Estimators}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.5}{Case study}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.6}{Results}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.7}{Discussion}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.8}{Conclusion}{chapter.4}% 28
-\BOOKMARK [0][-]{chapter.5}{Accuracy assessment of timber volume maps using forest inventory data and LiDAR canopy height models}{}% 29
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.2}{Materials and Methods}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 34
-\BOOKMARK [0][-]{chapter.6}{Synthesis}{}% 35
-\BOOKMARK [1][-]{section.6.1}{Goals}{chapter.6}% 36
-\BOOKMARK [1][-]{section.6.2}{Main results}{chapter.6}% 37
-\BOOKMARK [1][-]{section.6.3}{Outlook}{chapter.6}% 38
-\BOOKMARK [0][-]{chapter*.98}{Bibliography}{}% 39
-\BOOKMARK [0][-]{chapter*.99}{Curriculum Vitae}{}% 40
+\BOOKMARK [0][-]{chapter*.8}{Bibliography}{}% 5
+\BOOKMARK [0][-]{chapter*.9}{Curriculum Vitae}{}% 6
