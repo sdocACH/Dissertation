@@ -1783,4 +1783,21 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {Taylor \& Francis Group},
 }
 
+@Book{grosenbaugh1958,
+  title     = {Point sampling and line sampling: probability theory, geometric implications, synthesis},
+  publisher = {Southern Forest Experiment Station, Forest Service, US Department of Agriculture},
+  year      = {1958},
+  author    = {Grosenbaugh, Lewis Randolph},
+}
+
+@Article{wilcoxon1970,
+  author    = {Wilcoxon, Frank and Katti, SK and Wilcox, Roberta A},
+  title     = {Critical values and probability levels for the Wilcoxon rank sum test and the Wilcoxon signed rank test},
+  journal   = {Selected tables in mathematical statistics},
+  year      = {1970},
+  volume    = {1},
+  pages     = {171--259},
+  publisher = {Institute of Mathematical Statistics Providence, RI},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

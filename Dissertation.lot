@@ -1,3 +1,26 @@
 \select@language {british}
+\select@language {ngerman}
+\select@language {british}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Descriptive statistics of the forest observed on NFI sample plots located within communal and state forest area (n=5791).\relax }}{51}{table.caption.34}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Accuracy metrics for submodels of final OLS regression model. $p$ gives the number of parameters for each model. Interaction terms are indicated by ':'.\relax }}{61}{table.caption.49}
+\contentsline {table}{\numberline {3.3}{\ignorespaces $R^2$, RMSE and RMSE\% of final regression model within ALS acquisition year strata (\textit {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit {n}: number of validation data.\relax }}{62}{table.caption.52}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Descriptive statistics of the forest observed on NFI sample plots located within communal and state forest area (n=5791).\relax }}{80}{table.caption.61}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Sample size for each phase in entire study area. $n_{\{1,2\},plots}$: number of plots. $n_{\{1,2\}}$: number of clusters. TSPEC: tree species map information.\relax }}{81}{table.caption.64}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Classification accuracies of the \textit {treespecies} variable before and after calibration. $n_{ref}$: number of terrestrial reference plots. $n_{class}$: number of classified plots.\relax }}{83}{table.caption.68}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Model fit metrics for the two OLS regression models on the cluster level. Interaction terms are indicated by ':'. () give the respective values on the plot level.\relax }}{84}{table.caption.69}
+\contentsline {table}{\numberline {4.5}{\ignorespaces $R^2$, RMSE and RMSE\% on the cluster level of the full regression model within ALS acquisition year strata (\textit {ALSyear}). $Area_{ALSyear}$: Area covered by ALS acquisition given in km$^2$. \textit {n}: sample size of validation data. () give the respective values on the plot level.\relax }}{84}{table.caption.70}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Descriptive summary of point estimates and estimation errors on the two forest district levels. $N_u$: number of evaluated small area units.\relax }}{85}{table.caption.71}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Descriptive summary of variance reduction compared to SRS and relative efficiencies on the two forest district levels. $N_u$: number of evaluated small area units.\relax }}{88}{table.caption.75}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{100}{table.caption.82}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Summary statistics of the timber volume observed at the 67 terrestrial sample plots (given in m$^2$/ha).\relax }}{101}{table.caption.85}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Summary statistics of the CHM metrics calculated at the 67 terrestrial sample plots (in meters).\relax }}{103}{table.caption.89}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Summary statistics of the regression model.\relax }}{107}{table.caption.94}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Constant class width of 200 m$^3$/ha (five timber volume classes); OAA ($\pm $ 95\% confidence interval) (\%): 55.22 (42.58, 67.4); kappa: 0.36; square sum of class width: 200'000.\relax }}{109}{table.caption.96}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Optimized class width for five timber volume classes; OAA ($\pm $ 95\% confidence interval) (\%): 64.18 (51.53, 75.53); kappa: 0.54; square sum of class width: 176'600. Class widths smaller than 200 m$^3$/ha are indicated by *.\relax }}{109}{table.caption.97}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

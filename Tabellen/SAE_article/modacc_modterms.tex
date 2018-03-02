@@ -2,19 +2,19 @@
 % Sun Jan 07 17:11:26 2018
 \begin{table*}[!htbp]
 	\begin{center}
-	\caption{Accuracy metrics for the two OLS regression models. Interaction terms are indicated by ':'. () give the respective values on the cluster level.} 
+	\caption{Model fit metrics for the two OLS regression models on the cluster level. Interaction terms are indicated by ':'. () give the respective values on the plot level.} 
 	\label{tab:modacc_modterms}
     {\small %
 	\begin{tabular}{llccc}
   \hline
 model terms & model & $R^2_{adj}$ & RMSE & RMSE\% \\ 
   \hline \hline
-meanheight + stddev + meanheight$^2$ +  & full model &  0.48 & 139.22  & 45.98 \\
-treespecies + ALSyear + & & (0.53) &  (101.61) & (33.57) \\ 
+meanheight + stddev + meanheight$^2$ +  & full model &  0.58 & 90.11  & 29.76 \\
+treespecies + ALSyear + & & (0.48) &  (139.22) & (45.98) \\ 
 meanheight:treespecies + \\ meanheight:ALSyear + meanheight:stddev + \\ stddev:ALSyear &&& \\ \\
 
-meanheight + stddev + meanheight$^2$ + & reduced model  & 0.45  & 144.13 & 47.60 \\
-ALSyear + meanheight:ALSyear + & & (0.49) & (106.08) & (35.40) \\
+meanheight + stddev + meanheight$^2$ + & reduced model  & 0.55  & 95.23 & 31.65 \\
+ALSyear + meanheight:ALSyear + & & (0.45) & (144.13) & (47.60) \\
 meanheight:stddev + stddev:ALSyear &&& \\ \\
 \hline
 \hline
