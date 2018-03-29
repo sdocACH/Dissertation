@@ -1,126 +1,29 @@
 \select@language {british}
-\contentsline {chapter}{Acknowledgements}{vi}{chapter*.4}
-\contentsline {chapter}{Summary}{vii}{chapter*.5}
+\contentsline {chapter}{Acknowledgements}{iv}{chapter*.4}
+\contentsline {chapter}{Summary}{v}{chapter*.5}
 \select@language {ngerman}
-\contentsline {chapter}{Zusammenfassung}{ix}{chapter*.6}
+\contentsline {chapter}{Zusammenfassung}{vii}{chapter*.6}
 \select@language {british}
-\contentsline {chapter}{\numberline {1}General Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}History of forest inventory and recent developments}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Thesis objective and structure}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Study 1: Design-based small area estimation}{5}{subsection.1.2.1}
-\contentsline {subsubsection}{\nonumberline Work Package 1: Software implementation}{6}{section*.7}
-\contentsline {subsubsection}{\nonumberline Work Package 2: Processing of auxiliary data and model building}{6}{section*.8}
-\contentsline {subsubsection}{\nonumberline Work Package 3: Small area estimation}{7}{section*.9}
-\contentsline {subsection}{\numberline {1.2.2}Study 2: Mapping}{7}{subsection.1.2.2}
-\contentsline {chapter}{\numberline {2}The \textit {R} Package {\fontseries {b}\selectfont forestinventory}: design-based global and small area estimations for multi-phase forest inventories}{10}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}
-\contentsline {section}{\numberline {2.2}Methods and structure of the package}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Forest inventory in the infinite population approach}{14}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Two-phase sampling}{15}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Three-phase sampling}{15}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Small area estimation}{15}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Design-based vs. model-dependent approach}{16}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Package structure}{17}{subsection.2.2.6}
-\contentsline {section}{\numberline {2.3}Two-phase estimators and their application}{18}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Global estimators}{18}{subsection.2.3.1}
-\contentsline {subsubsection}{\nonumberline Mathematical background}{18}{section*.14}
-\contentsline {subsubsection}{\nonumberline Calculation of explanatory variables}{19}{section*.15}
-\contentsline {subsubsection}{\nonumberline Boundary adjustment}{20}{section*.17}
-\contentsline {subsubsection}{\nonumberline Application}{21}{section*.18}
-\contentsline {subsection}{\numberline {2.3.2}Small area estimators}{23}{subsection.2.3.2}
-\contentsline {subsubsection}{\nonumberline Mathematical background}{23}{section*.19}
-\contentsline {subsubsection}{\nonumberline Application}{25}{section*.20}
-\contentsline {section}{\numberline {2.4}Three-phase estimators and their application}{29}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Global estimators}{29}{subsection.2.4.1}
-\contentsline {subsubsection}{\nonumberline Mathematical background}{29}{section*.21}
-\contentsline {subsubsection}{\nonumberline Application}{30}{section*.22}
-\contentsline {subsection}{\numberline {2.4.2}Small area estimators}{31}{subsection.2.4.2}
-\contentsline {subsubsection}{\nonumberline Mathematical background}{31}{section*.23}
-\contentsline {subsubsection}{\nonumberline Application}{33}{section*.24}
-\contentsline {section}{\numberline {2.5}Calculation of confidence intervals}{35}{section.2.5}
-\contentsline {section}{\numberline {2.6}Special cases and scenarios}{36}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Post-stratification}{36}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Small area estimation under cluster sampling}{36}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Violation of nesting in sample design}{37}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}Analysis and visualization}{40}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Analysis}{40}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Visualization}{42}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Future plans}{43}{section.2.8}
-\contentsline {chapter}{\numberline {3}Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{45}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{47}{section.3.1}
-\contentsline {section}{\numberline {3.2}Materials and Methods}{49}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Study Area}{49}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Terrestrial Inventory Data}{50}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Auxiliary Data}{51}{subsection.3.2.3}
-\contentsline {subsubsection}{\nonumberline ALS Canopy Height Model}{51}{section*.35}
-\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{53}{section*.37}
-\contentsline {subsection}{\numberline {3.2.4}Choice of Support under Angle Count Sampling}{54}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}\color {black}{Model Building and Evaluation} \color {black}}{55}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Results}{56}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Classification Accuracies}{56}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Regression Model Accuracies}{58}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Final Regression Model}{59}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Discussion}{63}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Stratification according to ALS Acquisition Years and Tree Species}{63}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Calibration of Tree Species Map Information}{65}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Choice of Support under Angle Count Sampling}{65}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Conclusion}{66}{section.3.5}
-\contentsline {chapter}{\numberline {4}A double-sampling extension of the German National Forest Inventory for design-based small area estimation on forest district levels}{68}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{70}{section.4.1}
-\contentsline {section}{\numberline {4.2}Terrestrial sampling design of the German NFI}{72}{section.4.2}
-\contentsline {section}{\numberline {4.3}Double sampling in the infinite population approach}{72}{section.4.3}
-\contentsline {section}{\numberline {4.4}Estimators}{73}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Design-based one-phase estimator for cluster sampling (SRS)}{73}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Design-based small area regression estimators for cluster sampling}{74}{subsection.4.4.2}
-\contentsline {subsubsection}{\nonumberline Pseudo Small Area Estimator (PSMALL{})}{75}{section*.57}
-\contentsline {subsubsection}{\nonumberline Pseudo Synthetic Estimator (PSYNTH{})}{76}{section*.58}
-\contentsline {subsubsection}{\nonumberline Extended Pseudo Synthetic Estimator (EXTPSYNTH{})}{77}{section*.59}
-\contentsline {subsection}{\numberline {4.4.3}Measures of estimation accuracy}{77}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Case study}{78}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Study area and small area units}{78}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Terrestrial sample}{78}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Extension to double-sampling design}{79}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Auxiliary data}{80}{subsection.4.5.4}
-\contentsline {subsubsection}{\nonumberline LiDAR canopy height model}{80}{section*.62}
-\contentsline {subsubsection}{\nonumberline Tree species map}{80}{section*.63}
-\contentsline {subsection}{\numberline {4.5.5}Calculation of the explanatory variables}{81}{subsection.4.5.5}
-\contentsline {subsubsection}{\nonumberline Canopy height model}{81}{section*.65}
-\contentsline {subsubsection}{\nonumberline Tree species map}{82}{section*.67}
-\contentsline {subsection}{\numberline {4.5.6}Regression Model}{83}{subsection.4.5.6}
-\contentsline {section}{\numberline {4.6}Results}{85}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}General estimation results}{85}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Estimation error}{86}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Comparison of PSMALL{} and EXTPSYNTH{}}{87}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Variance reduction compared to SRS}{87}{subsection.4.6.4}
-\contentsline {section}{\numberline {4.7}Discussion}{89}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Performance of estimators}{89}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Auxiliary data}{90}{subsection.4.7.2}
-\contentsline {section}{\numberline {4.8}Conclusion}{91}{section.4.8}
-\contentsline {chapter}{\numberline {5}Accuracy assessment of timber volume maps using forest inventory data and LiDAR canopy height models}{94}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{96}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Context and Problem}{96}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Background on Heuristic Search Methods}{98}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Materials and Methods}{98}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Materials}{98}{subsection.5.2.1}
-\contentsline {subsubsection}{\nonumberline Study Area}{98}{section*.79}
-\contentsline {subsubsection}{\nonumberline Timber Volume Densities from Field Inventory}{99}{section*.81}
-\contentsline {subsubsection}{\nonumberline LiDAR Data}{100}{section*.84}
-\contentsline {subsection}{\numberline {5.2.2}Methods}{101}{subsection.5.2.2}
-\contentsline {subsubsection}{\nonumberline Step I: Computation of Canopy Height Model}{102}{section*.87}
-\contentsline {subsubsection}{\nonumberline Step I: Regression Model}{102}{section*.88}
-\contentsline {subsubsection}{\nonumberline Step II: Assessment of Map Accuracy}{103}{section*.90}
-\contentsline {subsubsection}{\nonumberline Step III: Computation of the Timber Volume Map}{106}{section*.91}
-\contentsline {section}{\numberline {5.3}Results}{107}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Regression Model}{107}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Assessment of Map Classification Accuracy}{108}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Calculation of the Timber Volume Map}{110}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Discussion}{111}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Assessment of Map Accuracy}{111}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Class Selection by Optimization Model}{111}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Regression Model}{112}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Availability and Quality of Reference Data}{112}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Conclusion}{113}{section.5.5}
-\contentsline {chapter}{\numberline {6}Synthesis}{115}{chapter.6}
-\contentsline {section}{\numberline {6.1}Main results}{116}{section.6.1}
-\contentsline {chapter}{\nonumberline Bibliography}{117}{chapter*.100}
-\contentsline {chapter}{Curriculum Vitae}{126}{chapter*.101}
+\contentsline {chapter}{\numberline {1}Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{x}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{xii}{section.1.1}
+\contentsline {section}{\numberline {1.2}Materials and Methods}{xiv}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Study Area}{xiv}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Terrestrial Inventory Data}{xv}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Auxiliary Data}{xvi}{subsection.1.2.3}
+\contentsline {subsubsection}{\nonumberline ALS Canopy Height Model}{xvi}{section*.10}
+\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{xviii}{section*.12}
+\contentsline {subsection}{\numberline {1.2.4}Choice of Support under Angle Count Sampling}{xix}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}\color {black}{Model Building and Evaluation} \color {black}}{xx}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Results}{xxi}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Classification Accuracies}{xxi}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Regression Model Accuracies}{xxiii}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Final Regression Model}{xxiv}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Discussion}{xxviii}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Stratification according to ALS Acquisition Years and Tree Species}{xxviii}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Calibration of Tree Species Map Information}{xxx}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Choice of Support under Angle Count Sampling}{xxx}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Conclusion}{xxxi}{section.1.5}
+\contentsline {chapter}{\numberline {2}Synthesis}{xxxiii}{chapter.2}
+\contentsline {section}{\numberline {2.1}Main results}{xxxiv}{section.2.1}
+\contentsline {chapter}{\nonumberline Bibliography}{xxxv}{chapter*.31}
+\contentsline {chapter}{Curriculum Vitae}{xliv}{chapter*.32}
