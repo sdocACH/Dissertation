@@ -1,29 +1,17 @@
 \select@language {british}
-\contentsline {chapter}{Acknowledgements}{iv}{chapter*.4}
 \contentsline {chapter}{Summary}{v}{chapter*.5}
 \select@language {ngerman}
 \contentsline {chapter}{Zusammenfassung}{vii}{chapter*.6}
 \select@language {british}
-\contentsline {chapter}{\numberline {1}Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{x}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{xii}{section.1.1}
-\contentsline {section}{\numberline {1.2}Materials and Methods}{xiv}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Study Area}{xiv}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Terrestrial Inventory Data}{xv}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Auxiliary Data}{xvi}{subsection.1.2.3}
-\contentsline {subsubsection}{\nonumberline ALS Canopy Height Model}{xvi}{section*.10}
-\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{xviii}{section*.12}
-\contentsline {subsection}{\numberline {1.2.4}Choice of Support under Angle Count Sampling}{xix}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}\color {black}{Model Building and Evaluation} \color {black}}{xx}{subsection.1.2.5}
-\contentsline {section}{\numberline {1.3}Results}{xxi}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Classification Accuracies}{xxi}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Regression Model Accuracies}{xxiii}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Final Regression Model}{xxiv}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Discussion}{xxviii}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Stratification according to ALS Acquisition Years and Tree Species}{xxviii}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Calibration of Tree Species Map Information}{xxx}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Choice of Support under Angle Count Sampling}{xxx}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Conclusion}{xxxi}{section.1.5}
-\contentsline {chapter}{\numberline {2}Synthesis}{xxxiii}{chapter.2}
-\contentsline {section}{\numberline {2.1}Main results}{xxxiv}{section.2.1}
-\contentsline {chapter}{\nonumberline Bibliography}{xxxv}{chapter*.31}
-\contentsline {chapter}{Curriculum Vitae}{xliv}{chapter*.32}
+\contentsline {chapter}{\numberline {1}General Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Short history of forest inventory}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Thesis objective and structure}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Study 1: Design-based small area estimation}{3}{subsection.1.2.1}
+\contentsline {subsubsection}{\nonumberline Work Package 1: Software implementation}{4}{section*.7}
+\contentsline {subsubsection}{\nonumberline Work Package 2: Processing of auxiliary data and model building}{4}{section*.8}
+\contentsline {subsubsection}{\nonumberline Work Package 3: Small area estimation}{5}{section*.9}
+\contentsline {subsection}{\numberline {1.2.2}Study 2: Mapping}{5}{subsection.1.2.2}
+\contentsline {chapter}{\numberline {2}Synthesis}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Main results}{9}{section.2.1}
+\contentsline {chapter}{\nonumberline Bibliography}{11}{chapter*.10}
+\contentsline {chapter}{Curriculum Vitae}{14}{chapter*.11}

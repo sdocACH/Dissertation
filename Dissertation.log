@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  29 MAR 2018 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  3 APR 2018 16:46
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -1426,145 +1426,76 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 257.
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (Dissertation.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 8.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 7.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 8.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 8.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 8.
+(Font)              <10> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 8.
+(Font)              <7> on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 8.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 8.
+(Font)              <5> on input line 7.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 8.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 8.
-LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (8.66719pt too wide) detected at line 21
- []\T1/lmr/m/n/10 xxviii
- []
-
-
-Overfull \hbox (3.11168pt too wide) detected at line 25
- []\T1/lmr/m/n/10 xxxi
- []
-
-
-Overfull \hbox (12.29199pt too wide) detected at line 26
- []\T1/lmr/bx/n/10 xxxiii
- []
-
-
-Overfull \hbox (8.38966pt too wide) detected at line 27
- []\T1/lmr/m/n/10 xxxiv
- []
-
-
-Overfull \hbox (8.77798pt too wide) detected at line 28
- []\T1/lmr/bx/n/10 xxxv
- []
-
-
-Overfull \hbox (3.02798pt too wide) detected at line 29
- []\T1/lmr/bx/n/10 xliv
- []
-
-)
+))
 \tf@toc=\write8
 \openout8 = `Dissertation.toc'.
 
  [1
 
-] (Dissertation.lof
-Overfull \hbox (0.61145pt too wide) detected at line 6
- []\T1/lmr/m/n/10 xvii
- []
-
-
-Overfull \hbox (0.61145pt too wide) detected at line 8
- []\T1/lmr/m/n/10 xxii
- []
-
-
-Overfull \hbox (3.11168pt too wide) detected at line 9
- []\T1/lmr/m/n/10 xxiv
- []
-
-
-Overfull \hbox (0.33392pt too wide) detected at line 10
- []\T1/lmr/m/n/10 xxv
- []
-
-
-Overfull \hbox (3.11168pt too wide) detected at line 11
- []\T1/lmr/m/n/10 xxvi
- []
-
-
-Overfull \hbox (8.66719pt too wide) detected at line 12
- []\T1/lmr/m/n/10 xxviii
- []
-
-)
+]
+(Dissertation.lof)
 \tf@lof=\write9
 \openout9 = `Dissertation.lof'.
 
  [2
 
-] (Dissertation.lot
-Overfull \hbox (3.11168pt too wide) detected at line 6
- []\T1/lmr/m/n/10 xxvi
- []
-
-
-Overfull \hbox (5.88943pt too wide) detected at line 7
- []\T1/lmr/m/n/10 xxvii
- []
-
-)
+] (Dissertation.lot)
 \tf@lot=\write10
 \openout10 = `Dissertation.lot'.
 
- (Acknowledgements.tex [3
+ (main/Acknowledgements.tex [3
 
-]) (main/Summary.tex [4
+]
+[4
 
-]) [5
+]) (main/Summary.tex) [5
 
 ] [6
 
-]
-(main/Zusammenfassung.tex) [7
+] (main/Zusammenfassung.tex) [7
 
 ] [8
 
@@ -1574,7 +1505,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9
 
 ]
-(Regmodel_Article/regmod_article.tex
+(main/Introduction(2).tex
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1591,193 +1522,57 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
-
- []
-
-[10
-
-] [11]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 42.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [12
-
-] [13]
-<Grafiken/Regmod_article/terr_sampledesign_bw.png, id=314, 609.477pt x 615.4995
-pt>
-File: Grafiken/Regmod_article/terr_sampledesign_bw.png Graphic file (type png)
- <use Grafiken/Regmod_article/terr_sampledesign_bw.png>
-Package pdftex.def Info: Grafiken/Regmod_article/terr_sampledesign_bw.png used 
-on input line 74.
-(pdftex.def)             Requested size: 341.43437pt x 344.80885pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-[15 <./Grafiken/Regmod_article/terr_sampledesign_bw.png>]
-(Tabellen/SAE_article/table_fieldmeasuredvals.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 7.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 7.
-) [16]
-<Grafiken/Regmod_article/lidar_years_quality.png, id=379, 597.56717pt x 784.107
-77pt>
-File: Grafiken/Regmod_article/lidar_years_quality.png Graphic file (type png)
- <use Grafiken/Regmod_article/lidar_years_quality.png>
-Package pdftex.def Info: Grafiken/Regmod_article/lidar_years_quality.png used o
-n input line 105.
-(pdftex.def)             Requested size: 341.43437pt x 448.01091pt.
- [17 <./Grafiken/Regmod_article/lidar_years_quality.png>] [18] [19]
-<Grafiken/Regmod_article/cdf_maxri.png, id=451, 650.43pt x 578.16pt>
-File: Grafiken/Regmod_article/cdf_maxri.png Graphic file (type png)
-
-<use Grafiken/Regmod_article/cdf_maxri.png>
-Package pdftex.def Info: Grafiken/Regmod_article/cdf_maxri.png used on input li
-ne 166.
-(pdftex.def)             Requested size: 170.71718pt x 151.74721pt.
-
-<Grafiken/Regmod_article/choice_of_support.png, id=452, 501.54655pt x 453.04483
-pt>
-File: Grafiken/Regmod_article/choice_of_support.png Graphic file (type png)
- <use Grafiken/Regmod_article/choice_of_support.png>
-Package pdftex.def Info: Grafiken/Regmod_article/choice_of_support.png used on 
-input line 171.
-(pdftex.def)             Requested size: 170.71718pt x 154.20602pt.
-
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 164--174
-[][] [] 
- []
-
-[20 <./Grafiken/Regmod_article/cdf_maxri.png> <./Grafiken/Regmod_article/choice
-_of_support.png>]pdfTeX warning (ext4): destination with the same identifier (n
-ame{equation.1.2.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.189 	\end{align}
-                  
-<Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png, id=472, 650.43p
-t x 2168.1pt>
-File: Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png Graphic fil
-e (type png)
+l.21 \newpage
+              [1
 
-<use Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png>
-Package pdftex.def Info: Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_no
-cal.png used on input line 221.
-(pdftex.def)             Requested size: 341.43437pt x 1138.13725pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{equation.
-1.2.2}) has been already used, duplicate ignored
+] [2]
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.224 \end{figure}
-                  ] [22 <./Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_
-nocal.png>] [23]
-<Grafiken/Regmod_article/cos_cal_nocal_bw.png, id=502, 1228.59pt x 1300.86pt>
-File: Grafiken/Regmod_article/cos_cal_nocal_bw.png Graphic file (type png)
-
-<use Grafiken/Regmod_article/cos_cal_nocal_bw.png>
-Package pdftex.def Info: Grafiken/Regmod_article/cos_cal_nocal_bw.png used on i
-nput line 247.
-(pdftex.def)             Requested size: 341.43437pt x 361.51894pt.
-
-<Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png, id=504, 2095.83pt x 1156.32pt
->
-File: Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png Graphic file (type png)
- <use Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png>
-Package pdftex.def Info: Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png used o
-n input line 255.
-(pdftex.def)             Requested size: 341.43437pt x 188.36734pt.
+LaTeX Warning: Reference `chap:rpack' on page 3 undefined on input line 146.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `chap:regmod' on page 3 undefined on input line 146.
 
-[24 <./Grafiken/Regmod_article/cos_cal_nocal_bw.png>]
-<Grafiken/Regmod_article/predlines_tspecaux_cal.png, id=518, 1806.75pt x 1445.4
-pt>
-File: Grafiken/Regmod_article/predlines_tspecaux_cal.png Graphic file (type png
+
+LaTeX Warning: Reference `chap:sae' on page 3 undefined on input line 146.
+
+[3]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 156.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
- <use Grafiken/Regmod_article/predlines_tspecaux_cal.png>
-Package pdftex.def Info: Grafiken/Regmod_article/predlines_tspecaux_cal.png use
-d on input line 271.
-(pdftex.def)             Requested size: 341.43437pt x 273.15117pt.
 
+LaTeX Warning: Reference `chap:rpack' on page 4 undefined on input line 156.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[4] [5]
 
-(Tabellen/Regmod_article/modacc_modterms.tex
-Overfull \hbox (1.40787pt too wide) in paragraph at lines 7--18
- [][] 
- []
+LaTeX Warning: Reference `chap:regmod' on page 6 undefined on input line 214.
 
-) [25 <./Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png>]
-
-LaTeX Warning: Text page xxvi contains only floats.
-
-
-Overfull \vbox (3.09755pt too high) has occurred while \output is active []
-
-
-[26 <./Grafiken/Regmod_article/predlines_tspecaux_cal.png>]
-(Tabellen/Regmod_article/mod_r2_lyearstrata_table.tex)
-<Grafiken/Regmod_article/r2adj_in_lyears.png, id=542, 1011.78pt x 1011.78pt>
-File: Grafiken/Regmod_article/r2adj_in_lyears.png Graphic file (type png)
-
-<use Grafiken/Regmod_article/r2adj_in_lyears.png>
-Package pdftex.def Info: Grafiken/Regmod_article/r2adj_in_lyears.png used on in
-put line 293.
-(pdftex.def)             Requested size: 341.43437pt x 341.43785pt.
- [27] [28 <./Grafiken/Regmod_article/r2adj_in_lyears.png>]
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
- [29]
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
- []
-
-) [31]
+) [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [7
 
 ]
 (Main/Synthese.tex
 chapter 2.
-[33
+[8
 
-] [34]) (Dissertation.bbl
+] [9]) [10
+
+] (Dissertation.bbl
 chapter without number
 
 LaTeX Font Warning: Font shape `T1/lmr/b/it' in size <10> not available
-(Font)              Font shape `T1/lmr/b/sl' tried instead on input line 77.
+(Font)              Font shape `T1/lmr/b/sl' tried instead on input line 21.
 
-[35
+[11
 
-
-] [36] [37] [38] [39] [40] [41] [42]) (Main/Curriculum.tex [43]
+] [12]) (Main/Curriculum.tex [13]
 Overfull \hbox (2.65912pt too wide) in alignment at lines 8--14
 [][] 
  []
@@ -1807,7 +1602,7 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 41--57
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44
+ [14
 
 ]
 
@@ -1828,10 +1623,10 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 78--90
 [][] 
  []
 
-) [45]
+) [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46
+ [16
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
@@ -1841,40 +1636,37 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: C56A7A9E99715A4B77813F16E093BC9F;866.
+(rerunfilecheck)             Checksum: 08288AA80B775EF14C102E6A13BD1447;517.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
  ) 
 Here is how much of TeX's memory you used:
- 29240 strings out of 493333
- 555497 string characters out of 3139194
- 745914 words of memory out of 7999999
- 31824 multiletter control sequences out of 15000+200000
- 94020 words of font info for 107 fonts, out of 3000000 for 9000
+ 28555 strings out of 493333
+ 541868 string characters out of 3139194
+ 733159 words of memory out of 7999999
+ 31351 multiletter control sequences out of 15000+200000
+ 72164 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,15n,69p,8825b,816s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
-y.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program
- Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/lm/lmbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmm
-i6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmsy7.pfb>
-Output written on Dissertation.pdf (47 pages, 16427545 bytes).
+ 64i,11n,69p,8825b,616s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmb10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbo10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmtt10.pfb>
+Output written on Dissertation.pdf (26 pages, 391514 bytes).
 PDF statistics:
- 889 PDF objects out of 1000 (max. 8388607)
- 241 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
