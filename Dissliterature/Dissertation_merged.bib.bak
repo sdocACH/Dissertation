@@ -82,8 +82,8 @@
 }
 
 @Misc{bwi3_aufn,
-  author    = {{B}undesministerium für {E}rn{\"a}hrung, {L}andwirtschaft und {V}erbraucherschutz},
-  title     = {Aufnahmeanweisung für die dritte {B}undeswaldinventur {BWI3} (2011 - 2012)},
+  author    = {{B}undesministerium f{\"a}r {E}rn{\"a}hrung, {L}andwirtschaft und {V}erbraucherschutz},
+  title     = {Aufnahmeanweisung f{\"u}r die dritte {B}undeswaldinventur {BWI3} (2011 - 2012)},
   year      = {2011},
   file      = {:pdf\\AufnahmeanweisungBWI3.pdf:PDF},
   publisher = {BMELV},
@@ -1804,7 +1804,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @PhdThesis{mandallaz1993,
   author = {Mandallaz, Daniel},
   title  = {Geostatistical methods for double sampling schemes},
-  school = {Chair of Forest Inventory and Planning, Swiss Federal Institute of Technology (ETH)},
+  school = {ETH Zurich},
   year   = {1993},
   type   = {Habilitation},
 }
