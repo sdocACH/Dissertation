@@ -11,16 +11,40 @@
 \label{sec:synth:mainfind}
 
 % Design-based SAE in RLP:
-%  
-% - the proposed design-based small area regression estimators show great potential for the German NFI data to be additionally used for estimation of forest attributes on forest district level. 
-%   In a first case study presented in this thesis, 
 %
-% - auxiliary data: tree species indicated to be a valuable additional auxiliary variable when combined with vegetation height data to predict standing timber volume. When derived from satellite or
-%   remote-sensing based classification, the effect of misclassifiction
-%
-% - unbiased estimators preferable because ...
-%
+% - The investigated DESIGN-BASED small area regression estimators show great potential for the German NFI data to be additionally used 
+%   for estimation of forest attributes on forest district level. In a first case study presented in this thesis, the variance for the estimation of timber volume was reduced by 43\% and 25\% on average compared to the one-phase estimator exclusively using the terrestrial data, resulting in estimation errors of 5\% and 11\% on average respectively.
 
+% - the results of study 1 strongly support the findings of similar studies, i.e. the precision of estimates based on national forest inventory 
+%   data on regional scales can be considerably improved if the terrestrial inventory data are used in combination with remote sensing data in
+%   the framework of small area estimation techniques.
+%
+% - area-wide remote sensing data are more frequently acquired
+%   
+% - auxiliary data: tree species indicated to be a valuable additional auxiliary variable when combined with vegetation height data to 
+%   predict standing timber volume.
+%
+% - If error prone categorical variables (such as derived from satellite or remote-sensing based classifications) are used, the suggested calibration technique 
+%   provides a simple and effective method to remove the bias in the regression coefficients caused by misclassifications and thereby also 
+%   increase the model precision.
+%
+% - unbiased estimators preferable because 
+%
+%
+% - OLS linear model proved to be flexible 
+%
+% - post-stratification (special case of regression estimation)
+%
+% - Recommendation Psmall vs. Extpsynth
+
+% Questions:
+% - why is sae estimation so attractive? Why should it be applied / is it a MUST to be applied?
+%   ()
+% - What recent developments and circumstances facilitate the application of SAE?
+%   (frequently availabe and updated remote sensing information and software)
+% - what improvements are necessary or can be expected?
+% - recommendations?
+%
 
 
 \newpage
@@ -33,15 +57,22 @@
 
 % Design-based SAE in RLP:
 %
+% - use of systematic grids in practice treated as uniformly randomly distributed sample locations. In the strict sense, this is a violation of
+%   the assumptions of design-based inference. Reassuringly, simulations have indicated that this leads in most cases to a overestimation of the variance and thus conservative estimates of the estimation errors. [Geostatistic ...]
+%
+% - practical implementation of double-sampling with special application to SAE: 
+%   + forest definition (mask vs. field decision) 
+%   + theoretically, boundary adjustment (both on aux. data and field) should be performed also at the boundaries of a SAE unit. For the field inventory, this is at the moment not done, since sae ds estimation has not yet been a implemented part of the National Forest Inventory. (It was consequently also not done for the aux.data in our study). Performing boundary adjustment also at the sa-borders would imply an increased effort in the field inventory as well as an considerable increase in data storage. Neglecting the badj at the sa-borders simplify things, but the implications have yet not been tested. This could be a topic for future work. [When would negclecting be a problem?].  
+% 
+%
 % - time-lags between terrestrial survey and acquisition of the auxiliary data
 %
 % - angle-count sampling hampers the derivation of auxiliary data since the exact extent around a sample location in which information was gathered cannot be determined
 %
 % - unbiasedness comes to the price of providing a minimum number of terrestrial observations in a small area. Regarding the question about a sufficient number, the case study indicated
-%   that sample sizes in a small area $\leq 5$ can result in large estimation errors when combined with moderate and poor model fits. [Additionally ...]. These considerations suggest a minimum sample
-%   size of at least 6 observations per small area. However, this number is likely not met for ...\% of the FR districts and can surely not be provided on smaller spatial scales such as forest stands.
-%   If estimations on these scales are still requested, it might be inevitable to increase the sampling frequency of the terrestrial inventory or apply model-dependent estimators. The disadvantage of
-%   model-dependent estimators however ...
+%
+%   that sample sizes in a small area $\leq 5$ can result in large estimation errors when combined with moderate and poor model fits. [Additionally ...]. These considerations suggest a minimum sample size of at least 6 observations per small area. However, this number is likely not met for ...\% of the FR districts and can surely not be provided on smaller spatial scales such as forest stands
+%   If estimations on these scales are still requested, it might be inevitable to increase the sampling frequency of the terrestrial inventory or apply model-dependent estimators. The disadvantage of model-dependent estimators however ...
 %
 %   --> "How much?": - the case study indicated that sample sizes in a small area $\leq 5$ can result in large estimation errors when combined
 %                      with moderate and poor model fits
@@ -50,7 +81,8 @@
 % - design-based estimators in general: 
 %  * errors in response not considered in the quantification of the estimation uncertainties (response considered error-free)
 %  * design-based estimators rely on randomization of sample locations, but are applied to systematic grids. ...
-%
+%  * in optimal case: synchronize rs-acquisition with date of the terrestrial survey to ensure optimal model preformance
+%  * if synchronizaztion not possible: minimize time-lagse 
 %
 %
 
