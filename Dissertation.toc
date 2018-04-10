@@ -90,7 +90,7 @@
 \contentsline {subsection}{\numberline {4.6.1}General estimation results}{83}{subsection.4.6.1}
 \contentsline {subsection}{\numberline {4.6.2}Estimation error}{84}{subsection.4.6.2}
 \contentsline {subsection}{\numberline {4.6.3}Comparison of PSMALL{} and EXTPSYNTH{}}{85}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Variance reduction compared to SRS}{85}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.4}Variance reduction compared to SRS}{86}{subsection.4.6.4}
 \contentsline {section}{\numberline {4.7}Discussion}{87}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Performance of estimators}{87}{subsection.4.7.1}
 \contentsline {subsection}{\numberline {4.7.2}Auxiliary data}{88}{subsection.4.7.2}

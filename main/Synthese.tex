@@ -14,46 +14,32 @@
 
 % ----------------------------------------- %
 % * study 3 - estimations:
-% - The investigated design-based small area regression estimators show great potential for the German NFI data to be additionally used for estimation of forest attributes on forest district levels. In the case study presented in this thesis, the variance for the estimation of timber volume was reduced by 43\% and 25\% on average on both district levels compared to the one-phase estimator exclusively using the terrestrial inventory data, resulting in estimation errors of 5\% and 11\% on average respectively. The results thus strongly support the findings of similar studies from other countries that the precision of estimates based on national forest inventory data on regional scales can be considerably improved if the terrestrial inventory data are used in combination with remote sensing data in the framework of small area estimation techniques. 
-
-
-
-% - unbiased estimators preferable because 
-
-
+The investigated design-based small area regression estimators show great potential for the German NFI data to be additionally used for estimation of forest attributes on forest district levels. In the case study presented in this thesis, the variance of the unbiased estimators for the estimation of timber volume was reduced by 43\% and 25\% on average on both district levels compared to the one-phase estimator exclusively using the terrestrial inventory data, resulting in estimation errors of 5\% and 11\% on average respectively. The results thus strongly support the findings of similar studies from other countries that the precision of estimates based on national forest inventory data on regional scales can be considerably improved if the terrestrial inventory data are combined with remote sensing data in the framework of small area estimation techniques. It was also empirically confirmed that the synthetic estimator who neglects the prediction performance of the regression model produces considerably smaller variances and confidence intervals compared to the estimates of the unbiased estimators. In addition to their potential design-bias, this strongly suggests that synthetic estimates are over-optimistic and should be treated with caution. The application of design-unbiased estimators provides the advantage of not having to rely on the validity of the prediction model and should thus be preferred to synthetic estimation whenever it is possible. Fitting the regression model used in the estimators internally seems obvious if the terrestrial inventory phase provides sufficient data for modelling. This is most likely the case if the terrestrial inventory phase is a national forest inventory covering large areas and diverse forest structures. In case the regression model is fitted internally, providing the g-weight variance is preferable to the external variance since it accounts for the dependency of the regression coefficients on the realized sample.\par
 
 % ----------------------------------------- %
 % * study 2 - modelling:
-
+Whereas calculating the g-weight variance restricts the internal model of the estimators to OLS regression, it was demonstrated that OLS modelling possibilities provide sufficient flexibility to reflect real world interactions between predictor variables and mitigate residual inflations caused by quality restrictions in the auxiliary data. Among the auxiliary variables for timber volume prediction, the main tree species of a sample plot revealed to be a powerful predictor when combined with vegetation height information and can be used to boost prediction performance. If categorical data such as tree species information is derived from classification of remote-sensing data and thus prone to classification errors, the calibration technique suggested in this thesis provides a simple and effective method to remove the bias in the regression coefficients caused by misclassifications and thereby increase the model precision. It was also shown that extending double-sampling for regression to post-stratification is an effective means to reduce the variance of estimates and can easily be implemented by using categorical variables including their interactions with other categorical or continuous predictors in the regression model.
 
 
 % - OLS linear model proved to be flexible 
-% - auxiliary data: tree species indicated to be a valuable additional auxiliary variable when combined with vegetation height data to 
+% - auxiliary data: tree species indicated to be a valuable additional auxiliary variable (main plot species revealed to be an additional powerful predictor) when combined with vegetation height data to 
 %   predict standing timber volume.
 % - If error prone categorical variables (such as derived from satellite or remote-sensing based classifications) are used, the suggested calibration technique 
-%   provides a simple and effective method to remove the bias in the regression coefficients caused by misclassifications and thereby also 
-%   increase the model precision.
-% - post-stratification (special case of regression estimation)
+%   provides a simple and effective method to remove the bias in the regression coefficients caused by misclassifications and thereby also increase the model precision.
+% - post-stratification as special case of regression estimation revealed to by an effective means to decrease the variance of estimates and can easily be implemented by using categorical variables 
+%   in the regression model. The g-weight variance provides the advantage that ...
 
 % ----------------------------------------- %
 % * conclusion - including study 1 - software:
 
 
-
-
-
-
-
-% - the results of study 1 strongly support the findings of similar studies, i.e. the precision of estimates based on national forest inventory 
-%   data on regional scales can be considerably improved if the terrestrial inventory data are used in combination with remote sensing data in
-%   the framework of small area estimation techniques.
 %
 % - area-wide remote sensing data are more frequently acquired
 %   
 
 %
 
-%
+% - advantage of internal model and g-weight variance
 
 %
 %
@@ -83,29 +69,31 @@
 
 % Design-based SAE in RLP:
 %
-% - use of systematic grids in practice treated as uniformly randomly distributed sample locations. In the strict sense, this is a violation of
-%   the assumptions of design-based inference. Reassuringly, simulations have indicated that this leads in most cases to a overestimation of the variance and thus conservative estimates of the estimation errors. [Geostatistic ...]
+% - use of systematic grids in practice treated as uniformly randomly distributed sample locations. In the strict sense, this is a violation of the design-based inference assumptions. Reassuringly, simulations have indicated that this leads in most cases to a overestimation of the variance and thus conservative estimates of the estimation errors. [Geostatistic ...]
 %
 % - practical implementation of double-sampling with special application to SAE: 
 %   + forest definition (mask vs. field decision) 
 %   + theoretically, boundary adjustment (both on aux. data and field) should be performed also at the boundaries of a SAE unit. For the field inventory, this is at the moment not done, since sae ds estimation has not yet been a implemented part of the National Forest Inventory. (It was consequently also not done for the aux.data in our study). Performing boundary adjustment also at the sa-borders would imply an increased effort in the field inventory as well as an considerable increase in data storage. Neglecting the badj at the sa-borders simplify things, but the implications have yet not been tested. This could be a topic for future work. [When would negclecting be a problem?].  
 % 
-%
 % - time-lags between terrestrial survey and acquisition of the auxiliary data
 %
 % - angle-count sampling hampers the derivation of auxiliary data since the exact extent around a sample location in which information was gathered cannot be determined
 %
-% - unbiasedness comes to the price of providing a minimum number of terrestrial observations in a small area. Regarding the question about a sufficient number, the case study indicated
-%
-%   that sample sizes in a small area $\leq 5$ can result in large estimation errors when combined with moderate and poor model fits. [Additionally ...]. These considerations suggest a minimum sample size of at least 6 observations per small area. However, this number is likely not met for ...\% of the FR districts and can surely not be provided on smaller spatial scales such as forest stands
+% - unbiasedness comes to the price of providing a minimum number of terrestrial observations in a small area. Regarding the question about a sufficient number, the case study indicated that sample sizes in a small area $\leq 5$ can result in large estimation errors when combined with moderate and poor model fits. [Additionally ...]. These considerations suggest a minimum sample size of at least 6 observations per small area. However, this number is likely not met for ...\% of the FR districts and can surely not be provided on smaller spatial scales such as forest stands
 %   If estimations on these scales are still requested, it might be inevitable to increase the sampling frequency of the terrestrial inventory or apply model-dependent estimators. The disadvantage of model-dependent estimators however ...
 %
 %   --> "How much?": - the case study indicated that sample sizes in a small area $\leq 5$ can result in large estimation errors when combined
 %                      with moderate and poor model fits
 %                    - theoretically: ...
 %
-% - design-based estimators in general: 
-%  * errors in response not considered in the quantification of the estimation uncertainties (response considered error-free)
+% - aux. data:
+%  * non-exhaustive 
+%  * time-lags
+%
+% - design-based estimators in general:
+%  * extpsynth under cluster sampling -> violation
+%  * g-weight variance restricted to OLS regression 
+%  * [errors in response not considered in the quantification of the estimation uncertainties (response considered error-free)]
 %  * design-based estimators rely on randomization of sample locations, but are applied to systematic grids. ...
 %  * in optimal case: synchronize rs-acquisition with date of the terrestrial survey to ensure optimal model preformance
 %  * if synchronizaztion not possible: minimize time-lagse 
@@ -122,9 +110,12 @@
 \label{sec:synth:future}
 
 % - use auxiliary information!
-% - minimize time-lags between terrestrial survey and acquisition of the auxiliary data --> especially crucial for change estimation
-% - 
-%
+% - enhance comparability between field data and remote sensing data:
+%   * minimize time-lags between terrestrial survey and acquisition of the auxiliary data --> especially crucial for change estimation
+%   * improve positional accuracy, spatial resolution
+% - use estimators also for:
+%   * change estimation
+%   * estimation of ratios (--> if desired information is also supported by auxiliary information!)
 %
 %
 %

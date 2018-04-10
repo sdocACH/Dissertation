@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  9 APR 2018 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  10 APR 2018 18:30
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -2398,16 +2398,19 @@ Underfull \vbox (badness 7722) has occurred while \output is active []
 File: Grafiken/SAE_article/psmall_vs_extpsynth_fu.png Graphic file (type png)
 <use Grafiken/SAE_article/psmall_vs_extpsynth_fu.png>
 Package pdftex.def Info: Grafiken/SAE_article/psmall_vs_extpsynth_fu.png used o
-n input line 533.
+n input line 535.
 (pdftex.def)             Requested size: 341.43437pt x 157.58517pt.
+
+Underfull \vbox (badness 1803) has occurred while \output is active []
+
  [85 <./Grafiken/SAE_article/psmall_vs_extpsynth_fu.png (PNG copy)>]
-<Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png, id=1821, 766.062pt
+<Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png, id=1820, 766.062pt
  x 578.16pt>
 File: Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png Graphic file (
 type png)
  <use Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png>
 Package pdftex.def Info: Grafiken/SAE_article/compare_onephase_extpsynth_psmall
-.png used on input line 551.
+.png used on input line 553.
 (pdftex.def)             Requested size: 341.43437pt x 257.69061pt.
 
 [86 <./Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png>]
@@ -2416,7 +2419,7 @@ File: Grafiken/SAE_article/eval_2phase_fail_11.png Graphic file (type png)
 
 <use Grafiken/SAE_article/eval_2phase_fail_11.png>
 Package pdftex.def Info: Grafiken/SAE_article/eval_2phase_fail_11.png used on i
-nput line 582.
+nput line 584.
 (pdftex.def)             Requested size: 341.43437pt x 142.26578pt.
  [87 <./Grafiken/SAE_article/eval_2phase_fail_11.png>] [88]) [89] [90]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2709,7 +2712,7 @@ e1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Dissertation.pdf (140 pages, 43328674 bytes).
+Output written on Dissertation.pdf (140 pages, 43331468 bytes).
 PDF statistics:
  2514 PDF objects out of 2984 (max. 8388607)
  540 named destinations out of 1000 (max. 500000)
