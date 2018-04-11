@@ -122,6 +122,6 @@
 \contentsline {chapter}{\numberline {6}Synthesis}{113}{chapter.6}
 \contentsline {section}{\numberline {6.1}Main findings}{114}{section.6.1}
 \contentsline {section}{\numberline {6.2}Limitations and criticism}{115}{section.6.2}
-\contentsline {section}{\numberline {6.3}Implications for future work}{116}{section.6.3}
+\contentsline {section}{\numberline {6.3}Conclusion and implications for future work}{116}{section.6.3}
 \contentsline {chapter}{\nonumberline Bibliography}{117}{chapter*.100}
 \contentsline {chapter}{Curriculum Vitae}{126}{chapter*.101}
