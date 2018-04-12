@@ -24,26 +24,7 @@ Whereas calculating the g-weight variance restricts the internal model of the es
 % * study 4 - mapping:
 The investigated mapping scenario constitutes a special case of small area estimation where the target area, i.e. a map cell, corresponds to the extent of a sample plot and thus exclusively comprises one model prediction. In the case of prediction maps for continuous response variables, the suggested approach of calculating the user's accuracy for prediction value intervals according to accuracy assessment techniques constitutes an alternative way of providing a confidence interval for each map cell. A difference to classical regression prediction intervals is that the confidence level for the intervals can vary between map cells instead of being fixed. This seems more appropriate for practical usage as it provides the map user with precisions associated to self-defined map value intervals opposed to providing him with map value intervals based on a fixed confidence level. The proposed optimization method can additionally be used to automatically identify prediction intervals that provide highest possible confidence levels while ensuring statistically sound properties of the underlying error matrix. 
 
-
-% ----------------------------------------- %
-% * conclusion - incl. study 1:
-% 
-
-% concerning software: ..., which has been well appreciated by the forest inventory community (no. of total downloads: 4700 between June 2016 and April 2018).
-%
-% - area-wide remote sensing data are more frequently acquired
-%   
-
-
-% Questions:
-% - why is sae estimation so attractive? Why should it be applied / is it a MUST to be applied?
-% - What recent developments and circumstances facilitate the application of SAE?
-%   (frequently availabe and updated remote sensing information and software)
-% - what improvements are necessary or can be expected?
-% - recommendations?
-%
-
-
+% vorteil g-weigth bei post-strat.-A gewichte über n1 statt über n2 bei externen varianz
 
 
 %---------------------------------------------------------------------------------%
@@ -51,27 +32,48 @@ The investigated mapping scenario constitutes a special case of small area estim
 
 \section{Limitations and criticisms}
 \label{sec:synth:limits}
-% 
+% The most obvious criticism on the design-based estimators is that they are applied to systematic inventory grids although they rely on the assumption of independently and uniformly distributed sample locations. Accounting for the systematic grid design would imply the application of model-dependent geostatistical ordinary and double kriging estimators \citep{mandallaz1993} to statistically soundly incorporating the spatial correlation of the response and model residuals respectively. Extensive studies in \citep{mandallaz1993} reassuringly revealed that while the design-based estimators tend to overestimate the variance under systematic grids, the difference to the kriging variance is marginal for large domains whose extent considerably exceed the spatial correlation range. This 
 
+% Whereas the design-based estimators might still overestimate the variance in small areas, 
 
-
-
+%  * design-based estimators rely on randomization of sample locations, but are applied to systematic grids. 
+%    -> sorglos wäre man wenn man echt db-based arbeitet (zufällig verteilt) --> aber nicht realistisch aus kostengründen
+%    -> db g-weight var. hergeleitet unter lediglicher random annahme. --> unabhängig von der varianz der resdiduen
+%    -> tends to overestimate the variance, especially in small areas (safe side -> citation?) --> cite Habil Mandallaz 1993, 2000 
+%    -> for large areas, db and geostat very close , especially for two-phase (range of residuals) 
+%
+% -> wald muss als stationär (wald wiederholt sich im Raum) angenommen werden --> scale-dependent! (Bergketten-Beispiel)
+%
+%    -> not neglecting would imply the application of model-dependent estimation techniques. Here, geostatistical double-kriging as proposed by Mandallaz (1993) would
+%       provide an estimation method that offers a statistically sound incorporation of the spatial correlation & provides method for non-exh. aux.info
+%    -> db und geostat stimmen überein für grosse Gebiete, geostat kann besser sein für kleine Gebiete (wenn räumliche Korr.  (range) grösser als Kleingebiet) --> Mandallaz p 151 / 152
+%    -> grösster Teil der varianz kommt db aus residuen: --> korrelation der resiuden sehr sehr viel kleiner als der response
+%    -> deshalb wenn nur one-phase, ist fehler mit OK deutlich kleiner als db (range response hoch), bei 1-phase kommt es auf den range der residuen an
+%        --> range deutlich kleiner, deswegen effekt v.a. in sehr kleinen Gebieten merkbar
+%    -> aber geostat. braucht auch Annahmen wie Stationarität 
+%    -> mixed-model modellieren abstandunabhängig (innerhalb von Bestand z.B.)
+%
 % - design-based estimators in general:
 %  * cluster sampling --> my judgement
-%    -> is known to increase the variance of estimates (cluster correlation coeff). More for state than for change estimation (intra cluster correlation for state higher than for change)
-%    -> extpsynth under cluster sampling -> violation (recommendation psmall vs. extpsynth)
-%  * g-weight variance restricted to OLS regression --> outlook: others models combined with external variance --> hint at Alex Diss
-%  * design-based estimators rely on randomization of sample locations, but are applied to systematic grids. 
-%    -> tends to overestimate (safe side)
-%    -> not neglecting would imply the application of model-dependent estimation techniques. Here, geostatistical double-kriging as proposed by Mandallaz (1993) would
-%       provide an estimation method that offers a statistically sound incorporation of the spatial correlation
+%    -> is known to increase the variance of estimates (expressed by cluster correlation coeff). More for state than for change estimation (intra cluster correlation for state higher than for change)
+%  * comparison of psmall vs. extpsynth:
+%    -> psmall and extpsynth performed almost equivalently from a practical point of view, since in all cases they did not yield statist. different point estimates. 
+%    -> While for small sample sizes, extpsynth tends to yield marginally smaller variances, its was emprically indicated that the differences between extpsynth and psmall variances are necligible 
+%       for sample sizes larger 10 in the small area
+%    -> However, extpsynth under cluster sampling -> assumpations can be violated (--> recommendation: for small sample sizes < 6 use psmall)
 %  * critical sample sizes n2G in small area --> rule of thumb?
 %    -> evidence from case study: a threshold of n2G > 6, but at least > 4 ()
+%    -> coverage rates --> simulations also indicate 
 %    -> theoretical considerations: simulations, dependency of coverage rates on n2G (Daniel)
+%
+
+%  * g-weight variance restricted to OLS regression --> outlook: others models combined with external variance --> hint at Alex Diss
+
 
 % - practical implementation of double-sampling with special application to SAE:
 %  * forest definition (mask vs. field decision) 
 %  * boundary adjustment at small area borders
+%  * location errors --> article
 %
 
 % - modelling:
@@ -80,7 +82,8 @@ The investigated mapping scenario constitutes a special case of small area estim
 %    -> especially important for change estimation
 %    -> time-lags could be accounted for in state estimation, but has more limiting effects especially in the case of change estimation (ref to Diss Alex)
 %  * angle-count sampling implies the problem that the extraction of the auxiliary information cannot be matched to an exact spatial extent in which the terrestrial data was gathered
-%    -> 
+%    -> not as critial for the resolution of our auxdata, but likely more severe for higher resolution axdata
+%    -> it was shown by Mandallaz (page 240) that 2-3 concentric circles are close to optimal pps (gamma coefficient) --> das könnte man auch für die German NFI machen
 
 % - mapping:
 %  * opt. method is a heuristic: 
@@ -89,7 +92,7 @@ The investigated mapping scenario constitutes a special case of small area estim
 %  * even the user's accuracies that serve as confidence levels for the prediction intervals are themselves associated with uncertainties caused by the sampling of reference data.
 %
 
-
+% + multiple-testing: one never knows which of the 95 out of 100 CIs contain the true value
 
 
 
@@ -126,7 +129,7 @@ The investigated mapping scenario constitutes a special case of small area estim
 
 % - design-based regression estimator --> good!
 % - use auxiliary information! The availability will even increase + more frequently updated --> change estimation; + additional attributes
-% - we are within a transition period from one-phase to multi-phase inventories. Thus, 
+% - we are within a transition period from one-phase to multi-phase inventories. Thus, one should in any case not [verzichten auf] the terrestrial inventory
 % - enhance comparability between field data and remote sensing data:
 %   * minimize time-lags between terrestrial survey and acquisition of the auxiliary data --> especially crucial for change estimation
 %   * improve positional accuracy, spatial resolution
@@ -134,10 +137,22 @@ The investigated mapping scenario constitutes a special case of small area estim
 %   * change estimation
 %   * estimation of ratios (--> if desired information is also supported by auxiliary information!)
 %
+% -> 
+%
+% concerning software: ..., which has been well appreciated by the forest inventory community (no. of total downloads: 4700 between June 2016 and April 2018).
+%
+% - area-wide remote sensing data are more frequently acquired
+%   
+% Questions:
+% - why is sae estimation so attractive? Why should it be applied / is it a MUST to be applied?
+% - What recent developments and circumstances facilitate the application of SAE?
+%   (frequently availabe and updated remote sensing information and software)
+% - what improvements are necessary or can be expected?
+% - recommendations?
 %
 %
-%
-
+% -> Ausblick auf geostatistic: korrelationstrukturen aus eigener Untersuchung nennen --> es wird nicht viel bringen --> ranges (error in variogramm fitting not solved)
+%   read discussion habil daniel
 
 
 
