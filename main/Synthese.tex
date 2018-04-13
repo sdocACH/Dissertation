@@ -20,11 +20,11 @@ The investigated design-based small area regression estimators show great potent
 % * study 2 - modelling:
 Whereas calculating the g-weight variance restricts the internal model of the estimators to OLS regression, it was demonstrated that OLS modelling possibilities provide sufficient flexibility to reflect real world dependencies between predictor and response variables and also to mitigate residual inflations caused by quality restrictions in the auxiliary data. If the quality of auxiliary data varies between known strata, including these strata as categorical predictors in the regression model can be an effective means to improve the model precision. Among the auxiliary variables for timber volume prediction, the main tree species of a sample plot revealed to be a powerful predictor when combined with vegetation height information that can be used to boost prediction performance. If categorical data such as tree species information is derived from classification of remote-sensing data and thus prone to classification errors, the calibration technique suggested in this thesis provides a simple and effective method to remove the bias in the regression coefficients caused by misclassifications and thereby increase the model precision. Using categorical variables including their interactions with other categorical or continuous predictors in the regression model thereby extends double-sampling for regression to post-stratification, which is a well-known and effective means to reduce the variance of estimates.\par
 
+% add: vorteil g-weigth bei post-strat.-A gewichte über n1 statt über n2 bei externen varianz
+
 % ----------------------------------------- %
 % * study 4 - mapping:
 The investigated mapping scenario constitutes a special case of small area estimation where the target area, i.e. a map cell, corresponds to the extent of a sample plot and thus exclusively comprises one model prediction. In the case of prediction maps for continuous response variables, the suggested approach of calculating the user's accuracy for prediction value intervals according to accuracy assessment techniques constitutes an alternative way of providing a confidence interval for each map cell. A difference to classical regression prediction intervals is that the confidence level for the intervals can vary between map cells instead of being fixed. This seems more appropriate for practical usage as it provides the map user with precisions associated to self-defined map value intervals opposed to providing him with map value intervals based on a fixed confidence level. The proposed optimization method can additionally be used to automatically identify prediction intervals that provide highest possible confidence levels while ensuring statistically sound properties of the underlying error matrix. 
-
-% vorteil g-weigth bei post-strat.-A gewichte über n1 statt über n2 bei externen varianz
 
 
 %---------------------------------------------------------------------------------%
@@ -32,49 +32,53 @@ The investigated mapping scenario constitutes a special case of small area estim
 
 \section{Limitations and criticisms}
 \label{sec:synth:limits}
-% The most obvious criticism on the design-based estimators is that they are applied to systematic inventory grids although they rely on the assumption of independently and uniformly distributed sample locations. Accounting for the systematic grid design would imply the application of model-dependent geostatistical ordinary and double kriging estimators \citep{mandallaz1993} to statistically soundly incorporating the spatial correlation of the response and model residuals respectively. Extensive studies in \citep{mandallaz1993} reassuringly revealed that while the design-based estimators tend to overestimate the variance under systematic grids, the difference to the kriging variance is marginal for large domains whose extent considerably exceed the spatial correlation range. This 
+The most obvious criticism on design-based estimators is that they are applied to systematic inventory grids although they rely on the assumption of independently and uniformly distributed sample locations. Accounting for the systematic grid design would thus imply the application of model-dependent estimators. Among those, \citet{mandallaz1993} described geostatistic ordinary and double kriging estimators as the most accurate method that provide the advantage of modeling the spatial covariance function. Intensive studies reassuringly revealed that while the design-based estimators tend to overestimate the variance under systematic grids, the difference to the variance under geostatistic kriging is marginal for domains whose spatial extent considerably exceed the range of the spatial correlation. The minimum spatial extent of such domains will more quickly be exceeded in the case of double-sampling, as the spatial correlation range of the model residuals, which in turn contribute most to the double-sampling variance, is usually much smaller than the range of the response used for one-phase estimations (i.e. ordinary kriging). The overestimation of the variance by design-based estimators under systematic sampling will thus particularly occur for small area estimation, but reassuringly result in conservative confidence intervals.\par
 
-% Whereas the design-based estimators might still overestimate the variance in small areas, 
+A general criticism on cluster sampling as applied in the German NFI is an increase of the design-based variance compared to simple random sampling, which is however accepted considering the reduction of transport costs. However, the inflation in variance for change estimation can be expected to be less than for state estimation. For small area estimation, cluster sampling has also the beneficial effect of increasing the terrestrial sample size within the small area domain as it implies an increased probability for at least one plot of a cluster to be included in the small area. However, it has to be emphasized that only part of a cluster being included in a small area domain constitutes an assumption violation of the \textit{extended pseudo-synthetic estimator}. Whereas empirical evidence was found that this results in slightly over-optimistic variances, it has also been revealed that the impact is negligible for small area sample size larger than 6. Recommending a minimum small area sample size of 6 for design-unbiased estimation has also been supported by simulation studies in \citet{mandallaz2013b} for simple random sampling which indicated that the nominal coverage rates are ensured for small area sample sizes equal and larger than 6. Re-evaluating the simulation example confirmed the same results for cluster sampling.\par 
 
-%  * design-based estimators rely on randomization of sample locations, but are applied to systematic grids. 
-%    -> sorglos wäre man wenn man echt db-based arbeitet (zufällig verteilt) --> aber nicht realistisch aus kostengründen
-%    -> db g-weight var. hergeleitet unter lediglicher random annahme. --> unabhängig von der varianz der resdiduen
-%    -> tends to overestimate the variance, especially in small areas (safe side -> citation?) --> cite Habil Mandallaz 1993, 2000 
-%    -> for large areas, db and geostat very close , especially for two-phase (range of residuals) 
-%
-% -> wald muss als stationär (wald wiederholt sich im Raum) angenommen werden --> scale-dependent! (Bergketten-Beispiel)
-%
-%    -> not neglecting would imply the application of model-dependent estimation techniques. Here, geostatistical double-kriging as proposed by Mandallaz (1993) would
-%       provide an estimation method that offers a statistically sound incorporation of the spatial correlation & provides method for non-exh. aux.info
-%    -> db und geostat stimmen überein für grosse Gebiete, geostat kann besser sein für kleine Gebiete (wenn räumliche Korr.  (range) grösser als Kleingebiet) --> Mandallaz p 151 / 152
-%    -> grösster Teil der varianz kommt db aus residuen: --> korrelation der resiuden sehr sehr viel kleiner als der response
-%    -> deshalb wenn nur one-phase, ist fehler mit OK deutlich kleiner als db (range response hoch), bei 1-phase kommt es auf den range der residuen an
-%        --> range deutlich kleiner, deswegen effekt v.a. in sehr kleinen Gebieten merkbar
-%    -> aber geostat. braucht auch Annahmen wie Stationarität 
-%    -> mixed-model modellieren abstandunabhängig (innerhalb von Bestand z.B.)
-%
+Another criticism concerns the practical implementation of double-sampling in the special case of small area estimation. A theoretical necessity that was neglected in this thesis is that boundary adjustment on the sample plot and support level should be performed also at the boundaries of a small area unit for both the field and auxiliary data respectively. For the field data, neglecting boundary adjustment leads to also including trees from outside the small area domain in the sampling frame which might cause an overestimation of the plot local density. On the part of the auxiliary data, including information from outside the small area domain can weaken the relationship between the derived predictor variable value and the boundary corrected plot local density and thus decrease the model precision \citep{mandallaz2013b}. However, performing boundary adjustment also at the small area level would imply a considerable increase in effort for data storage and handling, particularly for large scale applications such as presented in this thesis. While neglecting the boundary adjustment at the small area boundaries thus simplify the application, the implications have yet not been investigated. It can however be conjectured that the impacts on estimates are marginal because the occurrence of such boundary plots is usually rare. Providing further evidence for this hypothesis could be a topic for future work.\par
+
+Regarding the modeling as being a substantial part of regression estimation procedures, time-lags between the date of the terrestrial survey and the acquisition of the auxiliary data can constitute a severe limitation. In the case study presented in this thesis, severe time-lags especially occurred for the auxiliary source  that provided the most predictive variables for timber volume prediction, i.e. the airborne laser scanning data. While for state estimation the implied loss in model precision can be partially accounted for by post-stratifying to acquisition dates, it has been shown that such time-lags can severely hamper the application of double sampling for the estimation of change \citep{massey2015_thesis} and should in this case be avoided. Another limiting factor in the modeling framework is angle-count sampling, as it implies the problem that the extraction of the auxiliary data cannot be matched to an exact spatial extent in which the terrestrial data was gathered. Whereas it was confirmed that this can affect model performance, it was revealed that the impacts are not as critical for auxiliary data of medium to low spatial resolution. It could however be conjectured that impacts on model precision are more severe when high resolution data are used to make predictions on sample plot level, for example timber volume prediction based on individual tree detection.\par
+
+
+
+
+
+
+% - practical implementation of double-sampling with special application to SAE:
+%  * forest definition (mask vs. field decision) 
+%  * boundary adjustment at small area borders
+%  * location errors --> refer to lamprecht article --> in the worst case, location errors could lead to falely exluding or including sample locations and there associated information if they are located close to a domain border
+% - practical implementation of double-sampling with special application to SAE: 
+%   + forest definition (mask vs. field decision) 
+%   + theoretically, boundary adjustment (both on aux. data and field) should be performed also at the boundaries of a SAE unit. For the field inventory, this is at the moment not done, since sae ds estimation has not yet been a implemented part of the National Forest Inventory. (It was consequently also not done for the aux.data in our study). Performing boundary adjustment also at the sa-borders would imply an increased effort in the field inventory as well as an considerable increase in data storage and handling. Neglecting the badj at the sa-borders thus simplify things, but the implications have yet not been investigated. This could be a topic for future work. [When would negclecting be a problem?].  
+
+
+% - modelling:
+%  * time-lags between terrestrial survey and acquisition of the auxiliary data 
+%    -> minimize or avoid time-lags in order to ensure optimal model precision 
+%    -> especially important for change estimation
+%    -> time-lags could be accounted for in state estimation, but has more limiting effects especially in the case of change estimation (ref to Diss Alex)
+%  * angle-count sampling implies the problem that the extraction of the auxiliary information cannot be matched to an exact spatial extent in which the terrestrial data was gathered
+%    -> not as critial for the resolution of our auxdata, but likely more severe for higher resolution auxdata such as individual tree extraction.
+
+
 % - design-based estimators in general:
 %  * cluster sampling --> my judgement
-%    -> is known to increase the variance of estimates (expressed by cluster correlation coeff). More for state than for change estimation (intra cluster correlation for state higher than for change)
+%    -> is known to increase the variance of estimates (inflation in variance expressed by cluster correlation coeff.). 
+%       Inflation more pronoucend for state than for change estimation (intra cluster correlation for state higher than for change)
 %  * comparison of psmall vs. extpsynth:
 %    -> psmall and extpsynth performed almost equivalently from a practical point of view, since in all cases they did not yield statist. different point estimates. 
 %    -> While for small sample sizes, extpsynth tends to yield marginally smaller variances, its was emprically indicated that the differences between extpsynth and psmall variances are necligible 
 %       for sample sizes larger 10 in the small area
 %    -> However, extpsynth under cluster sampling -> assumpations can be violated (--> recommendation: for small sample sizes < 6 use psmall)
 %  * critical sample sizes n2G in small area --> rule of thumb?
-%    -> evidence from case study: a threshold of n2G > 6, but at least > 4 ()
-%    -> coverage rates --> simulations also indicate 
-%    -> theoretical considerations: simulations, dependency of coverage rates on n2G (Daniel)
-%
-
-%  * g-weight variance restricted to OLS regression --> outlook: others models combined with external variance --> hint at Alex Diss
+%    -> evidence from case study: a threshold of n2G > 6 seems to avoid problems (viol. of extpsynth assumption, huge increases compared to one-phase variance)
+%    -> coverage rates --> simulations (\citep{mandallaz2013b}) also indicate that nominal coverage rates are ensured for sample sizes n2G > 6
 
 
-% - practical implementation of double-sampling with special application to SAE:
-%  * forest definition (mask vs. field decision) 
-%  * boundary adjustment at small area borders
-%  * location errors --> article
-%
+
+
 
 % - modelling:
 %  * time-lags between terrestrial survey and acquisition of the auxiliary data 
@@ -90,6 +94,29 @@ The investigated mapping scenario constitutes a special case of small area estim
 %    -> output for same input data can vary according to parameterization (cooling scheme) and randomization part  
 %    -> no exact solution, rather finds solution close to the optimum
 %  * even the user's accuracies that serve as confidence levels for the prediction intervals are themselves associated with uncertainties caused by the sampling of reference data.
+
+
+
+
+%  * design-based estimators rely on randomization of sample locations, but are applied to systematic grids. 
+%    -> sorglos wäre man wenn man echt db-based arbeitet (zufällig verteilt) --> aber nicht realistisch aus kostengründen
+%    -> db g-weight var. hergeleitet unter lediglicher random annahme. --> unabhängig von der varianz der resdiduen
+%    -> tends to overestimate the variance, especially in small areas (safe side -> citation?) --> cite Habil Mandallaz 1993, 2000 
+%    -> for large areas, db and geostat very close, especially for two-phase (range of residuals) 
+%    -> wald muss als stationär (wald wiederholt sich im Raum) angenommen werden --> scale-dependent! (Bergketten-Beispiel)
+%    -> not neglecting would imply the application of model-dependent estimation techniques. Here, geostatistical double-kriging as proposed by Mandallaz (1993) would
+%       provide an estimation method that offers a statistically sound incorporation of the spatial correlation & provides method for non-exh. aux.info
+%    -> db und geostat stimmen überein für grosse Gebiete, geostat kann besser sein für kleine Gebiete (wenn räumliche Korr.  (range) grösser als Kleingebiet) --> Mandallaz p 151 / 152
+%    -> grösster Teil der varianz kommt db aus residuen: --> korrelation der resiuden sehr sehr viel kleiner als der response
+%    -> deshalb wenn nur one-phase, ist fehler mit OK deutlich kleiner als db (range response hoch), bei 1-phase kommt es auf den range der residuen an
+%        --> range deutlich kleiner, deswegen effekt v.a. in sehr kleinen Gebieten merkbar
+%    -> aber geostat. braucht auch Annahmen wie Stationarität 
+%    -> mixed-model modellieren abstandunabhängig (innerhalb von Bestand z.B.)
+
+%  * g-weight variance restricted to OLS regression --> outlook: others models combined with external variance --> hint at Alex Diss
+
+
+
 %
 
 % + multiple-testing: one never knows which of the 95 out of 100 CIs contain the true value
@@ -128,6 +155,7 @@ The investigated mapping scenario constitutes a special case of small area estim
 \label{sec:synth:future}
 
 % - design-based regression estimator --> good!
+% - due to the avail. of auxdata, they should increasingly be used in forest inventory
 % - use auxiliary information! The availability will even increase + more frequently updated --> change estimation; + additional attributes
 % - we are within a transition period from one-phase to multi-phase inventories. Thus, one should in any case not [verzichten auf] the terrestrial inventory
 % - enhance comparability between field data and remote sensing data:
@@ -137,7 +165,9 @@ The investigated mapping scenario constitutes a special case of small area estim
 %   * change estimation
 %   * estimation of ratios (--> if desired information is also supported by auxiliary information!)
 %
-% -> 
+% -> angle count sampling -> Ausblick: it was shown by Mandallaz (page 240) that 2-3 concentric circles are close to optimal pps (gamma coefficient) --> das könnte man auch für die German NFI machen
+%
+% -> badj: 
 %
 % concerning software: ..., which has been well appreciated by the forest inventory community (no. of total downloads: 4700 between June 2016 and April 2018).
 %
@@ -151,8 +181,9 @@ The investigated mapping scenario constitutes a special case of small area estim
 % - recommendations?
 %
 %
-% -> Ausblick auf geostatistic: korrelationstrukturen aus eigener Untersuchung nennen --> es wird nicht viel bringen --> ranges (error in variogramm fitting not solved)
+% - Ausblick auf geostatistic: korrelationstrukturen aus eigener Untersuchung nennen --> es wird nicht viel bringen --> ranges (error in variogramm fitting not solved)
 %   read discussion habil daniel
+%   * It has however to be mentioned that also the model-dependent geostatistic approach relies on the assumptions of stationarity
 
 
 
