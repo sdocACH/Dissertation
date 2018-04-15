@@ -37,43 +37,16 @@ The investigated mapping scenario constitutes a special case of small area estim
 The most obvious criticism on design-based estimators is that they are in practice applied to systematic inventory grids although they rely on the assumption of independently and uniformly distributed sample locations. Accounting for the systematic grid design would thus imply the application of model-dependent estimators. Among those, \citet{mandallaz1993} described geostatistic ordinary and double kriging estimators as the most accurate method that provide the advantage of modeling the spatial covariance function. Intensive studies reassuringly revealed that while the design-based estimators tend to overestimate the variance under systematic grids, the difference to the variance under geostatistic kriging is marginal for domains whose spatial extent considerably exceed the range of the spatial correlation. The minimum spatial extent of such domains will more quickly be exceeded in the case of double-sampling, as the spatial correlation range of the model residuals, which in turn contribute most to the double-sampling variance, is usually much smaller than the range of the local density used for one-phase estimations (i.e. ordinary kriging). The overestimation of the variance by design-based estimators under systematic sampling will thus particularly occur for small area estimation, but reassuringly result in conservative confidence intervals.\par
 
 % cluster sampling:
-A general criticism on cluster sampling as applied in the German NFI is an increase of the design-based variance compared to simple random sampling, which is however accepted considering the reduction of transport costs. However, the inflation in variance for change estimation can be expected to be less than for state estimation. For small area estimation, cluster sampling has also the beneficial effect of increasing the terrestrial sample size within the small area domain as it implies an increased probability for at least one plot of a cluster to be included in the small area. However, it has to be emphasized that only part of a cluster being included in a small area domain constitutes an assumption violation of the extended pseudo-synthetic estimator. Whereas this thesis provided empirical evidence that this results in slightly over-optimistic variances, it has also been indicated that the impact is negligible for small area sample size larger than 6. Recommending a minimum small area sample size of 6 for design-unbiased estimation has also been supported by simulation studies in \citet{mandallaz2013b} for simple random sampling which indicated that the nominal coverage rates are ensured for small area sample sizes equal and larger than 6. Re-evaluating the simulation example confirmed the same results for cluster sampling.\par 
+A general criticism on cluster sampling as applied in the German NFI is an increase of the design-based variance compared to simple random sampling, which is however accepted to the benefit of reduced transport costs. However, the inflation in variance for change estimation can be expected to be less than for state estimation. For small area estimation, cluster sampling has also the beneficial effect of increasing the terrestrial sample size within the small area domain as it implies an increased probability for at least one plot of a cluster to be included in the small area. However, it has to be emphasized that only part of a cluster being included in a small area domain constitutes an assumption violation of the extended pseudo-synthetic estimator. Whereas this thesis provided empirical evidence that this results in slightly over-optimistic variances, it has also been indicated that the impact is negligible for small area sample size larger than 6. Recommending a minimum small area sample size of 6 for design-unbiased estimation has also been supported by simulation studies in \citet{mandallaz2013b} for simple random sampling which indicated that the nominal coverage rates are ensured for small area sample sizes equal and larger than 6. Re-evaluating the simulation example confirmed the same results for cluster sampling.\par 
 
 % practical implementation:
-Another criticism concerns the practical implementation of double-sampling in the special case of small area estimation. A theoretical necessity that was neglected in this thesis is that boundary adjustment on the sample plot and support level should be performed also at the boundaries of a small area unit for both the field and auxiliary data respectively. For the field data, neglecting boundary adjustment can lead to including trees from outside the small area domain in the sampling frame which thus might cause an overestimation of the plot local density. On the part of the auxiliary data, including information from outside the small area domain can weaken the relationship between the derived predictor variable value and the boundary corrected plot local density and thus decrease the model precision \citep{mandallaz2013b}. However, performing boundary adjustment also at the small area level would imply a considerable increase in effort for data storage and handling, particularly for large scale applications such as presented in this thesis. It could be conjectured that the impacts on estimates are marginal because the occurrence of boundary plots within a domain is usually rare. Since the implications have yet not been investigated, this could be a topic for future work.\par
+Another criticism concerns the practical implementation of double-sampling in the special case of small area estimation. A theoretical necessity that was neglected in this thesis is that boundary adjustment on the sample plot and support level should be performed also at the boundaries of a small area unit for both the field and auxiliary data respectively. For the field data, neglecting boundary adjustment can lead to including trees from outside the small area domain in the sampling frame which thus might cause an overestimation of the plot local density. On the part of the auxiliary data, including information from outside the small area domain can weaken the relationship between the derived predictor variable value and the boundary corrected plot local density and thus decrease the model precision \citep{mandallaz2013b}. On the contrary, performing boundary adjustment also at the small area level would imply a considerable increase in effort for data storage and handling, particularly for large scale applications such as presented in this thesis. It could be conjectured that the impacts on estimates are marginal because the occurrence of boundary plots within a domain is usually rare. Since the implications have yet not been investigated, this could be a topic for future work.\par
 
 % modeling:
-Regarding the modeling as being a substantial part of regression estimation procedures, time-lags between the date of the terrestrial survey and the acquisition of the auxiliary data can constitute a severe limitation. In the case study presented in this thesis, severe time-lags especially occurred for the auxiliary source  that provided the most predictive variables for timber volume prediction, i.e. the airborne laser scanning data. While for state estimation the implied loss in model precision can be partially accounted for by post-stratifying to acquisition dates, it has been shown that such time-lags can severely hamper the application of double sampling for the estimation of change \citep{massey2015_thesis} and should in this case be avoided. Another limiting factor in the modeling framework is angle-count sampling, as it implies the problem that the extraction of the auxiliary data cannot be matched to an exact spatial extent in which the terrestrial data was gathered. Whereas it was confirmed that this can affect model performance, it was revealed that the impacts are not as critical for auxiliary data of medium to low spatial resolution. It could however be conjectured that impacts on model precision are more pronounced when high resolution data are used to make predictions on sample plot level, for example timber volume prediction based on individual tree detection.\par
+Regarding the modeling as being a substantial part of regression estimation procedures, time-lags between the date of the terrestrial survey and the acquisition of the auxiliary data can constitute a severe limitation. While for state estimation the implied loss in model precision can be partially accounted for by post-stratifying to acquisition dates, it has been shown that such time-lags can hamper the application of double sampling for the estimation of change \citep{massey2015_thesis}. Another limiting factor in the modeling framework is angle-count sampling, as it implies the problem that the extraction of the auxiliary data cannot be matched to an exact spatial extent in which the terrestrial data was gathered. Whereas it was confirmed that this can affect model performance, it was revealed that the impacts are not as critical for auxiliary data of medium to low spatial resolution. It could however be conjectured that impacts on model precision are more pronounced when high resolution data are used to make predictions on sample plot level, for example timber volume prediction based on individual tree detection.\par
 
 % mapping:
-A criticism on the presented accuracy assessment for prediction maps is that even the user's accuracies that serve as confidence levels for the prediction value intervals are themselves associated with uncertainties caused by the sampling process of the reference data. Whereas this has also rarely been addressed in similar studies, quantifying these uncertainties is feasible and could be a potential area of future work. In addition, the suggested optimization algorithm is limitated by the fact that it constitutes a heuristic approach that rather finds a solution close to the optimum than finding the exact optimal solution. Another implication of the heuristic approach is that the solution for the same input data can slightly vary due to the randomization part of the algorithm and the various possibilities of parameterization. Concerning the latter, it is most important to ensure an appropriate cooling scheme of the simulated annealing.
-
-
-% - mapping:
-%  * opt. method is a heuristic: 
-%    -> output for same input data can slightly vary according to parameterization (cooling scheme) and randomization part  
-%    -> no exact solution, rather finds solution close to the optimum
-%  * even the user's accuracies that serve as confidence levels for the prediction intervals are themselves associated with uncertainties caused by the sampling process of reference data. Whereas this has also rarely be addressed in 
-
-
-
-% - practical implementation of double-sampling with special application to SAE:
-%  * forest definition (mask vs. field decision) 
-%  * boundary adjustment at small area borders
-%  * location errors --> refer to lamprecht article --> in the worst case, location errors could lead to falsely exluding or including sample locations and there associated information if they are located close to a domain border
-% - practical implementation of double-sampling with special application to SAE: 
-%   + forest definition (mask vs. field decision) 
-%   + theoretically, boundary adjustment (both on aux. data and field) should be performed also at the boundaries of a SAE unit. For the field inventory, this is at the moment not done, since sae ds estimation has not yet been a implemented part of the National Forest Inventory. (It was consequently also not done for the aux.data in our study). Performing boundary adjustment also at the sa-borders would imply an increased effort in the field inventory as well as an considerable increase in data storage and handling. Neglecting the badj at the sa-borders thus simplify things, but the implications have yet not been investigated. This could be a topic for future work. [When would negclecting be a problem?].  
-
-
-% - modelling:
-%  * time-lags between terrestrial survey and acquisition of the auxiliary data 
-%    -> minimize or avoid time-lags in order to ensure optimal model precision 
-%    -> especially important for change estimation
-%    -> time-lags could be accounted for in state estimation, but has more limiting effects especially in the case of change estimation (ref to Diss Alex)
-%  * angle-count sampling implies the problem that the extraction of the auxiliary information cannot be matched to an exact spatial extent in which the terrestrial data was gathered
-%    -> not as critial for the resolution of our auxdata, but likely more severe for higher resolution auxdata such as individual tree extraction.
-
+A further criticism on the presented accuracy assessment for prediction maps is that even the user's accuracies that serve as confidence levels for the prediction value intervals are themselves associated with uncertainties caused by the sampling process of the reference data. Whereas this has also rarely been addressed in similar studies, quantifying these uncertainties is feasible and could be a potential area of future work. In addition, the suggested optimization algorithm is limited by the fact that it constitutes a heuristic approach that rather finds a solution close to the optimum than finding the exact optimal solution. Another implication of the heuristic approach is that the solution for the same input data can slightly vary due to the randomization part of the algorithm and the various possibilities of parameterization. Concerning the latter, it is most important to ensure an appropriate cooling scheme of the simulated annealing.
 
 % - design-based estimators in general:
 %  * cluster sampling --> my judgement
@@ -87,23 +60,6 @@ A criticism on the presented accuracy assessment for prediction maps is that eve
 %  * critical sample sizes n2G in small area --> rule of thumb?
 %    -> evidence from case study: a threshold of n2G > 6 seems to avoid problems (viol. of extpsynth assumption, huge increases compared to one-phase variance)
 %    -> coverage rates --> simulations (\citep{mandallaz2013b}) also indicate that nominal coverage rates are ensured for sample sizes n2G > 6
-
-
-
-
-
-% - modelling:
-%  * time-lags between terrestrial survey and acquisition of the auxiliary data 
-%    -> minimize or avoid time-lags in order to ensure optimal model precision 
-%    -> especially important for change estimation
-%    -> time-lags could be accounted for in state estimation, but has more limiting effects especially in the case of change estimation (ref to Diss Alex)
-%  * angle-count sampling implies the problem that the extraction of the auxiliary information cannot be matched to an exact spatial extent in which the terrestrial data was gathered
-%    -> not as critial for the resolution of our auxdata, but likely more severe for higher resolution axdata
-%    -> it was shown by Mandallaz (page 240) that 2-3 concentric circles are close to optimal pps (gamma coefficient) --> das könnte man auch für die German NFI machen
-
-
-
-
 
 %  * design-based estimators rely on randomization of sample locations, but are applied to systematic grids. 
 %    -> sorglos wäre man wenn man echt db-based arbeitet (zufällig verteilt) --> aber nicht realistisch aus kostengründen
@@ -120,44 +76,74 @@ A criticism on the presented accuracy assessment for prediction maps is that eve
 %    -> aber geostat. braucht auch Annahmen wie Stationarität 
 %    -> mixed-model modellieren abstandunabhängig (innerhalb von Bestand z.B.)
 
-%  * g-weight variance restricted to OLS regression --> outlook: others models combined with external variance --> hint at Alex Diss
-
-
-
-%
-
-% + multiple-testing: one never knows which of the 95 out of 100 CIs contain the true value
-
-
-
-
-
-% Design-based SAE in RLP:
-%
-% - use of systematic grids in practice treated as uniformly randomly distributed sample locations. In the strict sense, this is a violation of the design-based inference assumptions. Reassuringly, simulations have indicated that this leads in most cases to a overestimation of the variance and thus conservative estimates of the estimation errors. [Geostatistic ...]
-%
+% - practical implementation of double-sampling with special application to SAE:
+%  * forest definition (mask vs. field decision) 
+%  * boundary adjustment at small area borders
+%  * location errors --> refer to lamprecht article --> in the worst case, location errors could lead to falsely exluding or including sample locations and there associated information if they are located close to a domain border
 % - practical implementation of double-sampling with special application to SAE: 
 %   + forest definition (mask vs. field decision) 
-%   + theoretically, boundary adjustment (both on aux. data and field) should be performed also at the boundaries of a SAE unit. For the field inventory, this is at the moment not done, since sae ds estimation has not yet been a implemented part of the National Forest Inventory. (It was consequently also not done for the aux.data in our study). Performing boundary adjustment also at the sa-borders would imply an increased effort in the field inventory as well as an considerable increase in data storage. Neglecting the badj at the sa-borders simplify things, but the implications have yet not been tested. This could be a topic for future work. [When would negclecting be a problem?].  
-% 
-% - time-lags between terrestrial survey and acquisition of the auxiliary data
-%  * 
-%
-% - angle-count sampling hampers the derivation of auxiliary data since the exact extent around a sample location in which information was gathered cannot be determined
-%
-% - unbiasedness comes to the price of providing a minimum number of terrestrial observations in a small area. Regarding the question about a sufficient number, the case study indicated that sample sizes in a small area $\leq 5$ can result in large estimation errors when combined with moderate and poor model fits. [Additionally ...]. These considerations suggest a minimum sample size of at least 6 observations per small area. However, this number is likely not met for ...\% of the FR districts and can surely not be provided on smaller spatial scales such as forest stands
-%   If estimations on these scales are still requested, it might be inevitable to increase the sampling frequency of the terrestrial inventory or apply model-dependent estimators. The disadvantage of model-dependent estimators however ...
-%
-%   --> "How much?": - the case study indicated that sample sizes in a small area $\leq 5$ can result in large estimation errors when combined
-%                      with moderate and poor model fits
-%                    - theoretically: ...
+%   + theoretically, boundary adjustment (both on aux. data and field) should be performed also at the boundaries of a SAE unit. For the field inventory, this is at the moment not done, since sae ds estimation has not yet been a implemented part of the National Forest Inventory. (It was consequently also not done for the aux.data in our study). Performing boundary adjustment also at the sa-borders would imply an increased effort in the field inventory as well as an considerable increase in data storage and handling. Neglecting the badj at the sa-borders thus simplify things, but the implications have yet not been investigated. This could be a topic for future work. [When would negclecting be a problem?]. 
+
+% - modelling:
+%  * time-lags between terrestrial survey and acquisition of the auxiliary data 
+%    -> minimize or avoid time-lags in order to ensure optimal model precision 
+%    -> especially important for change estimation
+%    -> time-lags could be accounted for in state estimation, but has more limiting effects especially in the case of change estimation (ref to Diss Alex)
+%  * angle-count sampling implies the problem that the extraction of the auxiliary information cannot be matched to an exact spatial extent in which the terrestrial data was gathered
+%    -> not as critial for the resolution of our auxdata, but likely more severe for higher resolution axdata
+%    -> it was shown by Mandallaz (page 240) that 2-3 concentric circles are close to optimal pps (gamma coefficient) --> das könnte man auch für die German NFI machen
+
+
+% - mapping:
+%  * opt. method is a heuristic: 
+%    -> output for same input data can slightly vary according to parameterization (cooling scheme) and randomization part  
+%    -> no exact solution, rather finds solution close to the optimum
+%  * even the user's accuracies that serve as confidence levels for the prediction intervals are themselves associated with uncertainties caused by the sampling process of reference data. Whereas this has also rarely be addressed in 
+
+
+%  * g-weight variance restricted to OLS regression --> outlook: others models combined with external variance --> hint at Alex Diss
+% + multiple-testing: one never knows which of the 95 out of 100 CIs contain the true value
+
 
 %---------------------------------------------------------------------------------%
 % ---------------------------- Implications for future work --------------------- %
 
 \section{Conclusion and implications for future work}
 \label{sec:synth:future}
-% 
+
+% Main conclusion for each procedure (related to each other):
+The results of this thesis strongly confirmed that combining terrestrially gathered forest inventory data with auxiliary information constitutes a very effective means to increase the efficiency of inventories and to expand the range of terrestrial data application. Mapping provides predictions in very high spatial detail and can thus support decisions on very small scales, but on the other side imposes high requirements on the reliability of the predictions as they are purely model-dependent. The findings of this thesis provided evidence that the error associated to specific value intervals are often considerably larger than expected from overall precision accuracies. Conclusively, reliable and detailed information on the map accuracy should always be provided to the practical user. Design-based small area estimators can not meet the spatial detail of model-dependent approaches since they require a minimum number of terrestrial data per small area domain. However, they provide the huge advantage of being robust to model misspecification and are thus very attractive to be used operationally. The recent interest on these family of estimators is also supported by the acception of the R-package software that was developed and used in this thesis (4000 downloads since release in June 2016). Both approaches, model-dependent mapping and design-based small area estimation, suggest that one should in any case not discontinue the conduction of terrestrial inventories as they are crucial in order to quantify the reliability of estimates and predictions.\par
+
+% Conclusion and outlook for aux.data and modeling:
+This thesis also supports the recommendation to increasingly use already widely available auxiliary data in the service of forest inventories. It should be emphasized that beside high resolution remote sensing data, these auxiliary data can also be provided by maps based on expert judgment (e.g. reflecting soil properties and bioclimatic growing conditions). For change estimation, it could also be beneficial to include information indicating tree species specific growth impacts of intermediate dry events that are likely to occur in increasing frequencies with ongoing climate change. With regards to more frequently updated and alternative remote sensing data, it can be conjectured that the problem of time-lags between terrestrial survey and the auxiliary information will not be an issue in the future. This will also improve the applicability of double-sampling and mapping techniques for the estimation of change. Two challenges of future applications are the reduction of positional inaccuracies of the terrestrial sample locations as well as the synchronization between auxiliary data and terrestrial data derived by angle-count sampling. Concerning the first, various matching approaches to reconstruct the exact plot locations have been suggested. However, the effects of such procedures on design-based estimates should first be investigated via simulation studies before applying them in practice. With regards to the problem associated to angle-count sampling, the alternative use of 2-3 concentric circles has been proven to be very close to optimal PPS sampling for the Swiss NFI \citep{mandallaz2008} while providing an unambiguous extent in which the auxiliary data can be derived. This should be considered in case angle-count sampling turns out to be a major limiting factor for future NFIs that are increasingly using double-sampling.\par
+ 
+% outlook to geostatistics:
+Finally, geostatistical double-kriging constitutes an estimation technique which could lead to a further increase in estimation precision but has scarcely been investigated empirically. First evaluations of the spatial variograms for the German NFI data that were used in this thesis however revealed that the correlation range is already reached for the minimum distance within a cluster. Thus, the gain in efficiency can expected to be small.
+
+
+% - Ausblick auf geostatistic: korrelationstrukturen aus eigener Untersuchung nennen --> es wird nicht viel bringen --> ranges (error in variogramm fitting not solved)
+%   read discussion habil daniel
+%   * It has however to be mentioned that also the model-dependent geostatistic approach relies on the assumptions of stationarity
+
+% The most obvious recommendation concluded from this thesis is to 
+
+% - recommendation to use ds in forest practice because of the already wide availability of auxiliary data. These auxiliary data can be provided by high resolution remote sensing data, but also
+%   by maps based on expert judgment such as soil properties and bioclimatic growing conditions. 
+%   ==> my vision: For change estimation, it could also be beneficial to include remote sensing derived information that indicate tree species specific growth impacts of intermediate dry events 
+%                  that are likley to occure in increasing frequencies with ongoing climate change.
+%   * due to the avail. of auxdata, they should increasingly be used in forest inventory
+%   * the problems of time-lags will not arise in the future (recent developments -> satellite repetition rates, ...)
+%     ==> this will also improve the applicability of ds techniques for change estimation
+%
+% - db estimators:
+%   * Despite the mentioned limitations, 
+%   * The recent interest on the R-package software (4000 downloads up to this day) supports the interest on the application of design-based estimation methods.
+%   * While the 
+%   * My message: It is the task to further simplify the application of such estimation procedures for forest practice
+
+
+% - geostatistic
+
 
 % prefer sae to mapping
 
@@ -175,8 +161,6 @@ A criticism on the presented accuracy assessment for prediction maps is that eve
 % -> angle count sampling -> Ausblick: it was shown by Mandallaz (page 240) that 2-3 concentric circles are close to optimal pps (gamma coefficient) --> das könnte man auch für die German NFI machen
 %
 % -> badj: 
-%
-% concerning software: ..., which has been well appreciated by the forest inventory community (no. of total downloads: 4700 between June 2016 and April 2018).
 %
 % - area-wide remote sensing data are more frequently acquired
 %   

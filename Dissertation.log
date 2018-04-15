@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.3)  14 APR 2018 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.3)  15 APR 2018 16:44
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -1556,12 +1556,12 @@ Overfull \hbox (1.74992pt too wide) detected at line 122
 
 
 Overfull \hbox (1.74992pt too wide) detected at line 126
- []\T1/lmr/bx/n/10 117
+ []\T1/lmr/bx/n/10 119
  []
 
 
 Overfull \hbox (1.74992pt too wide) detected at line 127
- []\T1/lmr/bx/n/10 126
+ []\T1/lmr/bx/n/10 128
  []
 
 )
@@ -2597,16 +2597,17 @@ chapter 6.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114]
-[115] [116]) (Dissertation.bbl
+[115] [116] [117]) [118
+
+] (Dissertation.bbl
 chapter without number
 
 LaTeX Font Warning: Font shape `T1/lmr/b/it' in size <10> not available
 (Font)              Font shape `T1/lmr/b/sl' tried instead on input line 77.
 
-[117
+[119
 
-
-] [118] [119] [120] [121] [122] [123] [124]) (Main/Curriculum.tex [125]
+] [120] [121] [122] [123] [124] [125] [126]) (Main/Curriculum.tex [127]
 Overfull \hbox (2.65912pt too wide) in alignment at lines 8--14
 [][] 
  []
@@ -2636,7 +2637,7 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 42--58
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126
+ [128
 
 ]
 
@@ -2657,14 +2658,14 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 79--91
 [][] 
  []
 
-) [127]
+) [129]
 
 Package natbib Warning: There were undefined citations.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128
+ [130
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
@@ -2682,9 +2683,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
  ) 
 Here is how much of TeX's memory you used:
- 30237 strings out of 493328
- 574358 string characters out of 3139125
- 782927 words of memory out of 3000000
+ 30239 strings out of 493328
+ 574374 string characters out of 3139125
+ 781950 words of memory out of 3000000
  32462 multiletter control sequences out of 15000+200000
  137281 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2719,9 +2720,9 @@ e1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Dissertation.pdf (140 pages, 43248161 bytes).
+Output written on Dissertation.pdf (142 pages, 43252845 bytes).
 PDF statistics:
- 2522 PDF objects out of 2984 (max. 8388607)
- 540 named destinations out of 1000 (max. 500000)
+ 2534 PDF objects out of 2984 (max. 8388607)
+ 542 named destinations out of 1000 (max. 500000)
  581 words of extra memory for PDF output out of 10000 (max. 10000000)
 
