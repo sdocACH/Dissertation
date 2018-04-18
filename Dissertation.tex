@@ -1,6 +1,6 @@
 % Dissertation Andreas Hill, Version 1.0
 % 2. LaTeX Vorlage von Kai Husmann, Version 2.0
-% 1. LaTeX Vorlage von Nikolas von Lüpke, Version 1.1
+% 1. LaTeX Vorlage von Nikolas von Lï¿½pke, Version 1.1
 %==================================================================================================================%
 % Textencoding: 8859-1
 \documentclass[
@@ -42,7 +42,7 @@ headinclude]{scrbook}
 \usepackage{color}
 % \definecolor{link}{rgb}{0.45,0.51,0.67} % Dark blue colour for all links
 
-%% - Serifenschriftart in Überschriften
+%% - Serifenschriftart in ï¿½berschriften
 \usepackage{lmodern}
 \addtokomafont{disposition}{\rmfamily}
 
@@ -64,34 +64,34 @@ headinclude]{scrbook}
 \usepackage{multibib}
 \usepackage{url}
 
-%% - Schönere Tablellen
+%% - Schï¿½nere Tablellen
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{multirow}
-\usepackage{graphicx} %Mit diesem package können pdf,png und jpg Graphiken eingelesen werden und direkt pdfs erzeugt werden
+\usepackage{graphicx} %Mit diesem package kï¿½nnen pdf,png und jpg Graphiken eingelesen werden und direkt pdfs erzeugt werden
 %\usepackage{picins}
 %\usepackage{subfig}
 %\usepackage{subfigure}
 %% - Packages for Headings
 \usepackage{fancyhdr}
 
-%% - Packages für korrekte Einheiten:
+%% - Packages fï¿½r korrekte Einheiten:
 \usepackage[squaren]{SIunits}
 \usepackage[dvips]{rotating}
 \usepackage{pdfpages}
 
-%% - Packages für Formeln
+%% - Packages fï¿½r Formeln
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 %\usepackage{mathptmx}
 
-%% - Packages für Pseudocode
+%% - Packages fï¿½r Pseudocode
 \usepackage[linesnumbered, algochapter]{algorithm2e}
 \usepackage{enumerate}
 
-%% - Paket für Grafik
+%% - Paket fï¿½r Grafik
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows,calc,positioning,shapes.geometric}
 \usetikzlibrary{external}       % function to externalize tics-graphic buildings
@@ -99,14 +99,14 @@ headinclude]{scrbook}
 \tikzexternalize[prefix=cache/] % All externalized pdf are saved in folder 'cache'
 \tikzexternaldisable % Only externalise on-demand
 
-%% - Package für Zeilennummerierung
+%% - Package fï¿½r Zeilennummerierung
 \usepackage{lineno}
 %\linenumbers % uncomment for adding line numbers
 
-%% - Querformat für den Anhang
+%% - Querformat fï¿½r den Anhang
 \usepackage{array}
 
-%% - für Abkürzungsverzeichnis
+%% - fï¿½r Abkï¿½rzungsverzeichnis
 \usepackage{acronym} 
 \usepackage{nomencl}
 \makenomenclature
@@ -127,7 +127,7 @@ headinclude]{scrbook}
 \setstretch{1.05}
 \typearea[1.5cm]{15}
 
-%% Platz an Seitenrändern
+%% Platz an Seitenrï¿½ndern
 \usepackage{geometry}
 \geometry{
 	bottom=40mm,
@@ -295,15 +295,15 @@ headinclude]{scrbook}
 %\cleardoublepage
 \input{main/Zusammenfassung}
 % \cleardoublepage
-\thispagestyle{plain}
-\clearpage
+%\thispagestyle{plain}
+%\clearpage
 \newpage
-\thispagestyle{empty}
-\mbox{}
-\pagebreak
-\thispagestyle{empty}
+%\thispagestyle{empty}
+%\mbox{}
+%\pagebreak
+%\thispagestyle{empty}
 %	
-	%Definiert die Länge der Kopfzeile
+	%Definiert die Lï¿½nge der Kopfzeile
 	% --> (L=Left, R=Right, E=Even (pagenumbers), O=Odd (page numbers)
 	\pagestyle{fancy} \renewcommand{\headrulewidth}{0.4pt}
 	\renewcommand{\headrulewidth}{0.4pt}
@@ -320,47 +320,50 @@ headinclude]{scrbook}
 %% ------------------------------ Introduction -------------------------------------------------------- %%	
 \pagenumbering{arabic}
 \input{main/Introduction(2)}
-	\clearpage
+	%\clearpage
 	\newpage
-	\mbox{}
-	\pagebreak
-	\thispagestyle{empty}
+%	\mbox{}
+%	\pagebreak
+%	\thispagestyle{empty}
 	
 %% ------------------------------ Artikel 1 R-Package-------------------------------------------------- %%
 \input{Rpackage_Article/Rpackage_forestinventory}
-	\clearpage
+	%\clearpage
 	\newpage
-	\mbox{}
-	\pagebreak
-	\thispagestyle{empty}
+%	\mbox{}
+%	\pagebreak
+%	\thispagestyle{empty}
 	
 %%% ------------------------------ Artikel 2 Regression Model ----------------------------------------- %%
 \input{Regmodel_Article/regmod_article}
-	\clearpage
+	%\clearpage
 	\newpage
-	\mbox{}
-	\pagebreak
-	\thispagestyle{empty}
+%	\mbox{}
+%	\pagebreak
+%	\thispagestyle{empty}
 
 %%% ------------------------------ Artikel Small Area Estimation -------------------------------------- %%
 \input{SAE_Article/sae_article}
-\clearpage
-\newpage
-\mbox{}
-\pagebreak
-\thispagestyle{empty}
+	%\clearpage
+	\newpage
+%	\mbox{}
+%	\pagebreak
+%	\thispagestyle{empty}
 	
 %%% ------------------------------ Artikel 4 Mapping -------------------------------------------------- %%
 \input{Mapping_Article/mapping_article}
-\clearpage
+%\clearpage
 \newpage
-\mbox{}
-\pagebreak
-\thispagestyle{empty}
+%\mbox{}
+%\pagebreak
+%\thispagestyle{empty}
 
 %%% ------------------------------ Synthese ---------------------------------------- %%
 \input{Main/Synthese}
-
+\newpage
+%\mbox{}
+%\pagebreak
+%\thispagestyle{empty}
 	
 %%% ------------------------------ Literature -------------------------------------- %%
 \bibliographystyle{apalike2}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  17 APR 2018 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  18 APR 2018 17:00
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -1931,17 +1931,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Overfull \hbox (1.74992pt too wide) detected at line 122
- []\T1/lmr/bx/n/10 113
+ []\T1/lmr/bx/n/10 108
  []
 
 
 Overfull \hbox (1.74992pt too wide) detected at line 126
- []\T1/lmr/bx/n/10 118
+ []\T1/lmr/bx/n/10 113
  []
 
 
 Overfull \hbox (1.74992pt too wide) detected at line 127
- []\T1/lmr/bx/n/10 127
+ []\T1/lmr/bx/n/10 122
  []
 
 )
@@ -1968,11 +1968,6 @@ Overfull \hbox (1.74992pt too wide) detected at line 127
 ] [8] [9
 
 ]) [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11
-
-]
 (main/Introduction(2).tex
 chapter 1.
 
@@ -2003,13 +1998,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 152.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[3] [4] [5]) [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7
-
-]
-(Rpackage_Article/Rpackage_forestinventory.tex
+[3] [4] [5]) [6] (Rpackage_Article/Rpackage_forestinventory.tex
 chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
@@ -2031,11 +2020,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-[8
+[7
 
-] [9] [10
+] [8] [9
 
-] [11]
+] [10]
 Package epstopdf Info: Source file: <Grafiken/Jstat_article/localdensity_final-
 01.eps>
 (epstopdf)                    date: 2018-01-04 12:54:18
@@ -2050,7 +2039,7 @@ l-01.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 
-<Grafiken/Jstat_article/localdensity_final-01-eps-converted-to.pdf, id=699, 340
+<Grafiken/Jstat_article/localdensity_final-01-eps-converted-to.pdf, id=691, 340
 .27126pt x 325.215pt>
 File: Grafiken/Jstat_article/localdensity_final-01-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2060,7 +2049,7 @@ Package pdftex.def Info: Grafiken/Jstat_article/localdensity_final-01-eps-conve
 rted-to.pdf used on input line 60.
 (pdftex.def)             Requested size: 341.43437pt x 326.34561pt.
 
-[12 <./Grafiken/Jstat_article/localdensity_final-01-eps-converted-to.pdf>]
+[11 <./Grafiken/Jstat_article/localdensity_final-01-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Grafiken/Jstat_article/phases_graphic(new)
 .eps>
 (epstopdf)                    date: 2018-01-04 12:54:18
@@ -2075,7 +2064,7 @@ es_graphic(new)-eps-converted-to.pdf Grafiken/Jstat_article/phases_graphic(new)
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
-<Grafiken/Jstat_article/phases_graphic(new)-eps-converted-to.pdf, id=720, 266.9
+<Grafiken/Jstat_article/phases_graphic(new)-eps-converted-to.pdf, id=712, 266.9
 975pt x 179.67125pt>
 File: Grafiken/Jstat_article/phases_graphic(new)-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2085,7 +2074,7 @@ Package pdftex.def Info: Grafiken/Jstat_article/phases_graphic(new)-eps-convert
 ed-to.pdf used on input line 79.
 (pdftex.def)             Requested size: 170.71718pt x 114.88501pt.
 
-<Grafiken/Jstat_article/sae_graphic.PNG, id=721, 498.36188pt x 590.205pt>
+<Grafiken/Jstat_article/sae_graphic.PNG, id=713, 498.36188pt x 590.205pt>
 File: Grafiken/Jstat_article/sae_graphic.PNG Graphic file (type png)
 
 <use Grafiken/Jstat_article/sae_graphic.PNG>
@@ -2097,10 +2086,10 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 77--87
 [][] [] 
  []
 
-[13]
+[12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 <./Grafiken/Jstat_article/phases_graphic(new)-eps-converted-to.pdf> <./Gra
+ [13 <./Grafiken/Jstat_article/phases_graphic(new)-eps-converted-to.pdf> <./Gra
 fiken/Jstat_article/sae_graphic.PNG>]
 Package epstopdf Info: Source file: <Grafiken/Jstat_article/Package_structure_5
 .eps>
@@ -2116,7 +2105,7 @@ age_structure_5-eps-converted-to.pdf Grafiken/Jstat_article/Package_structure_5
 (epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
 
-<Grafiken/Jstat_article/Package_structure_5-eps-converted-to.pdf, id=775, 541.0
+<Grafiken/Jstat_article/Package_structure_5-eps-converted-to.pdf, id=766, 541.0
 2126pt x 332.24126pt>
 File: Grafiken/Jstat_article/Package_structure_5-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2125,7 +2114,7 @@ ile (type pdf)
 Package pdftex.def Info: Grafiken/Jstat_article/Package_structure_5-eps-convert
 ed-to.pdf used on input line 110.
 (pdftex.def)             Requested size: 341.43437pt x 209.6781pt.
- [15 <./Grafiken/Jstat_article/Package_structure_5-eps-converted-to.pdf>] [16pd
+ [14 <./Grafiken/Jstat_article/Package_structure_5-eps-converted-to.pdf>] [15pd
 fTeX warning (ext4): destination with the same identifier (name{equation.2.3.1}
 ) has been already used, duplicate ignored
 
@@ -2155,7 +2144,7 @@ r (name{equation.2.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.185 \end{align}
-                  [17]
+                  [16]
 Package epstopdf Info: Source file: <Grafiken/Jstat_article/boundaryweight_grap
 hic(left).eps>
 (epstopdf)                    date: 2018-01-04 12:54:18
@@ -2171,7 +2160,7 @@ ight_graphic(left).eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Grafiken/Jstat_article/boundaryweight_graphic(left)-eps-converted-to.pdf, id=8
-21, 292.09125pt x 234.8775pt>
+13, 292.09125pt x 234.8775pt>
 File: Grafiken/Jstat_article/boundaryweight_graphic(left)-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -2194,7 +2183,7 @@ eight_graphic(right).eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Grafiken/Jstat_article/boundaryweight_graphic(right)-eps-converted-to.pdf, id=
-822, 293.095pt x 234.8775pt>
+814, 293.095pt x 234.8775pt>
 File: Grafiken/Jstat_article/boundaryweight_graphic(right)-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -2210,15 +2199,15 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 200--210
 
 Underfull \vbox (badness 3884) has occurred while \output is active []
 
- [18 <./Grafiken/Jstat_article/boundaryweight_graphic(left)-eps-converted-to.pd
+ [17 <./Grafiken/Jstat_article/boundaryweight_graphic(left)-eps-converted-to.pd
 f> <./Grafiken/Jstat_article/boundaryweight_graphic(right)-eps-converted-to.pdf
->] [19]
+>] [18]
 LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 304
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [20]pdfTeX warning (ext4): destination with the same identifier (name{equatio
+) [19]pdfTeX warning (ext4): destination with the same identifier (name{equatio
 n.2.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2248,7 +2237,7 @@ ame{equation.2.3.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.417 \end{align}
-                  [21]pdfTeX warning (ext4): destination with the same identifi
+                  [20]pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2288,7 +2277,7 @@ ame{equation.2.3.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.470 \end{align}
-                  [22]pdfTeX warning (ext4): destination with the same identifi
+                  [21]pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2298,18 +2287,18 @@ ame{equation.2.3.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.481 \end{align}
-                  [23]
+                  [22]
 Overfull \hbox (15.78394pt too wide) in paragraph at lines 561--562
 []\T1/lmr/m/n/10 The ex-ten-ded pseudo syn-thetic es-tim-ator (EX-T-P-SYNTH) ca
 n be ap-plied by set-ting \T1/lmtt/m/n/10 unbiased=TRUE
  []
 
-[24] [25] [26]
+[23] [24] [25]
 Overfull \hbox (14.8506pt too wide) in paragraph at lines 713--713
 [] 
  []
 
-[27pdfTeX warning (ext4): destination with the same identifier (name{equation.2
+[26pdfTeX warning (ext4): destination with the same identifier (name{equation.2
 .4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2358,7 +2347,7 @@ ame{equation.2.4.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.759 \end{align}
-                  [28]pdfTeX warning (ext4): destination with the same identifi
+                  [27]pdfTeX warning (ext4): destination with the same identifi
 er (name{equation.2.4.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2386,7 +2375,7 @@ Overfull \hbox (16.49763pt too wide) in paragraph at lines 866--866
 
 Underfull \vbox (badness 3884) has occurred while \output is active []
 
- [29]pdfTeX warning (ext4): destination with the same identifier (name{equation
+ [28]pdfTeX warning (ext4): destination with the same identifier (name{equation
 .2.4.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2411,35 +2400,30 @@ ame{equation.2.4.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.907 \end{align}
-                  [30] [31] [32] [33] [34] [35] [36] [37] [38]
+                  [29] [30] [31] [32] [33] [34] [35] [36] [37]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 1450
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [39]
-<Grafiken/Jstat_article/plot_error.png, id=1044, 1951.29pt x 1011.78pt>
+) [38]
+<Grafiken/Jstat_article/plot_error.png, id=1036, 1951.29pt x 1011.78pt>
 File: Grafiken/Jstat_article/plot_error.png Graphic file (type png)
 
 <use Grafiken/Jstat_article/plot_error.png>
 Package pdftex.def Info: Grafiken/Jstat_article/plot_error.png used on input li
 ne 1494.
 (pdftex.def)             Requested size: 341.43437pt x 177.03326pt.
- [40 <./Grafiken/Jstat_article/plot_error.png>]
-<Grafiken/Jstat_article/plot_est_ci.png, id=1054, 1951.29pt x 1011.78pt>
+ [39 <./Grafiken/Jstat_article/plot_error.png>]
+<Grafiken/Jstat_article/plot_est_ci.png, id=1046, 1951.29pt x 1011.78pt>
 File: Grafiken/Jstat_article/plot_est_ci.png Graphic file (type png)
 
 <use Grafiken/Jstat_article/plot_est_ci.png>
 Package pdftex.def Info: Grafiken/Jstat_article/plot_est_ci.png used on input l
 ine 1512.
 (pdftex.def)             Requested size: 341.43437pt x 177.03326pt.
-) [41 <./Grafiken/Jstat_article/plot_est_ci.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42
-
-]
-(Regmodel_Article/regmod_article.tex
+) [40 <./Grafiken/Jstat_article/plot_est_ci.png>] (Regmodel_Article/regmod_arti
+cle.tex
 chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -2456,12 +2440,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-[43
+[41
 
-] [44] [45
+] [42] [43
 
-] [46]
-<Grafiken/Regmod_article/terr_sampledesign_bw.png, id=1196, 609.477pt x 615.499
+] [44]
+<Grafiken/Regmod_article/terr_sampledesign_bw.png, id=1184, 609.477pt x 615.499
 5pt>
 File: Grafiken/Regmod_article/terr_sampledesign_bw.png Graphic file (type png)
  <use Grafiken/Regmod_article/terr_sampledesign_bw.png>
@@ -2471,23 +2455,23 @@ on input line 74.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
-[48 <./Grafiken/Regmod_article/terr_sampledesign_bw.png>]
+ [45]
+[46 <./Grafiken/Regmod_article/terr_sampledesign_bw.png>]
 (Tabellen/SAE_article/table_fieldmeasuredvals.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 7.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 7.
-) [49]
-<Grafiken/Regmod_article/lidar_years_quality.png, id=1258, 597.56717pt x 784.10
+) [47]
+<Grafiken/Regmod_article/lidar_years_quality.png, id=1245, 597.56717pt x 784.10
 777pt>
 File: Grafiken/Regmod_article/lidar_years_quality.png Graphic file (type png)
  <use Grafiken/Regmod_article/lidar_years_quality.png>
 Package pdftex.def Info: Grafiken/Regmod_article/lidar_years_quality.png used o
 n input line 105.
 (pdftex.def)             Requested size: 341.43437pt x 448.01091pt.
- [50 <./Grafiken/Regmod_article/lidar_years_quality.png>] [51] [52]
-<Grafiken/Regmod_article/cdf_maxri.png, id=1325, 650.43pt x 578.16pt>
+ [48 <./Grafiken/Regmod_article/lidar_years_quality.png>] [49] [50]
+<Grafiken/Regmod_article/cdf_maxri.png, id=1313, 650.43pt x 578.16pt>
 File: Grafiken/Regmod_article/cdf_maxri.png Graphic file (type png)
 
 <use Grafiken/Regmod_article/cdf_maxri.png>
@@ -2495,7 +2479,7 @@ Package pdftex.def Info: Grafiken/Regmod_article/cdf_maxri.png used on input li
 ne 166.
 (pdftex.def)             Requested size: 170.71718pt x 151.74721pt.
 
-<Grafiken/Regmod_article/choice_of_support.png, id=1326, 501.54655pt x 453.0448
+<Grafiken/Regmod_article/choice_of_support.png, id=1314, 501.54655pt x 453.0448
 3pt>
 File: Grafiken/Regmod_article/choice_of_support.png Graphic file (type png)
  <use Grafiken/Regmod_article/choice_of_support.png>
@@ -2507,14 +2491,14 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 164--174
 [][] [] 
  []
 
-[53 <./Grafiken/Regmod_article/cdf_maxri.png> <./Grafiken/Regmod_article/choice
+[51 <./Grafiken/Regmod_article/cdf_maxri.png> <./Grafiken/Regmod_article/choice
 _of_support.png>]pdfTeX warning (ext4): destination with the same identifier (n
 ame{equation.3.2.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.189 	\end{align}
                   
-<Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png, id=1345, 650.43
+<Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png, id=1333, 650.43
 pt x 2168.1pt>
 File: Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png Graphic fil
 e (type png)
@@ -2523,15 +2507,15 @@ e (type png)
 Package pdftex.def Info: Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_no
 cal.png used on input line 221.
 (pdftex.def)             Requested size: 341.43437pt x 1138.13725pt.
- [54pdfTeX warning (ext4): destination with the same identifier (name{equation.
+ [52pdfTeX warning (ext4): destination with the same identifier (name{equation.
 3.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.224 \end{figure}
-                  ] [55 <./Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_
-nocal.png>] [56]
-<Grafiken/Regmod_article/cos_cal_nocal_bw.png, id=1375, 1228.59pt x 1300.86pt>
+                  ] [53 <./Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_
+nocal.png>] [54]
+<Grafiken/Regmod_article/cos_cal_nocal_bw.png, id=1362, 1228.59pt x 1300.86pt>
 File: Grafiken/Regmod_article/cos_cal_nocal_bw.png Graphic file (type png)
 
 <use Grafiken/Regmod_article/cos_cal_nocal_bw.png>
@@ -2539,7 +2523,7 @@ Package pdftex.def Info: Grafiken/Regmod_article/cos_cal_nocal_bw.png used on i
 nput line 247.
 (pdftex.def)             Requested size: 341.43437pt x 361.51894pt.
 
-<Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png, id=1377, 2095.83pt x 1156.32p
+<Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png, id=1364, 2095.83pt x 1156.32p
 t>
 File: Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png Graphic file (type png)
  <use Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png>
@@ -2550,8 +2534,8 @@ n input line 255.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[57 <./Grafiken/Regmod_article/cos_cal_nocal_bw.png>]
-<Grafiken/Regmod_article/predlines_tspecaux_cal.png, id=1390, 1806.75pt x 1445.
+[55 <./Grafiken/Regmod_article/cos_cal_nocal_bw.png>]
+<Grafiken/Regmod_article/predlines_tspecaux_cal.png, id=1377, 1806.75pt x 1445.
 4pt>
 File: Grafiken/Regmod_article/predlines_tspecaux_cal.png Graphic file (type png
 )
@@ -2568,39 +2552,33 @@ Overfull \hbox (1.40787pt too wide) in paragraph at lines 7--18
  [][] 
  []
 
-) [58 <./Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png>]
+) [56 <./Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png>]
 
-LaTeX Warning: Text page 59 contains only floats.
+LaTeX Warning: Text page 57 contains only floats.
 
 
 Overfull \vbox (3.09755pt too high) has occurred while \output is active []
 
 
-[59 <./Grafiken/Regmod_article/predlines_tspecaux_cal.png>]
+[57 <./Grafiken/Regmod_article/predlines_tspecaux_cal.png>]
 (Tabellen/Regmod_article/mod_r2_lyearstrata_table.tex)
-<Grafiken/Regmod_article/r2adj_in_lyears.png, id=1413, 1011.78pt x 1011.78pt>
+<Grafiken/Regmod_article/r2adj_in_lyears.png, id=1401, 1011.78pt x 1011.78pt>
 File: Grafiken/Regmod_article/r2adj_in_lyears.png Graphic file (type png)
 
 <use Grafiken/Regmod_article/r2adj_in_lyears.png>
 Package pdftex.def Info: Grafiken/Regmod_article/r2adj_in_lyears.png used on in
 put line 293.
 (pdftex.def)             Requested size: 341.43437pt x 341.43785pt.
- [60] [61 <./Grafiken/Regmod_article/r2adj_in_lyears.png>]
+ [58] [59 <./Grafiken/Regmod_article/r2adj_in_lyears.png>]
 Underfull \vbox (badness 1424) has occurred while \output is active []
 
- [62]
-[63]
+ [60]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
-) [64]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65
-
-]
-(SAE_Article/sae_article.tex
+) [62] (SAE_Article/sae_article.tex
 chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -2617,11 +2595,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
-[66
+[63
 
-] [67] [68
+] [64] [65
 
-] [69] [70] [71]pdfTeX warning (ext4): destination with the same identifier (na
+] [66] [67] [68]pdfTeX warning (ext4): destination with the same identifier (na
 me{equation.4.4.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2641,7 +2619,7 @@ name{equation.4.4.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.160 	\end{align}
-                   [72]
+                   [69]
 Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
@@ -2679,7 +2657,7 @@ l.217 	\end{align}
                   
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
+ [70]
 Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
@@ -2712,7 +2690,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
 Underfull \vbox (badness 1596) has occurred while \output is active []
 
- [74]pdfTeX warning (ext4): destination with the same identifier (name{equation
+ [71]pdfTeX warning (ext4): destination with the same identifier (name{equation
 .4.4.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2735,34 +2713,34 @@ l.305 	\end{align}
                   
 Underfull \vbox (badness 1348) has occurred while \output is active []
 
- [75]
+ [72]
 Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
-[76] <Grafiken/SAE_article/SAunitsRLP.png, id=1698, 519.65572pt x 523.09714pt>
+[73] <Grafiken/SAE_article/SAunitsRLP.png, id=1681, 519.65572pt x 523.09714pt>
 File: Grafiken/SAE_article/SAunitsRLP.png Graphic file (type png)
 
 <use Grafiken/SAE_article/SAunitsRLP.png>
 Package pdftex.def Info: Grafiken/SAE_article/SAunitsRLP.png used on input line
  348.
 (pdftex.def)             Requested size: 341.43437pt x 343.71266pt.
- [77 <./Grafiken/SAE_article/SAunitsRLP.png>] (Tabellen/SAE_article/table_field
-measuredvals.tex) [78]
-<Grafiken/SAE_article/Auxvars_400dpi.png, id=1733, 684.48203pt x 846.22917pt>
+ [74 <./Grafiken/SAE_article/SAunitsRLP.png>] (Tabellen/SAE_article/table_field
+measuredvals.tex) [75]
+<Grafiken/SAE_article/Auxvars_400dpi.png, id=1717, 684.48203pt x 846.22917pt>
 File: Grafiken/SAE_article/Auxvars_400dpi.png Graphic file (type png)
 
 <use Grafiken/SAE_article/Auxvars_400dpi.png>
 Package pdftex.def Info: Grafiken/SAE_article/Auxvars_400dpi.png used on input 
 line 414.
 (pdftex.def)             Requested size: 341.43437pt x 422.1193pt.
- [79] [80 <./Grafiken/SAE_article/Auxvars_400dpi.png>] [81] (Tabellen/SAE_artic
+ [76] [77 <./Grafiken/SAE_article/Auxvars_400dpi.png>] [78] (Tabellen/SAE_artic
 le/modacc_modterms.tex)
-(Tabellen/SAE_article/mod_r2_lyearstrata_table.tex) [82]
+(Tabellen/SAE_article/mod_r2_lyearstrata_table.tex) [79]
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
- [83]
-<Grafiken/SAE_article/error_distr_foa_fu.png, id=1790, 1156.32pt x 578.16pt>
+ [80]
+<Grafiken/SAE_article/error_distr_foa_fu.png, id=1774, 1156.32pt x 578.16pt>
 File: Grafiken/SAE_article/error_distr_foa_fu.png Graphic file (type png)
 
 <use Grafiken/SAE_article/error_distr_foa_fu.png>
@@ -2772,8 +2750,8 @@ put line 516.
 
 Underfull \vbox (badness 7722) has occurred while \output is active []
 
- [84 <./Grafiken/SAE_article/error_distr_foa_fu.png>]
-<Grafiken/SAE_article/psmall_vs_extpsynth_fu.png, id=1807, 939.51pt x 433.62pt>
+ [81 <./Grafiken/SAE_article/error_distr_foa_fu.png>]
+<Grafiken/SAE_article/psmall_vs_extpsynth_fu.png, id=1791, 939.51pt x 433.62pt>
 File: Grafiken/SAE_article/psmall_vs_extpsynth_fu.png Graphic file (type png)
 <use Grafiken/SAE_article/psmall_vs_extpsynth_fu.png>
 Package pdftex.def Info: Grafiken/SAE_article/psmall_vs_extpsynth_fu.png used o
@@ -2782,8 +2760,8 @@ n input line 535.
 
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
- [85 <./Grafiken/SAE_article/psmall_vs_extpsynth_fu.png (PNG copy)>]
-<Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png, id=1820, 766.062pt
+ [82 <./Grafiken/SAE_article/psmall_vs_extpsynth_fu.png (PNG copy)>]
+<Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png, id=1803, 766.062pt
  x 578.16pt>
 File: Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png Graphic file (
 type png)
@@ -2792,21 +2770,16 @@ Package pdftex.def Info: Grafiken/SAE_article/compare_onephase_extpsynth_psmall
 .png used on input line 553.
 (pdftex.def)             Requested size: 341.43437pt x 257.69061pt.
 
-[86 <./Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png>]
-<Grafiken/SAE_article/eval_2phase_fail_11.png, id=1831, 867.24pt x 361.35pt>
+[83 <./Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png>]
+<Grafiken/SAE_article/eval_2phase_fail_11.png, id=1814, 867.24pt x 361.35pt>
 File: Grafiken/SAE_article/eval_2phase_fail_11.png Graphic file (type png)
 
 <use Grafiken/SAE_article/eval_2phase_fail_11.png>
 Package pdftex.def Info: Grafiken/SAE_article/eval_2phase_fail_11.png used on i
 nput line 584.
 (pdftex.def)             Requested size: 341.43437pt x 142.26578pt.
- [87 <./Grafiken/SAE_article/eval_2phase_fail_11.png>] [88]) [89] [90]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [91
-
-]
-(Mapping_Article/mapping_article.tex
+ [84 <./Grafiken/SAE_article/eval_2phase_fail_11.png>] [85]) [86] [87] (Mapping
+_Article/mapping_article.tex
 chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -2818,30 +2791,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-[92
+[88
 
-] [93]
+] [89]
 
-Package natbib Warning: Citation `gregoire2008' on page 94 undefined on input l
+Package natbib Warning: Citation `gregoire2008' on page 90 undefined on input l
 ine 44.
 
 
-Package natbib Warning: Citation `gregoire2008' on page 94 undefined on input l
+Package natbib Warning: Citation `gregoire2008' on page 90 undefined on input l
 ine 44.
 
-[94
+[90
 
 
-] [95] [96]
-<Grafiken/Mapping_article/studyarea.png, id=1995, 793.46437pt x 620.3175pt>
+] [91] [92]
+<Grafiken/Mapping_article/studyarea.png, id=1975, 793.46437pt x 620.3175pt>
 File: Grafiken/Mapping_article/studyarea.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/studyarea.png>
 Package pdftex.def Info: Grafiken/Mapping_article/studyarea.png used on input l
 ine 74.
 (pdftex.def)             Requested size: 341.43437pt x 266.9301pt.
- [97 <./Grafiken/Mapping_article/studyarea.png>]
-<Grafiken/Mapping_article/summaryFieldplots.png, id=2019, 714.41907pt x 476.530
+ [93 <./Grafiken/Mapping_article/studyarea.png>]
+<Grafiken/Mapping_article/summaryFieldplots.png, id=1998, 714.41907pt x 476.530
 32pt>
 File: Grafiken/Mapping_article/summaryFieldplots.png Graphic file (type png)
  <use Grafiken/Mapping_article/summaryFieldplots.png>
@@ -2851,15 +2824,15 @@ Package pdftex.def Info: Grafiken/Mapping_article/summaryFieldplots.png used on
 
 Underfull \vbox (badness 2197) has occurred while \output is active []
 
- [98 <./Grafiken/Mapping_article/summaryFieldplots.png>]
-<Grafiken/Mapping_article/concept.png, id=2033, 444.15938pt x 612.78937pt>
+ [94 <./Grafiken/Mapping_article/summaryFieldplots.png>]
+<Grafiken/Mapping_article/concept.png, id=2012, 444.15938pt x 612.78937pt>
 File: Grafiken/Mapping_article/concept.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/concept.png>
 Package pdftex.def Info: Grafiken/Mapping_article/concept.png used on input lin
 e 148.
 (pdftex.def)             Requested size: 341.43437pt x 471.06384pt.
- [99 <./Grafiken/Mapping_article/concept.png>] [100]
+ [95 <./Grafiken/Mapping_article/concept.png>] [96]
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
@@ -2874,7 +2847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
-[101]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
@@ -2904,7 +2877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-[102]
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 258--261
 
  []
@@ -2914,14 +2887,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.5.2.
 <to be read again> 
                    \relax 
 l.274 	\end{align}
-                   [103pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.5.2.2}) has been already used, duplicate ignored
+                   [99pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.5.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.279 I
        n order to find an appropriate choice for the weight factors, several...
-] <Grafiken/Mapping_article/mapdesign.png, id=2118, 679.78969pt x 362.10281pt>
+] <Grafiken/Mapping_article/mapdesign.png, id=2097, 679.78969pt x 362.10281pt>
 File: Grafiken/Mapping_article/mapdesign.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/mapdesign.png>
@@ -2931,57 +2904,51 @@ ine 291.
 
 Underfull \vbox (badness 3189) has occurred while \output is active []
 
- [104 <./Grafiken/Mapping_article/mapdesign.png>]
-<Grafiken/Mapping_article/regmodplot.png, id=2129, 724.20563pt x 472.01344pt>
+ [100 <./Grafiken/Mapping_article/mapdesign.png>]
+<Grafiken/Mapping_article/regmodplot.png, id=2108, 724.20563pt x 472.01344pt>
 File: Grafiken/Mapping_article/regmodplot.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/regmodplot.png>
 Package pdftex.def Info: Grafiken/Mapping_article/regmodplot.png used on input 
 line 318.
 (pdftex.def)             Requested size: 341.43437pt x 222.53777pt.
- [105 <./Grafiken/Mapping_article/regmodplot.png>]
-<Grafiken/Mapping_article/accuracies.png, id=2141, 909.3975pt x 584.93532pt>
+ [101 <./Grafiken/Mapping_article/regmodplot.png>]
+<Grafiken/Mapping_article/accuracies.png, id=2120, 909.3975pt x 584.93532pt>
 File: Grafiken/Mapping_article/accuracies.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/accuracies.png>
 Package pdftex.def Info: Grafiken/Mapping_article/accuracies.png used on input 
 line 354.
 (pdftex.def)             Requested size: 341.43437pt x 219.61797pt.
- [106 <./Grafiken/Mapping_article/accuracies.png>] [107]
-<Grafiken/Mapping_article/volmap.png, id=2162, 954.56625pt x 1081.03876pt>
+ [102 <./Grafiken/Mapping_article/accuracies.png>] [103]
+<Grafiken/Mapping_article/volmap.png, id=2141, 954.56625pt x 1081.03876pt>
 File: Grafiken/Mapping_article/volmap.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/volmap.png>
 Package pdftex.def Info: Grafiken/Mapping_article/volmap.png used on input line
  411.
 (pdftex.def)             Requested size: 341.43437pt x 386.66637pt.
- [108 <./Grafiken/Mapping_article/volmap.png>] [109]
+ [104 <./Grafiken/Mapping_article/volmap.png>] [105]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110])
-[111]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [112
-
-]
-(Main/Synthese.tex
+ [106])
+[107] (Main/Synthese.tex
 chapter 6.
-[113
+[108
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114]
-[115] [116]) (Dissertation.bbl [117]
+ [109]
+[110] [111]) [112] (Dissertation.bbl
 chapter without number
 
 LaTeX Font Warning: Font shape `T1/lmr/b/it' in size <10> not available
 (Font)              Font shape `T1/lmr/b/sl' tried instead on input line 77.
 
-[118
+[113
 
-] [119] [120] [121] [122] [123] [124] [125]) (Main/Curriculum.tex [126]
+] [114] [115] [116] [117] [118] [119] [120]) (Main/Curriculum.tex [121]
 Overfull \hbox (2.65912pt too wide) in alignment at lines 8--14
 [][] 
  []
@@ -3011,7 +2978,7 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 42--58
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127
+ [122
 
 ]
 
@@ -3032,34 +2999,34 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 79--91
 [][] 
  []
 
-) [128]
+) [123]
 
 Package natbib Warning: There were undefined citations.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129
+ [124
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
 
 (Dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 3B80A0CAE40FE893359C1563B7919745;3108.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 383.
  ) 
 Here is how much of TeX's memory you used:
- 30561 strings out of 493333
- 576451 string characters out of 3139194
- 782515 words of memory out of 7999999
+ 30555 strings out of 493333
+ 576404 string characters out of 3139194
+ 783501 words of memory out of 7999999
  32772 multiletter control sequences out of 15000+200000
  136864 words of font info for 121 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3094,9 +3061,9 @@ e1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Dissertation.pdf (141 pages, 43344826 bytes).
+Output written on Dissertation.pdf (135 pages, 43344167 bytes).
 PDF statistics:
- 2528 PDF objects out of 2984 (max. 8388607)
- 541 named destinations out of 1000 (max. 500000)
+ 2501 PDF objects out of 2984 (max. 8388607)
+ 535 named destinations out of 1000 (max. 500000)
  581 words of extra memory for PDF output out of 10000 (max. 10000000)
 
