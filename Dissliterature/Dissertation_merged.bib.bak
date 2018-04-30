@@ -82,7 +82,7 @@
 }
 
 @Misc{bwi3_aufn,
-  author    = {{B}undesministerium f{\"a}r {E}rn{\"a}hrung, {L}andwirtschaft und {V}erbraucherschutz},
+  author    = {{B}undesministerium f{\"u}r {E}rn{\"a}hrung, {L}andwirtschaft und {V}erbraucherschutz},
   title     = {Aufnahmeanweisung f{\"u}r die dritte {B}undeswaldinventur {BWI3} (2011 - 2012)},
   year      = {2011},
   file      = {:pdf\\AufnahmeanweisungBWI3.pdf:PDF},
@@ -1187,12 +1187,12 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   url    = {https://CRAN.R-project.org/package=data.table},
 }
 
-@Manual{github_forestinventory,
-  title  = {forestinventory},
-  author = {Hill, Andreas},
-  year   = {2017},
-  note   = {GitHub repository},
-  url    = {https://github.com/AndreasChristianHill/forestinventory},
+@Misc{github_forestinventory,
+  author       = {Hill, Andreas},
+  title        = {forestinventory},
+  howpublished = {\url{https://github.com/AndreasChristianHill/forestinventory}},
+  year         = {2017},
+  note         = {GitHub repository},
 }
 
 @Manual{survey,
@@ -1807,6 +1807,14 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   school = {ETH Zurich},
   year   = {1993},
   type   = {Habilitation},
+}
+
+@Misc{github_classoptimr,
+  author       = {Hill, Andreas},
+  title        = {forestinventory},
+  howpublished = {\url{https://github.com/AndreasChristianHill/classoptimr}},
+  year         = {2017},
+  note         = {GitHub repository},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

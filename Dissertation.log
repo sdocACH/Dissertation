@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  19 APR 2018 10:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  30 APR 2018 16:14
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -2948,7 +2948,13 @@ LaTeX Font Warning: Font shape `T1/lmr/b/it' in size <10> not available
 
 [113
 
-] [114] [115] [116] [117] [118] [119] [120]) (Main/Curriculum.tex [121]
+] [114]
+Underfull \hbox (badness 10000) in paragraph at lines 262--266
+[]\T1/lmr/m/n/10 Hill, A. (2017).  forestin-vent-ory.  [][]$\T1/lmtt/m/n/10 htt
+ps : / / github . com / AndreasChristianHill /
+ []
+
+[115] [116] [117] [118] [119] [120]) (Main/Curriculum.tex [121]
 Overfull \hbox (2.65912pt too wide) in alignment at lines 8--14
 [][] 
  []
@@ -3061,9 +3067,9 @@ e1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Dissertation.pdf (135 pages, 43344313 bytes).
+Output written on Dissertation.pdf (135 pages, 43345064 bytes).
 PDF statistics:
- 2501 PDF objects out of 2984 (max. 8388607)
+ 2503 PDF objects out of 2984 (max. 8388607)
  535 named destinations out of 1000 (max. 500000)
  581 words of extra memory for PDF output out of 10000 (max. 10000000)
 
