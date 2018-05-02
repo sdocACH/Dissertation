@@ -651,6 +651,11 @@ Ott, E., Frehner, M., Frey, H.-U., \& Lüscher, P. (1997).
 \newblock Haupt.
 \newblock .
 
+\bibitem[Papritz, 2018]{georob2018}
+Papritz, A. (2018).
+\newblock {\em georob: Robust Geostatistical Analysis of Spatial Data}.
+\newblock R package version 0.3-6.
+
 \bibitem[Pinheiro \& Bates, 2000]{pinheirobates2000}
 Pinheiro, J. \& Bates, D. (2000).
 \newblock {\em Mixed-Effects Models in S and S-PLUS}.

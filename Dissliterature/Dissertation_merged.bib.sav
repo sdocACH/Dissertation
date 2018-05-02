@@ -1817,7 +1817,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   note         = {GitHub repository},
 }
 
-@Manual{,
+@Manual{g,
   title  = {georob: Robust Geostatistical Analysis of Spatial Data},
   author = {Andreas Papritz},
   year   = {2018},
