@@ -258,8 +258,14 @@ Hill, A. (2013).
   airborne laserscanning data.
 \newblock Master's thesis, ETH Zurich, University of G{\"o}ttingen.
 
-\bibitem[Hill, 2017]{github_forestinventory}
-Hill, A. (2017).
+\bibitem[Hill, 2017a]{github_classoptimr}
+Hill, A. (2017a).
+\newblock classoptimr.
+\newblock \url{https://github.com/AndreasChristianHill/classoptimr}.
+\newblock GitHub repository.
+
+\bibitem[Hill, 2017b]{github_forestinventory}
+Hill, A. (2017b).
 \newblock forestinventory.
 \newblock \url{https://github.com/AndreasChristianHill/forestinventory}.
 \newblock GitHub repository.
