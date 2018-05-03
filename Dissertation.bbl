@@ -321,6 +321,13 @@ Horvitz, D.~G. \& Thompson, D.~J. (1952).
 \newblock {\em Journal of the American statistical Association}, 47(260),
   663--685.
 
+\bibitem[Houllier, 1987]{houllier1987}
+Houllier, F. (1987).
+\newblock Echantillonnage et mod{\'e}lisation de la dynamique des peuplements
+  forestiers. application au cas de l'inventaire forestier national.
+\newblock In {\em Annales des Sciences Foresti{\`e}res}, volume~44  (pp.\
+  265--266).: EDP Sciences.
+
 \bibitem[Husmann et~al., 2017]{husmann2017}
 Husmann, K., Rumpf, S., \& Nagel, J. (2017).
 \newblock Biomass functions and nutrient contents of european beech, oak,
@@ -479,6 +486,12 @@ Magnussen, S., Tomppo, E., \& McRoberts, R.~E. (2010b).
 Mallows, C.~L. (2000).
 \newblock Some comments on cp.
 \newblock {\em Technometrics}, 42(1), 87--94.
+
+\bibitem[Mandallaz, 1991]{mandallaz1991}
+Mandallaz, D. (1991).
+\newblock {\em A unified approach to sampling theory for forest inventory based
+  on infinite population and superpopulation models}.
+\newblock PhD thesis, ETH Zurich.
 
 \bibitem[Mandallaz, 1993]{mandallaz1993}
 Mandallaz, D. (1993).

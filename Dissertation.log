@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  2 MAY 2018 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  3 MAY 2018 18:30
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -2039,7 +2039,7 @@ l-01.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 
-<Grafiken/Jstat_article/localdensity_final-01-eps-converted-to.pdf, id=694, 340
+<Grafiken/Jstat_article/localdensity_final-01-eps-converted-to.pdf, id=698, 340
 .27126pt x 325.215pt>
 File: Grafiken/Jstat_article/localdensity_final-01-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2064,7 +2064,7 @@ es_graphic(new)-eps-converted-to.pdf Grafiken/Jstat_article/phases_graphic(new)
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
-<Grafiken/Jstat_article/phases_graphic(new)-eps-converted-to.pdf, id=715, 266.9
+<Grafiken/Jstat_article/phases_graphic(new)-eps-converted-to.pdf, id=719, 266.9
 975pt x 179.67125pt>
 File: Grafiken/Jstat_article/phases_graphic(new)-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2074,7 +2074,7 @@ Package pdftex.def Info: Grafiken/Jstat_article/phases_graphic(new)-eps-convert
 ed-to.pdf used on input line 79.
 (pdftex.def)             Requested size: 170.71718pt x 114.88501pt.
 
-<Grafiken/Jstat_article/sae_graphic.PNG, id=716, 498.36188pt x 590.205pt>
+<Grafiken/Jstat_article/sae_graphic.PNG, id=720, 498.36188pt x 590.205pt>
 File: Grafiken/Jstat_article/sae_graphic.PNG Graphic file (type png)
 
 <use Grafiken/Jstat_article/sae_graphic.PNG>
@@ -2105,7 +2105,7 @@ age_structure_5-eps-converted-to.pdf Grafiken/Jstat_article/Package_structure_5
 (epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
 
-<Grafiken/Jstat_article/Package_structure_5-eps-converted-to.pdf, id=769, 541.0
+<Grafiken/Jstat_article/Package_structure_5-eps-converted-to.pdf, id=773, 541.0
 2126pt x 332.24126pt>
 File: Grafiken/Jstat_article/Package_structure_5-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2160,7 +2160,7 @@ ight_graphic(left).eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Grafiken/Jstat_article/boundaryweight_graphic(left)-eps-converted-to.pdf, id=8
-16, 292.09125pt x 234.8775pt>
+20, 292.09125pt x 234.8775pt>
 File: Grafiken/Jstat_article/boundaryweight_graphic(left)-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -2183,7 +2183,7 @@ eight_graphic(right).eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Grafiken/Jstat_article/boundaryweight_graphic(right)-eps-converted-to.pdf, id=
-817, 293.095pt x 234.8775pt>
+821, 293.095pt x 234.8775pt>
 File: Grafiken/Jstat_article/boundaryweight_graphic(right)-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -2407,7 +2407,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 1450
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [38]
-<Grafiken/Jstat_article/plot_error.png, id=1039, 1951.29pt x 1011.78pt>
+<Grafiken/Jstat_article/plot_error.png, id=1043, 1951.29pt x 1011.78pt>
 File: Grafiken/Jstat_article/plot_error.png Graphic file (type png)
 
 <use Grafiken/Jstat_article/plot_error.png>
@@ -2415,7 +2415,7 @@ Package pdftex.def Info: Grafiken/Jstat_article/plot_error.png used on input li
 ne 1494.
 (pdftex.def)             Requested size: 341.43437pt x 177.03326pt.
  [39 <./Grafiken/Jstat_article/plot_error.png>]
-<Grafiken/Jstat_article/plot_est_ci.png, id=1049, 1951.29pt x 1011.78pt>
+<Grafiken/Jstat_article/plot_est_ci.png, id=1053, 1951.29pt x 1011.78pt>
 File: Grafiken/Jstat_article/plot_est_ci.png Graphic file (type png)
 
 <use Grafiken/Jstat_article/plot_est_ci.png>
@@ -2445,7 +2445,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 ] [42] [43
 
 ] [44]
-<Grafiken/Regmod_article/terr_sampledesign_bw.png, id=1187, 609.477pt x 615.499
+<Grafiken/Regmod_article/terr_sampledesign_bw.png, id=1191, 609.477pt x 615.499
 5pt>
 File: Grafiken/Regmod_article/terr_sampledesign_bw.png Graphic file (type png)
  <use Grafiken/Regmod_article/terr_sampledesign_bw.png>
@@ -2463,7 +2463,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 7.
 ) [47]
-<Grafiken/Regmod_article/lidar_years_quality.png, id=1248, 597.56717pt x 784.10
+<Grafiken/Regmod_article/lidar_years_quality.png, id=1252, 597.56717pt x 784.10
 777pt>
 File: Grafiken/Regmod_article/lidar_years_quality.png Graphic file (type png)
  <use Grafiken/Regmod_article/lidar_years_quality.png>
@@ -2471,7 +2471,7 @@ Package pdftex.def Info: Grafiken/Regmod_article/lidar_years_quality.png used o
 n input line 105.
 (pdftex.def)             Requested size: 341.43437pt x 448.01091pt.
  [48 <./Grafiken/Regmod_article/lidar_years_quality.png>] [49] [50]
-<Grafiken/Regmod_article/cdf_maxri.png, id=1316, 650.43pt x 578.16pt>
+<Grafiken/Regmod_article/cdf_maxri.png, id=1320, 650.43pt x 578.16pt>
 File: Grafiken/Regmod_article/cdf_maxri.png Graphic file (type png)
 
 <use Grafiken/Regmod_article/cdf_maxri.png>
@@ -2479,7 +2479,7 @@ Package pdftex.def Info: Grafiken/Regmod_article/cdf_maxri.png used on input li
 ne 166.
 (pdftex.def)             Requested size: 170.71718pt x 151.74721pt.
 
-<Grafiken/Regmod_article/choice_of_support.png, id=1317, 501.54655pt x 453.0448
+<Grafiken/Regmod_article/choice_of_support.png, id=1321, 501.54655pt x 453.0448
 3pt>
 File: Grafiken/Regmod_article/choice_of_support.png Graphic file (type png)
  <use Grafiken/Regmod_article/choice_of_support.png>
@@ -2498,7 +2498,7 @@ ame{equation.3.2.1}) has been already used, duplicate ignored
                    \relax 
 l.189 	\end{align}
                   
-<Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png, id=1336, 650.43
+<Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png, id=1340, 650.43
 pt x 2168.1pt>
 File: Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_nocal.png Graphic fil
 e (type png)
@@ -2515,7 +2515,7 @@ cal.png used on input line 221.
 l.224 \end{figure}
                   ] [53 <./Grafiken/Regmod_article/oaa_and_cos_tspec_mixed_cal_
 nocal.png>] [54]
-<Grafiken/Regmod_article/cos_cal_nocal_bw.png, id=1365, 1228.59pt x 1300.86pt>
+<Grafiken/Regmod_article/cos_cal_nocal_bw.png, id=1369, 1228.59pt x 1300.86pt>
 File: Grafiken/Regmod_article/cos_cal_nocal_bw.png Graphic file (type png)
 
 <use Grafiken/Regmod_article/cos_cal_nocal_bw.png>
@@ -2523,7 +2523,7 @@ Package pdftex.def Info: Grafiken/Regmod_article/cos_cal_nocal_bw.png used on i
 nput line 247.
 (pdftex.def)             Requested size: 341.43437pt x 361.51894pt.
 
-<Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png, id=1367, 2095.83pt x 1156.32p
+<Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png, id=1371, 2095.83pt x 1156.32p
 t>
 File: Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png Graphic file (type png)
  <use Grafiken/Regmod_article/cos_r2_cal_vs_nocal.png>
@@ -2535,7 +2535,7 @@ n input line 255.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [55 <./Grafiken/Regmod_article/cos_cal_nocal_bw.png>]
-<Grafiken/Regmod_article/predlines_tspecaux_cal.png, id=1380, 1806.75pt x 1445.
+<Grafiken/Regmod_article/predlines_tspecaux_cal.png, id=1384, 1806.75pt x 1445.
 4pt>
 File: Grafiken/Regmod_article/predlines_tspecaux_cal.png Graphic file (type png
 )
@@ -2562,7 +2562,7 @@ Overfull \vbox (3.09755pt too high) has occurred while \output is active []
 
 [57 <./Grafiken/Regmod_article/predlines_tspecaux_cal.png>]
 (Tabellen/Regmod_article/mod_r2_lyearstrata_table.tex)
-<Grafiken/Regmod_article/r2adj_in_lyears.png, id=1404, 1011.78pt x 1011.78pt>
+<Grafiken/Regmod_article/r2adj_in_lyears.png, id=1408, 1011.78pt x 1011.78pt>
 File: Grafiken/Regmod_article/r2adj_in_lyears.png Graphic file (type png)
 
 <use Grafiken/Regmod_article/r2adj_in_lyears.png>
@@ -2718,7 +2718,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
-[73] <Grafiken/SAE_article/SAunitsRLP.png, id=1684, 519.65572pt x 523.09714pt>
+[73] <Grafiken/SAE_article/SAunitsRLP.png, id=1688, 519.65572pt x 523.09714pt>
 File: Grafiken/SAE_article/SAunitsRLP.png Graphic file (type png)
 
 <use Grafiken/SAE_article/SAunitsRLP.png>
@@ -2727,7 +2727,7 @@ Package pdftex.def Info: Grafiken/SAE_article/SAunitsRLP.png used on input line
 (pdftex.def)             Requested size: 341.43437pt x 343.71266pt.
  [74 <./Grafiken/SAE_article/SAunitsRLP.png>] (Tabellen/SAE_article/table_field
 measuredvals.tex) [75]
-<Grafiken/SAE_article/Auxvars_400dpi.png, id=1720, 684.48203pt x 846.22917pt>
+<Grafiken/SAE_article/Auxvars_400dpi.png, id=1724, 684.48203pt x 846.22917pt>
 File: Grafiken/SAE_article/Auxvars_400dpi.png Graphic file (type png)
 
 <use Grafiken/SAE_article/Auxvars_400dpi.png>
@@ -2740,7 +2740,7 @@ le/modacc_modterms.tex)
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
  [80]
-<Grafiken/SAE_article/error_distr_foa_fu.png, id=1777, 1156.32pt x 578.16pt>
+<Grafiken/SAE_article/error_distr_foa_fu.png, id=1781, 1156.32pt x 578.16pt>
 File: Grafiken/SAE_article/error_distr_foa_fu.png Graphic file (type png)
 
 <use Grafiken/SAE_article/error_distr_foa_fu.png>
@@ -2751,7 +2751,7 @@ put line 516.
 Underfull \vbox (badness 7722) has occurred while \output is active []
 
  [81 <./Grafiken/SAE_article/error_distr_foa_fu.png>]
-<Grafiken/SAE_article/psmall_vs_extpsynth_fu.png, id=1794, 939.51pt x 433.62pt>
+<Grafiken/SAE_article/psmall_vs_extpsynth_fu.png, id=1798, 939.51pt x 433.62pt>
 File: Grafiken/SAE_article/psmall_vs_extpsynth_fu.png Graphic file (type png)
 <use Grafiken/SAE_article/psmall_vs_extpsynth_fu.png>
 Package pdftex.def Info: Grafiken/SAE_article/psmall_vs_extpsynth_fu.png used o
@@ -2761,7 +2761,7 @@ n input line 535.
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
  [82 <./Grafiken/SAE_article/psmall_vs_extpsynth_fu.png (PNG copy)>]
-<Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png, id=1806, 766.062pt
+<Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png, id=1810, 766.062pt
  x 578.16pt>
 File: Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png Graphic file (
 type png)
@@ -2771,7 +2771,7 @@ Package pdftex.def Info: Grafiken/SAE_article/compare_onephase_extpsynth_psmall
 (pdftex.def)             Requested size: 341.43437pt x 257.69061pt.
 
 [83 <./Grafiken/SAE_article/compare_onephase_extpsynth_psmall.png>]
-<Grafiken/SAE_article/eval_2phase_fail_11.png, id=1817, 867.24pt x 361.35pt>
+<Grafiken/SAE_article/eval_2phase_fail_11.png, id=1821, 867.24pt x 361.35pt>
 File: Grafiken/SAE_article/eval_2phase_fail_11.png Graphic file (type png)
 
 <use Grafiken/SAE_article/eval_2phase_fail_11.png>
@@ -2793,20 +2793,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
 [88
 
-] [89]
-
-Package natbib Warning: Citation `gregoire2008' on page 90 undefined on input l
-ine 44.
-
-
-Package natbib Warning: Citation `gregoire2008' on page 90 undefined on input l
-ine 44.
-
-[90
+] [89] [90
 
 
 ] [91] [92]
-<Grafiken/Mapping_article/studyarea.png, id=1978, 793.46437pt x 620.3175pt>
+<Grafiken/Mapping_article/studyarea.png, id=1987, 793.46437pt x 620.3175pt>
 File: Grafiken/Mapping_article/studyarea.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/studyarea.png>
@@ -2814,18 +2805,15 @@ Package pdftex.def Info: Grafiken/Mapping_article/studyarea.png used on input l
 ine 74.
 (pdftex.def)             Requested size: 341.43437pt x 266.9301pt.
  [93 <./Grafiken/Mapping_article/studyarea.png>]
-<Grafiken/Mapping_article/summaryFieldplots.png, id=2001, 714.41907pt x 476.530
+<Grafiken/Mapping_article/summaryFieldplots.png, id=2010, 714.41907pt x 476.530
 32pt>
 File: Grafiken/Mapping_article/summaryFieldplots.png Graphic file (type png)
  <use Grafiken/Mapping_article/summaryFieldplots.png>
 Package pdftex.def Info: Grafiken/Mapping_article/summaryFieldplots.png used on
  input line 104.
 (pdftex.def)             Requested size: 341.43437pt x 227.74306pt.
-
-Underfull \vbox (badness 2197) has occurred while \output is active []
-
  [94 <./Grafiken/Mapping_article/summaryFieldplots.png>]
-<Grafiken/Mapping_article/concept.png, id=2015, 444.15938pt x 612.78937pt>
+<Grafiken/Mapping_article/concept.png, id=2024, 444.15938pt x 612.78937pt>
 File: Grafiken/Mapping_article/concept.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/concept.png>
@@ -2894,7 +2882,7 @@ er (name{equation.5.2.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.279 I
        n order to find an appropriate choice for the weight factors, several...
-] <Grafiken/Mapping_article/mapdesign.png, id=2100, 679.78969pt x 362.10281pt>
+] <Grafiken/Mapping_article/mapdesign.png, id=2109, 679.78969pt x 362.10281pt>
 File: Grafiken/Mapping_article/mapdesign.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/mapdesign.png>
@@ -2905,7 +2893,7 @@ ine 291.
 Underfull \vbox (badness 3189) has occurred while \output is active []
 
  [100 <./Grafiken/Mapping_article/mapdesign.png>]
-<Grafiken/Mapping_article/regmodplot.png, id=2111, 724.20563pt x 472.01344pt>
+<Grafiken/Mapping_article/regmodplot.png, id=2120, 724.20563pt x 472.01344pt>
 File: Grafiken/Mapping_article/regmodplot.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/regmodplot.png>
@@ -2913,7 +2901,7 @@ Package pdftex.def Info: Grafiken/Mapping_article/regmodplot.png used on input
 line 318.
 (pdftex.def)             Requested size: 341.43437pt x 222.53777pt.
  [101 <./Grafiken/Mapping_article/regmodplot.png>]
-<Grafiken/Mapping_article/accuracies.png, id=2123, 909.3975pt x 584.93532pt>
+<Grafiken/Mapping_article/accuracies.png, id=2132, 909.3975pt x 584.93532pt>
 File: Grafiken/Mapping_article/accuracies.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/accuracies.png>
@@ -2921,7 +2909,7 @@ Package pdftex.def Info: Grafiken/Mapping_article/accuracies.png used on input
 line 354.
 (pdftex.def)             Requested size: 341.43437pt x 219.61797pt.
  [102 <./Grafiken/Mapping_article/accuracies.png>] [103]
-<Grafiken/Mapping_article/volmap.png, id=2144, 954.56625pt x 1081.03876pt>
+<Grafiken/Mapping_article/volmap.png, id=2153, 954.56625pt x 1081.03876pt>
 File: Grafiken/Mapping_article/volmap.png Graphic file (type png)
 
 <use Grafiken/Mapping_article/volmap.png>
@@ -2936,11 +2924,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 chapter 6.
 [108
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [109]
-[110] [111]) [112] (Dissertation.bbl
+] [109] [110] [111]) [112] (Dissertation.bbl
 chapter without number
 
 LaTeX Font Warning: Font shape `T1/lmr/b/it' in size <10> not available
@@ -3006,10 +2990,6 @@ Overfull \hbox (45.34087pt too wide) in alignment at lines 79--91
  []
 
 ) [123]
-
-Package natbib Warning: There were undefined citations.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [124
@@ -3030,10 +3010,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 383.
  ) 
 Here is how much of TeX's memory you used:
- 30563 strings out of 493333
- 576574 string characters out of 3139194
- 782533 words of memory out of 7999999
- 32778 multiletter control sequences out of 15000+200000
+ 30570 strings out of 493333
+ 576718 string characters out of 3139194
+ 783622 words of memory out of 7999999
+ 32783 multiletter control sequences out of 15000+200000
  136864 words of font info for 121 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,16n,69p,8825b,820s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3067,9 +3047,9 @@ e1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Dissertation.pdf (135 pages, 43349457 bytes).
+Output written on Dissertation.pdf (135 pages, 43353165 bytes).
 PDF statistics:
- 2513 PDF objects out of 2984 (max. 8388607)
- 537 named destinations out of 1000 (max. 500000)
+ 2528 PDF objects out of 2984 (max. 8388607)
+ 539 named destinations out of 1000 (max. 500000)
  581 words of extra memory for PDF output out of 10000 (max. 10000000)
 
