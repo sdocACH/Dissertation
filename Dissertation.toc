@@ -3,7 +3,7 @@
 \select@language {ngerman}
 \contentsline {chapter}{Zusammenfassung}{ix}{chapter*.6}
 \select@language {british}
-\contentsline {chapter}{\numberline {1}General Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Short history of forest inventory}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Thesis objective and structure}{3}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Study 1: Design-based small area estimation}{3}{subsection.1.2.1}
