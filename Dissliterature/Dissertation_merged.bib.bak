@@ -1866,7 +1866,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {Elsevier},
 }
 
-@Article{matasci2018large,
+@Article{matasci2018,
   author  = {Matasci, Giona and Hermosilla, Txomin and Wulder, Michael A and White, Joanne C and Coops, Nicholas C and Hobart, Geordie W and Zald, Harold SJ and others},
   title   = {Large-area mapping of Canadian boreal forest cover, height, biomass and other structural attributes using Landsat composites and lidar plots},
   journal = {Remote Sensing of Environment},

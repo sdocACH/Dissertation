@@ -826,6 +826,11 @@ Wickham, H. (2009).
 \newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
 \newblock Springer-Verlag New York.
 
+\bibitem[Wickham et~al., 2014]{wickham2014}
+Wickham, H. et~al. (2014).
+\newblock Tidy data.
+\newblock {\em Journal of Statistical Software}, 59(10), 1--23.
+
 \bibitem[Wilcoxon et~al., 1970]{wilcoxon1970}
 Wilcoxon, F., Katti, S., \& Wilcox, R.~A. (1970).
 \newblock Critical values and probability levels for the wilcoxon rank sum test
