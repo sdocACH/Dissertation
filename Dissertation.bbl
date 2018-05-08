@@ -449,6 +449,12 @@ Maack, J., Lingenfelder, M., Weinacker, H., \& Koch, B. (2016).
 \newblock {\em International Journal of Applied Earth Observation and
   Geoinformation}, 49, 107--116.
 
+\bibitem[Maclean \& Krabill, 1986]{maclean1986}
+Maclean, G.~A. \& Krabill, W. (1986).
+\newblock Gross-merchantable timber volume estimation using an airborne lidar
+  system.
+\newblock {\em Canadian Journal of Remote Sensing}, 12(1), 7--18.
+
 \bibitem[Magnussen et~al., 1999]{magnussen1999}
 Magnussen, S., Eggermont, P., \& LaRiccia, V.~N. (1999).
 \newblock Recovering tree heights from airborne laser scanner data.
@@ -486,6 +492,12 @@ Magnussen, S., Tomppo, E., \& McRoberts, R.~E. (2010b).
 Mallows, C.~L. (2000).
 \newblock Some comments on cp.
 \newblock {\em Technometrics}, 42(1), 87--94.
+
+\bibitem[Maltamo et~al., 2014]{maltamo2014}
+Maltamo, M., N{\ae}sset, E., \& Vauhkonen, J. (2014).
+\newblock {\em Forestry applications of airborne laser scanning -- Concepts and
+  case studies}, volume~27 of {\em Managing Forest Ecosystems}.
+\newblock Springer.
 
 \bibitem[Mandallaz, 1991]{mandallaz1991}
 Mandallaz, D. (1991).
@@ -632,6 +644,17 @@ N{\ae}sset, E. (2007).
   status of accuracy assessments accomplished in scandinavia.
 \newblock {\em Scandinavian Journal of Forest Research}, 22(5), 433--442.
 
+\bibitem[Nelson et~al., 1984]{nelson1984}
+Nelson, R., Krabill, W., \& MacLean, G. (1984).
+\newblock Determining forest canopy characteristics using airborne laser data.
+\newblock {\em Remote Sensing of Environment}, 15(3), 201--212.
+
+\bibitem[Nelson et~al., 1988]{nelson1988}
+Nelson, R., Swift, R., \& Krabill, W. (1988).
+\newblock Using airborne lasers to estimate forest canopy and stand
+  characteristics.
+\newblock {\em Journal of Forestry}, 86(10), 31--38.
+
 \bibitem[Nink et~al., 2015]{nink2015}
 Nink, S., Hill, J., Buddenbaum, H., Stoffels, J., Sachtleber, T., \&
   Langshausen, J. (2015).
@@ -644,8 +667,15 @@ Nothdurft, A., Saborowski, J., \& Breidenbach, J. (2009).
 \newblock Spatial prediction of forest stand variables.
 \newblock {\em European Journal of Forest Research}, 128(3), 241--251.
 
-\bibitem[Næsset, 1997]{naesset1997}
-Næsset, E. (1997).
+\bibitem[Næsset, 1997a]{naesset1997a}
+Næsset, E. (1997a).
+\newblock Determination of mean tree height of forest stands using airborne
+  laser scanner data.
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing}, 52(2), 49
+  -- 56.
+
+\bibitem[Næsset, 1997b]{naesset1997b}
+Næsset, E. (1997b).
 \newblock Estimating timber volume of forest stands using airborne laser
   scanner data.
 \newblock {\em Remote Sensing of Environment}, 61(2), 246 -- 253.

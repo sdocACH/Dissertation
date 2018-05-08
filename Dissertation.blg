@@ -1,5 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertation.aux
 The style file: apalike2.bst
 Database file #1: Dissliterature/Dissertation_merged.bib
-Warning--can't use both volume and number fields in houllier1987
-(There was 1 warning)
+Repeated entry---line 1896 of file Dissliterature/Dissertation_merged.bib
+ : @incollection{akaike1992
+ :                         ,
+I'm skipping whatever remains of this entry
+(There was 1 error message)
