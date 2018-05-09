@@ -916,10 +916,11 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 }
 
 @Unpublished{hill2017a,
-  author = {Hill, Andreas and Buddenbaum, Henning and Mandallaz, Daniel},
-  title  = {Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes},
-  note   = {submitted for publication},
-  year   = {2018},
+  author  = {Hill, Andreas and Buddenbaum, Henning and Mandallaz, Daniel},
+  title   = {Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes},
+  note    = {in print},
+  year    = {2018},
+  journal = {European Journal of Forest Research},
 }
 
 @Article{stoffels2012,
@@ -1893,15 +1894,6 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   pages     = {464},
 }
 
-@InCollection{akaike1992,
-  author    = {Akaike, Hirotogu},
-  title     = {Information theory and an extension of the maximum likelihood principle},
-  booktitle = {Breakthroughs in statistics},
-  publisher = {Springer},
-  year      = {1992},
-  pages     = {610--624},
-}
-
 @Article{nelson1988,
   author        = {Nelson, Ross and Swift, Robert and Krabill, William},
   title         = {Using airborne lasers to estimate forest canopy and stand characteristics},
@@ -1926,6 +1918,22 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   file     = {:pdf/naesset1997(2).pdf:PDF},
   keywords = {forest inventory, laser scanning, tree heights},
   url      = {http://www.sciencedirect.com/science/article/pii/S0924271697830006},
+}
+
+@Misc{fowala2017,
+  author    = {Breschan, Jochen and Hill, Andreas and Ginzler, Christian and Gabriel, Andreas},
+  title     = {Kombination Forstinventur und Fernerkundungsdaten},
+  year      = {2017-06-22},
+  note      = {Kombination von Kontrollstichproben und Fernerkundung. Fortbildung Wald und Landschaft (FoWaLa); Conference Location: Zürich, Switzerland; Conference Date: June 22, 2017},
+  adress    = {Bercher},
+  copyright = {In Copyright - Non-Commercial Use Permitted},
+  doi       = {10.3929/ethz-b-000224913},
+  keywords  = {forest inventory; small area estimation; regression estimators; model-assisted estimator},
+  language  = {de},
+  publisher = {Wald und Landschaft},
+  series    = {Methodenseminar},
+  size      = {102 p.},
+  volume    = {271},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
