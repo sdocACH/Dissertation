@@ -915,12 +915,12 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   doi       = {10.1007/978-1-4939-7331-6},
 }
 
-@Unpublished{hill2017a,
+@Article{hill2017a,
   author  = {Hill, Andreas and Buddenbaum, Henning and Mandallaz, Daniel},
   title   = {Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes},
-  note    = {in print},
-  year    = {2018},
   journal = {European Journal of Forest Research},
+  year    = {2018},
+  volume  = {in print},
 }
 
 @Article{stoffels2012,
