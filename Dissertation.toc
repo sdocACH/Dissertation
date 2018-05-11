@@ -45,24 +45,24 @@
 \contentsline {subsection}{\numberline {2.7.1}Analysis}{38}{subsection.2.7.1}
 \contentsline {subsection}{\numberline {2.7.2}Visualization}{40}{subsection.2.7.2}
 \contentsline {section}{\numberline {2.8}Future plans}{41}{section.2.8}
-\contentsline {chapter}{\numberline {3}Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{42}{chapter.3}
+\contentsline {chapter}{\numberline {3}Combining canopy height and tree species map information for large-scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes}{42}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{44}{section.3.1}
-\contentsline {section}{\numberline {3.2}Materials and Methods}{46}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Study Area}{46}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Terrestrial Inventory Data}{47}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Auxiliary Data}{48}{subsection.3.2.3}
-\contentsline {subsubsection}{\nonumberline ALS Canopy Height Model}{48}{section*.35}
+\contentsline {section}{\numberline {3.2}Materials and methods}{46}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Study area}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Terrestrial inventory data}{47}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Auxiliary data}{48}{subsection.3.2.3}
+\contentsline {subsubsection}{\nonumberline ALS canopy height model}{48}{section*.35}
 \contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{50}{section*.37}
-\contentsline {subsection}{\numberline {3.2.4}Choice of Support under Angle Count Sampling}{51}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}\color {black}{Model Building and Evaluation} \color {black}}{52}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.4}Choice of support under angle count sampling}{51}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}\color {black}{Model building and evaluation} \color {black}}{52}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}Results}{53}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Classification Accuracies}{53}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Regression Model Accuracies}{55}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Final Regression Model}{56}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Classification accuracies}{53}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Regression model accuracies}{55}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Final regression model}{56}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Discussion}{60}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Stratification according to ALS Acquisition Years and Tree Species}{60}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Calibration of Tree Species Map Information}{62}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Choice of Support under Angle Count Sampling}{62}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.1}Stratification according to ALS acquisition years and tree species}{60}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Calibration of tree species map information}{62}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Choice of support under angle count sampling}{62}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Conclusion}{63}{section.3.5}
 \contentsline {chapter}{\numberline {4}A double-sampling extension of the German National Forest Inventory for design-based small area estimation on forest district levels}{64}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{66}{section.4.1}
@@ -81,7 +81,7 @@
 \contentsline {subsection}{\numberline {4.5.3}Extension to double-sampling design}{75}{subsection.4.5.3}
 \contentsline {subsection}{\numberline {4.5.4}Auxiliary data}{76}{subsection.4.5.4}
 \contentsline {subsubsection}{\nonumberline LiDAR canopy height model}{76}{section*.62}
-\contentsline {subsubsection}{\nonumberline Tree species map}{76}{section*.63}
+\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{76}{section*.63}
 \contentsline {subsection}{\numberline {4.5.5}Calculation of the explanatory variables}{77}{subsection.4.5.5}
 \contentsline {subsubsection}{\nonumberline Canopy height model}{77}{section*.65}
 \contentsline {subsubsection}{\nonumberline Tree species map}{78}{section*.67}
@@ -100,7 +100,7 @@
 \contentsline {section}{\numberline {5.1}Introduction}{91}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Context and problem}{91}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Background on Heuristic Search Methods}{93}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Materials and Methods}{93}{section.5.2}
+\contentsline {section}{\numberline {5.2}Materials and methods}{93}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Materials}{93}{subsection.5.2.1}
 \contentsline {subsubsection}{\nonumberline Study area}{93}{section*.81}
 \contentsline {subsubsection}{\nonumberline Timber volume densities from field inventory}{94}{section*.83}
