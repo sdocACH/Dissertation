@@ -124,5 +124,5 @@
 \contentsline {section}{\numberline {6.1}Main findings}{110}{section.6.1}
 \contentsline {section}{\numberline {6.2}Limitations and criticisms}{111}{section.6.2}
 \contentsline {section}{\numberline {6.3}Conclusion and implications for future work}{112}{section.6.3}
-\contentsline {chapter}{\nonumberline Bibliography}{114}{chapter*.102}
-\contentsline {chapter}{Curriculum Vitae}{123}{chapter*.103}
+\contentsline {chapter}{\nonumberline Bibliography}{115}{chapter*.102}
+\contentsline {chapter}{Curriculum Vitae}{124}{chapter*.103}
