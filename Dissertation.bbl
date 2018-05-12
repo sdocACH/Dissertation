@@ -36,6 +36,16 @@ Beaudoin, A., Bernier, P., Guindon, L., Villemaire, P., Guo, X., Stinson, G.,
   k nn and modis imagery.
 \newblock {\em Canadian Journal of Forest Research}, 44(5), 521--532.
 
+\bibitem[Bickford, 1952]{bickford1952}
+Bickford, C.~A. (1952).
+\newblock The sampling design used in the forest survey of the northeast.
+\newblock {\em Journal of Forestry}, 50(4), 290--293.
+
+\bibitem[Bickford, 1953]{bickford1953}
+Bickford, C.~A. (1953).
+\newblock Increasing the efficiency of airphoto forest surveys by better
+  definition of classes.
+
 \bibitem[Bitterlich, 1984]{bitterlich1984}
 Bitterlich, W. (1984).
 \newblock {\em The relascope idea. Relative measurements in forestry}.
@@ -656,6 +666,12 @@ Nelson, R., Swift, R., \& Krabill, W. (1988).
   characteristics.
 \newblock {\em Journal of Forestry}, 86(10), 31--38.
 
+\bibitem[Neyman, 1938]{neyman1938}
+Neyman, J. (1938).
+\newblock Contribution to the theory of sampling human populations.
+\newblock {\em Journal of the American Statistical Association}, 33(201),
+  101--116.
+
 \bibitem[Nink et~al., 2015]{nink2015}
 Nink, S., Hill, J., Buddenbaum, H., Stoffels, J., Sachtleber, T., \&
   Langshausen, J. (2015).
@@ -846,6 +862,11 @@ von L{\"u}pke, N. \& Saborowski, J. (2014).
 \newblock Combining double sampling for stratification and cluster sampling to
   a three-level sampling design for continuous forest inventories.
 \newblock {\em European Journal of Forest Research}, 133(1), 89--100.
+
+\bibitem[Watson, 1937]{watson1937}
+Watson, D. (1937).
+\newblock The estimation of leaf area in field crops.
+\newblock {\em The Journal of Agricultural Science}, 27(3), 474--483.
 
 \bibitem[White et~al., 2016]{white2016}
 White, J.~C., Coops, N.~C., Wulder, M.~A., Vastaranta, M., Hilker, T., \&
