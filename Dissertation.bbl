@@ -4,18 +4,17 @@
 Akaike, H. (1992).
 \newblock Information theory and an extension of the maximum likelihood
   principle.
-\newblock In {\em Breakthroughs in statistics}  (pp.\ 610--624). Springer.
+\newblock In G.~K. Emanuel~Parzen, Kunio~Tanabe (Ed.), {\em Breakthroughs in
+  statistics}  (pp.\ 610--624). New York: Springer.
 
 \bibitem[Akaike, 2011]{Akaike2011}
 Akaike, H. (2011).
 \newblock {\em Akaike's Information Criterion}, (pp.\ 25--25).
-\newblock Springer Berlin Heidelberg: Berlin, Heidelberg.
+\newblock Springer: Berlin, Heidelberg.
 
 \bibitem[Baffetta et~al., 2010]{baffetta2010}
 Baffetta, F., Corona, P., \& Fattorini, L. (2010).
-\newblock Design--based diagnostics for k-nn estimators of forest resources
-  this article is one of a selection of papers from extending forest inventory
-  and monitoring over space and time.
+\newblock Design--based diagnostics for k-nn estimators of forest resources.
 \newblock {\em Canadian Journal of Forest Research}, 41(1), 59--72.
 
 \bibitem[Baffetta et~al., 2009]{baffetta2009}
@@ -39,8 +38,15 @@ Beaudoin, A., Bernier, P., Guindon, L., Villemaire, P., Guo, X., Stinson, G.,
 
 \bibitem[Bitterlich, 1984]{bitterlich1984}
 Bitterlich, W. (1984).
-\newblock {\em The relascope idea. Relative measurements in forestry.}
-\newblock Commonwealth Agricultural Bureaux.
+\newblock {\em The relascope idea. Relative measurements in forestry}.
+\newblock Farnham Royal: Commonwealth Agricultural Bureaux.
+
+\bibitem[BMELV, 2011]{bwi3_aufn}
+BMELV (2011).
+\newblock {\em Aufnahmeanweisung f{\"u}r die dritte {B}undeswaldinventur {BWI3}
+  (2011 - 2012)}.
+\newblock {B}undesministerium f{\"u}r {E}rn{\"a}hrung, {L}andwirtschaft und
+  {V}erbraucherschutz.
 
 \bibitem[B{\"o}ckmann et~al., 1998]{bockmann1998}
 B{\"o}ckmann, T., Saborowski, J., Dahm, S., Nagel, J., \& Spellmann, H. (1998).
@@ -51,12 +57,12 @@ B{\"o}ckmann, T., Saborowski, J., Dahm, S., Nagel, J., \& Spellmann, H. (1998).
 Bohlin, J., Bohlin, I., Jonz{\'e}n, J., \& Nilsson, M. (2017).
 \newblock Mapping forest attributes using data from stereophotogrammetry of
   aerial images and field data from the national forest inventory.
-\newblock {\em SILVA FENNICA}, 51(2).
+\newblock {\em Silva Fennica}, 51(2).
 
 \bibitem[Bont \& Heinimann, 2012]{bont2012}
 Bont, L. \& Heinimann, H.~R. (2012).
 \newblock Optimum geometric layout of a single cable road.
-\newblock {\em European journal of forest research}, 131(5), 1439--1448.
+\newblock {\em European Journal of Forest Research}, 131(5), 1439--1448.
 
 \bibitem[Bont et~al., 2015]{bont2015}
 Bont, L.~G., Heinimann, H.~R., \& Church, R.~L. (2015).
@@ -67,10 +73,8 @@ Bont, L.~G., Heinimann, H.~R., \& Church, R.~L. (2015).
 \bibitem[Brassel \& Lischke, 2001]{brassel2001}
 Brassel, P. \& Lischke, H. (2001).
 \newblock {\em Swiss National Forest Inventory: Methods and Models of the
-  Second Assessment. WSL Swiss Federal Research Institute, CH-8903
-  Birmensdorf}.
-\newblock Technical report, ISBN 3-905620-99-5. URL http://www. lfi.
-  ch/publikationen/publ/methods/methods. pdf.
+  Second Assessment.}
+\newblock Technical report, WSL Swiss Federal Research Institute, Birmensdorf.
 
 \bibitem[Breidenbach, 2015]{josae2015}
 Breidenbach, J. (2015).
@@ -102,15 +106,10 @@ Brosofske, K.~D., Froese, R.~E., Falkowski, M.~J., \& Banskota, A. (2014).
   attributes for operational forest management.
 \newblock {\em Forest Science}, 60(4), 733--756.
 
-\bibitem[{B}undesministerium~f{\"u}r {E}rn{\"a}hrung, 2011]{bwi3_aufn}
-{B}undesministerium~f{\"u}r {E}rn{\"a}hrung, L. u.~V. (2011).
-\newblock Aufnahmeanweisung f{\"u}r die dritte {B}undeswaldinventur {BWI3}
-  (2011 - 2012).
-
 \bibitem[Carroll et~al., 2006]{carroll2006}
 Carroll, R.~J., Ruppert, D., Stefanski, L.~A., \& Crainiceanu, C.~M. (2006).
 \newblock {\em Measurement error in nonlinear models: a modern perspective}.
-\newblock CRC press.
+\newblock New York: Chapman and Hall/CRC.
 
 \bibitem[Chirici et~al., 2012]{chirici2012}
 Chirici, G., Corona, P., Marchetti, M., Mastronardi, A., Maselli, F., Bottai,
@@ -135,7 +134,7 @@ Cochran, W.~G. (2007).
 Congalton, R.~G. \& Green, K. (2008).
 \newblock {\em Assessing the accuracy of remotely sensed data: principles and
   practices}.
-\newblock CRC press.
+\newblock Boca Raton: Talyor \& Francis.
 
 \bibitem[Cullmann, 2016]{cullmann2016}
 Cullmann, A.~D. (2016).
@@ -156,17 +155,19 @@ Dowle, M. \& Srinivasan, A. (2017).
 \bibitem[Draper \& Smith, 2014]{draper2014}
 Draper, N.~R. \& Smith, H. (2014).
 \newblock {\em Applied regression analysis}.
-\newblock John Wiley \& Sons.
+\newblock London: John Wiley \& Sons.
 
 \bibitem[ESA, 2017]{sentinel2}
 ESA (2017).
 \newblock Sentinel--2 earth observation mission.
+\newblock
+  {\url{http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-2}}.
 \newblock Accessed: 2017-03-29.
 
 \bibitem[Fahrmeir et~al., 2013]{fahrmeir2013}
 Fahrmeir, L., Kneib, T., Lang, S., \& Marx, B. (2013).
 \newblock {\em Regression: models, methods and applications}.
-\newblock Springer Science \& Business Media.
+\newblock Springer.
 
 \bibitem[Fehrmann et~al., 2008]{fehrmann2008}
 Fehrmann, L., Lehtonen, A., Kleinn, C., \& Tomppo, E. (2008).
@@ -183,7 +184,7 @@ Franco-Lopez, H., Ek, A.~R., \& Bauer, M.~E. (2001).
 \bibitem[Fuller, 2009]{fuller2009}
 Fuller, W.~A. (2009).
 \newblock {\em Measurement error models}, volume 305.
-\newblock John Wiley \& Sons.
+\newblock London: John Wiley \& Sons.
 
 \bibitem[Gauer \& Aldinger, 2005]{gauer2005}
 Gauer, J. \& Aldinger, E. (2005).
@@ -196,7 +197,7 @@ Gauer, J. \& Aldinger, E. (2005).
 Goerndt, M.~E., Monleon, V.~J., \& Temesgen, H. (2011).
 \newblock A comparison of small--area estimation techniques to estimate
   selected stand attributes using lidar--derived auxiliary variables.
-\newblock {\em Canadian journal of forest research}, 41(6), 1189--1201.
+\newblock {\em Canadian Journal of Forest Research}, 41(6), 1189--1201.
 
 \bibitem[Goodspeed, 1934]{goodspeed1934}
 Goodspeed, A. (1934).
@@ -208,12 +209,12 @@ Goodspeed, A. (1934).
 Grafstr{\"o}m, A., Schnell, S., Saarela, S., Hubbell, S., \& Condit, R. (2017).
 \newblock The continuous population approach to forest inventories and use of
   information in the design.
-\newblock {\em Environmetrics}.
+\newblock {\em Environmetrics}, 28(8).
 
 \bibitem[Gregoire \& Valentine, 2007]{gregoire2007}
 Gregoire, T.~G. \& Valentine, H.~T. (2007).
 \newblock {\em Sampling strategies for natural resources and the environment}.
-\newblock CRC Press.
+\newblock Boca Raton London New York: Chapman and Hall/CRC.
 
 \bibitem[Grosenbaugh, 1958]{grosenbaugh1958}
 Grosenbaugh, L.~R. (1958).
@@ -226,7 +227,7 @@ Grosenbaugh, L.~R. (1958).
 Gustafson, P. (2003).
 \newblock {\em Measurement error and misclassification in statistics and
   epidemiology: impacts and Bayesian adjustments}.
-\newblock CRC Press.
+\newblock Boca Raton London New York Washington, D.C.: Chapman and Hall/CRC.
 
 \bibitem[Haara \& Kangas, 2012]{haara2012}
 Haara, A. \& Kangas, A. (2012).
@@ -294,8 +295,8 @@ Hill, A., Mandallaz, D., Buddenbaum, H., Stoffels, J., \& Langshausen, J.
 
 \bibitem[Hill \& Massey, 2017]{forestinventory}
 Hill, A. \& Massey, A. (2017).
-\newblock {\em forestinventory: Design--Based Global and Small-Area Estimations
-  for Multiphase Forest Inventories. R package version 0.3.1}.
+\newblock {\em \pkg{forestinventory}: Design--Based Global and Small-Area
+  Estimations for Multiphase Forest Inventories. R package version 0.3.1}.
 
 \bibitem[Hoffmann, 1982]{hoffmann1982}
 Hoffmann, C. (1982).
@@ -318,13 +319,13 @@ Holmgren, J. (2004).
 Horvitz, D.~G. \& Thompson, D.~J. (1952).
 \newblock A generalization of sampling without replacement from a finite
   universe.
-\newblock {\em Journal of the American statistical Association}, 47(260),
+\newblock {\em Journal of the American Statistical Association}, 47(260),
   663--685.
 
 \bibitem[Houllier, 1987]{houllier1987}
 Houllier, F. (1987).
 \newblock Echantillonnage et mod{\'e}lisation de la dynamique des peuplements
-  forestiers. application au cas de l'inventaire forestier national.
+  forestiers. {A}pplication au cas de l'inventaire forestier national.
 \newblock In {\em Annales des Sciences Foresti{\`e}res}, volume~44  (pp.\
   265--266).: EDP Sciences.
 
@@ -332,7 +333,7 @@ Houllier, F. (1987).
 Husmann, K., Rumpf, S., \& Nagel, J. (2017).
 \newblock Biomass functions and nutrient contents of european beech, oak,
   sycamore maple and ash and their meaning for the biomass supply chain.
-\newblock {\em Journal of Cleaner Production}.
+\newblock {\em Journal of Cleaner Production}, 172, 4044--4056.
 
 \bibitem[Jakubowski et~al., 2013]{jakubowski2013}
 Jakubowski, M.~K., Guo, Q., \& Kelly, M. (2013).
@@ -343,13 +344,13 @@ Jakubowski, M.~K., Guo, Q., \& Kelly, M. (2013).
 \bibitem[Kangas \& Maltamo, 2006]{kangas2006}
 Kangas, A. \& Maltamo, M. (2006).
 \newblock {\em Forest inventory: methodology and applications}, volume~10.
-\newblock Springer Science \& Business Media.
+\newblock Springer.
 
 \bibitem[Keller, 2011]{keller2011}
 Keller, M. (2011).
-\newblock Swiss national forest inventory. manual of the field survey
-  2004--2007.
-\newblock {\em Swiss Federal Research Institute WSL, Birmensdorf, CH}.
+\newblock {\em Swiss national forest inventory. Manual of the field survey
+  2004--2007}.
+\newblock Technical report, WSL Swiss Federal Research Institute, Birmensdorf.
 
 \bibitem[Kirchhoefer et~al., 2017]{kirchhoefer2017}
 Kirchhoefer, M., Schumacher, J., Adler, P., \& K{\"a}ndler, G. (2017).
@@ -373,7 +374,7 @@ Koch, B. (2010).
 K{\"o}hl, M., Magnussen, S.~S., \& Marchetti, M. (2006).
 \newblock {\em Sampling methods, remote sensing and GIS multiresource forest
   inventory}.
-\newblock Springer Science \& Business Media.
+\newblock Berlin Heidelberg: Springer.
 
 \bibitem[Kublin, 2003]{kublin2003}
 Kublin, E. (2003).
@@ -385,7 +386,7 @@ Kublin, E. (2003).
 Kublin, E., Breidenbach, J., \& K{\"a}ndler, G. (2013).
 \newblock A flexible stem taper and volume prediction method based on
   mixed--effects b--spline regression.
-\newblock {\em European journal of forest research}, 132(5-6), 983--997.
+\newblock {\em European Journal of Forest Research}, 132(5-6), 983--997.
 
 \bibitem[Kulie{\v{s}}is et~al., 2016]{kulievsis2016}
 Kulie{\v{s}}is, A., Tomter, S.~M., Vidal, C., \& Lanz, A. (2016).
@@ -423,7 +424,7 @@ Lefsky, M.~A., Cohen, W., Acker, S., Parker, G.~G., Spies, T., \& Harding, D.
   (1999).
 \newblock Lidar remote sensing of the canopy structure and biophysical
   properties of douglas-fir western hemlock forests.
-\newblock {\em Remote sensing of environment}, 70(3), 339--361.
+\newblock {\em Remote Sensing of Environment}, 70(3), 339--361.
 
 \bibitem[Liaw \& Wiener, 2002]{liaw2002}
 Liaw, A. \& Wiener, M. (2002).
@@ -458,7 +459,7 @@ Maclean, G.~A. \& Krabill, W. (1986).
 \bibitem[Magnussen et~al., 1999]{magnussen1999}
 Magnussen, S., Eggermont, P., \& LaRiccia, V.~N. (1999).
 \newblock Recovering tree heights from airborne laser scanner data.
-\newblock {\em Forest science}, 45(3), 407--422.
+\newblock {\em Forest Science}, 45(3), 407--422.
 
 \bibitem[Magnussen et~al., 2014]{magnussen2014a}
 Magnussen, S., Mandallaz, D., Breidenbach, J., Lanz, A., \& Ginzler, C. (2014).
@@ -480,7 +481,7 @@ Magnussen, S., N{\ae}sset, E., \& Gobakken, T. (2010a).
 \bibitem[Magnussen \& Tomppo, 2014]{magnussen2014}
 Magnussen, S. \& Tomppo, E. (2014).
 \newblock The k-nearest neighbor technique with local linear regression.
-\newblock {\em Scandinavian journal of forest research}, 29(2), 120--131.
+\newblock {\em Scandinavian Journal of Forest Research}, 29(2), 120--131.
 
 \bibitem[Magnussen et~al., 2010b]{magnussen2010}
 Magnussen, S., Tomppo, E., \& McRoberts, R.~E. (2010b).
@@ -496,8 +497,8 @@ Mallows, C.~L. (2000).
 \bibitem[Maltamo et~al., 2014]{maltamo2014}
 Maltamo, M., N{\ae}sset, E., \& Vauhkonen, J. (2014).
 \newblock {\em Forestry applications of airborne laser scanning -- Concepts and
-  case studies}, volume~27 of {\em Managing Forest Ecosystems}.
-\newblock Springer.
+  case studies}.
+\newblock Heidelberg New York London: Springer.
 
 \bibitem[Mandallaz, 1991]{mandallaz1991}
 Mandallaz, D. (1991).
@@ -513,7 +514,7 @@ Mandallaz, D. (1993).
 \bibitem[Mandallaz, 2008]{mandallaz2008}
 Mandallaz, D. (2008).
 \newblock {\em Sampling techniques for forest inventories}.
-\newblock CRC Press.
+\newblock Boca Raton London New York: Chapman and Hall/CRC.
 
 \bibitem[Mandallaz, 2013a]{mandallaz2013a}
 Mandallaz, D. (2013a).
@@ -600,7 +601,7 @@ Mauro, F., Valbuena, R., Manzanera, J., \& Garc{\'\i}a-Abril, A. (2010).
   inventory plots for tree-height distribution studies this article is one of a
   selection of papers from extending forest inventory and monitoring over space
   and time.
-\newblock {\em Canadian journal of forest research}, 41(1), 11--23.
+\newblock {\em Canadian Journal of Forest Research}, 41(1), 11--23.
 
 \bibitem[McRoberts, 2010]{mcroberts2010a}
 McRoberts, R.~E. (2010).
@@ -636,7 +637,7 @@ McRoberts, R.~E., Tomppo, E.~O., \& N{\ae}sset, E. (2010).
 N{\ae}sset, E. (2002).
 \newblock Predicting forest stand characteristics with airborne scanning laser
   using a practical two-stage procedure and field data.
-\newblock {\em Remote sensing of environment}, 80(1), 88--99.
+\newblock {\em Remote Sensing of Environment}, 80(1), 88--99.
 
 \bibitem[N{\ae}sset, 2007]{naesset2007}
 N{\ae}sset, E. (2007).
@@ -692,29 +693,28 @@ Næsset, E. (2014).
 Ott, E., Frehner, M., Frey, H.-U., \& Lüscher, P. (1997).
 \newblock {\em Gebirgsnadelwälder: Ein praxisorientierter Leitfaden für eine
   standortgerechte Waldbehandlung}.
-\newblock Haupt.
-\newblock .
+\newblock Bern Stuttgart Wien: Haupt.
 
 \bibitem[Papritz, 2018]{georob2018}
 Papritz, A. (2018).
-\newblock {\em georob: Robust Geostatistical Analysis of Spatial Data}.
+\newblock {\em \pkg{georob}: Robust Geostatistical Analysis of Spatial Data}.
 \newblock R package version 0.3-6.
 
 \bibitem[Pinheiro \& Bates, 2000]{pinheirobates2000}
 Pinheiro, J. \& Bates, D. (2000).
 \newblock {\em Mixed-Effects Models in S and S-PLUS}.
-\newblock Springer.
+\newblock Nw York: Springer.
 
 \bibitem[Pirlot, 1996]{pirlot1996}
 Pirlot, M. (1996).
 \newblock General local search methods.
-\newblock {\em European journal of operational research}, 92(3), 493--511.
+\newblock {\em European Journal of Operational Research}, 92(3), 493--511.
 
 \bibitem[Polley et~al., 2010]{polley2010intomppo}
 Polley, H., Schmitz, F., Hennig, P., \& Kroiher, F. (2010).
 \newblock Germany.
 \newblock In {\em National Forest Inventories - Pathways for Common Reporting}
-  chapter~13, (pp.\ 223--243). Springer.
+  chapter~13, (pp.\ 223--243). Heidelberg Dordrecht London New York: Springer.
 
 \bibitem[{R Core Team}, 2017]{R}
 {R Core Team} (2017).
@@ -724,29 +724,29 @@ Polley, H., Schmitz, F., Hennig, P., \& Kroiher, F. (2010).
 \bibitem[Rao, 2015]{rao2015}
 Rao, J.~N. (2015).
 \newblock {\em Small-Area Estimation}.
-\newblock Wiley Online Library.
+\newblock London: John Wiley \& Sons.
 
 \bibitem[Rayward-Smith et~al., 1996]{rayward1996}
 Rayward-Smith, V.~J., Osman, C., Reeves, C.~R., \& Smith, G.~D. (1996).
 \newblock {\em Modern heuristic search methods}.
-\newblock John Wiley.
+\newblock London: John Wiley \& Sons.
 
-\bibitem[Richards \& Richards, 1999]{richards1999}
-Richards, J.~A. \& Richards, J. (1999).
+\bibitem[Richards, 2013]{richards1999}
+Richards, J.~A. (2013).
 \newblock {\em Remote sensing digital image analysis. An introduction},
-  volume~3.
-\newblock Springer.
+  volume~5.
+\newblock Heidelberg New York Dordrecht London: Springer.
 
 \bibitem[Saborowski et~al., 2010]{saborowski2010}
 Saborowski, J., Marx, A., Nagel, J., \& B{\"o}ckmann, T. (2010).
 \newblock Double sampling for stratification in periodic inventories--infinite
   population approach.
-\newblock {\em Forest ecology and management}, 260(10), 1886--1895.
+\newblock {\em Forest Ecology and Management}, 260(10), 1886--1895.
 
 \bibitem[S{\"a}rndal et~al., 2003]{sarndal2003}
 S{\"a}rndal, C.-E., Swensson, B., \& Wretman, J. (2003).
 \newblock {\em Model assisted survey sampling}.
-\newblock Springer Science \& Business Media.
+\newblock New York: Springer.
 
 \bibitem[{\proglang{SAS} Institute Inc.}, 2015]{sas}
 {\proglang{SAS} Institute Inc.} (2015).
@@ -755,26 +755,27 @@ S{\"a}rndal, C.-E., Swensson, B., \& Wretman, J. (2003).
 
 \bibitem[Schmitz et~al., 2008]{bwi3_ausw}
 Schmitz, F., Polley, H., Hennig, P., Dunger, K., \& Schwitzgebel, F. (2008).
-\newblock Die zweite {B}undeswaldinventur - {BWI2}: {I}nventur- und
-  {A}uswertmethoden, {B}undesministerium fur {E}rnahrung, {L}and- {W}irtschaft
-  und {V}erbraucherschutz ({H}rsg).
+\newblock {\em Die zweite {B}undeswaldinventur - {BWI2}: {I}nventur- und
+  {A}uswertmethoden}.
+\newblock {B}undesministerium fur {E}rnahrung, {L}and- {W}irtschaft und
+  {V}erbraucherschutz.
 
 \bibitem[Schreuder et~al., 1993]{schreuder1993}
 Schreuder, H.~T., Gregoire, T.~G., \& Wood, G.~B. (1993).
 \newblock {\em Sampling methods for multiresource forest inventory}.
-\newblock John Wiley \& Sons.
+\newblock London: John Wiley \& Sons.
 
 \bibitem[Srivastava et~al., 1995]{srivastava1995}
 Srivastava, A.~K., Srivastava, V.~K., \& Ullah, A. (1995).
 \newblock The coefficient of determination and its adjusted version in linear
   regression models.
-\newblock {\em Econometric reviews}, 14(2), 229--240.
+\newblock {\em Econometric Reviews}, 14(2), 229--240.
 
 \bibitem[Steinmann et~al., 2013]{steinmann2013}
 Steinmann, K., Mandallaz, D., Ginzler, C., \& Lanz, A. (2013).
 \newblock Small area estimations of proportion of forest and timber volume
   combining lidar data and stereo aerial images with terrestrial data.
-\newblock {\em Scandinavian journal of forest research}, 28(4), 373--385.
+\newblock {\em Scandinavian Journal of Forest Research}, 28(4), 373--385.
 
 \bibitem[Stoffels et~al., 2015]{stoffels2015}
 Stoffels, J., Hill, J., Sachtleber, T., Mader, S., Buddenbaum, H., Stern, O.,
@@ -787,7 +788,7 @@ Stoffels, J., Hill, J., Sachtleber, T., Mader, S., Buddenbaum, H., Stern, O.,
 Stoffels, J., Mader, S., Hill, J., Werner, W., \& Ontrup, G. (2012).
 \newblock Satellite-based stand-wise forest cover type mapping using a
   spatially adaptive classification approach.
-\newblock {\em European journal of forest research}, 131(4), 1071--1089.
+\newblock {\em European Journal of Forest Research}, 131(4), 1071--1089.
 
 \bibitem[Straub et~al., 2009]{straub2009}
 Straub, C., Dees, M., Weinacker, H., \& Koch, B. (2009).
@@ -799,14 +800,15 @@ Straub, C., Dees, M., Weinacker, H., \& Koch, B. (2009).
 \bibitem[Th{\"u}nen-Institut, 2014]{bwi3}
 Th{\"u}nen-Institut (2014).
 \newblock Dritte {B}undeswaldinventur 2012.
+\newblock \url{https://bwi.info}.
 \newblock Accessed: 2017-02-03.
 
 \bibitem[Tomppo, 2006]{tomppo2006}
 Tomppo, E. (2006).
 \newblock The finnish multi-source national forest inventory--small area
   estimation and map production.
-\newblock {\em Forest inventory--methodology and applications. Springer,
-  Dordrecht, NL}, (pp.\ 195--224).
+\newblock In M.~M. Annika~Kangas (Ed.), {\em Forest inventory--methodology and
+  applications}  chapter~12, (pp.\ 195--224). Springer.
 
 \bibitem[Tonolli et~al., 2011]{tonolli2011}
 Tonolli, S., Dalponte, M., Vescovo, L., Rodeghiero, M., Bruzzone, L., \&
@@ -843,7 +845,7 @@ von L{\"u}pke, N., Hansen, J., \& Saborowski, J. (2012).
 von L{\"u}pke, N. \& Saborowski, J. (2014).
 \newblock Combining double sampling for stratification and cluster sampling to
   a three-level sampling design for continuous forest inventories.
-\newblock {\em European journal of forest research}, 133(1), 89--100.
+\newblock {\em European Journal of Forest Research}, 133(1), 89--100.
 
 \bibitem[White et~al., 2016]{white2016}
 White, J.~C., Coops, N.~C., Wulder, M.~A., Vastaranta, M., Hilker, T., \&
@@ -855,7 +857,7 @@ White, J.~C., Coops, N.~C., Wulder, M.~A., Vastaranta, M., Hilker, T., \&
 \bibitem[Wickham, 2009]{ggplot2}
 Wickham, H. (2009).
 \newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
-\newblock Springer-Verlag New York.
+\newblock Nwe York: Springer.
 
 \bibitem[Wickham et~al., 2014]{wickham2014}
 Wickham, H. et~al. (2014).
@@ -866,7 +868,7 @@ Wickham, H. et~al. (2014).
 Wilcoxon, F., Katti, S., \& Wilcox, R.~A. (1970).
 \newblock Critical values and probability levels for the wilcoxon rank sum test
   and the wilcoxon signed rank test.
-\newblock {\em Selected tables in mathematical statistics}, 1, 171--259.
+\newblock {\em Selected Tables in Mathematical Statistics}, 1, 171--259.
 
 \bibitem[Zianis et~al., 2005]{zianis2005}
 Zianis, D., Muukkonen, P., M{\"a}kip{\"a}{\"a}, R., Mencuccini, M., et~al.
@@ -877,6 +879,6 @@ Zianis, D., Muukkonen, P., M{\"a}kip{\"a}{\"a}, R., Mencuccini, M., et~al.
 \bibitem[Z{\"o}hrer, 1980]{zoehrer1980}
 Z{\"o}hrer, F. (1980).
 \newblock {\em {F}orstinventur: {L}eitfaden f{\"u}r {S}tudium und {L}ehre}.
-\newblock Practice/Hamberg, Berlin: Parey,(Parey Studientexte: Nr. 26).
+\newblock Hamburg Berlin: Paul Parey (Parey Studientexte: Nr. 26).
 
 \end{thebibliography}

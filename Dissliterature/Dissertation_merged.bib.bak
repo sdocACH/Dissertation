@@ -4,9 +4,10 @@
 
 @Book{mandallaz2008,
   title     = {Sampling techniques for forest inventories},
-  publisher = {CRC Press},
+  publisher = {Chapman and Hall/CRC},
   year      = {2008},
   author    = {Mandallaz, Daniel},
+  address   = {Boca Raton London New York},
   doi       = {10.1201/9781584889779},
   url       = {https://doi.org/10.1201/9781584889779},
 }
@@ -15,9 +16,10 @@
 
 @Book{gregoire2007,
   title     = {Sampling strategies for natural resources and the environment},
-  publisher = {CRC Press},
+  publisher = {Chapman and Hall/CRC},
   year      = {2007},
   author    = {Gregoire, Timothy G and Valentine, Harry T},
+  address   = {Boca Raton London New York},
 }
 
 
@@ -28,6 +30,7 @@
   publisher = {John Wiley \& Sons},
   year      = {1993},
   author    = {Schreuder, Hans T and Gregoire, Timothy G and Wood, Geoffrey B},
+  address   = {London},
 }
 
 
@@ -35,9 +38,10 @@
 
 @Book{kohl2006,
   title     = {Sampling methods, remote sensing and GIS multiresource forest inventory},
-  publisher = {Springer Science \& Business Media},
+  publisher = {Springer},
   year      = {2006},
   author    = {K{\"o}hl, Michael and Magnussen, Steen S and Marchetti, Marco},
+  address   = {Berlin Heidelberg},
   file      = {:pdf\\koehl_magnussen_Sampling Methods, Remote Sensing and GIS Multiresource Forest Inventory.pdf:PDF},
 }
 
@@ -81,12 +85,12 @@
   publisher = {Wiley Online Library},
 }
 
-@Misc{bwi3_aufn,
-  author    = {{B}undesministerium f{\"u}r {E}rn{\"a}hrung, {L}andwirtschaft und {V}erbraucherschutz},
+@Book{bwi3_aufn,
   title     = {Aufnahmeanweisung f{\"u}r die dritte {B}undeswaldinventur {BWI3} (2011 - 2012)},
+  publisher = {{B}undesministerium f{\"u}r {E}rn{\"a}hrung, {L}andwirtschaft und {V}erbraucherschutz},
   year      = {2011},
+  author    = {BMELV},
   file      = {:pdf\\AufnahmeanweisungBWI3.pdf:PDF},
-  publisher = {BMELV},
   url       = {https://www.bundeswaldinventur.de/index.php?id=421},
 }
 
@@ -109,9 +113,10 @@
 
 @Book{carroll2006,
   title     = {Measurement error in nonlinear models: a modern perspective},
-  publisher = {CRC press},
+  publisher = {Chapman and Hall / CRC},
   year      = {2006},
   author    = {Carroll, Raymond J and Ruppert, David and Stefanski, Leonard A and Crainiceanu, Ciprian M},
+  address   = {New York},
   doi       = {10.1201/9781420010138},
   file      = {:pdf\\Rupert_Chapter_Linear Regression and Attenuation.pdf:PDF},
   url       = {https://doi.org/10.1201/9781420010138},
@@ -119,9 +124,10 @@
 
 @Book{gustafson2003,
   title     = {Measurement error and misclassification in statistics and epidemiology: impacts and Bayesian adjustments},
-  publisher = {CRC Press},
+  publisher = {Chapman and Hall/CRC},
   year      = {2003},
   author    = {Gustafson, Paul},
+  address   = {Boca Raton London New York Washington, D.C.},
   doi       = {10.1201/9780203502761},
   file      = {:pdf\\Gustafson_Measurement error and misclassification in statistics and epidemiology\\The Impact of Mismeasured Categorical Variables.pdf:PDF},
   url       = {https://doi.org/10.1201/9780203502761},
@@ -144,7 +150,7 @@
 @Article{kublin2013,
   author    = {Kublin, Edgar and Breidenbach, Johannes and K{\"a}ndler, Gerald},
   title     = {A flexible stem taper and volume prediction method based on mixed--effects B--spline regression},
-  journal   = {European journal of forest research},
+  journal   = {European Journal of Forest Research},
   year      = {2013},
   volume    = {132},
   number    = {5-6},
@@ -398,6 +404,8 @@
   title     = {Biomass functions and nutrient contents of European beech, oak, sycamore maple and ash and their meaning for the biomass supply chain},
   journal   = {Journal of Cleaner Production},
   year      = {2017},
+  volume    = {172},
+  pages     = {4044--4056},
   doi       = {10.1016/j.jclepro.2017.03.019},
   file      = {:pdf\\husmann_biomass.pdf:PDF},
   publisher = {Elsevier},
@@ -420,7 +428,7 @@
 @Article{vonLuebke2014,
   author    = {von L{\"u}pke, Nikolas and Saborowski, Joachim},
   title     = {Combining double sampling for stratification and cluster sampling to a three-level sampling design for continuous forest inventories},
-  journal   = {European journal of forest research},
+  journal   = {European Journal of Forest Research},
   year      = {2014},
   volume    = {133},
   number    = {1},
@@ -470,7 +478,7 @@
 @Article{bohlin2017,
   author    = {Bohlin, Jonas and Bohlin, Inka and Jonz{\'e}n, Jonas and Nilsson, Mats},
   title     = {Mapping forest attributes using data from stereophotogrammetry of aerial images and field data from the national forest inventory},
-  journal   = {SILVA FENNICA},
+  journal   = {Silva Fennica},
   year      = {2017},
   volume    = {51},
   number    = {2},
@@ -504,9 +512,10 @@
 
 @Book{fahrmeir2013,
   title     = {Regression: models, methods and applications},
-  publisher = {Springer Science \& Business Media},
+  publisher = {Springer},
   year      = {2013},
   author    = {Fahrmeir, Ludwig and Kneib, Thomas and Lang, Stefan and Marx, Brian},
+  addressed = {Berlin Heidelberg},
   doi       = {10.1007/978-3-642-34333-9},
   file      = {:pdf\\Regression_Fahrmeier_Kneib.pdf:PDF},
   url       = {http://www.springer.com/us/book/9783642343322},
@@ -517,6 +526,7 @@
   publisher = {Springer},
   year      = {2000},
   author    = {Pinheiro, Jose and Bates, Douglas},
+  address   = {Nw York},
   doi       = {10.1007/b98882},
   url       = {http://link.springer.com/book/10.1007%2Fb98882},
 }
@@ -525,20 +535,21 @@
 
 @Book{sarndal2003,
   title     = {Model assisted survey sampling},
-  publisher = {Springer Science \& Business Media},
+  publisher = {Springer},
   year      = {2003},
   author    = {S{\"a}rndal, Carl-Erik and Swensson, Bengt and Wretman, Jan},
+  address   = {New York},
 }
 
 @TechReport{mandallaz2016,
-  author      = {Mandallaz, Daniel and Hill, Andreas and Massey, Alexander},
-  title       = {Design-based properties of some small-area estimators in forest inventory with two-phase sampling - revised version},
-  institution = {Department of Environmental Systems Science, ETH Zurich},
-  year        = {2016},
-  doi         = {10.3929/ethz-a-010579388},
-  file        = {:pdf\\mandallaz2016_sae_eth-48510-01.pdf:PDF},
-  groups      = {SAE in forest inventory, Double sampling, Theory},
-  url         = {https://doi.org/10.3929/ethz-a-010579388},
+  author       = {Mandallaz, Daniel and Hill, Andreas and Massey, Alexander},
+  title        = {Design-based properties of some small-area estimators in forest inventory with two-phase sampling - revised version},
+  institution  = {Department of Environmental Systems Science, ETH Zurich},
+  year         = {2016},
+  doi          = {10.3929/ethz-a-010579388},
+  file         = {:pdf\\mandallaz2016_sae_eth-48510-01.pdf:PDF},
+  groups       = {SAE in forest inventory, Double sampling, Theory},
+  howpublished = {\url{https://doi.org/10.3929/ethz-a-010579388}},
 }
 
 @Book{harrell2015,
@@ -560,7 +571,7 @@
 }
 
 @Manual{forestinventory,
-  title  = {forestinventory: Design--Based Global and Small-Area Estimations for Multiphase Forest Inventories. R package version 0.3.1},
+  title  = {\pkg{forestinventory}: Design--Based Global and Small-Area Estimations for Multiphase Forest Inventories. R package version 0.3.1},
   author = {Andreas Hill and Alexander Massey},
   year   = {2017},
   file   = {:pdf\\JStatSoft_forestinventory_master.pdf:PDF},
@@ -568,25 +579,25 @@
 }
 
 @TechReport{mandallaz2013techa,
-  author      = {Mandallaz, Daniel},
-  title       = {Regression estimators in forest inventories with two-phase sampling and partially exhaustive information with applications to small-area estimation},
-  institution = {Department of Environmental Systems Science, ETH Zurich},
-  year        = {2013},
-  doi         = {10.3929/ethz-a-007623322},
-  file        = {:pdf\\mandallaz2013_eth-6637-01.pdf:PDF},
-  groups      = {Triple sampling},
-  url         = {https://doi.org/10.3929/ethz-a-007623322},
+  author       = {Mandallaz, Daniel},
+  title        = {Regression estimators in forest inventories with two-phase sampling and partially exhaustive information with applications to small-area estimation},
+  institution  = {Department of Environmental Systems Science, ETH Zurich},
+  year         = {2013},
+  doi          = {10.3929/ethz-a-007623322},
+  file         = {:pdf\\mandallaz2013_eth-6637-01.pdf:PDF},
+  groups       = {Triple sampling},
+  howpublished = {\url{https://doi.org/10.3929/ethz-a-007623322}},
 }
 
 @TechReport{mandallaz2013techb,
-  author      = {Mandallaz, Daniel},
-  title       = {Regression estimators in forest inventories with three-phase sampling and two multivariate components of auxiliary information},
-  institution = {Department of Environmental Systems Science, ETH Zurich},
-  year        = {2013},
-  doi         = {10.3929/ethz-a-009990020},
-  file        = {:pdf\\mandallaz2013_eth-7483-01.pdf:PDF},
-  groups      = {Triple sampling},
-  url         = {https://doi.org/10.3929/ethz-a-009990020},
+  author       = {Mandallaz, Daniel},
+  title        = {Regression estimators in forest inventories with three-phase sampling and two multivariate components of auxiliary information},
+  institution  = {Department of Environmental Systems Science, ETH Zurich},
+  year         = {2013},
+  doi          = {10.3929/ethz-a-009990020},
+  file         = {:pdf\\mandallaz2013_eth-7483-01.pdf:PDF},
+  groups       = {Triple sampling},
+  howpublished = {\url{https://doi.org/10.3929/ethz-a-009990020}},
 }
 
 @MastersThesis{hill2013,
@@ -632,12 +643,12 @@
 }
 
 @Misc{bwi3,
-  author    = {Th{\"u}nen-Institut},
-  title     = {Dritte {B}undeswaldinventur 2012},
-  year      = {2014},
-  note      = {Accessed: 2017-02-03},
-  publisher = {Johann Heinrich von Th{\"u}nen-Institut},
-  url       = {https://bwi.info},
+  author       = {Th{\"u}nen-Institut},
+  title        = {Dritte {B}undeswaldinventur 2012},
+  howpublished = {\url{https://bwi.info}},
+  year         = {2014},
+  note         = {Accessed: 2017-02-03},
+  publisher    = {Johann Heinrich von Th{\"u}nen-Institut},
 }
 
 @Article{white1980,
@@ -724,11 +735,11 @@
 }
 
 @Misc{sentinel2,
-  author = {ESA},
-  title  = {Sentinel--2 earth observation mission},
-  year   = {2017},
-  note   = {Accessed: 2017-03-29},
-  url    = {http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-2},
+  author       = {ESA},
+  title        = {Sentinel--2 earth observation mission},
+  howpublished = {{\url{http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Sentinel-2}}},
+  year         = {2017},
+  note         = {Accessed: 2017-03-29},
 }
 
 @Article{grafstrom2017b,
@@ -834,10 +845,11 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   groups   = {Double sampling},
 }
 
-@Misc{bwi3_ausw,
-  author = {Schmitz, Friedrich and Polley, Heino and Hennig, Petra and Dunger, Karsten and Schwitzgebel, Frank},
-  title  = {Die zweite {B}undeswaldinventur - {BWI2}: {I}nventur- und {A}uswertmethoden, {B}undesministerium fur {E}rnahrung, {L}and- {W}irtschaft und {V}erbraucherschutz ({H}rsg)},
-  year   = {2008},
+@Book{bwi3_ausw,
+  title     = {Die zweite {B}undeswaldinventur - {BWI2}: {I}nventur- und {A}uswertmethoden},
+  publisher = {{B}undesministerium fur {E}rnahrung, {L}and- {W}irtschaft und {V}erbraucherschutz},
+  year      = {2008},
+  author    = {Schmitz, Friedrich and Polley, Heino and Hennig, Petra and Dunger, Karsten and Schwitzgebel, Frank},
 }
 
 @Article{grafstrom2017a,
@@ -845,6 +857,8 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   title     = {The continuous population approach to forest inventories and use of information in the design},
   journal   = {Environmetrics},
   year      = {2017},
+  volume    = {28},
+  number    = {8},
   file      = {:pdf\\Grafstr-m_et_al-2017-Environmetrics.pdf:PDF},
   groups    = {Double sampling},
   publisher = {Wiley Online Library},
@@ -852,9 +866,10 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Book{rao2015,
   title     = {Small-Area Estimation},
-  publisher = {Wiley Online Library},
+  publisher = {John Wiley \& Sons},
   year      = {2015},
   author    = {Rao, John NK},
+  address   = {London},
   file      = {:pdf\\rao_small area estimation.pdf:PDF},
   groups    = {SAE, Theory},
 }
@@ -862,7 +877,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{steinmann2013,
   author    = {Steinmann, Katharina and Mandallaz, Daniel and Ginzler, Christian and Lanz, Adrian},
   title     = {Small area estimations of proportion of forest and timber volume combining Lidar data and stereo aerial images with terrestrial data},
-  journal   = {Scandinavian journal of forest research},
+  journal   = {Scandinavian Journal of Forest Research},
   year      = {2013},
   volume    = {28},
   number    = {4},
@@ -875,7 +890,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{goerndt2011,
   author    = {Goerndt, Michael E and Monleon, Vicente J and Temesgen, Hailemariam},
   title     = {A comparison of small--area estimation techniques to estimate selected stand attributes using LiDAR--derived auxiliary variables},
-  journal   = {Canadian journal of forest research},
+  journal   = {Canadian Journal of Forest Research},
   year      = {2011},
   volume    = {41},
   number    = {6},
@@ -926,7 +941,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{stoffels2012,
   author    = {Stoffels, Johannes and Mader, Sebastian and Hill, Joachim and Werner, Willy and Ontrup, Godehard},
   title     = {Satellite-based stand-wise forest cover type mapping using a spatially adaptive classification approach},
-  journal   = {European journal of forest research},
+  journal   = {European Journal of Forest Research},
   year      = {2012},
   volume    = {131},
   number    = {4},
@@ -936,16 +951,18 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 }
 
 @Book{bitterlich1984,
-  title     = {The relascope idea. Relative measurements in forestry.},
+  title     = {The relascope idea. Relative measurements in forestry},
   publisher = {Commonwealth Agricultural Bureaux},
   year      = {1984},
   author    = {Bitterlich, Walter},
+  address   = {Farnham Royal},
+  isbn      = {0851985394},
 }
 
 @InBook{Akaike2011,
   pages     = {25--25},
   title     = {Akaike's Information Criterion},
-  publisher = {Springer Berlin Heidelberg},
+  publisher = {Springer},
   year      = {2011},
   author    = {Akaike, Hirotugu},
   address   = {Berlin, Heidelberg},
@@ -1024,6 +1041,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   booktitle = {Forest Applications of Airborne Laser Scanning -- Concepts and Case Studies},
   publisher = {Springer},
   year      = {2014},
+  editor    = {Matti Maltamo, Erik Næsset, Jari Vauhkonen},
   chapter   = {11},
   pages     = {216-240},
   doi       = {10.1007/978-94-017-8663-8},
@@ -1080,6 +1098,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   year      = {2010},
   chapter   = {13},
   pages     = {223-243},
+  address   = {Heidelberg Dordrecht London New York},
   doi       = {10.1007/978-90-481-3233-1},
   file      = {:pdf\\tomppo_National Forest Inventories.pdf:PDF},
 }
@@ -1087,7 +1106,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{saborowski2010,
   author    = {Saborowski, Joachim and Marx, Almuth and Nagel, J{\"u}rgen and B{\"o}ckmann, Thomas},
   title     = {Double sampling for stratification in periodic inventories--Infinite population approach},
-  journal   = {Forest ecology and management},
+  journal   = {Forest Ecology and Management},
   year      = {2010},
   volume    = {260},
   number    = {10},
@@ -1156,22 +1175,23 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Book{ggplot2,
   title     = {ggplot2: Elegant Graphics for Data Analysis},
-  publisher = {Springer-Verlag New York},
+  publisher = {Springer},
   year      = {2009},
   author    = {Hadley Wickham},
+  address   = {Nwe York},
   isbn      = {978-0-387-98140-6},
   url       = {http://ggplot2.org},
 }
 
 @TechReport{mandallaz2015tech,
-  author      = {Mandallaz, Daniel},
-  title       = {Mathematical Details of Two-Phase/Two-Stage and Three-Phase/Two-Stage Regression Estimators in Forest Inventories. Design-based Monte Carlo Approach},
-  institution = {Department of Environmental Systems Science, ETH Zurich},
-  year        = {2015},
-  doi         = {10.3929/ethz-a-010441361},
-  file        = {:pdf\\mandallaz2015_eth-47748-01.pdf:PDF},
-  publisher   = {ETH Zürich},
-  url         = {https://doi.org/10.3929/ethz-a-010441361},
+  author       = {Mandallaz, Daniel},
+  title        = {Mathematical Details of Two-Phase/Two-Stage and Three-Phase/Two-Stage Regression Estimators in Forest Inventories. Design-based Monte Carlo Approach},
+  institution  = {Department of Environmental Systems Science, ETH Zurich},
+  year         = {2015},
+  doi          = {10.3929/ethz-a-010441361},
+  file         = {:pdf\\mandallaz2015_eth-47748-01.pdf:PDF},
+  howpublished = {\url{https://doi.org/10.3929/ethz-a-010441361}},
+  publisher    = {ETH Zürich},
 }
 
 @Manual{cullmann2016,
@@ -1228,6 +1248,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {John Wiley \& Sons},
   year      = {2007},
   author    = {Cochran, William G},
+  adress    = {London},
 }
 
 @Article{holmgren2004,
@@ -1244,7 +1265,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{naesset2002,
   author    = {N{\ae}sset, Erik},
   title     = {Predicting forest stand characteristics with airborne scanning laser using a practical two-stage procedure and field data},
-  journal   = {Remote sensing of environment},
+  journal   = {Remote Sensing of Environment},
   year      = {2002},
   volume    = {80},
   number    = {1},
@@ -1289,7 +1310,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{magnussen2014,
   author    = {Magnussen, Steen and Tomppo, Erkki},
   title     = {The k-nearest neighbor technique with local linear regression},
-  journal   = {Scandinavian journal of forest research},
+  journal   = {Scandinavian Journal of Forest Research},
   year      = {2014},
   volume    = {29},
   number    = {2},
@@ -1319,13 +1340,15 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {Taylor \& Francis},
 }
 
-@Article{tomppo2006,
+@InCollection{tomppo2006,
   author    = {Tomppo, Erkki},
   title     = {The Finnish multi-source national forest inventory--small area estimation and map production},
-  journal   = {Forest inventory--methodology and applications. Springer, Dordrecht, NL},
-  year      = {2006},
-  pages     = {195--224},
+  booktitle = {Forest inventory--methodology and applications},
   publisher = {Springer},
+  year      = {2006},
+  editor    = {Annika Kangas, Matti Maltamo},
+  chapter   = {12},
+  pages     = {195--224},
 }
 
 @Article{haara2012,
@@ -1352,7 +1375,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Article{baffetta2010,
   author    = {Baffetta, Federica and Corona, Piermaria and Fattorini, Lorenzo},
-  title     = {Design--based diagnostics for k-NN estimators of forest resources This article is one of a selection of papers from Extending Forest Inventory and Monitoring over Space and Time.},
+  title     = {Design--based diagnostics for k-NN estimators of forest resources},
   journal   = {Canadian Journal of Forest Research},
   year      = {2010},
   volume    = {41},
@@ -1386,7 +1409,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{pirlot1996,
   author    = {Pirlot, Marc},
   title     = {General local search methods},
-  journal   = {European journal of operational research},
+  journal   = {European Journal of Operational Research},
   year      = {1996},
   volume    = {92},
   number    = {3},
@@ -1396,9 +1419,10 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Book{rayward1996,
   title     = {Modern heuristic search methods},
-  publisher = {John Wiley},
+  publisher = {John Wiley \& Sons},
   year      = {1996},
   author    = {Rayward-Smith, Victor J and Osman, C and Reeves, Colin R and Smith, George D},
+  address   = {London},
 }
 
 @Article{kirkpatrick1983,
@@ -1417,25 +1441,25 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {Haupt},
   year      = {1997},
   author    = {Ott, Ernst and Frehner, Monika and Frey, Hans-Ulrich and Lüscher, Peter},
+  address   = {Bern Stuttgart Wien},
   isbn      = {3-258-05601-3},
-  note      = {.},
-  adress    = {Bern},
-  language  = {de},
-  size      = {287 S.},
 }
 
 @TechReport{brassel2001,
   author      = {Brassel, P and Lischke, H},
-  title       = {Swiss National Forest Inventory: Methods and Models of the Second Assessment. WSL Swiss Federal Research Institute, CH-8903 Birmensdorf},
-  institution = {ISBN 3-905620-99-5. URL http://www. lfi. ch/publikationen/publ/methods/methods. pdf},
+  title       = {Swiss National Forest Inventory: Methods and Models of the Second Assessment.},
+  institution = {WSL Swiss Federal Research Institute},
   year        = {2001},
+  address     = {Birmensdorf},
+  url         = {http://www.lfi.ch/publikationen/publ/methods/methods.pdf},
 }
 
-@Article{keller2011,
-  author  = {Keller, MR},
-  title   = {Swiss national forest inventory. Manual of the field survey 2004--2007},
-  journal = {Swiss Federal Research Institute WSL, Birmensdorf, CH},
-  year    = {2011},
+@TechReport{keller2011,
+  author      = {Keller, MR},
+  title       = {Swiss national forest inventory. Manual of the field survey 2004--2007},
+  institution = {WSL Swiss Federal Research Institute},
+  year        = {2011},
+  address     = {Birmensdorf},
 }
 
 @Article{hoffmann1982,
@@ -1452,7 +1476,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{lefsky1999,
   author    = {Lefsky, Michael A and Cohen, WB and Acker, SA and Parker, Geoffrey G and Spies, TA and Harding, D},
   title     = {Lidar remote sensing of the canopy structure and biophysical properties of Douglas-fir western hemlock forests},
-  journal   = {Remote sensing of environment},
+  journal   = {Remote Sensing of Environment},
   year      = {1999},
   volume    = {70},
   number    = {3},
@@ -1463,7 +1487,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{magnussen1999,
   author    = {Magnussen, Steen and Eggermont, Paul and LaRiccia, Vincent N},
   title     = {Recovering tree heights from airborne laser scanner data},
-  journal   = {Forest science},
+  journal   = {Forest Science},
   year      = {1999},
   volume    = {45},
   number    = {3},
@@ -1477,13 +1501,15 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   booktitle = {Breakthroughs in statistics},
   publisher = {Springer},
   year      = {1992},
+  editor    = {Emanuel Parzen, Kunio Tanabe, Genshiro Kitagawa},
   pages     = {610--624},
+  address   = {New York},
 }
 
 @Article{srivastava1995,
   author    = {Srivastava, Anil K and Srivastava, Virendra K and Ullah, Aman},
   title     = {The coefficient of determination and its adjusted version in linear regression models},
-  journal   = {Econometric reviews},
+  journal   = {Econometric Reviews},
   year      = {1995},
   volume    = {14},
   number    = {2},
@@ -1514,10 +1540,12 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Book{richards1999,
   title     = {Remote sensing digital image analysis. An introduction},
   publisher = {Springer},
-  year      = {1999},
-  author    = {Richards, John A and Richards, JA},
-  volume    = {3},
-  doi       = {10.1007/978-3-662-03978-6},
+  year      = {2013},
+  author    = {Richards, John A},
+  volume    = {5},
+  address   = {Heidelberg New York Dordrecht London},
+  doi       = {10.1007/978-3-642-30062-2},
+  file      = {:pdf/Richards.pdf:PDF},
 }
 
 @Article{beauchamp1973,
@@ -1544,7 +1572,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{mauro2010,
   author    = {Mauro, F and Valbuena, R and Manzanera, JA and Garc{\'\i}a-Abril, A},
   title     = {Influence of Global Navigation Satellite System errors in positioning inventory plots for tree-height distribution studies This article is one of a selection of papers from Extending Forest Inventory and Monitoring over Space and Time.},
-  journal   = {Canadian journal of forest research},
+  journal   = {Canadian Journal of Forest Research},
   year      = {2010},
   volume    = {41},
   number    = {1},
@@ -1558,6 +1586,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   year      = {2009},
   author    = {Fuller, Wayne A},
   volume    = {305},
+  address   = {London},
 }
 
 @Article{beaudoin2014,
@@ -1576,9 +1605,10 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Book{congalton2008,
   title     = {Assessing the accuracy of remotely sensed data: principles and practices},
-  publisher = {CRC press},
+  publisher = {Talyor \& Francis},
   year      = {2008},
   author    = {Congalton, Russell G and Green, Kass},
+  address   = {Boca Raton},
   doi       = {10.1201/9781420055139},
   file      = {:pdf\\Assessing the Accuracy of Remotely Sensed Data\\Analysis of Differences in the Error Matrix.pdf:PDF},
   url       = {https://doi.org/10.1201/9781420055139},
@@ -1589,6 +1619,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {John Wiley \& Sons},
   year      = {2014},
   author    = {Draper, Norman R and Smith, Harry},
+  address   = {London},
   file      = {:pdf/Draper and Smith Regression Analysis/merge_pdfs.pdf:PDF},
 }
 
@@ -1608,7 +1639,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{bont2012,
   author        = {Bont, Leo and Heinimann, Hans Rudolf},
   title         = {Optimum geometric layout of a single cable road},
-  journal       = {European journal of forest research},
+  journal       = {European Journal of Forest Research},
   year          = {2012},
   volume        = {131},
   number        = {5},
@@ -1651,9 +1682,10 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Book{zoehrer1980,
   title     = {{F}orstinventur: {L}eitfaden f{\"u}r {S}tudium und {L}ehre},
-  publisher = {Practice/Hamberg, Berlin: Parey,(Parey Studientexte: Nr. 26)},
+  publisher = {Paul Parey (Parey Studientexte: Nr. 26)},
   year      = {1980},
   author    = {Z{\"o}hrer, Fritz},
+  address   = {Hamburg Berlin},
 }
 
 @Book{carlowitz1713,
@@ -1735,7 +1767,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{horvitz1952,
   author    = {Horvitz, Daniel G and Thompson, Donovan J},
   title     = {A generalization of sampling without replacement from a finite universe},
-  journal   = {Journal of the American statistical Association},
+  journal   = {Journal of the American Statistical Association},
   year      = {1952},
   volume    = {47},
   number    = {260},
@@ -1753,7 +1785,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 @Article{wilcoxon1970,
   author    = {Wilcoxon, Frank and Katti, SK and Wilcox, Roberta A},
   title     = {Critical values and probability levels for the Wilcoxon rank sum test and the Wilcoxon signed rank test},
-  journal   = {Selected tables in mathematical statistics},
+  journal   = {Selected Tables in Mathematical Statistics},
   year      = {1970},
   volume    = {1},
   pages     = {171--259},
@@ -1762,7 +1794,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Book{kangas2006,
   title     = {Forest inventory: methodology and applications},
-  publisher = {Springer Science \& Business Media},
+  publisher = {Springer},
   year      = {2006},
   author    = {Kangas, Annika and Maltamo, Matti},
   volume    = {10},
@@ -1785,7 +1817,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 }
 
 @Manual{georob2018,
-  title  = {georob: Robust Geostatistical Analysis of Spatial Data},
+  title  = {\pkg{georob}: Robust Geostatistical Analysis of Spatial Data},
   author = {Andreas Papritz},
   year   = {2018},
   note   = {R package version 0.3-6},
@@ -1794,7 +1826,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @InProceedings{houllier1987,
   author       = {Houllier, Fran{\c{c}}ois},
-  title        = {Echantillonnage et mod{\'e}lisation de la dynamique des peuplements forestiers. Application au cas de l'inventaire forestier national},
+  title        = {Echantillonnage et mod{\'e}lisation de la dynamique des peuplements forestiers. {A}pplication au cas de l'inventaire forestier national},
   booktitle    = {Annales des Sciences Foresti{\`e}res},
   year         = {1987},
   volume       = {44},
@@ -1887,8 +1919,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {Springer},
   year      = {2014},
   author    = {Maltamo, Matti and N{\ae}sset, Erik and Vauhkonen, Jari},
-  volume    = {27},
-  series    = {Managing Forest Ecosystems},
+  address   = {Heidelberg New York London},
   doi       = {10.1007/978-94-017-8663-8},
   file      = {:pdf/Forestry Applications of Airborne Laser Scanning_Concepts and Case Studies.pdf:PDF},
   pages     = {464},
