@@ -932,10 +932,15 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Article{hill2017a,
   author  = {Hill, Andreas and Buddenbaum, Henning and Mandallaz, Daniel},
-  title   = {Combining canopy height and tree species map information for large scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes},
+  title   = {Combining canopy height and tree species map information for large-scale timber volume estimations under strong heterogeneity of auxiliary data and variable sample plot sizes},
   journal = {European Journal of Forest Research},
   year    = {2018},
-  volume  = {in press},
+  month   = {May},
+  issn    = {1612-4677},
+  day     = {12},
+  doi     = {10.1007/s10342-018-1118-z},
+  file    = {:pdf/hill2018_10.1007_s10342-018-1118-z.pdf:PDF},
+  url     = {https://doi.org/10.1007/s10342-018-1118-z},
 }
 
 @Article{stoffels2012,
@@ -1140,7 +1145,6 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   volume    = {173},
   pages     = {274--281},
   doi       = {10.1016/j.rse.2015.07.026},
-  file      = {:pdf\\emp_coverage_synthests_breidenbach.pdf:PDF},
   publisher = {Elsevier},
 }
 
@@ -1843,7 +1847,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   url    = {https://doi.org/10.3929/ethz-a-000585900},
 }
 
-@Article{tompalski2018,
+@Article{tompalski2017,
   author    = {Tompalski, Piotr and Coops, Nicholas C and Marshall, Peter L and White, Joanne C and Wulder, Michael A and Bailey, Todd},
   title     = {Combining Multi-Date Airborne Laser Scanning and Digital Aerial Photogrammetric Data for Forest Growth and Yield Modelling},
   journal   = {Remote Sensing},
@@ -1851,6 +1855,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   volume    = {10},
   number    = {2},
   pages     = {347},
+  file      = {:pdf/tompalski2017_remotesensing-10-00347.pdf:PDF},
   publisher = {Multidisciplinary Digital Publishing Institute},
 }
 
@@ -2002,10 +2007,73 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   publisher = {Society of American Foresters},
 }
 
-@Misc{bickford1953,
-  author = {Bickford, C Allen},
-  title  = {Increasing the efficiency of airphoto Forest Surveys by better Definition of Classes},
-  year   = {1953},
+@Article{bickford1953,
+  author  = {Bickford, C Allen},
+  title   = {Increasing the efficiency of airphoto Forest Surveys by better Definition of Classes},
+  journal = {U.S. Department of Agriculture, Forest Service},
+  year    = {1953},
+  file    = {:pdf/bickford_1953.pdf:PDF},
+}
+
+@InBook{prager1961,
+  pages     = {7--52},
+  title     = {Das Deutsche Luftbildwesen},
+  publisher = {VS Verlag f{\"u}r Sozialwissenschaften},
+  year      = {1961},
+  author    = {Prager, Stephan},
+  address   = {Wiesbaden},
+  isbn      = {978-3-322-96282-9},
+  abstract  = {Die Entwicklung des Deutschen Luftbildwesens hat stark auf das Rheinland eingewirkt. Bei dem Versuch einen {\"U}berblick zu geben, wird daher auf das Gebiet des Landes Nordrhein-Westfalen besonders eingegangen. Die Herstellung von Luftbildern mit allen ihren segensreichen Folgen ist erheblich von den Fortschritten in dem photographischen Aufnahmeverfahren, der optisch-feinmechanischen Industrie und der Vervollkommnung des Motors beeinflu{\ss}t worden.},
+  booktitle = {Das deutsche Luftbildwesen / Die Technik des Luftbildwesens},
+  doi       = {10.1007/978-3-322-96282-9_1},
+  url       = {https://doi.org/10.1007/978-3-322-96282-9_1},
+}
+
+@Article{schmid1970,
+  author  = {Schmid, Paul},
+  title   = {Probleme der {W}aldinventur},
+  journal = {Schweizerische Zeitschrift f{\"u}r Forstwesen},
+  year    = {1970},
+}
+
+@Article{hildebrandt1987,
+  author  = {Hildebrandt, G.},
+  title   = {TOY or {T}OOL--{F}ernerkundung aus dem {W}eltraum: {S}piel- oder {W}erkzeug f{\"u}r die {F}orstwirtschaft?},
+  journal = {Forstwissenschaftliches Centralblatt},
+  year    = {1987},
+  volume  = {106},
+  number  = {1},
+  pages   = {141--168},
+  month   = {Dec},
+  issn    = {1439-0337},
+  day     = {01},
+  doi     = {10.1007/BF02741143},
+  url     = {https://doi.org/10.1007/BF02741143},
+}
+
+@Book{hildebrandt1996,
+  title     = {Fernerkundung und Luftbildmessung: f{\"u}r Forstwirtschaft, Vegetationskartierung und Landschafts{\"o}kologie},
+  publisher = {Wichmann},
+  year      = {1996},
+  author    = {Hildebrandt, Gerd},
+}
+
+@Article{kangas2018,
+  author    = {Annika Kangas and Rasmus Astrup and Johannes Breidenbach and Jonas Fridman and Terje Gobakken and Kari T. Korhonen and Matti Maltamo and Mats Nilsson and Thomas Nord--Larsen and Erik Næsset and Håkan Olsson},
+  title     = {Remote sensing and forest inventories in Nordic countries -- roadmap for the future},
+  journal   = {Scandinavian Journal of Forest Research},
+  year      = {2018},
+  volume    = {33},
+  number    = {4},
+  pages     = {397-412},
+  doi       = {10.1080/02827581.2017.1416666},
+  eprint    = {https://doi.org/10.1080/02827581.2017.1416666},
+  file      = {:pdf/Kangas_Remote sensing and forest inventories in Nordic countries roadmap for the future.pdf:PDF},
+  publisher = {Taylor \& Francis},
+  url       = { 
+        https://doi.org/10.1080/02827581.2017.1416666
+    
+},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

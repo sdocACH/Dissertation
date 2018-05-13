@@ -45,6 +45,7 @@ Bickford, C.~A. (1952).
 Bickford, C.~A. (1953).
 \newblock Increasing the efficiency of airphoto forest surveys by better
   definition of classes.
+\newblock {\em U.S. Department of Agriculture, Forest Service}.
 
 \bibitem[Bitterlich, 1984]{bitterlich1984}
 Bitterlich, W. (1984).
@@ -104,6 +105,12 @@ Breidenbach, J., Kublin, E., McGaughey, R., Andersen, H.-E., \& Reutebuch,
 \newblock Mixed--effects models for estimating stand volume by means of small
   footprint airborne laser scanner data.
 \newblock {\em Photogrammetric Journal of Finland}, 21(1), 4--15.
+
+\bibitem[Breidenbach et~al., 2016]{breidenbach2016}
+Breidenbach, J., McRoberts, R.~E., \& Astrup, R. (2016).
+\newblock Empirical coverage of model--based variance estimators for remote
+  sensing assisted estimation of stand--level timber volume.
+\newblock {\em Remote Sensing of Environment}, 173, 274--281.
 
 \bibitem[Breiman, 2001]{breiman2001}
 Breiman, L. (2001).
@@ -263,6 +270,18 @@ Hasel, A.~A. (1938).
 \newblock Sampling error in timber surveys.
 \newblock {\em Journal of Agricultural Research}, 57(10), 713--736.
 
+\bibitem[Hildebrandt, 1987]{hildebrandt1987}
+Hildebrandt, G. (1987).
+\newblock Toy or {T}ool--{F}ernerkundung aus dem {W}eltraum: {S}piel- oder
+  {W}erkzeug f{\"u}r die {F}orstwirtschaft?
+\newblock {\em Forstwissenschaftliches Centralblatt}, 106(1), 141--168.
+
+\bibitem[Hildebrandt, 1996]{hildebrandt1996}
+Hildebrandt, G. (1996).
+\newblock {\em Fernerkundung und Luftbildmessung: f{\"u}r Forstwirtschaft,
+  Vegetationskartierung und Landschafts{\"o}kologie}.
+\newblock Wichmann.
+
 \bibitem[Hill, 2013]{hill2013}
 Hill, A. (2013).
 \newblock Comparison of small area estimators in forest inventory using
@@ -289,10 +308,10 @@ Hill, A., Breschan, J., \& Mandallaz, D. (2014).
 
 \bibitem[Hill et~al., 2018]{hill2017a}
 Hill, A., Buddenbaum, H., \& Mandallaz, D. (2018).
-\newblock Combining canopy height and tree species map information for large
-  scale timber volume estimations under strong heterogeneity of auxiliary data
-  and variable sample plot sizes.
-\newblock {\em European Journal of Forest Research}, in press.
+\newblock Combining canopy height and tree species map information for
+  large-scale timber volume estimations under strong heterogeneity of auxiliary
+  data and variable sample plot sizes.
+\newblock {\em European Journal of Forest Research}.
 
 \bibitem[Hill et~al., 2017]{hill2017c}
 Hill, A., Mandallaz, D., Buddenbaum, H., Stoffels, J., \& Langshausen, J.
@@ -350,6 +369,14 @@ Jakubowski, M.~K., Guo, Q., \& Kelly, M. (2013).
 \newblock Tradeoffs between lidar pulse density and forest measurement
   accuracy.
 \newblock {\em Remote Sensing of Environment}, 130, 245--253.
+
+\bibitem[Kangas et~al., 2018]{kangas2018}
+Kangas, A., Astrup, R., Breidenbach, J., Fridman, J., Gobakken, T., Korhonen,
+  K.~T., Maltamo, M., Nilsson, M., Nord-Larsen, T., Næsset, E., \& Olsson, H.
+  (2018).
+\newblock Remote sensing and forest inventories in nordic countries -- roadmap
+  for the future.
+\newblock {\em Scandinavian Journal of Forest Research}, 33(4), 397--412.
 
 \bibitem[Kangas \& Maltamo, 2006]{kangas2006}
 Kangas, A. \& Maltamo, M. (2006).
@@ -601,6 +628,13 @@ Massey, A.~F. (2015).
   the design-based Monte Carlo approach}.
 \newblock PhD thesis, ETH Zurich.
 
+\bibitem[Matasci et~al., 2018]{matasci2018}
+Matasci, G., Hermosilla, T., Wulder, M.~A., White, J.~C., Coops, N.~C., Hobart,
+  G.~W., Zald, H.~S., et~al. (2018).
+\newblock Large-area mapping of canadian boreal forest cover, height, biomass
+  and other structural attributes using landsat composites and lidar plots.
+\newblock {\em Remote Sensing of Environment}, 209, 90--106.
+
 \bibitem[Mathworks, 2017]{matlab}
 Mathworks (2017).
 \newblock Matlab version 9.2.0.538062 (r2017a).
@@ -732,6 +766,11 @@ Polley, H., Schmitz, F., Hennig, P., \& Kroiher, F. (2010).
 \newblock In {\em National Forest Inventories - Pathways for Common Reporting}
   chapter~13, (pp.\ 223--243). Heidelberg Dordrecht London New York: Springer.
 
+\bibitem[Prager, 1961]{prager1961}
+Prager, S. (1961).
+\newblock {\em Das Deutsche Luftbildwesen}, (pp.\ 7--52).
+\newblock VS Verlag f{\"u}r Sozialwissenschaften: Wiesbaden.
+
 \bibitem[{R Core Team}, 2017]{R}
 {R Core Team} (2017).
 \newblock {\em R: A Language and Environment for Statistical Computing}.
@@ -768,6 +807,11 @@ S{\"a}rndal, C.-E., Swensson, B., \& Wretman, J. (2003).
 {\proglang{SAS} Institute Inc.} (2015).
 \newblock {\em \proglang{SAS/STAT} Software, Version~9.4}.
 \newblock Cary, NC.
+
+\bibitem[Schmid, 1970]{schmid1970}
+Schmid, P. (1970).
+\newblock Probleme der {W}aldinventur.
+\newblock {\em Schweizerische Zeitschrift f{\"u}r Forstwesen}.
 
 \bibitem[Schmitz et~al., 2008]{bwi3_ausw}
 Schmitz, F., Polley, H., Hennig, P., Dunger, K., \& Schwitzgebel, F. (2008).
