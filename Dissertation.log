@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  13 MAY 2018 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.28)  13 MAY 2018 20:29
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -1693,9 +1693,6 @@ LaTeX Warning: Label `eq:var_3p_reg_small' multiply defined.
 LaTeX Warning: Label `eq:var_3p_reg_psmall' multiply defined.
 
 
-LaTeX Warning: Label `sec:intro' multiply defined.
-
-
 LaTeX Warning: Label `estvarcovaux_G' multiply defined.
 
 
@@ -1711,9 +1708,6 @@ LaTeX Warning: Label `eq:releff' multiply defined.
 LaTeX Warning: Label `tab:fieldata' multiply defined.
 
 
-LaTeX Warning: Label `sec:Res' multiply defined.
-
-
 LaTeX Warning: Label `chap:regmod:Abstract' multiply defined.
 
 
@@ -1721,9 +1715,6 @@ LaTeX Warning: Label `sec:intro' multiply defined.
 
 
 LaTeX Warning: Label `sec:Res' multiply defined.
-
-
-LaTeX Warning: Label `sec:regmod' multiply defined.
 
 )
 \openout1 = `Dissertation.aux'.
@@ -2990,10 +2981,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 383.
  ) 
 Here is how much of TeX's memory you used:
- 30674 strings out of 493333
- 578589 string characters out of 3139194
- 785239 words of memory out of 7999999
- 32862 multiletter control sequences out of 15000+200000
+ 30680 strings out of 493333
+ 578677 string characters out of 3139194
+ 785365 words of memory out of 7999999
+ 32868 multiletter control sequences out of 15000+200000
  136864 words of font info for 121 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,16n,69p,8825b,850s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3027,7 +3018,7 @@ e1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt9.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Dissertation.pdf (140 pages, 43395376 bytes).
+Output written on Dissertation.pdf (140 pages, 43395375 bytes).
 PDF statistics:
  2681 PDF objects out of 2984 (max. 8388607)
  564 named destinations out of 1000 (max. 500000)

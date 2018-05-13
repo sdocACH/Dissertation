@@ -35,7 +35,7 @@ The German National Forest Inventory consists of a systematic grid of permanent 
 % ---------------------------------- Introduction ---------------------------------------------- %
 
 \section{Introduction}
-\label{sec:intro}
+\label{sec:sae:intro}
 
 The German National Forest Inventory (NFI) provides reliable evidence-based and accurate information of the current state and the development of Germany's forest over time. The NFI thereby has the responsibility to satisfy various information needs including reporting to public and state forestry administrations, wood-based industries and the public on the national level, as well as to the Food and Agriculture Organization of the United Nations (FAO) and to the United Nations Framework Convention on Climate Change (UNFCC) on the international level \citep{polley2010intomppo}. The current design of the German NFI rests solely upon a terrestrial cluster inventory that is carried out at sample locations systematically distributed over the entire forest state area of Germany. In order to cover a large area of 114'191 ha \citep{bwi3}, the sample size has been specifically chosen to satisfy high estimation accuracies for forest attributes on the national and federal state levels. However, sample sizes often drop dramatically when entering spatial units below the federal state level. This is particularly true for forest management levels such as forest districts for which the estimation uncertainties turn out to be unacceptably large due to the very limited number of sample plots within these units. For this reason, the German NFI data have not yet been extensively incorporated into operational planning on forest district management levels. In most German federal states, management strategies are thus still based on expert judgments from time-consuming standwise inventories (SFI), which are prone to systematic deviations \cite{kulievsis2016} and do not provide any measure of uncertainty.\par
 
@@ -450,11 +450,11 @@ The tree species map was used to predict the main tree species at each sample pl
 
 % ---------------------------------------------- %
 \subsection{Regression Model}
-\label{sec:regmod}
+\label{sec:sae:regmod}
 
 The model selection process for this study required a substantial time commitment due to sophisticated challenges such as: a) the heterogeneity of the remote sensing data, b) the identification of the optimal support sizes under angle count sampling, and c) the incorporation of tree species information. Here, only a summary of the extensive analysis that was performed is provided but the reader can refer to \citet{hill2017a} if more details are desired.\par
 The model with highest \adjrsq{} and lowest RMSE was achieved using \meanheight{}, \meanheight{}$^2$, \stddev{}, \alsyear{} and \treespecies{} as main effects, and including interaction terms between \meanheight{} and \alsyear{}, \stddev{} and \alsyear{}, \meanheight{} and \stddev{}, and \meanheight{} and \treespecies{}. Summary information about the \adjrsq{}, RMSE and RMSE\% of the selected models is provided in Table \ref{tab:modacc_modterms}. As the two-phase estimators described in Section \ref{sec:SAestimators} derive and apply the regression coefficients and the residuals on the aggregated cluster level, we re-evaluated the model as used in the estimators on the cluster level (formulas given in Appendix) and found improved model fits compared to the plot level (\adjrsq{} of 0.59 and RMSE of 101.61 \mha{} and 33.6\%). The stratification by the ALS acquisition year substantially improved the model fit, indicating that it is an effective means in accounting for the noise in the data caused by ALS quality variations and time gaps between the ALS and the terrestrial survey. However, the stratification led to a highly unbalanced data set when a further \treespecies{} stratification was included. For this reason, a individual species modeling within each \alsyear{} stratum remained infeasible, but might have further improved the model fit. An additional evaluation of the model's performance within each ALS acquisition year stratum revealed that the quality of the model fit substantially varied between the strata (Table \ref{tab:adj_r2_within}). In particular, values above the overall \adjrsq{} were higher in ALS acquisition years close to the terrestrial survey date compared to years with larger time gaps.\par
-As described in Section \ref{sec:tspecclass}, the information of the tree species classification map was missing within 1 FA and 19 FR units. For these small area units, we applied the regression model without the \treespecies{} variable (Table \ref{tab:modacc_modterms}, reduced model). However, the \adjrsq{}s of the full and reduced model were found to be very similar on both the plot and cluster level. This implied that the variance reduction of the reduced model when applied to the two-phase estimators would likely be comparable to that of the full model. For this reason, a joint evaluation of the estimation results is performed in Section \ref{sec:Res}.
+As described in Section \ref{sec:tspecclass}, the information of the tree species classification map was missing within 1 FA and 19 FR units. For these small area units, we applied the regression model without the \treespecies{} variable (Table \ref{tab:modacc_modterms}, reduced model). However, the \adjrsq{}s of the full and reduced model were found to be very similar on both the plot and cluster level. This implied that the variance reduction of the reduced model when applied to the two-phase estimators would likely be comparable to that of the full model. For this reason, a joint evaluation of the estimation results is performed in Section \ref{sec:sae:Res}.
 
 % Table 1:
 \input{Tabellen/SAE_article/modacc_modterms.tex}
@@ -469,7 +469,7 @@ Concerning the existence of outliers or leverage points in the training set for 
 %-------------------------------------------------------------------------------------------%
 % ---------------------------------- Results ---------------------------------------------- %
 \section{Results}
-\label{sec:Res}
+\label{sec:sae:Res}
 
 
 \subsection{General estimation results}
