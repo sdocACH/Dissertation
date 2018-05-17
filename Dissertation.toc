@@ -8,9 +8,9 @@
 \contentsline {section}{\numberline {1.1}Short history of forest inventory}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Thesis objective and structure}{5}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Study 1: Design-based small area estimation}{5}{subsection.1.2.1}
-\contentsline {subsubsection}{\nonumberline Work Package 1: Software implementation}{6}{section*.7}
-\contentsline {subsubsection}{\nonumberline Work Package 2: Processing of auxiliary data and model building}{6}{section*.8}
-\contentsline {subsubsection}{\nonumberline Work Package 3: Small area estimation}{7}{section*.9}
+\contentsline {subsubsection}{\nonumberline Task 1: Software implementation}{6}{section*.7}
+\contentsline {subsubsection}{\nonumberline Task 2: Processing of auxiliary data and model building}{6}{section*.8}
+\contentsline {subsubsection}{\nonumberline Task 3: Small area estimation}{7}{section*.9}
 \contentsline {subsection}{\numberline {1.2.2}Study 2: Mapping}{7}{subsection.1.2.2}
 \contentsline {chapter}{\numberline {2}The \textit {R} Package {\fontseries {b}\selectfont forestinventory}: design-based global and small area estimations for multi-phase forest inventories}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{11}{section.2.1}
