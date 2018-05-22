@@ -29,6 +29,7 @@ headinclude]{scrbook}
 \usepackage{flafter}
 \usepackage{bm}
 \usepackage{setspace}
+\usepackage{blindtext}
 
 %% captions
 \usepackage[font=footnotesize]{caption}
@@ -310,9 +311,9 @@ headinclude]{scrbook}
 	\fancyhead{} \fancyfoot{}
 	\setlength{\headheight}{30pt}
 	\renewcommand{\chaptermark}[1]{ \markboth{\small\ \thechapter\ \hspace{1.5mm}\ #1}{} }   % \thechapter defines current chapter number
-		\fancyhead[RO]{\leftmark} %  \leftmark defines current CHAPTER name (where to put \chaptermark)
+	\fancyhead[RO]{\leftmark} %  \leftmark defines current CHAPTER name (where to put \chaptermark)
 	\renewcommand{\sectionmark}[1]{ \markright{\small \thesection\ \hspace{1.5mm}\  #1}{} }  % \thesection defines current section number
-		\fancyhead[LE]{\rightmark} % \rightmark defines current SECTION name (where to put \sectionmark)
+	\fancyhead[LE]{\rightmark} % \rightmark defines current SECTION name (where to put \sectionmark)
 	\fancyfoot[LE]{\thepage} % \thepage defines current page number 
 	\fancyfoot[RO]{\thepage}
 
