@@ -1145,6 +1145,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   volume    = {173},
   pages     = {274--281},
   doi       = {10.1016/j.rse.2015.07.026},
+  file      = {:pdf/breidenbach_1-s2.0-S0034425715300845-main.pdf:PDF},
   publisher = {Elsevier},
 }
 
@@ -2074,6 +2075,14 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
         https://doi.org/10.1080/02827581.2017.1416666
     
 },
+}
+
+@Book{isaaks1989,
+  title     = {Applied geostatistics},
+  publisher = {Oxford University Press},
+  year      = {1989},
+  author    = {Isaaks, Edward H and Srivastava, Mohan R},
+  address   = {New York},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
