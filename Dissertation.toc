@@ -81,7 +81,7 @@
 \contentsline {subsection}{\numberline {4.5.2}Terrestrial sample}{75}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Extension to double-sampling design}{76}{subsection.4.5.3}
 \contentsline {subsection}{\numberline {4.5.4}Auxiliary data}{77}{subsection.4.5.4}
-\contentsline {subsubsection}{\nonumberline LiDAR canopy height model}{77}{section*.62}
+\contentsline {subsubsection}{\nonumberline ALS canopy height model}{77}{section*.62}
 \contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{77}{section*.63}
 \contentsline {subsection}{\numberline {4.5.5}Calculation of the explanatory variables}{78}{subsection.4.5.5}
 \contentsline {subsubsection}{\nonumberline Canopy height model}{78}{section*.65}

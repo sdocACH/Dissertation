@@ -1,0 +1,382 @@
+% Dissertation Andreas Hill, Version 1.0
+% 2. LaTeX Vorlage von Kai Husmann, Version 2.0
+% 1. LaTeX Vorlage von Nikolas von L�pke, Version 1.1
+%==================================================================================================================%
+% Textencoding: 8859-1
+\documentclass[
+a4paper,
+10pt,
+titlepage,
+%tablecaptionabove,
+twoside,
+openany,
+%pointlessnumbers,
+%fleqn, 
+bibtotoc,
+headings=twolinechapter,
+headinclude]{scrbook}
+
+%============================================ Load Packages ========================================================%
+
+% required for mapping-article:
+\usepackage{boldline}
+
+%% required for JStatSoft:
+\usepackage{Sweave}
+\usepackage{latexsym}
+\usepackage{a4}
+\usepackage{epsfig}
+\usepackage{flafter}
+\usepackage{bm}
+\usepackage{setspace}
+\usepackage{blindtext}
+
+%% captions
+\usepackage[font=footnotesize]{caption}
+\usepackage[font=footnotesize]{subcaption}
+
+%% - create hyperlinks within the document
+\usepackage{hyperref}
+%\usepackage[pdfauthor={Andreas Hill}, pdftitle={Dissertation, Andreas Hill}]{hyperref}
+
+%% - colors
+\usepackage{color}
+% \definecolor{link}{rgb}{0.45,0.51,0.67} % Dark blue colour for all links
+
+%% - Serifenschriftart in �berschriften
+\usepackage{lmodern}
+\addtokomafont{disposition}{\rmfamily}
+
+%% - Deutsche Anpassungen
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman,british]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+
+%% - bibliography
+\usepackage{natbib}
+\usepackage{apalike}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	filecolor=magenta,      
+	urlcolor=black}
+\usepackage{multibib}
+\usepackage{url}
+
+%% - Sch�nere Tablellen
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{graphicx} %Mit diesem package k�nnen pdf,png und jpg Graphiken eingelesen werden und direkt pdfs erzeugt werden
+%\usepackage{picins}
+%\usepackage{subfig}
+%\usepackage{subfigure}
+%% - Packages for Headings
+\usepackage{fancyhdr}
+
+%% - Packages f�r korrekte Einheiten:
+\usepackage[squaren]{SIunits}
+\usepackage[dvips]{rotating}
+\usepackage{pdfpages}
+
+%% - Packages f�r Formeln
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\usepackage{mathptmx}
+
+%% - Packages f�r Pseudocode
+\usepackage[linesnumbered, algochapter]{algorithm2e}
+\usepackage{enumerate}
+
+%% - Paket f�r Grafik
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,calc,positioning,shapes.geometric}
+\usetikzlibrary{external}       % function to externalize tics-graphic buildings
+\tikzset{external/force remake} % overwrites existing externalized pdfs
+\tikzexternalize[prefix=cache/] % All externalized pdf are saved in folder 'cache'
+\tikzexternaldisable % Only externalise on-demand
+
+%% - Package f�r Zeilennummerierung
+\usepackage{lineno}
+%\linenumbers % uncomment for adding line numbers
+
+%% - Querformat f�r den Anhang
+\usepackage{array}
+
+%% - f�r Abk�rzungsverzeichnis
+\usepackage{acronym} 
+\usepackage{nomencl}
+\makenomenclature
+
+%% - sonstige
+\usepackage{chapterbib}
+\usepackage{float}
+
+%============================================ Define Settings ========================================================%
+
+\pagestyle{fancy}
+
+%% - Absatzformatierung
+\setlength{\parindent}{0.5cm}
+%\setlength{\parskip}{1.0ex plus 1.0ex minus 0.5ex}
+%\setlength{\parskip}{6pt}%Abstand nach Absatz
+\RequirePackage{setspace}
+\setstretch{1.05}
+\typearea[1.5cm]{15}
+
+%% Platz an Seitenr�ndern
+\usepackage{geometry}
+\geometry{
+	bottom=40mm,
+	left=30mm,
+	right=30mm
+	,bindingoffset=0mm
+}
+
+
+% customize dictum format:
+\setkomafont{dictumtext}{\itshape\small}
+\setkomafont{dictumauthor}{\normalfont}
+\renewcommand*\dictumwidth{\linewidth}
+\renewcommand*\dictumauthorformat[1]{--- #1}
+\renewcommand*\dictumrule{}
+
+% own commands:
+\newcommand{\adjrsq}{adjusted $R^2$}
+\newcommand{\rmsecv}{RMSE$_{cv}$}
+\newcommand{\mha}{m$^3$/ha}
+\newcommand{\bwi}{BWI3}
+\newcommand{\psynth}{PSYNTH}
+\newcommand{\psmall}{PSMALL}
+\newcommand{\extpsynth}{EXTPSYNTH}
+\newcommand{\meanheight}{\textit{meanheight}}
+\newcommand{\stddev}{\textit{stddev}}
+\newcommand{\treespecies}{\textit{treespecies}}
+\newcommand{\alsyear}{\textit{ALSyear}}
+
+
+\definecolor{mygreen}{rgb}{0.1, 0.6, 0.4}
+%\newcommand{\added}[1]{\color{mygreen}{#1} \color{black}}
+%\newcommand{\changed}[1]{\color{red}{#1} \color{black}}
+\newcommand{\added}[1]{\color{black}{#1} \color{black}}
+\newcommand{\changed}[1]{\color{black}{#1} \color{black}}
+
+
+\addtolength{\headwidth}{\marginparsep}
+\addtolength{\headwidth}{\marginparwidth}
+
+%============================================ Stat-Journal specific styles =========================================%
+
+\newcommand{\proglang}[1]{\textit{#1}}
+\newcommand{\pkg}[1]{{\fontseries{b}\selectfont #1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\R}{R}
+\newcommand{\var}{\mathbb{V}}
+\newcommand{\EX}{\mathbb{E}}
+
+
+% Text formatting --------------------------------------------------------------
+
+%\newcommand{\R}{R}
+%\newcommand{\address}[1]{\addvspace{\baselineskip}\noindent\emph{#1}}
+%\newcommand{\email}[1]{\href{mailto:#1}{\normalfont\texttt{#1}}}
+%
+%\DeclareRobustCommand\code{\bgroup\@noligs\@codex}
+%\def\@codex#1{\texorpdfstring%
+%	{{\normalfont\ttfamily\hyphenchar\font=-1 #1}}%
+%	{#1}\egroup}
+%\newcommand{\kbd}[1]{{\normalfont\texttt{#1}}}
+%\newcommand{\key}[1]{{\normalfont\texttt{\uppercase{#1}}}}
+%\DeclareRobustCommand\samp{`\bgroup\@noligs\@sampx}
+%\def\@sampx#1{{\normalfont\texttt{#1}}\egroup'}
+%\newcommand{\var}[1]{{\normalfont\textsl{#1}}}
+%\let\env=\code
+%\newcommand{\file}[1]{{`\normalfont\textsf{#1}'}}
+%\let\command=\code
+%\let\option=\samp
+%\newcommand{\dfn}[1]{{\normalfont\textsl{#1}}}
+%% \acronym is effectively disabled since not used consistently
+%\newcommand{\strong}[1]{\texorpdfstring%
+%	{{\normalfont\fontseries{b}\selectfont #1}}%
+%	{#1}}
+%\let\pkg=\strong
+%\let\proglong=\strong
+%\newcommand{\CRANpkg}[1]{\href{https://CRAN.R-project.org/package=#1}{\pkg{#1}}}%
+%\let\cpkg=\CRANpkg
+%\newcommand{\ctv}[1]{\href{https://CRAN.R-project.org/view=#1}{\emph{#1}}}
+%\newcommand{\BIOpkg}[1]{\href{http://www.bioconductor.org/packages/release/bioc/html/#1.html}{\pkg{#1}}}
+
+% Example environments ---------------------------------------------------------
+\RequirePackage{fancyvrb}
+\RequirePackage{alltt}
+
+\DefineVerbatimEnvironment{example}{Verbatim}{}
+\renewenvironment{example*}{\begin{alltt}}{\end{alltt}}
+
+% Support for output from Sweave, and generic session style code
+% These used to have fontshape=sl for Sinput/Scode/Sin, but pslatex
+% won't use a condensed font in that case.
+
+% Update (2015-05-28 by DS): remove fontsize=\small to match example environment
+
+\DefineVerbatimEnvironment{Sinput}{Verbatim}{}
+\DefineVerbatimEnvironment{Soutput}{Verbatim}{}
+\DefineVerbatimEnvironment{Scode}{Verbatim}{}
+\DefineVerbatimEnvironment{Sin}{Verbatim}{}
+\DefineVerbatimEnvironment{Sout}{Verbatim}{}
+%\newenvironment{Schunk}{}{}
+
+%============================================ END Stat-Journal specific styles ===================================%
+
+
+
+%===================================================================================================================%
+%============================================ Start Document =======================================================%
+\begin{document}
+	
+%% ------------------------------ Deckblatt -------------------------------------- %%
+%	\thispagestyle{empty}
+%	\input{Main/Deckblatt}
+%	%\pagestyle{empty}
+%	%\cleardoublepage
+%	
+%%% ------------------------------ Referees -------------------------------------- %%	
+%	\pagebreak
+%
+%	
+%%% ------------------------------ Table of Contents -------------------------------------- %%
+%	\pagenumbering{roman}
+%	%\input{Zusammenfassung}
+%	%\input{Abstract}
+%	%% Inhaltsverzeichnis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\setcounter{tocdepth}{1}
+%	\hypersetup{linkcolor=black}{ % Damit nicht das ganze TOC blau ist.
+%		\tableofcontents
+%	}
+%	\thispagestyle{plain}
+%	\newpage
+%	
+%%% ------------------------------ List of Figures -------------------------------------- %%
+%	\listoffigures
+%	\thispagestyle{plain}
+%	\newpage
+%
+%%% ------------------------------ List of Tables -------------------------------------- %%
+%	\listoftables
+%	\pagestyle{plain}
+%	%\clearpage
+%	%\newpage
+%	%\mbox{}
+%	%\pagebreak
+%	%\thispagestyle{empty}
+%	
+%	%% ------------------------------ List of Abbreviations -------------------------------------- %%
+%%	\input{main/abbreviations}
+%%	\thispagestyle{plain}
+%%	\newpage
+%	
+%	
+%%% ------------------------------ Acknowledgements -------------------------------------- %%
+%    \input{main/Acknowledgements}
+%	\thispagestyle{plain}
+%	%\clearpage
+%	%\newpage
+%	%\mbox{}
+%	%\pagebreak
+%	%\thispagestyle{empty}
+%	\hypersetup{linkcolor=black}{} % Links wieder blau
+%	
+%%% ------------------------------ Summary -------------------------------------- %%
+%\input{main/Summary}
+%\thispagestyle{plain}
+%%\cleardoublepage
+%\input{main/Zusammenfassung}
+%% \cleardoublepage
+%%\thispagestyle{plain}
+%%\clearpage
+%\newpage
+%%\thispagestyle{empty}
+%%\mbox{}
+%%\pagebreak
+%%\thispagestyle{empty}
+%%	
+%	%Definiert die L�nge der Kopfzeile
+%	% --> (L=Left, R=Right, E=Even (pagenumbers), O=Odd (page numbers)
+%	\pagestyle{fancy} \renewcommand{\headrulewidth}{0.4pt}
+%	\renewcommand{\headrulewidth}{0.4pt}
+%	\fancyhead{} \fancyfoot{}
+%	\setlength{\headheight}{30pt}
+%	\renewcommand{\chaptermark}[1]{ \markboth{\small\ \thechapter\ \hspace{1.5mm}\ #1}{} }   % \thechapter defines current chapter number
+%	\fancyhead[RO]{\leftmark} %  \leftmark defines current CHAPTER name (where to put \chaptermark)
+%	\renewcommand{\sectionmark}[1]{ \markright{\small \thesection\ \hspace{1.5mm}\  #1}{} }  % \thesection defines current section number
+%	\fancyhead[LE]{\rightmark} % \rightmark defines current SECTION name (where to put \sectionmark)
+%	\fancyfoot[LE]{\thepage} % \thepage defines current page number 
+%	\fancyfoot[RO]{\thepage}
+%
+%
+%%% ------------------------------ Introduction -------------------------------------------------------- %%	
+%\pagenumbering{arabic}
+%\input{main/Introduction(2)}
+%	%\clearpage
+%	\newpage
+%%	\mbox{}
+%%	\pagebreak
+%%	\thispagestyle{empty}
+%	
+%%% ------------------------------ Artikel 1 R-Package-------------------------------------------------- %%
+%\input{Rpackage_Article/Rpackage_forestinventory}
+%	%\clearpage
+%	\newpage
+%%	\mbox{}
+%%	\pagebreak
+%%	\thispagestyle{empty}
+%	
+%%%% ------------------------------ Artikel 2 Regression Model ----------------------------------------- %%
+%\input{Regmodel_Article/regmod_article}
+%	%\clearpage
+%	\newpage
+%%	\mbox{}
+%%	\pagebreak
+%%	\thispagestyle{empty}
+%
+%%%% ------------------------------ Artikel Small Area Estimation -------------------------------------- %%
+%\input{SAE_Article/sae_article}
+%	%\clearpage
+%	\newpage
+%%	\mbox{}
+%%	\pagebreak
+%%	\thispagestyle{empty}
+%	
+%%%% ------------------------------ Artikel 4 Mapping -------------------------------------------------- %%
+%\input{Mapping_Article/mapping_article}
+%%\clearpage
+%\newpage
+%%\mbox{}
+%%\pagebreak
+%%\thispagestyle{empty}
+%
+%%%% ------------------------------ Synthese ---------------------------------------- %%
+%\input{Main/Synthese}
+%\newpage
+%%\mbox{}
+%%\pagebreak
+%%\thispagestyle{empty}
+%	
+%%%% ------------------------------ Literature -------------------------------------- %%
+%\bibliographystyle{apalike2}
+%%\bibliographystyle{spbasic} 
+%\bibliography{Dissliterature/Dissertation_merged}
+%%%\thispagestyle{empty}
+	
+%% ------------------------------ CV -------------------------------------- %%
+\input{Curriculum}
+	%\cleardoublepage
+	
+	\clearpage
+	\newpage
+\end{document}
+

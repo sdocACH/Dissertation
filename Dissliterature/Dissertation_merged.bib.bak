@@ -1110,7 +1110,7 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
 
 @Article{saborowski2010,
   author    = {Saborowski, Joachim and Marx, Almuth and Nagel, J{\"u}rgen and B{\"o}ckmann, Thomas},
-  title     = {Double sampling for stratification in periodic inventories--Infinite population approach},
+  title     = {Double sampling for stratification in periodic inventories -- Infinite population approach},
   journal   = {Forest Ecology and Management},
   year      = {2010},
   volume    = {260},
@@ -2083,6 +2083,20 @@ den eigentlichenProbekreisaufnahmen durch Reduktion der Hoehenmessungen, Wegfall
   year      = {1989},
   author    = {Isaaks, Edward H and Srivastava, Mohan R},
   address   = {New York},
+}
+
+@Book{matern1947,
+  title     = {Metoder att uppskatta noggrannheten vid linje-och provytetaxering: Methods of estimating the accuracy of line and sample plot surveys},
+  publisher = {Statens skogsforskningsinstitut},
+  year      = {1947},
+  author    = {Mat{\'e}rn, Bertil},
+}
+
+@PhdThesis{matern1960,
+  author = {Mat{\'e}rn, Bertil},
+  title  = {Spatial variation: Stachastic models and their application to some problems in forest surveys and other sampling investigations},
+  school = {Statens skogsforskningsinstitut},
+  year   = {1960},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

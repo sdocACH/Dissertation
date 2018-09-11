@@ -640,6 +640,19 @@ Matasci, G., Hermosilla, T., Wulder, M.~A., White, J.~C., Coops, N.~C., Hobart,
   and other structural attributes using landsat composites and lidar plots.
 \newblock {\em Remote Sensing of Environment}, 209, 90--106.
 
+\bibitem[Mat{\'e}rn, 1947]{matern1947}
+Mat{\'e}rn, B. (1947).
+\newblock {\em Metoder att uppskatta noggrannheten vid linje-och
+  provytetaxering: Methods of estimating the accuracy of line and sample plot
+  surveys}.
+\newblock Statens skogsforskningsinstitut.
+
+\bibitem[Mat{\'e}rn, 1960]{matern1960}
+Mat{\'e}rn, B. (1960).
+\newblock {\em Spatial variation: Stachastic models and their application to
+  some problems in forest surveys and other sampling investigations}.
+\newblock PhD thesis, Statens skogsforskningsinstitut.
+
 \bibitem[Mathworks, 2017]{matlab}
 Mathworks (2017).
 \newblock Matlab version 9.2.0.538062 (r2017a).
@@ -781,8 +794,8 @@ Prager, S. (1961).
 \newblock {\em R: A Language and Environment for Statistical Computing}.
 \newblock R Foundation for Statistical Computing, Vienna, Austria.
 
-\bibitem[Rao, 2015]{rao2015}
-Rao, J.~N. (2015).
+\bibitem[Rao, 2003]{rao2015}
+Rao, J.~N. (2003).
 \newblock {\em Small-Area Estimation}.
 \newblock London: John Wiley \& Sons.
 
@@ -799,8 +812,8 @@ Richards, J.~A. (2013).
 
 \bibitem[Saborowski et~al., 2010]{saborowski2010}
 Saborowski, J., Marx, A., Nagel, J., \& B{\"o}ckmann, T. (2010).
-\newblock Double sampling for stratification in periodic inventories--infinite
-  population approach.
+\newblock Double sampling for stratification in periodic inventories --
+  infinite population approach.
 \newblock {\em Forest Ecology and Management}, 260(10), 1886--1895.
 
 \bibitem[S{\"a}rndal et~al., 2003]{sarndal2003}

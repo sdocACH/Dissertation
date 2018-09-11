@@ -58,6 +58,7 @@
 \citation{mandallaz1991}
 \citation{sarndal2003}
 \citation{kangas2006}
+\citation{matern1960,matern1947}
 \citation{kangas2006}
 \citation{houllier1987}
 \citation{mandallaz1993}
@@ -125,7 +126,6 @@
 \newlabel{chap:rpack}{{2}{9}{The \proglang {R} Package \pkg {forestinventory}: design-based global and small area estimations for multi-phase forest inventories}{chapter.2}{}}
 \citation{gregoire2007,kohl2006,schreuder1993,mandallaz2008}
 \citation{vonluepke2013}
-\citation{gregoire2007,saborowski2010,mandallaz2013a,mandallaz2013c,vonLuepke2012}
 \citation{gregoire2007,saborowski2010,mandallaz2013a,mandallaz2013c,vonLuepke2012}
 \citation{breidenbach2012,vonLuebke2014,mandallaz2013b,magnussen2014,massey2014a}
 \newlabel{chap:rpack:Abstract}{{2}{11}{Abstract}{section*.10}{}}
@@ -401,8 +401,8 @@
 \citation{fahrmeir2013}
 \citation{mandallaz2013a,mandallaz2013b}
 \citation{mandallaz2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Effect on the adjusted $R^2${} when substituting the actual main tree species with the predicted main tree species of a sample plot. Each point in the graph represents the timber volume regression model under different support and threshold settings. The \textit  {dotted} line tracks the the model with the highest adjusted $R^2${} under the use of the error-free \textit  {treespecies} variable. Semitransparent colours for the data points are used to visualize overlap.\relax }}{58}{figure.caption.47}}
-\newlabel{fig:supp_r2_calnocal}{{3.6}{58}{Effect on the \adjrsq {} when substituting the actual main tree species with the predicted main tree species of a sample plot. Each point in the graph represents the timber volume regression model under different support and threshold settings. The \textit {dotted} line tracks the the model with the highest \adjrsq {} under the use of the error-free \textit {treespecies} variable. Semitransparent colours for the data points are used to visualize overlap.\relax }{figure.caption.47}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Effect on the adjusted $R^2${} when substituting the actual main tree species with the predicted main tree species of a sample plot. Each point in the graph represents the timber volume regression model under different support and threshold settings. The \textit  {dotted} line tracks the model with the highest adjusted $R^2${} under the use of the error-free \textit  {treespecies} variable. Semitransparent colours for the data points are used to visualize overlap.\relax }}{58}{figure.caption.47}}
+\newlabel{fig:supp_r2_calnocal}{{3.6}{58}{Effect on the \adjrsq {} when substituting the actual main tree species with the predicted main tree species of a sample plot. Each point in the graph represents the timber volume regression model under different support and threshold settings. The \textit {dotted} line tracks the model with the highest \adjrsq {} under the use of the error-free \textit {treespecies} variable. Semitransparent colours for the data points are used to visualize overlap.\relax }{figure.caption.47}{}}
 \newlabel{sec:prop_regmod_final}{{3.3.3}{58}{Interpretation of final regression model}{section*.50}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Visualization of the timber volume prediction function (\textit  {final regression model}) on sample plot level for each main plot tree species and ALS acquisition year. For visualization purposes, the predictor variable $stddev$ was set to its average value within the respective \textit  {treespecies} and \textit  {ALSyear} categories. The terrestrially observed timber volume values are plotted in the background.\relax }}{59}{figure.caption.48}}
 \newlabel{fig:predlines_tspec}{{3.7}{59}{Visualization of the timber volume prediction function (\textit {final regression model}) on sample plot level for each main plot tree species and ALS acquisition year. For visualization purposes, the predictor variable $stddev$ was set to its average value within the respective \textit {treespecies} and \textit {ALSyear} categories. The terrestrially observed timber volume values are plotted in the background.\relax }{figure.caption.48}{}}
@@ -554,8 +554,8 @@
 \newlabel{tab:fieldata}{{4.1}{77}{Descriptive statistics of the forest observed on NFI sample plots located within communal and state forest area ($n_2$=5791).\relax }{table.caption.61}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.5.4}Auxiliary data}{77}{subsection.4.5.4}}
 \newlabel{sec:auxinfo}{{4.5.4}{77}{Auxiliary data}{subsection.4.5.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline LiDAR canopy height model}{77}{section*.62}}
-\newlabel{sec:chm}{{4.5.4}{77}{LiDAR canopy height model}{section*.62}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline ALS canopy height model}{77}{section*.62}}
+\newlabel{sec:chm}{{4.5.4}{77}{ALS canopy height model}{section*.62}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\nonumberline Tree Species Classification Map}{77}{section*.63}}
 \newlabel{sec:tspecclass}{{4.5.4}{77}{Tree Species Classification Map}{section*.63}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Sample size for each phase in entire study area. $n_{\{1,2\},plot}$: number of plots. $n_{\{1,2\}}$: number of clusters. TSPEC: tree species map information.\relax }}{78}{table.caption.64}}
@@ -892,59 +892,61 @@
 \bibcite{massey2014a}{{104}{2014}{{Massey et~al.}}{{}}}
 \bibcite{massey2015_thesis}{{105}{2015}{{Massey}}{{}}}
 \bibcite{matasci2018}{{106}{2018}{{Matasci et~al.}}{{}}}
-\bibcite{matlab}{{107}{2017}{{Mathworks}}{{}}}
-\bibcite{mauro2010}{{108}{2010}{{Mauro et~al.}}{{}}}
-\bibcite{mcroberts2010a}{{109}{2010}{{McRoberts}}{{}}}
-\bibcite{mcroberts2013}{{110}{2013}{{McRoberts et~al.}}{{}}}
-\bibcite{mcroberts2015}{{111}{2015}{{McRoberts et~al.}}{{}}}
-\bibcite{mcroberts2007}{{112}{2007}{{McRoberts et~al.}}{{}}}
-\bibcite{mcroberts2010}{{113}{2010}{{McRoberts et~al.}}{{}}}
-\bibcite{naesset2002}{{114}{2002}{{N{\ae }sset}}{{}}}
-\bibcite{naesset2007}{{115}{2007}{{N{\ae }sset}}{{}}}
-\bibcite{nelson1984}{{116}{1984}{{Nelson et~al.}}{{}}}
-\bibcite{nelson1988}{{117}{1988}{{Nelson et~al.}}{{}}}
-\bibcite{neyman1938}{{118}{1938}{{Neyman}}{{}}}
-\bibcite{nink2015}{{119}{2015}{{Nink et~al.}}{{}}}
-\bibcite{nothdurft2009}{{120}{2009}{{Nothdurft et~al.}}{{}}}
-\bibcite{naesset1997a}{{121}{1997a}{{N\IeC {\ae }sset}}{{}}}
-\bibcite{naesset1997b}{{122}{1997b}{{N\IeC {\ae }sset}}{{}}}
-\bibcite{naesset2014inmaltamo}{{123}{2014}{{N\IeC {\ae }sset}}{{}}}
-\bibcite{ott1997}{{124}{1997}{{Ott et~al.}}{{}}}
-\bibcite{georob2018}{{125}{2018}{{Papritz}}{{}}}
-\bibcite{pinheirobates2000}{{126}{2000}{{Pinheiro \& Bates}}{{}}}
-\bibcite{pirlot1996}{{127}{1996}{{Pirlot}}{{}}}
-\bibcite{polley2010intomppo}{{128}{2010}{{Polley et~al.}}{{}}}
-\bibcite{prager1961}{{129}{1961}{{Prager}}{{}}}
-\bibcite{R}{{130}{2017}{{R Core Team}}{{}}}
-\bibcite{rao2015}{{131}{2015}{{Rao}}{{}}}
-\bibcite{rayward1996}{{132}{1996}{{Rayward-Smith et~al.}}{{}}}
-\bibcite{richards1999}{{133}{2013}{{Richards}}{{}}}
-\bibcite{saborowski2010}{{134}{2010}{{Saborowski et~al.}}{{}}}
-\bibcite{sarndal2003}{{135}{2003}{{S{\"a}rndal et~al.}}{{}}}
-\bibcite{sas}{{136}{2015}{{\textit  {SAS} Institute Inc.}}{{}}}
-\bibcite{schmid1970}{{137}{1970}{{Schmid}}{{}}}
-\bibcite{bwi3_ausw}{{138}{2008}{{Schmitz et~al.}}{{}}}
-\bibcite{schreuder1993}{{139}{1993}{{Schreuder et~al.}}{{}}}
-\bibcite{srivastava1995}{{140}{1995}{{Srivastava et~al.}}{{}}}
-\bibcite{steinmann2013}{{141}{2013}{{Steinmann et~al.}}{{}}}
-\bibcite{stoffels2015}{{142}{2015}{{Stoffels et~al.}}{{}}}
-\bibcite{stoffels2012}{{143}{2012}{{Stoffels et~al.}}{{}}}
-\bibcite{straub2009}{{144}{2009}{{Straub et~al.}}{{}}}
-\bibcite{bwi3}{{145}{2014}{{Th{\"u}nen-Institut}}{{}}}
-\bibcite{tomppo2006}{{146}{2006}{{Tomppo}}{{}}}
-\bibcite{tonolli2011}{{147}{2011}{{Tonolli et~al.}}{{}}}
-\bibcite{vanaardt2008}{{148}{2008}{{Van~Aardt et~al.}}{{}}}
-\bibcite{carlowitz1713}{{149}{1713}{{von Carlowitz}}{{}}}
-\bibcite{vonluepke2013}{{150}{2013}{{von L{\"u}pke}}{{}}}
-\bibcite{vonLuepke2012}{{151}{2012}{{von L{\"u}pke et~al.}}{{}}}
-\bibcite{vonLuebke2014}{{152}{2014}{{von L{\"u}pke \& Saborowski}}{{}}}
-\bibcite{watson1937}{{153}{1937}{{Watson}}{{}}}
-\bibcite{white2016}{{154}{2016}{{White et~al.}}{{}}}
-\bibcite{ggplot2}{{155}{2009}{{Wickham}}{{}}}
-\bibcite{wickham2014}{{156}{2014}{{Wickham et~al.}}{{}}}
-\bibcite{wilcoxon1970}{{157}{1970}{{Wilcoxon et~al.}}{{}}}
-\bibcite{zianis2005}{{158}{2005}{{Zianis et~al.}}{{}}}
-\bibcite{zoehrer1980}{{159}{1980}{{Z{\"o}hrer}}{{}}}
+\bibcite{matern1947}{{107}{1947}{{Mat{\'e}rn}}{{}}}
+\bibcite{matern1960}{{108}{1960}{{Mat{\'e}rn}}{{}}}
+\bibcite{matlab}{{109}{2017}{{Mathworks}}{{}}}
+\bibcite{mauro2010}{{110}{2010}{{Mauro et~al.}}{{}}}
+\bibcite{mcroberts2010a}{{111}{2010}{{McRoberts}}{{}}}
+\bibcite{mcroberts2013}{{112}{2013}{{McRoberts et~al.}}{{}}}
+\bibcite{mcroberts2015}{{113}{2015}{{McRoberts et~al.}}{{}}}
+\bibcite{mcroberts2007}{{114}{2007}{{McRoberts et~al.}}{{}}}
+\bibcite{mcroberts2010}{{115}{2010}{{McRoberts et~al.}}{{}}}
+\bibcite{naesset2002}{{116}{2002}{{N{\ae }sset}}{{}}}
+\bibcite{naesset2007}{{117}{2007}{{N{\ae }sset}}{{}}}
+\bibcite{nelson1984}{{118}{1984}{{Nelson et~al.}}{{}}}
+\bibcite{nelson1988}{{119}{1988}{{Nelson et~al.}}{{}}}
+\bibcite{neyman1938}{{120}{1938}{{Neyman}}{{}}}
+\bibcite{nink2015}{{121}{2015}{{Nink et~al.}}{{}}}
+\bibcite{nothdurft2009}{{122}{2009}{{Nothdurft et~al.}}{{}}}
+\bibcite{naesset1997a}{{123}{1997a}{{N\IeC {\ae }sset}}{{}}}
+\bibcite{naesset1997b}{{124}{1997b}{{N\IeC {\ae }sset}}{{}}}
+\bibcite{naesset2014inmaltamo}{{125}{2014}{{N\IeC {\ae }sset}}{{}}}
+\bibcite{ott1997}{{126}{1997}{{Ott et~al.}}{{}}}
+\bibcite{georob2018}{{127}{2018}{{Papritz}}{{}}}
+\bibcite{pinheirobates2000}{{128}{2000}{{Pinheiro \& Bates}}{{}}}
+\bibcite{pirlot1996}{{129}{1996}{{Pirlot}}{{}}}
+\bibcite{polley2010intomppo}{{130}{2010}{{Polley et~al.}}{{}}}
+\bibcite{prager1961}{{131}{1961}{{Prager}}{{}}}
+\bibcite{R}{{132}{2017}{{R Core Team}}{{}}}
+\bibcite{rao2015}{{133}{2003}{{Rao}}{{}}}
+\bibcite{rayward1996}{{134}{1996}{{Rayward-Smith et~al.}}{{}}}
+\bibcite{richards1999}{{135}{2013}{{Richards}}{{}}}
+\bibcite{saborowski2010}{{136}{2010}{{Saborowski et~al.}}{{}}}
+\bibcite{sarndal2003}{{137}{2003}{{S{\"a}rndal et~al.}}{{}}}
+\bibcite{sas}{{138}{2015}{{\textit  {SAS} Institute Inc.}}{{}}}
+\bibcite{schmid1970}{{139}{1970}{{Schmid}}{{}}}
+\bibcite{bwi3_ausw}{{140}{2008}{{Schmitz et~al.}}{{}}}
+\bibcite{schreuder1993}{{141}{1993}{{Schreuder et~al.}}{{}}}
+\bibcite{srivastava1995}{{142}{1995}{{Srivastava et~al.}}{{}}}
+\bibcite{steinmann2013}{{143}{2013}{{Steinmann et~al.}}{{}}}
+\bibcite{stoffels2015}{{144}{2015}{{Stoffels et~al.}}{{}}}
+\bibcite{stoffels2012}{{145}{2012}{{Stoffels et~al.}}{{}}}
+\bibcite{straub2009}{{146}{2009}{{Straub et~al.}}{{}}}
+\bibcite{bwi3}{{147}{2014}{{Th{\"u}nen-Institut}}{{}}}
+\bibcite{tomppo2006}{{148}{2006}{{Tomppo}}{{}}}
+\bibcite{tonolli2011}{{149}{2011}{{Tonolli et~al.}}{{}}}
+\bibcite{vanaardt2008}{{150}{2008}{{Van~Aardt et~al.}}{{}}}
+\bibcite{carlowitz1713}{{151}{1713}{{von Carlowitz}}{{}}}
+\bibcite{vonluepke2013}{{152}{2013}{{von L{\"u}pke}}{{}}}
+\bibcite{vonLuepke2012}{{153}{2012}{{von L{\"u}pke et~al.}}{{}}}
+\bibcite{vonLuebke2014}{{154}{2014}{{von L{\"u}pke \& Saborowski}}{{}}}
+\bibcite{watson1937}{{155}{1937}{{Watson}}{{}}}
+\bibcite{white2016}{{156}{2016}{{White et~al.}}{{}}}
+\bibcite{ggplot2}{{157}{2009}{{Wickham}}{{}}}
+\bibcite{wickham2014}{{158}{2014}{{Wickham et~al.}}{{}}}
+\bibcite{wilcoxon1970}{{159}{1970}{{Wilcoxon et~al.}}{{}}}
+\bibcite{zianis2005}{{160}{2005}{{Zianis et~al.}}{{}}}
+\bibcite{zoehrer1980}{{161}{1980}{{Z{\"o}hrer}}{{}}}
 \newlabel{chap:curriculum}{{6.3}{126}{Curriculum Vitae}{chapter*.103}{}}
 \@writefile{toc}{\contentsline {chapter}{Curriculum Vitae}{126}{chapter*.103}}
 \global\@namedef{scr@dte@chapter@lastmaxnumwidth}{10.3499pt}
